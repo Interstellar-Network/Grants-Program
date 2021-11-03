@@ -26,7 +26,53 @@ Please provide the following:
 - An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
 - An indication of why your team is interested in creating this project.
 
+User experience and Security are still the main pain points of non-custodial wallet. We think that they slow down blockchain and DeFi adoption.
+Wallets are not easy for newcomers and even for some experienced users:
+The Public Private key concept is complex for non-technical people and can be easily misused. The process of wallet creation can be a bit confusing and misleading, and the average user still do not understand clearly what information, passphrase, private key, etc. need to be protected and how to store it safely.
+Only Hardware Wallets (like Ledger, Trezor, Ngrave, etc.) are secures: 
+Because blockchains themselves and centralized exchanges are getting more secures, bad actors now focus their attacks on Individual wallets and exchange accounts. 
+
+Banking trojan are now also targeting crypto wallet owners. Dapp and wallets are more and more exposed on mobiles and in browsers as those trojans are getting more sophisticated and pervasive.
+“Android banking malware, which rose by an incredible 158.7 per cent in Q1, saw a continued increase of 49 per cent,” Source ESET quarterly threat report 2021.
+Zero day that enables bad actors, through “exploit chain”, to get the control on mobile operating system and browsers have never been higher.2021 has broken the record for zero-day hacking attacks (ampproject.org)
+Our solution to address the previous issues.
+Interstellar is novel type of non-custodial frictionless decentralized wallet with hardware security level, which aim at contributing to blockchain and DeFi mass market adoption.
+Features/Benefits
+Just download an app, with no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember.
+Confirm a transaction with ONLY ONE SCREEN. No short text message (SMS) to wait for, no additional 2FA app (like Google Authenticator) to use, no QR code to scan.
+Anyway, banking trojan can already compromise the previous 2FA schemes.
+Oscorp: Android banking Trojan to steal cryptocurrency and 2FA codes (revelock.com)
+
+Decentralized key & asset management service where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE.
+The mobile client that control keys and triggers transactions is designed to resist malware attacks from banking trojan (and even targeted attacks at a later stage) 
+Social Recovery Service that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service. (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
+
+The solution relies on a substrate blockchain and on substaTEE/IntegriTEE Workers, to secure private keys, signature programs and the friendly authentication and transaction validation service.
+The last service use a novel Decentralized Trusted Transaction Validation Protocol that leverage TEE features on mobile, combined with One Time Garbled Circuit and Visual Cryptography to provide a Trusted Authentication and Trusted UI layer on user devices.
+Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)
+The project phase 1 focus on one of the core components of the solution. An OCW garbled circuit factory GCF and a demo of the transaction validation protocol. This demo consists in the Authentication and Transaction Validation pallet that interact with both GCF and the mobile client. (To review)
+Other use case of Garbled Circuit Factory:
+Efficient alternative to Public Key encryption. (explain)
+Post Quantum encryption and signature scheme
+End user device security – Trusted UI 
+Proof of history of legitimate computation with reusable garbled circuit (research roadmap) for malware detection scheme.
+
+
+
+
+
+
+
+
 ### Project Details
+
+
+![Transaction Validation Module drawio](https://user-images.githubusercontent.com/4605611/140121290-adb8918c-9f79-4f64-92f4-bb5aa318932c.png)
+
+
+
+
+
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
@@ -164,6 +210,7 @@ Please include here
 **How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
+
 
 - Work you have already done.
 - Wheter there are any other teams who have already contributed (financially) to the project.
