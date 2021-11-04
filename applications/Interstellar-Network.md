@@ -4,8 +4,8 @@
 >
 > See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
+- **Project Name:** Interstellar Wallet Phase 1
+- **Team Name:** Interstellar network/Dark Energy
 - **Payment Address:** BTC, Ethereum (USDT/DAI) or Karura (kUSD) payment address. Please also specify the currency. (e.g. 0x8920... (DAI))
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1, 2 or 3
 
@@ -26,6 +26,9 @@ Please provide the following:
 - An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
 - An indication of why your team is interested in creating this project.
 
+ Interstellar Wallet Phase 1: Substrate OCW Garbled Circuit Factory GCF and Trusted Transaction Validation protocol pallet demo (as a GCF use case) 
+ 
+**Why Interstellar wallet?**
 
 **User experience** and **Security** are still the main **pain points** of non-custodial wallet. We think that they slow down blockchain and DeFi adoption.
 
@@ -45,7 +48,7 @@ Zero day that enables bad actors, through “exploit chain”, to get the contro
 
 **Our solution to address the previous issues**
 
-Interstellar is novel type of non-custodial frictionless decentralized wallet with hardware security level, which aim at contributing to blockchain and DeFi mass market adoption.
+Interstellar is novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**.
 
 **Features/Benefits**
 
@@ -54,19 +57,24 @@ Interstellar is novel type of non-custodial frictionless decentralized wallet wi
 Anyway, banking trojan can already compromise the previous 2FA schemes.
 [Android banking Trojan to steal cryptocurrency and 2FA codes](https://www.revelock.com/en/blog/oscorp-android-banking-trojan-to-steal-cryptocurrencies-and-2fa-codes  )
 
-Decentralized key & asset management service where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE.
+- **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE.
 The mobile client that control keys and triggers transactions is designed to resist malware attacks from banking trojan (and even targeted attacks at a later stage) 
-Social Recovery Service that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service. (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
+- **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service. (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
 
-The solution relies on a substrate blockchain and on substaTEE/IntegriTEE Workers, to secure private keys, signature programs and the friendly authentication and transaction validation service.
-The last service use a novel Decentralized Trusted Transaction Validation Protocol that leverage TEE features on mobile, combined with One Time Garbled Circuit and Visual Cryptography to provide a Trusted Authentication and Trusted UI layer on user devices.
-Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)
-The project phase 1 focus on one of the core components of the solution. An OCW garbled circuit factory GCF and a demo of the transaction validation protocol. This demo consists in the Authentication and Transaction Validation pallet that interact with both GCF and the mobile client. (To review)
+**The solution relies on a substrate blockchain and on substaTEE/IntegriTEE Workers** to secure private keys, signature programs and the friendly authentication and transaction validation service.
+
+The last service use a novel **Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a Trusted Authentication and Trusted UI layer on user devices.
+
+**Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)**
+
+The project phase 1 focus on one of the core components of the solution. An OCW garbled circuit factory GCF and a demo of the transaction validation protocol. 
+This demo consists in the Authentication and Transaction Validation pallet that interact with both GCF and the mobile client.
+
 Other use case of Garbled Circuit Factory:
-Efficient alternative to Public Key encryption. (explain)
-Post Quantum encryption and signature scheme
-End user device security – Trusted UI 
-Proof of history of legitimate computation with reusable garbled circuit (research roadmap) for malware detection scheme.
+- Efficient alternative to Public Key encryption. (explain)
+- Post Quantum encryption and signature scheme
+- End user device security – Trusted UI 
+- Proof of history of legitimate computation with reusable garbled circuit (research roadmap) for malware detection scheme.
 
 
 
@@ -76,6 +84,8 @@ Proof of history of legitimate computation with reusable garbled circuit (resear
 
 
 ### Project Details
+
+
 
 
 ![Transaction Validation Module drawio](https://user-images.githubusercontent.com/4605611/140121290-adb8918c-9f79-4f64-92f4-bb5aa318932c.png)
