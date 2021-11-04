@@ -67,13 +67,12 @@ The last service use a novel **Decentralized Trusted Transaction Validation Prot
 
 **Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)**
 
-The project phase 1 focus on one of the core components of the solution. An OCW garbled circuit factory GCF and a demo of the transaction validation protocol. 
-This demo consists in the Authentication and Transaction Validation pallet that interact with both GCF and the mobile client.
+The project phase 1 focus on one of the devellopement core components of the solution: An OCW garbled circuit factory GCF and an implementation the transaction validation protocol in a substrate pallet to demonstrate usage of GCF whithin a substrate framework with a mobile client.
 
-Other use case of Garbled Circuit Factory:
+We think that this Garbled circuit Factory OCW can be used by substarte devellopers regardless of Interstellar solution.
+Following are other use case of Garbled Circuit Factory:
 - Efficient alternative to Public Key encryption. (explain)
 - Post Quantum encryption and signature scheme
-- End user device security – Trusted UI 
 - Proof of history of legitimate computation with reusable garbled circuit (research roadmap) for malware detection scheme.
 
 
