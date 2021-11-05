@@ -57,6 +57,7 @@ We have the vision that the blockchain ecosystem and especially polkdaot/kusama 
 
 Unfortunatly, As TUI and full TEE features will eventually be mainsstream on mobiles. They are not yet avalaible on all mobiles and the most advanced feature youu find on servers will take time to arrive as manufacturers are slow to integrate them. 
 ARM TrustZone lack of a service like IAS for IntelSGX for the management of remote attestation.
+So, there is a security gap to fill with One Time and Reusable Garbled circuits to ensure private computation and visual cryptography, an laternative that will be complemtary down the road to balance potential future security flaws in TEE.
 
 Petit slide....to insert
 And we want to pave the way!
