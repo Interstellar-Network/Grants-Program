@@ -48,7 +48,21 @@ Zero day that enables bad actors, through “exploit chain”, to get the contro
 
 **Our solution to address the previous issues**
 
-Interstellar is novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**.
+Given the growth dynamic of the malware/banking trojan threat, the blockchain ecosystem need now a protection against malware on mobiles wallet and Dapps. 
+We think that Hardware security,Trusted Execution Environement TEE and especialy Trusted User Interfcae can provide a level of hardware security comparable to hardware wallet. And we, think that mobile UI security is cruciable on this respect to address cuurent and growing  banking trojan threat. And especilly malicious UI overlay that mislead user to trigger tampered transaction.
+From a pure security stanpoint,some mobile banking application are more robust than mobile wallet.
+
+At the time of w3f,Parity,Plokadot is pushing light clients on the mobile and browsers to increase security.
+We have the vision that the blockchain ecosystem and especially polkdaot/kusama will benefit from the adding of SECURE UI LAYER including TUI and TEE (layer 2) on mobiles light client like Substrate connect. 
+
+Unfortunatly, As TUI and full TEE features will eventually be mainsstream on mobiles. They are not yet avalaible on all mobiles and the most advanced feature youu find on servers will take time to arrive as manufacturers are slow to integrate them. 
+ARM TrustZone lack of a service like IAS for IntelSGX for the management of remote attestation.
+
+Petit slide....to insert
+And we want to pave the way!
+
+Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**.
+
 
 **Features/Benefits**
 
