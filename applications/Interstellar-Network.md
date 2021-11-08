@@ -65,13 +65,13 @@ Anyway, banking trojan can already compromise the previous 2FA schemes.
 - **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE.
 The mobile client that control keys and triggers transactions is designed to resist malware attacks from banking trojan (and even targeted attacks at a later stage) 
 - **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service. (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
-- **Features to securely send coins with social network messages (even to people with no-wallet)** link to 
+- **Features to securely send coins with social network messages (even to people with no-wallet)** Link to "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players" to add
 
 **The solution relies on a substrate blockchain and on substaTEE/IntegriTEE Workers** to secure private keys, signature programs and the friendly authentication and transaction validation service.
 
 The last service use a novel **Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a Trusted Authentication and Trusted UI layer on user devices.
 
-**Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)** Link to "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players"
+**Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)** 
 
 The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF and an implementation of the transaction validation protocol in a substrate pallet. It demonstrate the usage of GCF whithin a substrate framework and with a mobile client.
 
