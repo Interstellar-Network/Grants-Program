@@ -79,8 +79,9 @@ We designed this Garbled circuit Factory OCW to be used by substrate devellopers
 Following are other use case of Garbled Circuit Factory:
 - Efficient alternative to Public Key encryption. (explain)
 - Post Quantum encryption and signature scheme
-- computation privacy of veriviable delay function VDF and others cryptographic tools
-- Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research) for malware detection scheme.
+- Computation Privacy of verifiable delay function VDF and others cryptographic tools
+- Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research:detection of adverse code execution during short transaction session) - end of Technology and security lightpaper.(draft/work in progress)
+- TBD
 
 
 
@@ -88,6 +89,8 @@ Following are other use case of Garbled Circuit Factory:
 
 
 ### Project Details
+
+
 
 
 
