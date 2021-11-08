@@ -44,7 +44,7 @@ Given the growth dynamic of the malware/banking trojan threat, the blockchain ec
 We think that Hardware security,Trusted Execution Environement TEE and especialy Trusted User Interferface TUI can provide a level of hardware security comparable to hardware wallet. Mobile UI security is cruciable on this respect to address current and growing  threats (including banking trojan with their overlay capabilities). They can easily build fake UI that mislead user to trigger tampered transaction.
 From a pure security stanpoint,some mobile banking application (DSP2 compliant) are now more robust than mobile wallet.
 
-At the time of w3f,Parity,Plokadot is pushing light clients on the mobile and browsers to increase security.
+At the time of W3f,Parity,Polkadot is pushing its light client on the mobile and browsers to increase security.
 We think that the blockchain ecosystem and especially polkdaot/kusama will benefit from the adding of a SECURE UI LAYER including TUI and TEE (layer 2) on mobiles light client like Substrate connect. 
 
 Unfortunatly, full TEE features are not yet avalaible on all mobiles and the most advanced feature you find on servers and especially TUI will take time to be mainstream, as manufacturers are slow to integrate them. Moreover, ARM TrustZone still lack of a service like IAS for IntelSGX for the management of remote attestation.
