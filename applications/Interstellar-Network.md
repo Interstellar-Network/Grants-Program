@@ -7,7 +7,7 @@
 - **Project Name:** Interstellar Wallet Phase 1
 - **Team Name:** Interstellar network/Dark Energy
 - **Payment Address:** BTC, Ethereum (USDT/DAI) or Karura (kUSD) payment address. Please also specify the currency. (e.g. 0x8920... (DAI))
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1, 2 or 3
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2 
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -50,6 +50,7 @@ We think that the blockchain ecosystem and especially polkdaot/kusama will benef
 Unfortunatly, TUI and full TEE features are not yet avalaible on all mobiles and the most advanced feature you find on servers will take time to be mainstream, as manufacturers are slow to integrate them. Moreover, ARM TrustZone still lack of a service like IAS for IntelSGX for the management of remote attestation.
 
 **Our solution to address the previous issues**
+
 There is a security gap to fill before TEE and TUI will be fully avalaible on a large majority of mobile.
 We use One Time and Reusable Garbled circuits to ensure private computation and visual cryptography to help on the UI issues, an alternative that will be complementary down the road to mitigate potential future security flaws in TEE and TUI.
 
