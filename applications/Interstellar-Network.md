@@ -72,7 +72,7 @@ The mobile client that control keys and triggers transactions is designed to res
 
 **The solution relies on a substrate blockchain and on substaTEE/IntegriTEE Workers** to secure private keys, signature programs and the friendly authentication and transaction validation service.
 
-The last service use a novel **Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a Trusted Authentication and Trusted UI layer on user devices.
+The last service use a novel **Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
 **Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)** 
 
