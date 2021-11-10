@@ -58,31 +58,30 @@ Interstellar is a novel type of non-custodial **frictionless** decentralized wal
 
 **Features/Benefits**
 
-- **Just download an app** with no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember.
+- **Just download an app** with no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
 - **Confirm a transaction with ONLY ONE SCREEN** No short text message (SMS) to wait for, no additional 2FA app (like Google Authenticator) to use, no QR code to scan.
-Anyway, banking trojan can already compromise the previous 2FA schemes.
+Anyway, banking trojan can already compromise the previous 2FA schemes*
 [Android banking Trojan to steal cryptocurrency and 2FA codes](https://www.revelock.com/en/blog/oscorp-android-banking-trojan-to-steal-cryptocurrencies-and-2fa-codes  )
 
-- **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE.
+- **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE*
 The mobile client that control keys and triggers transactions is designed to resist malware attacks from banking trojan (and even targeted attacks at a later stage) 
-- **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service. (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
+- **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service* (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
 - **Features to securely send coins with social network messages (even to people with no-wallet)** Link to "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players" to add
-- **Cross chain Swap feature** based on a Continious Liquitity Pool (like ThorChain)
-
+- **Cross chain Swap feature** based on a Continious Liquitity Pool (CLP like ThorChain but with higher security and perormance TEE/PMC/TTS + Trusted Transaction Validation protocol with mutisig option*  mobile + yubikey)
 
 **The solution relies on a substrate blockchain and on substaTEE/IntegriTEE Workers** to secure private keys, signature programs and the friendly authentication and transaction validation service.
 
 The last service use a novel **Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
-**Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)** 
+***Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)** 
 
 The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF and an implementation of the transaction validation protocol in a substrate pallet. It demonstrate the usage of GCF whithin a substrate framework and with a mobile client.
 
 We designed this Garbled circuit Factory OCW to be used by substrate devellopers regardless of Interstellar solution.
 
 Following are other use case of Garbled Circuit Factory:
-- Efficient alternative to Public Key encryption. (explain)
-- Post Quantum encryption and signature scheme
+- Efficient alternative to Public Key encryption. (based on AES or symetric encryption  Garbled Circuit that embed securely the symetric secret key, highly increase performance on recipent nodes)
+- Post Quantum encryption and signature scheme implementation (NIST candiate example)
 - Computation Privacy of verifiable delay function VDF and others cryptographic tools
 - Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research:detection of adverse code execution during short transaction session) - end of Technology and security lightpaper.(draft/work in progress)
 - TBD
