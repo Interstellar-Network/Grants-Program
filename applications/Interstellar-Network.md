@@ -63,6 +63,13 @@ Interstellar is a novel type of non-custodial **frictionless** decentralized wal
 Anyway, banking trojan can already compromise the previous 2FA schemes*
 [Android banking Trojan to steal cryptocurrency and 2FA codes](https://www.revelock.com/en/blog/oscorp-android-banking-trojan-to-steal-cryptocurrencies-and-2fa-codes  )
 
+
+ **You just need to input on the keypad the one-time code you see (here 256)**
+
+**That's all to securely confirm a transaction** ![Wallet-superposition-White-Shadow4medium smaller](https://user-images.githubusercontent.com/4605611/141301152-951143c3-d820-4bc1-8120-5a60a6878d52.png)
+> ***And the best part, this scheme can resists current banking trojan attacks (not yet targetted attacks but we are working on it)***
+
+
 - **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE*
 The mobile client that control keys and triggers transactions is designed to resist malware attacks from banking trojan (and even targeted attacks at a later stage) 
 - **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service* (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
