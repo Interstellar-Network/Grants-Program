@@ -162,14 +162,29 @@ Following are the different componenets of the GCF:
 
 #### GCF in Interstellar architecture
 
-![Life Node Architecture drawio](https://user-images.githubusercontent.com/4605611/141336244-c3ab1b68-a4dd-48aa-a8d6-dfba584080a7.png)
+First architecture proposal, functions will be managed through Frame pallets
+Pallets
+on both substrate TEE nodes (not in SGX enclave) and substrate TEE workers (in SGX enclave).
 
+Thanks to integritee-network integritee-node: substraTEE node with TEE registry validating remote attestation https://github.com/integritee-network/integritee-node
+
+
+![Life Node Architecture drawio](https://user-images.githubusercontent.com/4605611/141336244-c3ab1b68-a4dd-48aa-a8d6-dfba584080a7.png)
+Given the constraint related to GC Factory code and library dependencies especially VHDL/Verilog i.e unlikely compilable in WASM (rust -no-std) - It sounds simpler for now to use regular/basic substrate OCW Off-Chain Workers Off-Chain Features · Substrate Developer Hub to integrate the current C/C++ code wrapped in Rust program.
+As Garbled Circuits are heavy, it is better to store them on IPFS. IPFS Powers the Distributed Web and store only their IPFS hash/cid encrypted on-chain when needed and store their cid in TEE workers for Authenticator pallet
+Usage of IPFS is already integrated in both TEE workers and nodes.
 
 
 #### Trusted Transaction Validation protocol building blocks
-**Our Visual Cryptography circuits principle**
-![GC-VC part 1](https://user-images.githubusercontent.com/4605611/141336657-0fd429da-a1e7-4556-bcb3-551425c4944e.png)
 
+**Our Visual Cryptography circuits principle**
+Because some TEE features are still missing on some mobiles and to address potential future flaws in mobile TEE (and TUI when available), we provide a strong authentication and secure UI scheme based on the combination of One Time Garbled Circuits evaluation and Visual Cryptography scheme.
+![GC-VC part 1](https://user-images.githubusercontent.com/4605611/141336657-0fd429da-a1e7-4556-bcb3-551425c4944e.png)
+![Visual_crypto_animation_demo](https://user-images.githubusercontent.com/4605611/141341588-c431d0a4-67eb-4d5a-8e0a-ae99c88c9ed7.gif)
+
+
+We use a pre-computed One-time Garbled Circuit to generate and outputs 
+Visual Cryptographic Shares at 60–120 Frames/Seconde on the device framebuffer.
 
 #### Trusted Transaction Validation Protocol architecture overview
 
