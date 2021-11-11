@@ -36,7 +36,7 @@ The Public Private key concept is complex for non-technical people and can be ea
 
 Because blockchains themselves and centralized exchanges are getting more secures, bad actors now focus their attacks on Individual wallets and exchange accounts. 
 
-Banking trojan are now also targeting crypto wallet owners. Dapp and wallets are more and more exposed on mobiles and in browsers as those trojans are getting more sophisticated and pervasive.
+Banking trojans are now also targeting cryptocurrencies's owners. Dapp and wallets are more and more exposed on mobiles and in browsers as those trojans are getting more sophisticated and pervasive.
 **“Android banking malware, which rose by an incredible 158.7 per cent in Q1, saw a continued increase of 49 per cent”**- Source ESET quarterly threat report 2021. Zero day that enables bad actors, through “exploit chain”, to get the control on mobile operating system and browsers have never been higher.[2021 has broken the record for zero-day hacking attacks]( https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/2021/09/23/1036140/2021-record-zero-day-hacks-reasons/amp/)
 
 Given the growth dynamic of the malware/banking trojan threat, the blockchain ecosystem need now a protection against malware on mobiles wallet and Dapps. 
