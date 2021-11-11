@@ -216,14 +216,20 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Name of team leader:
+Jean-Luc Leleu
+- Names of team members:
+- Nathan Prat
+- Eliot Leleu
+- Jean-Louis Honenen
+- Markus Jakobssson https://www.markus-jakobsson.com/
+- Aude Bourdouxe
 
 ### Contact
 
 - **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Email:** 
+- **Website:** https://www.interstellar.gg/
 
 ### Legal Structure
 
@@ -231,6 +237,10 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 - **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
+
+We are a cybersecurity team, specialized in end-user devices & smartphone security,  now working on blockchain after some experiences with the banking industry. We have won cybersecurity innovation award from Société Générale and Wavestone (security consulting and audit firm in the financial industry). We have also been selected by 500 startup Accelerator, batch 20 in San Francisco and have our patent portfolio financed by France Brevet, a government agency.
+We then stop the activity of our former company to address legacy financial institutions and let go our patent ownership to focus on blockchain project.
+We are now security and Fintech multiple entrepreneurs, security Researchers, patents fillers who turn open-source developers and blockchain enthusiasts.
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
@@ -249,8 +259,19 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/nathan-prat/ Nathan Part
+ 
+- https://www.linkedin.com/in/eliotjfl/ Eliot Leleu 
+ 
+- https://www.linkedin.com/in/jlhoenen/ Jean-Louis Hoenen>
+ 
+- https://www.linkedin.com/in/markusjakobsson/ Markus Jakobssson>
+ 
+- https://www.linkedin.com/in/aude-bourdouxhe-40656b28/ Aude Bourdouxhe
+
+- https://www.linkedin.com/in/jlleleu/ Jean-Luc Leleu
+
+
 
 ## Development Status :open_book:
 
