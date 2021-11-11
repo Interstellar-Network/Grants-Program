@@ -126,7 +126,7 @@ In case you want more detailed on the topic:
 [Foundation of Garbled Circuits,   Viet Tung Hoang, B.S. (National University of Singapore) 2007 ](https://www.cs.fsu.edu/~tvhoang/thesis.pdf)
 
 #### Garbled Circuit Factory **previous vork**
-The team has already develloped a strong authentication solution with circuits based on JustGarble implememtation https://cseweb.ucsd.edu/groups/justgarble/ thatcustomize with Free XOR improvement and Half Gates
+The team has already develloped a strong authentication solution with circuits based on JustGarble implememtation https://cseweb.ucsd.edu/groups/justgarble/ that we customized with Free XOR and Half Gates and other specific improvement for our needs.
 We achieved a production ready platform with significant performance for our specific need ( pre-computation of our Visual cryptographic Circuits):
 
 ```shell
