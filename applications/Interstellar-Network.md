@@ -94,7 +94,7 @@ Following are other use case of Garbled Circuit Factory:
 ### Project Details
 
 
-Before to go into the details of Grabled Circuit Factory architecture, let's digg into the design of a basic garbled circuit structure.
+Before to go into the details of Garbled Circuit Factory architecture, let's digg into the design of a basic garbled circuit structure.
 
 A garbled circuit is a cryptographic obfuscation technique and a cryptographic algorithm that ensures computation privacy i.e. manages the protection of a Boolean circuit that can be executed without leaking information. Neither the semantics of Boolean operators (AND, OR, XOR, etc.) that makes up the circuit nor the semantics of inputs and outputs of the circuit will be revealed to the attackers through reverse-engineering or brute force attacks
 
