@@ -52,7 +52,7 @@ Unfortunatly, TUI and full TEE features are not yet avalaible on all mobiles and
 **Our solution to address the previous issues**
 
 There is a security gap to fill before TEE and TUI will be fully avalaible on a large majority of mobile.
-We use One Time and Reusable Garbled circuits to ensure private computation and visual cryptography to help on the UI issues, an alternative that will be complementary down the road to mitigate potential future security flaws in TEE and TUI.
+We use One Time (not one time program) and Reusable Garbled circuits to ensure private computation and visual cryptography to help on the UI issues, an alternative that will be complementary down the road to mitigate potential future security flaws in TEE and TUI.
 
 Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**.
 
@@ -104,7 +104,12 @@ A garbled circuit is a cryptographic obfuscation technique and a cryptographic a
 - Inputs and Outputs are Garbled Values i.e. 128 bits token indistinguishable from random with a secret semantic value of 0 or 1 only known by the nodes
 - Each Boolean operator is implemented in the circuit by an encrypted truth table, decrypted by its respective Garbled Values inputs
 
-[Foundation of Garbled CircuitsViet Tung Hoang, B.S. (National University of Singapore) 2007 ](https://www.cs.fsu.edu/~tvhoang/thesis.pdf)
+[Foundation of Garbled Circuits,   Viet Tung Hoang, B.S. (National University of Singapore) 2007 ](https://www.cs.fsu.edu/~tvhoang/thesis.pdf)
+
+
+
+
+
 
 
 
