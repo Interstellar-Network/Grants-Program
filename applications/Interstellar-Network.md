@@ -178,13 +178,21 @@ Usage of IPFS is already integrated in both TEE workers and nodes.
 #### Trusted Transaction Validation protocol building blocks
 
 **Our Visual Cryptography circuits principle**
+
 Because some TEE features are still missing on some mobiles and to address potential future flaws in mobile TEE (and TUI when available), we provide a strong authentication and secure UI scheme based on the combination of One Time Garbled Circuits evaluation and Visual Cryptography scheme.
 ![GC-VC part 1](https://user-images.githubusercontent.com/4605611/141336657-0fd429da-a1e7-4556-bcb3-551425c4944e.png)
 ![Visual_crypto_animation_demo](https://user-images.githubusercontent.com/4605611/141341588-c431d0a4-67eb-4d5a-8e0a-ae99c88c9ed7.gif)
 
-
 We use a pre-computed One-time Garbled Circuit to generate and outputs 
 Visual Cryptographic Shares at 60–120 Frames/Seconde on the device framebuffer.
+
+Although, we started by implementing a working solution that output visual cryptographic shares. we decide to relax the security model and use another approach.
+More friendly for the user and more efficient especially regarding Garbled Circuit size, whithout compromising the overall security of the solution.
+Because the security rely only on screenshoot proof.
+Back to old fashion display:
+![images8](https://user-images.githubusercontent.com/4605611/141358949-5c0eaffb-e0c3-437d-88f9-7ab948f782a0.png)
+
+
 
 #### Trusted Transaction Validation Protocol architecture overview
 
@@ -239,6 +247,15 @@ Jean-Luc Leleu
 ### Team's experience
 
 We are a cybersecurity team, specialized in end-user devices & smartphone security,  now working on blockchain after some experiences with the banking industry. We have won cybersecurity innovation award from Société Générale and Wavestone (security consulting and audit firm in the financial industry). We have also been selected by 500 startup Accelerator, batch 20 in San Francisco and have our patent portfolio financed by France Brevet, a government agency.
+
+- 2018 Thales strategic partner(selected in Thales first batch 
+accelerator in Station F)
+- Partnership with Gemalto to issue smartcard hardware wallet 
+solution for blockchain.
+- 2017 500 Startups batch 20 (San Francisco California)
+- Banking Cyber Security Innovation Awards winner
+- 2016 Patent portfolio (10+ patents) financed by France Brevet
+
 We then stop the activity of our former company to address legacy financial institutions and let go our patent ownership to focus on blockchain project.
 We are now security and Fintech multiple entrepreneurs, security Researchers, patents fillers who turn open-source developers and blockchain enthusiasts.
 
