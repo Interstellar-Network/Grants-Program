@@ -196,6 +196,13 @@ Back to old fashion display:
 
 #### Trusted Transaction Validation Protocol architecture overview
 
+
+
+![Interstellar Overview drawio (4)](https://user-images.githubusercontent.com/4605611/141359680-071bc068-1dbe-400f-8da7-f37f7d5d78ac.png)
+
+
+
+
 ![Transaction Validation Module drawio](https://user-images.githubusercontent.com/4605611/140121290-adb8918c-9f79-4f64-92f4-bb5aa318932c.png)
 
 
