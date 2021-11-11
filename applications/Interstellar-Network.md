@@ -22,9 +22,9 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 - An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
 - An indication of why your team is interested in creating this project.
 
- Interstellar Wallet Phase 1: Substrate OCW Garbled Circuit Factory GCF and Trusted Transaction Validation protocol pallet demo (as a GCF use case) 
+ **Interstellar Wallet Phase 1: Substrate OCW Garbled Circuit Factory GCF and Trusted Transaction Validation protocol pallet demo (as a GCF use case)** 
  
-**Why Interstellar wallet?**
+#### Why Interstellar wallet?
 
 **User experience** and **Security** are still the main **pain points** of non-custodial wallet. We think that they slow down blockchain and DeFi adoption.
 
@@ -49,14 +49,14 @@ We think that the blockchain ecosystem and especially polkdaot/kusama will benef
 
 Unfortunatly, TUI and full TEE features are not yet avalaible on all mobiles and the most advanced feature you find on servers will take time to be mainstream, as manufacturers are slow to integrate them. Moreover, ARM TrustZone still lack of a service like IAS for IntelSGX for the management of remote attestation.
 
-**Our solution to address the previous issues**
+#### Our solution to address the previous issues
 
 There is a security gap to fill before TEE and TUI will be fully avalaible on a large majority of mobile.
 We use One Time (not one time program) and Reusable Garbled circuits to ensure private computation and visual cryptography to help on the UI issues, an alternative that will be complementary down the road to mitigate potential future security flaws in TEE and TUI.
 
 Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**.
 
-**Features/Benefits**
+#### Features/Benefits
 
 - **Just download an app** with no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
 - **Confirm a transaction with ONLY ONE SCREEN** No short text message (SMS) to wait for, no additional 2FA app (like Google Authenticator) to use, no QR code to scan.
@@ -109,10 +109,12 @@ A garbled circuit is a cryptographic obfuscation technique and a cryptographic a
 ![1_v4GuUlPEaVzo6gGZdJ4R6g (1) (Phone)](https://user-images.githubusercontent.com/4605611/141285502-7712225b-e2d8-4f1b-84bb-c0860eaefc64.jpeg)
 
 - Inputs and Outputs are Garbled Values i.e. 128 bits token indistinguishable from random with a secret semantic value of 0 or 1 only known by the nodes
-- Each Boolean operator is implemented in the circuit by an encrypted truth table, decrypted by its respective Garbled Values inputs
+- Each Boolean operator is implemented in the circuit by an encrypted truth table, decrypted by its respective Garbled Values inputs.
 
+In case you want more detailed on the topic:
 [Foundation of Garbled Circuits,   Viet Tung Hoang, B.S. (National University of Singapore) 2007 ](https://www.cs.fsu.edu/~tvhoang/thesis.pdf)
 
+#### GCF GC production pipeline overview
 
 
 
@@ -126,9 +128,11 @@ A garbled circuit is a cryptographic obfuscation technique and a cryptographic a
 
 
 
-
+#### Trusted Transaction Validation Protocol architecture overview
 
 ![Transaction Validation Module drawio](https://user-images.githubusercontent.com/4605611/140121290-adb8918c-9f79-4f64-92f4-bb5aa318932c.png)
+
+
 
 
 
