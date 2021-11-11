@@ -22,6 +22,9 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 - An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
 - An indication of why your team is interested in creating this project.
 
+![Copy of Interstellar-Black-Text](https://user-images.githubusercontent.com/4605611/141333053-3f607ffe-1714-4512-b628-33274d0d0464.png)
+
+
  **Interstellar Wallet Phase 1: Substrate OCW Garbled Circuit Factory GCF and Trusted Transaction Validation protocol pallet demo (as a GCF use case)** 
  
 #### Why Interstellar wallet?
@@ -90,8 +93,8 @@ Following are other use case of Garbled Circuit Factory:
 - Efficient alternative to Public Key encryption. (based on AES or symetric encryption  Garbled Circuit that embed securely the symetric secret key, highly increase performance on recipent nodes)
 - Post Quantum encryption and signature scheme implementation (NIST candiate example)
 - Computation Privacy of verifiable delay function VDF and others cryptographic tools
-- Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research:detection of adverse code execution during short transaction session) - end of Technology and security lightpaper.(draft/work in progress)
-- TBD
+- Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction session) - end of Technology and security lightpaper.(draft/work in progress)
+- ......
 
 
 
@@ -99,7 +102,15 @@ Following are other use case of Garbled Circuit Factory:
 
 
 ### Project Details
+- Mockups/designs of any UI components
+- Data models / API specifications of the core functionality
+- An overview of the technology stack to be used
+- Documentation of core components, protocols, architecture, etc. to be deployed
+- PoC/MVP or other relevant prior work or research on the topic
+- What your project is _not_ or will _not_ provide or implement
+  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
+#### Garbled Circuit Factory GCF overview
 
 Before to go into the details of Garbled Circuit Factory architecture, let's digg into the design of a basic garbled circuit structure.
 
@@ -114,13 +125,36 @@ A garbled circuit is a cryptographic obfuscation technique and a cryptographic a
 In case you want more detailed on the topic:
 [Foundation of Garbled Circuits,   Viet Tung Hoang, B.S. (National University of Singapore) 2007 ](https://www.cs.fsu.edu/~tvhoang/thesis.pdf)
 
-#### GCF GC production pipeline overview
+#### Garbled Circuit Factory **previous vork**
+The team has already develloped a strong authentication solution with circuits based on JustGarble implememtation https://cseweb.ucsd.edu/groups/justgarble/ thatcustomize with Free XOR improvement and Half Gates
+We achieved a production ready platform with significant performance for our specific need ( pre-computation of our Visual cryptographic Circuits):
+
+```shell
+1 pratn@DESKTOP-U6PJB3U:~/workspace/j2l/lib_server/build$ ./circuit_display_gen_bench -nb_circuits_to_generate=5000
+2 display_size : 360,154,50,590
+3 time in s : 28.1261 s
+4 circuits_per_hour : 639975
+```
+
+
+![1844c95c-1b74-4987-8466-4ba14da41ff3 (Custom)](https://user-images.githubusercontent.com/4605611/141327055-ea10f548-d6d2-4b1a-af2e-a059f2f67673.png)
+
+
+
+```
+5,65 ms per circuits on a Processor 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, 2304 Mhz, 8 Core(s), 16 Logical Processor(s)
+```
+However, in the context of integrating this work whithin a substrate environement and especially in a substrate OCW, we will switch to a more recent implementation TinyGarble2.0 https://github.com/IntelLabs/TinyGarble2.0 from IntelLabs
+
+--------------------------
 
 
 
 
 
 
+
+**Garbled Circuits Factory high level architecture and GC production pipeline**
 
 ![GCF pipeline drawio](https://user-images.githubusercontent.com/4605611/141283607-f95a7170-9729-4af4-9221-d776f52223f3.png)
 
@@ -141,13 +175,7 @@ In case you want more detailed on the topic:
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+
 
 ### Ecosystem Fit
 
