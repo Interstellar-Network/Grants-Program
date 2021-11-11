@@ -154,12 +154,21 @@ However, in the context of integrating this work whithin a substrate environemen
 
 
 
-**Garbled Circuits Factory high level architecture and GC production pipeline**
+#### Garbled Circuits Factory high level architecture and GC production pipeline
 
+Following are the different componenets of the GCF:
 ![GCF pipeline drawio](https://user-images.githubusercontent.com/4605611/141283607-f95a7170-9729-4af4-9221-d776f52223f3.png)
 
 
+#### GCF in Interstellar architecture
 
+![Life Node Architecture drawio](https://user-images.githubusercontent.com/4605611/141336244-c3ab1b68-a4dd-48aa-a8d6-dfba584080a7.png)
+
+
+
+#### Trusted Transaction Validation protocol building blocks
+**Our Visual Cryptography circuits principle**
+![GC-VC part 1](https://user-images.githubusercontent.com/4605611/141336657-0fd429da-a1e7-4556-bcb3-551425c4944e.png)
 
 
 #### Trusted Transaction Validation Protocol architecture overview
