@@ -200,12 +200,18 @@ Back to old fashion display:
 
 #### Trusted Transaction Validation Protocol architecture overview
 
+**All the high level componenent of Interstellar blockchain based on parity substrate and IntegriteeTEE workers***
+![Interstellar Overview-Page-1 drawio](https://user-images.githubusercontent.com/4605611/141463559-c36e1b1e-a1e3-44fa-9c8f-1df9930c62b4.png)
 
 
 
 
 
 
+**more detailed architecture for the Transaction Validation protocol demo -use case**
+
+
+![Transaction Validation Module drawio](https://user-images.githubusercontent.com/4605611/141464149-3741ae99-d3bf-47fc-a1f2-a30e23592316.png)
 
 
 
