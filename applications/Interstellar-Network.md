@@ -169,6 +169,13 @@ on both substrate TEE nodes (not in SGX enclave) and substrate TEE workers (in S
 Thanks to integritee-network integritee-node: substraTEE node with TEE registry validating remote attestation https://github.com/integritee-network/integritee-node
 
 
+![Life Node Architecture drawio (Custom)](https://user-images.githubusercontent.com/4605611/141459989-2d470b69-3cfd-48b8-b607-928add9f6409.png)
+
+
+
+
+
+
 ![Life Node Architecture drawio](https://user-images.githubusercontent.com/4605611/141336244-c3ab1b68-a4dd-48aa-a8d6-dfba584080a7.png)
 Given the constraint related to GC Factory code and library dependencies especially VHDL/Verilog i.e unlikely compilable in WASM (rust -no-std) - It sounds simpler for now to use regular/basic substrate OCW Off-Chain Workers Off-Chain Features · Substrate Developer Hub to integrate the current C/C++ code wrapped in Rust program.
 As Garbled Circuits are heavy, it is better to store them on IPFS. IPFS Powers the Distributed Web and store only their IPFS hash/cid encrypted on-chain when needed and store their cid in TEE workers for Authenticator pallet
@@ -181,9 +188,7 @@ Usage of IPFS is already integrated in both TEE workers and nodes.
 
 Because some TEE features are still missing on some mobiles and to address potential future flaws in mobile TEE (and TUI when available), we provide a strong authentication and secure UI scheme based on the combination of One Time Garbled Circuits evaluation and Visual Cryptography scheme.
 
-![GC-VC part 1 (Custom) (Custom)](https://user-images.githubusercontent.com/4605611/141454339-fe1883c3-dcbf-4b5a-a5ce-f473bb00d224.png)
-
-
+![GC-VC part 1 (Custom) (Custom) (1) (Custom)](https://user-images.githubusercontent.com/4605611/141459596-29ffd9a5-4879-4f18-b61d-77c92feb0fbb.png)
 
 
 ![Visual_crypto_animation_demo](https://user-images.githubusercontent.com/4605611/141341588-c431d0a4-67eb-4d5a-8e0a-ae99c88c9ed7.gif)
