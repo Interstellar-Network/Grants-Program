@@ -340,6 +340,53 @@ For each milestone,
 
 ### Overview
 
+month 1: Off-chain worker substrate Garbled circuit Factory
+0
+License
+Documentation
+Testing guide
+Docker test all the features
+Article
+1
+Circuit Design ->HDL
+Circuit randomizer-> HDL
+Boolean circuit generation-> scd format
+scd->fancy garble/swanky format
+replace Garbled circuit generator JustGarble by swanky.
+circuit evaluator test
+production schedulers communicate with pallets.
+storage IPFS
+Bench 
+
+month 2: fig transaction validation for use case demo
+API GCF ->pallet
+describe API
+check evaluation with circuits metadata i.e. OTP random keypad
+
+
+
+
+
+
+
+month 3: 
+TEE integration with pallet
+
+
+month 4: 
+Transaction Validation protocol demo with mobile- android (iOS/)
+pallet mobile
+month 5: TEE for OCW GCF
+
+
+
+
+
+
+
+
+
+
 - **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
 - **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
 - **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
