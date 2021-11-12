@@ -160,19 +160,27 @@ Following are the different componenets of the GCF:
 ![GCF pipeline drawio](https://user-images.githubusercontent.com/4605611/141283607-f95a7170-9729-4af4-9221-d776f52223f3.png)
 
 
+
+
+
+
+
+
+
+
+
 #### GCF in Interstellar architecture
 
-First architecture proposal, functions will be managed through Frame pallets
-Pallets
-on both substrate TEE nodes (not in SGX enclave) and substrate TEE workers (in SGX enclave).
+First architecture approach, STF functions will be managed through Parity Substrate Frame pallets with substraTEE/IntegrTEE framework.
+Pallets on both substrate TEE nodes (not in SGX enclave) and substrate TEE workers (in SGX enclave).
 
 Thanks to integritee-network integritee-node: substraTEE node with TEE registry validating remote attestation https://github.com/integritee-network/integritee-node
 
 
 ![Node architecture 4github](https://user-images.githubusercontent.com/4605611/141462134-e7c58840-5f7e-4a6c-add5-80fa1cd12498.png)
 
-Given the constraint related to GC Factory code and library dependencies especially VHDL/Verilog i.e unlikely compilable in WASM (rust -no-std) - It sounds simpler for now to use regular/basic substrate OCW Off-Chain Workers Off-Chain Features · Substrate Developer Hub to integrate the current C/C++ code wrapped in Rust program.
-As Garbled Circuits are heavy, it is better to store them on IPFS. IPFS Powers the Distributed Web and store only their IPFS hash/cid encrypted on-chain when needed and store their cid in TEE workers for Authenticator pallet
+Given the constraint related to GC Factory code and library dependencies especially VHDL/Verilog i.e unlikely compilable in WASM (rust -no-std) - It sounds simpler for now to use regular/basic substrate OCW Off-Chain Workers to integrate the current C/C++ code wrapped in Rust program. And then to design an had hoc OCW with Intel SGX.
+As Garbled Circuits are heavy, it is better to store them on IPFS. IPFS  store only their IPFS hash/cid encrypted on-chain when needed and store their cid in TEE workers  to use them with Authenticator pallet
 Usage of IPFS is already integrated in both TEE workers and nodes.
 
 
@@ -190,25 +198,25 @@ Because some TEE features are still missing on some mobiles and to address poten
 We use a pre-computed One-time Garbled Circuit to generate and outputs 
 Visual Cryptographic Shares at 60–120 Frames/Seconde on the device framebuffer.
 
-Although, we started by implementing a working solution that output visual cryptographic shares. we decide to relax the security model and use another approach.
-More friendly for the user and more efficient especially regarding Garbled Circuit size, whithout compromising the overall security of the solution.
-Because the security rely only on screenshoot proof.
-Back to old fashion display:
+Although, we started by implementing a working solution that output visual cryptographic shares we realized that it was a bit disturbing for the user and that pure viusal cryptographic scheme is not crucial for our overall security model. We then decided to provide a more friendly solution for the user that is also more efficient especially regarding Garbled Circuit size.
+
+So, let's go back to old fashion display to do it.
 ![images8](https://user-images.githubusercontent.com/4605611/141358949-5c0eaffb-e0c3-437d-88f9-7ab948f782a0.png)
 
 
 
 #### Trusted Transaction Validation Protocol architecture overview
 
-**All the high level componenent of Interstellar blockchain based on parity substrate and IntegriteeTEE workers***
+
+**High level componenents overview of Interstellar blockchain based on parity substrate and IntegriteeTEE workers**
+
+Componenets required for Interstellar wallet MVP and compomemts realted to 
 ![Interstellar Overview-Page-1 drawio](https://user-images.githubusercontent.com/4605611/141463559-c36e1b1e-a1e3-44fa-9c8f-1df9930c62b4.png)
 
 
 
 
-
-
-**more detailed architecture for the Transaction Validation protocol demo -use case**
+**Detailed architecture for the Transaction Validation protocol use case demo**
 
 
 ![Transaction Validation Module drawio](https://user-images.githubusercontent.com/4605611/141464149-3741ae99-d3bf-47fc-a1f2-a30e23592316.png)
