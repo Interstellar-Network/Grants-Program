@@ -169,14 +169,8 @@ on both substrate TEE nodes (not in SGX enclave) and substrate TEE workers (in S
 Thanks to integritee-network integritee-node: substraTEE node with TEE registry validating remote attestation https://github.com/integritee-network/integritee-node
 
 
-![Life Node Architecture drawio (Custom)](https://user-images.githubusercontent.com/4605611/141459989-2d470b69-3cfd-48b8-b607-928add9f6409.png)
+![Node architecture 4github](https://user-images.githubusercontent.com/4605611/141462134-e7c58840-5f7e-4a6c-add5-80fa1cd12498.png)
 
-
-
-
-
-
-![Life Node Architecture drawio](https://user-images.githubusercontent.com/4605611/141336244-c3ab1b68-a4dd-48aa-a8d6-dfba584080a7.png)
 Given the constraint related to GC Factory code and library dependencies especially VHDL/Verilog i.e unlikely compilable in WASM (rust -no-std) - It sounds simpler for now to use regular/basic substrate OCW Off-Chain Workers Off-Chain Features · Substrate Developer Hub to integrate the current C/C++ code wrapped in Rust program.
 As Garbled Circuits are heavy, it is better to store them on IPFS. IPFS Powers the Distributed Web and store only their IPFS hash/cid encrypted on-chain when needed and store their cid in TEE workers for Authenticator pallet
 Usage of IPFS is already integrated in both TEE workers and nodes.
