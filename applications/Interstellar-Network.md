@@ -116,8 +116,10 @@ Before to go into the details of Garbled Circuit Factory architecture, let's dig
 
 A garbled circuit is a cryptographic obfuscation technique and a cryptographic algorithm that ensures computation privacy i.e. manages the protection of a Boolean circuit that can be executed without leaking information. Neither the semantics of Boolean operators (AND, OR, XOR, etc.) that makes up the circuit nor the semantics of inputs and outputs of the circuit will be revealed to the attackers through reverse-engineering or brute force attacks
 
+![1_v4GuUlPEaVzo6gGZdJ4R6g (1) (Phone) (Custom)](https://user-images.githubusercontent.com/4605611/141653727-44bc2460-44eb-4179-ad39-00e55f7f0775.jpeg)
 
-![1_v4GuUlPEaVzo6gGZdJ4R6g (1) (Phone)](https://user-images.githubusercontent.com/4605611/141285502-7712225b-e2d8-4f1b-84bb-c0860eaefc64.jpeg)
+
+
 
 - Inputs and Outputs are Garbled Values i.e. 128 bits token indistinguishable from random with a secret semantic value of 0 or 1 only known by the nodes
 - Each Boolean operator is implemented in the circuit by an encrypted truth table, decrypted by its respective Garbled Values inputs.
