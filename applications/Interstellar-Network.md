@@ -210,10 +210,12 @@ So, let's go back to old fashion display to do it.
 #### Trusted Transaction Validation Protocol architecture overview
 
 
-**High level componenents overview of Interstellar blockchain based on parity substrate and IntegriteeTEE workers**
+**High level componenents overview of Interstellar blockchain based on parity substrate and IntegriteeTEE workers sidechain**
 
-Componenets required for Interstellar wallet MVP and compomemts realted to 
-![Interstellar Overview-Page-1 drawio](https://user-images.githubusercontent.com/4605611/141463559-c36e1b1e-a1e3-44fa-9c8f-1df9930c62b4.png)
+Include future roadmap modules
+
+
+![Interstellar Overview-Page-1 drawio](https://user-images.githubusercontent.com/4605611/141775954-47fd8776-0e17-4f9b-8a23-d4b21f5c79fe.png)
 
 
 
@@ -253,7 +255,7 @@ Jean-Luc Leleu
 - Eliot Leleu
 - Jean-Louis Honenen
 - Markus Jakobssson https://www.markus-jakobsson.com/
-- Aude Bourdouxe
+- Aude Bourdouxhe
 
 ### Contact
 
