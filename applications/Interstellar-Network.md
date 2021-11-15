@@ -215,7 +215,9 @@ So, let's go back to old fashion display to do it.
 Include future roadmap modules
 
 
-![Interstellar Overview-Page-1 drawio](https://user-images.githubusercontent.com/4605611/141775954-47fd8776-0e17-4f9b-8a23-d4b21f5c79fe.png)
+
+![Interstellar Overview-Page-1 drawio](https://user-images.githubusercontent.com/4605611/141781542-c2247a1c-258c-4b0d-8b3a-db221902eff4.png)
+
 
 
 
