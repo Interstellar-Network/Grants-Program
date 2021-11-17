@@ -42,15 +42,29 @@ Because blockchains themselves and centralized exchanges are getting more secure
 Banking trojans are now also targeting cryptocurrencies's owners. Dapp and wallets are more and more exposed on mobiles and in browsers as those trojans are getting more sophisticated and pervasive.
 **“Android banking malware, which rose by an incredible 158.7 per cent in Q1, saw a continued increase of 49 per cent”**- Source ESET quarterly threat report 2021. Zero day that enables bad actors, through “exploit chain”, to get the control on mobile operating system and browsers have never been higher.[2021 has broken the record for zero-day hacking attacks]( https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/2021/09/23/1036140/2021-record-zero-day-hacks-reasons/amp/)
 
-Given the growth dynamic of the malware/banking trojan threat, the blockchain ecosystem need now a protection against malware on mobiles wallet and Dapps. 
+Because blockchains themselves and centralized exchanges are getting more secures, bad actors now focus their attacks on Individual wallets and exchange accounts.
+Banking trojans are now also targeting cryptocurrencies' owners. Dapp and wallets are increasingly exposed on mobiles and in browsers as those trojans are getting more sophisticated and pervasive. "Android banking malware, which rose by an incredible 158.7 per cent in Q1, saw a continued increase of 49 per cent"- Source ESET quarterly threat report 2021. Zero day that enables bad actors, through "exploit chain", to get the control on mobile operating system and browsers have never been higher.2021 has broken the record for zero-day hacking attacks
+Given the growth dynamic of the malware/banking trojan threat, the blockchain now ecosystem need a protection against malware on mobiles wallet and Dapps.
+We think that Hardware security, Trusted Execution Environnement TEE and especially Trusted User Interface TUI can provide a level of hardware security comparable to hardware wallet. Mobile UI security is crucial on this respect to address current and growing threats (including banking trojan with their overlay capabilities). They can easily build fake UI that mislead user to trigger tampered transaction. From a pure security standpoints mobile banking application (DSP2 compliant) are now more robust than mobile wallet.
+At the time of W3f, Parity, Polkadot is pushing its light client on the mobile and browsers to increase security. We think that the blockchain ecosystem and especially polkdaot/kusama will benefit from the adding of a TRUSTED UI LAYER including TUI and TEE (layer 2) on mobiles light client like Substrate connect.
+Unfortunately, TUI and full TEE features are not yet available on all mobiles and the most advanced feature you find on servers will take time to be mainstream, as manufacturers are slow to integrate them. Moreover, ARM TrustZone still lack of a service like IAS for IntelSGX for the management of remote attestation.
 
-We think that Hardware security,Trusted Execution Environement TEE and especialy Trusted User Interferface TUI can provide a level of hardware security comparable to hardware wallet. Mobile UI security is cruciable on this respect to address current and growing  threats (including banking trojan with their overlay capabilities). They can easily build fake UI that mislead user to trigger tampered transaction.
-From a pure security stanpoint,some mobile banking application (DSP2 compliant) are now more robust than mobile wallet.
 
-At the time of W3f,Parity,Polkadot is pushing its light client on the mobile and browsers to increase security.
-We think that the blockchain ecosystem and especially polkdaot/kusama will benefit from the adding of a TRUSTED UI LAYER including TUI and TEE (layer 2) on mobiles light client like Substrate connect. 
 
-Unfortunatly, TUI and full TEE features are not yet avalaible on all mobiles and the most advanced feature you find on servers will take time to be mainstream, as manufacturers are slow to integrate them. Moreover, ARM TrustZone still lack of a service like IAS for IntelSGX for the management of remote attestation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Our solution to address the previous issues
 
