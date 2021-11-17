@@ -187,7 +187,7 @@ Usage of IPFS is already integrated in both TEE workers and nodes.
 #### Trusted Transaction Validation protocol building blocks
 
 - Trusted Authentication and Secure UI layer
-- Trusted Transanction Validation protcol management on TEE layer 2 nodes
+- Trusted Transaction Validation Management on TEE layer 2 nodes (substrate Frame pallet)
 
 ----------------------------------------------------
 **Trusted Authentication and Secure UI**
