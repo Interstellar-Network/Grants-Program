@@ -113,17 +113,15 @@ A garbled circuit is a cryptographic obfuscation technique and a cryptographic a
 ![1_v4GuUlPEaVzo6gGZdJ4R6g (1) (Phone) (Custom)](https://user-images.githubusercontent.com/4605611/141653727-44bc2460-44eb-4179-ad39-00e55f7f0775.jpeg)
 
 
-
-
 - Inputs and Outputs are Garbled Values i.e. 128 bits token indistinguishable from random with a secret semantic value of 0 or 1 only known by the nodes
 - Each Boolean operator is implemented in the circuit by an encrypted truth table, decrypted by its respective Garbled Values inputs.
 
-In case you want more detailed on the topic:
+More detailed on the topic:
 [Foundation of Garbled Circuits,   Viet Tung Hoang, B.S. (National University of Singapore) 2007 ](https://www.cs.fsu.edu/~tvhoang/thesis.pdf)
 
 #### Garbled Circuit Factory **previous vork**
-The team has already develloped a strong authentication solution with circuits based on JustGarble implememtation https://cseweb.ucsd.edu/groups/justgarble/ that we customized with Free XOR and Half Gates and other specific improvement for our needs.
-We achieved a production ready platform with significant performance for our specific need ( pre-computation of our Visual cryptographic Circuits)
+The team has already develloped a strong authentication solution with circuits based on JustGarble implememtation https://cseweb.ucsd.edu/groups/justgarble/ that we customized with Free XOR and Half Gates and other specific improvement for our needs ( pre-computation of our Visual cryptographic Circuits).
+We achieved a production ready platform with significant performance on the logic circuit production and the whole pipeline with memory mangement avoiding serilization/desirializtaion of the different circuit format: HDL, non-garbled and garbled.
 
 ------------
 
@@ -270,6 +268,18 @@ We expect the teams to already have a solid idea about your project's expected f
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
+
+
+
+![Transaction Validation overview drawio](https://user-images.githubusercontent.com/4605611/142284724-8b5660f5-fdbb-4ddb-b012-9a2b9c2eb901.png)
+
+
+
+
+
+
+
+
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 - What need(s) does your project meet?
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
