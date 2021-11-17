@@ -123,7 +123,9 @@ In case you want more detailed on the topic:
 
 #### Garbled Circuit Factory **previous vork**
 The team has already develloped a strong authentication solution with circuits based on JustGarble implememtation https://cseweb.ucsd.edu/groups/justgarble/ that we customized with Free XOR and Half Gates and other specific improvement for our needs.
-We achieved a production ready platform with significant performance for our specific need ( pre-computation of our Visual cryptographic Circuits):
+We achieved a production ready platform with significant performance for our specific need ( pre-computation of our Visual cryptographic Circuits)
+
+------------
 
 ```shell
 1 pratn@DESKTOP-U6PJB3U:~/workspace/j2l/lib_server/build$ ./circuit_display_gen_bench -nb_circuits_to_generate=5000
@@ -184,7 +186,11 @@ Usage of IPFS is already integrated in both TEE workers and nodes.
 
 #### Trusted Transaction Validation protocol building blocks
 
-**Our Visual Cryptography circuits principle**
+- Trusted Authentication and Secure UI layer
+- Transanction Validation Protcol management on TEE layer 2 nodes
+
+----------------------------------------------------
+**Trusted Authentication and Secure UI**
 
 Because some TEE features are still missing on some mobiles and to address potential future flaws in mobile TEE (and TUI when available), we provide a strong authentication and secure UI scheme based on the combination of One Time Garbled Circuits evaluation and Visual Cryptography scheme.
 
