@@ -172,7 +172,7 @@ Pallets on both substrate TEE nodes (not in SGX enclave) and substrate TEE worke
 
 Thanks to integritee-network.
 - integritee-node: substraTEE node with TEE registry validating remote attestation https://github.com/integritee-network/integritee-node
-- integritee-worker: https://github.com/integritee-network/worker
+- integritee-worker: substraTEE worker https://github.com/integritee-network/worker
 
 
 ![Node architecture 4github](https://user-images.githubusercontent.com/4605611/141462134-e7c58840-5f7e-4a6c-add5-80fa1cd12498.png)
