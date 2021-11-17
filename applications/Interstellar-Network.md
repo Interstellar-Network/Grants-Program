@@ -187,7 +187,7 @@ Usage of IPFS is already integrated in both TEE workers and nodes.
 #### Trusted Transaction Validation protocol building blocks
 
 - Trusted Authentication and Secure UI layer
-- Transanction Validation Protcol management on TEE layer 2 nodes
+- Trusted Transanction Validation protcol management on TEE layer 2 nodes
 
 ----------------------------------------------------
 **Trusted Authentication and Secure UI**
@@ -204,9 +204,6 @@ We use a pre-computed One-time Garbled Circuit to generate and outputs Visual 
 Those visual cryptographic shares do not superpose on the device screen but only in the user's eye. Thanks to the human Persistence of Vision properties. This ensures that an attacker won' be able to obtain the secret information (transaction message, one time code and random keypad topology) with a simple screenshot, or quickly enough to build and execute a fake User Interface.
 This scheme makes a fake UI attack, complexe and ressource intensive enough to enable us to detect it during the transaction validation session. Thanks to our proof of history of legitimate computation scheme, (roadmap/research in progress), based on a specific reusable Garbled Circuit evaluation.
 
----------------------------------------------
-
-
 
 
 Although, we started by implementing a working solution that output visual cryptographic shares we realized that it was a bit disturbing for the user and that pure viusal cryptographic scheme is not crucial for our overall security model. We then decided to provide a more friendly solution for the user that is also more efficient especially regarding Garbled Circuit size.
@@ -216,6 +213,9 @@ So, let's go back to old fashion display to do it.
 
 
 
+
+--------------------------------------------------------
+
 #### Trusted Transaction Validation Protocol architecture overview
 
 
@@ -223,10 +223,7 @@ So, let's go back to old fashion display to do it.
 
 Include future roadmap modules
 
-
-
-![Interstellar Overview-Page-1 drawio](https://user-images.githubusercontent.com/4605611/141781542-c2247a1c-258c-4b0d-8b3a-db221902eff4.png)
-
+![Interstellar Overview-Page-1 drawio](https://user-images.githubusercontent.com/4605611/142175289-a7f862c8-ec77-4c92-810c-b43b81e2e7b1.png)
 
 
 
