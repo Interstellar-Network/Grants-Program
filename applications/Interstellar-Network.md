@@ -89,10 +89,8 @@ Following are other use case of Garbled Circuit Factory:
 - Efficient alternative to Public Key encryption. (based on AES or symetric encryption  Garbled Circuit that embed securely the symetric secret key, highly increase performance on recipent nodes)
 - Post Quantum encryption and signature scheme implementation (NIST candiate example)
 - Computation Privacy of verifiable delay function VDF and others cryptographic tools
+- Multi Party Computation MPC protocol
 - Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction session) - end of Technology and security lightpaper.(draft/work in progress)
-- ......
-
-
 
 
 
@@ -142,7 +140,7 @@ We achieved a production ready platform with significant performance for our spe
 ```
 5,65 ms per circuits on a Processor 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, 2304 Mhz, 8 Core(s), 16 Logical Processor(s)
 ```
-However, in the context of integrating this work whithin a substrate environement and especially in a substrate OCW, we will switch to a more recent implementation TinyGarble2.0 https://github.com/IntelLabs/TinyGarble2.0 from IntelLabs
+
 
 --------------------------
 
@@ -172,7 +170,9 @@ Following are the different componenets of the GCF:
 First architecture approach, STF functions will be managed through Parity Substrate Frame pallets with substraTEE/IntegrTEE framework.
 Pallets on both substrate TEE nodes (not in SGX enclave) and substrate TEE workers (in SGX enclave).
 
-Thanks to integritee-network integritee-node: substraTEE node with TEE registry validating remote attestation https://github.com/integritee-network/integritee-node
+Thanks to integritee-network.
+- integritee-node: substraTEE node with TEE registry validating remote attestation https://github.com/integritee-network/integritee-node
+- integritee-worker: https://github.com/integritee-network/worker
 
 
 ![Node architecture 4github](https://user-images.githubusercontent.com/4605611/141462134-e7c58840-5f7e-4a6c-add5-80fa1cd12498.png)
