@@ -233,8 +233,8 @@ Transaction screen is managed with Garbled circuits that are pre-computed on TEE
 
 Touch screen positions matching the one-time code are sent to the node in a message signed with mobile private key, triggered with biometrics for validation.
 Once the message is received by the node, if valid, the crypto transaction is signed with related wallet private key and submit to the related blockchain network.
-Behavioral Biometric: each user has a unique typing pattern for a sequence of digits on a keypad. So, if a bad actor tries to replicate this pattern. It will be detected with a 98% success rate. This feature will be managed by TEE nodes with Machine Learnings classification models based on secret touch screen position inputs received by the nodes and their related authenticated timestamps. 
 
+Behavioral Biometric: each user has a unique typing pattern for a sequence of digits on a keypad. So, if a bad actor tries to replicate this pattern. It will be detected with a 98% success rate. This feature will be managed by TEE nodes with Machine Learnings classification models based on secret touch screen position inputs received by the nodes and their related authenticated timestamps. 
 Ref. USERS' TOUCH DYNAMIC BIOMETRICS TO ENHANCE AUTHENTICATION ON MOBILE DEVICES (manchester.ac.uk)
 
 Ongoing research (roadmap): Garbled circuits to generate proof of history of legitimate computation scheme to detect malware attacks tentative to compromise the UI i.e. the building and execution of a fake User Interface by the attackers.
