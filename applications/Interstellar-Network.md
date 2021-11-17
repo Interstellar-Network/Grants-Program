@@ -193,8 +193,15 @@ Because some TEE features are still missing on some mobiles and to address poten
 
 ![Visual_crypto_animation_demo](https://user-images.githubusercontent.com/4605611/141341588-c431d0a4-67eb-4d5a-8e0a-ae99c88c9ed7.gif)
 
-We use a pre-computed One-time Garbled Circuit to generate and outputs 
-Visual Cryptographic Shares at 60–120 Frames/Seconde on the device framebuffer.
+We use a pre-computed One-time Garbled Circuit to generate and outputs Visual Cryptographic Shares at 60–120 Frames/Seconde on the device framebuffer.
+
+Those visual cryptographic shares do not superpose on the device screen but only in the user's eye. Thanks to the human Persistence of Vision properties. This ensures that an attacker won' be able to obtain the secret information (transaction message, one time code and random keypad topology) with a simple screenshot, or quickly enough to build and execute a fake User Interface.
+This scheme makes a fake UI attack, complexe and ressource intensive enough to enable us to detect it during the transaction validation session. Thanks to our proof of history of legitimate computation scheme, (roadmap/research in progress), based on a specific reusable Garbled Circuit evaluation.
+
+---------------------------------------------
+
+
+
 
 Although, we started by implementing a working solution that output visual cryptographic shares we realized that it was a bit disturbing for the user and that pure viusal cryptographic scheme is not crucial for our overall security model. We then decided to provide a more friendly solution for the user that is also more efficient especially regarding Garbled Circuit size.
 
