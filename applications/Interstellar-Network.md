@@ -178,7 +178,10 @@ Output: Logical Circuit file ( custom scd format IntSCD)
 Input: IntSCD Logical Circuit File
 Output: Garbled Circuit File (ready to be evaluated on mobile)
 
+#### GCF integration in substrate
 
+
+![GCF-Substrate drawio](https://user-images.githubusercontent.com/4605611/142623259-ddf601ec-78cb-47b0-878f-bbcc2ddf7e99.png)
 
 
 
