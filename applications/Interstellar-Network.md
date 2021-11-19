@@ -180,10 +180,23 @@ Output: Garbled Circuit File (ready to be evaluated on mobile)
 
 #### GCF integration in substrate
 
+![GCF-Substrate drawio](https://user-images.githubusercontent.com/4605611/142630266-2083f0ec-fd0c-47d6-ae26-fe5cd1339d91.png)
 
-![GCF-Substrate drawio](https://user-images.githubusercontent.com/4605611/142623259-ddf601ec-78cb-47b0-878f-bbcc2ddf7e99.png)
 
 
+##### GCF substrate components
+
+- GCF configuration pallet:
+
+input: Master File + (at a later stage) sub circuits use in randomization) + security parameters (a master key to derive session keys for circuit production)
+Store this configuration information on-chain ( at later stage, we plan to split this information with an encrypted part on-chain and another part  off-chain in TEE workers)
+
+- OCW GCF:
+
+Launch circuit generation request
+Get IPFS cid in response
+
+- API to use  GC in runtime pallet and OCW GC pallet to serve  GC cid to GC evaluator clients
 
 
 
