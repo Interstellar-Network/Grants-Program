@@ -156,7 +156,27 @@ Following are the different componenets of the GCF:
 ![GCF pipeline drawio](https://user-images.githubusercontent.com/4605611/141283607-f95a7170-9729-4af4-9221-d776f52223f3.png)
 
 
+##### GCF components:
+- Circuit Production Orchestrator/Scheduler
 
+Input: VHDL Generic File master circuit.
+ex: in our use case, it is the generic circuit that display the Transaction Validation screen, with one time code amd random keypad topology.
+
+- Circuit Randomizer
+Input: VHDL generic file
+
+Output: a VHDL circuit file with randomized parts (managed with composition of  sub circuits)
+ex: in our case, set-up the random one time code and keypad, with specific attributes, differents fonts and fonts size, random deformation, etc..
+
+- Circuit Generator ( build netlist and manage optimization: limit number of logical gates,etc..)
+
+Input: VHDL Circuit file outputed by Randomizer
+Output: Logical Circuit file ( custom scd format IntSCD)
+
+- Garbled Circuit Generator
+
+Input: IntSCD Logical Circuit File
+Output: Garbled Circuit File (ready to be evaluated on mobile)
 
 
 
