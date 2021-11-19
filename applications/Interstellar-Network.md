@@ -180,6 +180,11 @@ Output: Garbled Circuit File (ready to be evaluated on mobile)
 
 #### GCF integration in substrate
 
+Given the constraint related to GC Factory code and library dependencies especially VHDL/Verilog i.e not compilable in WASM (rust -no-std) - It sounds simpler for now to use regular/basic substrate OCW Off-Chain Workers to integrate with GCF as an external service. And then to use this in Intel SGX TEE enclave.
+As Garbled Circuits are heavy, it is better to store them on IPFS. IPFS  store only their IPFS hash/cid encrypted on-chain when needed and store their cid in TEE workers  to use them with Authenticator pallet
+
+
+
 ![GCF-Substrate drawio](https://user-images.githubusercontent.com/4605611/142630266-2083f0ec-fd0c-47d6-ae26-fe5cd1339d91.png)
 
 
@@ -213,9 +218,7 @@ Thanks to integritee-network.
 
 ![Node architecture 4github](https://user-images.githubusercontent.com/4605611/141462134-e7c58840-5f7e-4a6c-add5-80fa1cd12498.png)
 
-Given the constraint related to GC Factory code and library dependencies especially VHDL/Verilog i.e unlikely compilable in WASM (rust -no-std) - It sounds simpler for now to use regular/basic substrate OCW Off-Chain Workers to integrate the current C/C++ code wrapped in Rust program. And then to design an had hoc OCW with Intel SGX.
-As Garbled Circuits are heavy, it is better to store them on IPFS. IPFS  store only their IPFS hash/cid encrypted on-chain when needed and store their cid in TEE workers  to use them with Authenticator pallet
-Usage of IPFS is already integrated in both TEE workers and nodes.
+
 
 
 #### Trusted Transaction Validation protocol building blocks
