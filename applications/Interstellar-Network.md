@@ -255,6 +255,7 @@ So, let's go back to old fashion display to do it.
 
 #### Trusted Transaction Validation Protocol architecture overview
 
+We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant)
 
 **High level componenents overview of Interstellar blockchain based on parity substrate and IntegriteeTEE workers sidechain**
 
@@ -298,7 +299,7 @@ This process ensures that even if a legit garbled circuit is stolen, it cannot b
 
 
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+
 
 
 
@@ -485,14 +486,14 @@ month 5: TEE for OCW GCF
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create set-up a VHDL Master File(, lauch Garbled Circuit generation and get the resulted Garbled circuit cid on IPFS.   |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create and set-up a VHDL Master File, lauch Garbled Circuit generation and get the resulted Garbled circuit cid on IPFS.   |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
 | 1. | GCF substrate Interface | GCF external service interface to interact with the following substrate modules  |  
-| 2. | Substrate module: GCF configuration palllet | We will create a Substrate GCF configuration pallet that will store GCF configuration information on chain (including security parameter ie master key to ensure security of circuit production batch  |  
-| 3. | Substrate GCF configuration CLI| a CLI to interact with GCF configuration palllet | 
-| 4. | Substrate module: OCW GCF pallet  | We will create an OCW  that will control and interact with GCF external service - launch GC production to get GC cid on IPFS |  
+| 2. | Substrate module: GCF CFG | We will create a Substrate GCF configuration pallet that will store GCF configuration information on chain (including security parameter ie master key to ensure security of circuit production batch  |  
+| 3. | Substrate GCF CFG CLI| a CLI to set-up  GCF configuration palllet | 
+| 4. | Substrate module: OCW GCF | We will create an OCW pallet that will control and interact with GCF external service - Launch GC production and get resulted GC cid on IPFS |  
  
 
 
@@ -500,8 +501,25 @@ month 5: TEE for OCW GCF
 ### Milestone 2 Example — Additional features
 
 - **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
+- **FTE:**  2
+- **Costs:** 10,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can manage Garbled circuit cid in pallets. with a transaction validation use case example   |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
+| 1. | GCF substrate Interface | GCF external service interface to interact with the following substrate modules  |  
+| 2. | Substrate module: GCF CFG | We will create a Substrate GCF configuration pallet that will store GCF configuration information on chain (including security parameter ie master key to ensure security of circuit production batch  |  
+| 3. | Substrate GCF CFG CLI| a CLI to set-up  GCF configuration palllet | 
+| 4. | Substrate module: OCW GCF | We will create an OCW pallet that will control and interact with GCF external service - Launch GC production and get resulted GC cid on IPFS |  
+
+
+
+
+
 
 ...
 
