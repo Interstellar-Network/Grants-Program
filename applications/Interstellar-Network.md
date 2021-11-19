@@ -514,11 +514,11 @@ month 5: TEE for OCW GCF
 | 2. | Substrate module: Authenticator| We will create a Substrate Authenticator  pallet that will implement the Transaction Validation protocol to manage GC evaluator and IPFS client|  
 | 3. | Substrate GCP CLI| a CLI to request GC cid for evaluation | 
   
-### Milestone 3 — Transaction Validation Protocol with android mobile use case (second part)
+### Milestone 3 — Transaction Validation Protocol with  mobile use case (second part)
 
 - **Estimated Duration:** 1 month
-- **FTE:**  2
-- **Costs:** 10,000 USD
+- **FTE:**  2,5
+- **Costs:** 12,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -527,8 +527,9 @@ month 5: TEE for OCW GCF
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
-| 1. | Substrate module Mobile Mngt | we will create a substrate Mobile Mngt to manage mobile client (android/iOS) with Mobile Private Key |  
-| 2. | Substrate module: Authenticator with mobile | We will add mobile management to Substrate Authenticator/Transaction Validation Mngt  pallet|  
+| 1. | Mobile Client (android 1.a/iOS 1.b) | we will create android and iOS mobile client with GC evaluator and IPFS light client to manage Transaction Confirmation |  
+| 2. | Substrate module Mobile Registry | we will create a substrate Mobile Registry pallet to deal with mobile client (android/iOS) and Mobile Public Key and signature verification |  
+| 3. | Substrate module: Authenticator with mobile | We will add mobile features to Substrate Authenticator/Transaction Validation Mngt  pallet|  
 
 
 
