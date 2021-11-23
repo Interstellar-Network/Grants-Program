@@ -65,7 +65,7 @@ Anyway, banking trojan can already compromise the previous 2FA schemes*
  **You just need to input on the keypad the one-time code you see (here 256)**
 
 **That's all to securely confirm a transaction** ![Wallet-superposition-White-Shadow4medium smaller](https://user-images.githubusercontent.com/4605611/141301152-951143c3-d820-4bc1-8120-5a60a6878d52.png)
-> **And the best part, this scheme is designed to resist malware attacks from state of the art banking trojan (and even targeted attacks at a later stage)
+> And the best part, this scheme is designed to resist malware attacks from state of the art banking trojan (and even targeted attacks at a later stage)
 
 
 - **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE*
