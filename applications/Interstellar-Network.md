@@ -301,7 +301,7 @@ The response, randomized position is then signed and sent to the nodes for valid
 
 **We use extrinsec unsigned transaction with signed extension to enable the verification of the message with mobile public key**
 
-> the signature of a real cryptocurrency transaction is not part of the demo, neither malware dectection scheme
+> the signature of a real cryptocurrency transaction is not part of the demo, neither malware detection scheme or behavioral biometric that require ML modules.
 
 
 
@@ -313,7 +313,8 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 
 
-![Transaction Validation overview drawio](https://user-images.githubusercontent.com/4605611/142284724-8b5660f5-fdbb-4ddb-b012-9a2b9c2eb901.png)
+![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143034798-6d495e7c-8b6f-4792-92d5-bd57172bd874.png)
+
 
 
 
