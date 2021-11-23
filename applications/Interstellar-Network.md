@@ -86,18 +86,17 @@ The last service use a novel **Decentralized Trusted Transaction Validation Prot
 
 #### Interstellar project Phase 1:
 
-The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF and an implementation of the transaction validation protocol in a substrate pallet. It demonstrate the usage of GCF whithin a substrate framework and with a mobile client.
+The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF and an implementation of the transaction validation protocol in substrate pallets. It demonstrate the usage of GCF whithin a substrate framework and with a mobile client that evaluate Garbled Circuits.
 
-We designed this Garbled circuit Factory OCW to be used by substrate devellopers regardless of Interstellar solution.
+We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution.
 
 Following are other use cases of Garbled Circuit Factory:
-- Efficient alternative to Public Key encryption. (based on AES or symetric encryption  Garbled Circuit that embed securely the symetric secret key, highly increase performance on recipent nodes)
-- Post Quantum encryption and signature scheme implementation (NIST candiate example)
-- Computation Privacy of verifiable delay function VDF and others cryptographic tools
-- Multi Party Computation MPC protocol
+
+- Every schemes  based on Garbled Circuit generator and evaluator
+- Multi Party Computation MPC protocol (when oblivious transfer OT will be managed in pallets)
 - Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction session) - end of Technology and security lightpaper.(draft/work in progress)
-
-
+- Efficient alternative to Public Key encryption. (based on AES or symetric encryption  Garbled Circuit that embed securely the symetric secret key, highly increase performance on recipent nodes)
+- Post Quantum encryption and signature scheme implementation (NIST candiate examples)
 
 
 ### Project Details
