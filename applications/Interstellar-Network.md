@@ -65,11 +65,11 @@ Anyway, banking trojan can already compromise the previous 2FA schemes*
  **You just need to input on the keypad the one-time code you see (here 256)**
 
 **That's all to securely confirm a transaction** ![Wallet-superposition-White-Shadow4medium smaller](https://user-images.githubusercontent.com/4605611/141301152-951143c3-d820-4bc1-8120-5a60a6878d52.png)
-> ***And the best part, this scheme can resists current banking trojan attacks (not yet targetted attacks but we are working on it)***
+> ***And the best part, this scheme is designed to resist malware attacks from state of the art banking trojan (and even targeted attacks at a later stage)  ***
 
 
 - **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE*
-The mobile client that control keys and triggers transactions is designed to resist malware attacks from banking trojan (and even targeted attacks at a later stage) 
+
 - **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service* (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
 - **Features to securely send coins with social network messages (even to people with no-wallet)** Link to "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players" to add
 - **Cross chain Swap feature** based on a Continious Liquitity Pool (CLP like ThorChain but with higher security and performance TEE/MPC/TTS + Trusted Transaction Validation protocol with mutisig option*  mobiles + yubikey for Validators and power users)
