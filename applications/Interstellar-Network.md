@@ -284,20 +284,18 @@ Ongoing research (roadmap): Garbled circuits to generate proof of history of leg
 
 
 
-##### Detailed architecture for the Transaction Validation protocol use case demo**
+##### Detailed architecture for the Transaction Validation protocol use case demo
 
 
 ![Transaction Validation Module drawio](https://user-images.githubusercontent.com/4605611/141464149-3741ae99-d3bf-47fc-a1f2-a30e23592316.png)
 
-Each time a transaction validation is required, a request is sent to the nodes. This request includes an operation message including transaction parameter: amount, destination address wallet.
 
-Upon reception of this message the node associates a precomputed garbled circuit program on the wallet owner mobile app and compute a cryptographic mask including transaction parameters to oversee displaying of each pixel on the user's device's screen. Then this mask is sent to the mobile app with the asymmetric key to decrypt the chosen garbled circuit own by the wallet owner.
+**1 TX payload Req** Each time a transaction validation is required, a request is sent to the nodes. This request includes an operation message including transaction parameter: amount, destination address wallet.
 
-When the client's device receives masks and symmetric key, the device evaluates the circuit to display the keypad and the authentication message with one-time code for validation.
-Once the transaction screen appears on device, the user will type the one-time code displayed on the random keypad.
+**2 TX Validation Req** Upon reception of the previous message the node associates a precomputed garbled circuit program on the wallet owner mobile app and compute a cryptographic mask including transaction parameters to oversee displaying of each pixel on the user's device's screen. Then this mask is sent to the mobile app with the asymmetric key to decrypt the chosen garbled circuit own by the wallet owner.
 
-The response, randomized position is then signed and sent to the nodes for validation. Wallet owner fingerprint is used to authenticate user presence and enable the signature of the message with the user device private key stored in the hardware enclave. 
-The node uses its associated public key to verify that the randomized position taped by the wallet owner come from his devices and that the user was present at that time. Thanks for the associated fingerprint user authentication managed with mobile hardware enclave.
+**3 TX Validation Resp** When the client's device receives masks and symmetric key, the device evaluates the circuit to display the keypad and the authentication message with one-time code for validation. Once the transaction screen appears on device, the user will type the one-time code displayed on the random keypad.
+The response, randomized position is then signed and sent to the nodes for validation. Wallet owner fingerprint is used to authenticate user presence and enable the signature of the message with the user device private key stored in the hardware enclave. The node uses its associated public key to verify that the randomized position taped by the wallet owner come from his devices and that the user was present at that time. Thanks for the associated fingerprint user authentication managed with mobile hardware enclave.
 This process ensures that even if a legit garbled circuit is stolen, it cannot be used by another device through a man in the middle attack to validate the transaction.
 
 
