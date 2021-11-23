@@ -224,8 +224,8 @@ Thanks to integritee-network.
 - Trusted Authentication and Secure UI layer
 - Trusted Transaction Validation Management on TEE layer 2 nodes (substrate Frame pallet)
 
-----------------------------------------------------
-**Trusted Authentication and Secure UI**
+
+##### Trusted Authentication and Secure UI
 
 Because some TEE features are still missing on some mobiles and to address potential future flaws in mobile TEE (and TUI when available), we provide a strong authentication and secure UI scheme based on the combination of One Time Garbled Circuits evaluation and Visual Cryptography scheme.
 
@@ -249,7 +249,7 @@ So, let's go back to old fashion display to do it.
 
 
 
---------------------------------------------------------
+
 
 #### Trusted Transaction Validation Protocol architecture overview
 
@@ -278,12 +278,12 @@ Ongoing research (roadmap): Garbled circuits to generate proof of history of leg
 ***Link to Intertsellar Light paper**
 
 
--------------------------------------------
 
 
 
 
-**Detailed architecture for the Transaction Validation protocol use case demo**
+
+##### Detailed architecture for the Transaction Validation protocol use case demo**
 
 
 ![Transaction Validation Module drawio](https://user-images.githubusercontent.com/4605611/141464149-3741ae99-d3bf-47fc-a1f2-a30e23592316.png)
