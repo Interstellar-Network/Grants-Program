@@ -85,7 +85,7 @@ The project phase 1 focus on two of the core components of the Interstaller solu
 
 We designed this Garbled circuit Factory OCW to be used by substrate devellopers regardless of Interstellar solution.
 
-Following are other use case of Garbled Circuit Factory:
+Following are other use cases of Garbled Circuit Factory:
 - Efficient alternative to Public Key encryption. (based on AES or symetric encryption  Garbled Circuit that embed securely the symetric secret key, highly increase performance on recipent nodes)
 - Post Quantum encryption and signature scheme implementation (NIST candiate example)
 - Computation Privacy of verifiable delay function VDF and others cryptographic tools
