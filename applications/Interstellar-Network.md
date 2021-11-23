@@ -489,7 +489,7 @@ month 5: TEE for OCW GCF
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
 | 1. | GCF substrate Interface | GCF external service interface to interact with the following substrate modules and IPFS |  
-| 2. | Substrate module: GCF CFG | We will create a Substrate GCF configuration pallet that will store GCF configuration information on chain (including security parameter ie master key to ensure security of circuit production batch  |  
+| 2. | Substrate module: GCF CFG | We will create a Substrate GCF configuration pallet that will store GCF encrypted configuration information on chain (including cid of Master Circuit file, master key and other security parameter to ensure security of circuit production  |  
 | 3. | Substrate GCF CFG CLI| a CLI to set-up  GCF configuration palllet | 
 | 4. | Substrate module: OCW GCF | We will create an OCW pallet that will control and interact with GCF external service - Launch GC production and get resulted GC cid on IPFS |  
  
@@ -526,8 +526,8 @@ month 5: TEE for OCW GCF
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
-| 1. | Mobile Client (android 1.a/iOS 1.b) | we will create android and iOS mobile client with GC evaluator and IPFS light client to manage Transaction Confirmation |  
-| 2. | Substrate module Mobile Registry | we will create a substrate Mobile Registry pallet to deal with mobile client (android/iOS) and Mobile Public Key and signature verification |  
+| 1. | Mobile Client (android 1.a/iOS 1.b) | We will create android and iOS mobile client with GC evaluator and IPFS light client to manage Transaction Confirmation |  
+| 2. | Substrate module Mobile Registry | We will create a substrate Mobile Registry pallet to deal with mobile client (android/iOS) and Mobile Public Key and signature verification |  
 | 3. | Substrate module: Authenticator with mobile | We will add mobile features to Substrate Authenticator/Transaction Validation Mngt  pallet|  
 
 
