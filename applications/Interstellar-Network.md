@@ -83,7 +83,7 @@ Anyway, banking trojan can already compromise the previous 2FA schemes*
 
 #### Interstellar project Phase 1:
 
-The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF (to manage an external Garbled Circuit Genrator service) and an implementation of the transaction validation protocol in substrate pallets. It demonstrate the usage of GCF whithin a substrate framework and with a mobile client Garbled Circuit evaluator. We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution.
+The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF (to manage an external Garbled Circuit Genrator service) and an implementation of the transaction validation protocol in substrate pallets. It demonstrate the usage of GCF whithin a substrate framework and with a mobile  Garbled Circuit evaluator client. We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution.
 
 Following are other use cases of Garbled Circuit Factory:
 
