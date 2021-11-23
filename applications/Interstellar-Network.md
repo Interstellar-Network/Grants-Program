@@ -229,6 +229,9 @@ Thanks to integritee-network.
 
 Because some TEE features are still missing on some mobiles and to address potential future flaws in mobile TEE (and TUI when available), we provide a strong authentication and secure UI scheme based on the combination of One Time Garbled Circuits evaluation and Visual Cryptography scheme.
 
+
+--------------------------------
+
 ![GC-VC part 1 (Custom) (Custom) (1) (Custom)](https://user-images.githubusercontent.com/4605611/141459596-29ffd9a5-4879-4f18-b61d-77c92feb0fbb.png)
 
 
@@ -239,6 +242,7 @@ We use a pre-computed One-time Garbled Circuit to generate and outputs Visual 
 Those visual cryptographic shares do not superpose on the device screen but only in the user's eye. Thanks to the human Persistence of Vision properties. This ensures that an attacker won' be able to obtain the secret information (transaction message, one time code and random keypad topology) with a simple screenshot, or quickly enough to build and execute a fake User Interface.
 This scheme makes a fake UI attack, complexe and ressource intensive enough to enable us to detect it during the transaction validation session. Thanks to our proof of history of legitimate computation scheme, (roadmap/research in progress), based on a specific reusable Garbled Circuit evaluation.
 
+----------------------------
 
 
 Although, we started by implementing a working solution that output visual cryptographic shares we realized that it was a bit disturbing for the user and that pure viusal cryptographic scheme is not crucial for our overall security model. We then decided to provide a more friendly solution for the user that is also more efficient especially regarding Garbled Circuit size.
@@ -247,7 +251,7 @@ So, let's go back to old fashion display to do it.
 ![images8](https://user-images.githubusercontent.com/4605611/141358949-5c0eaffb-e0c3-437d-88f9-7ab948f782a0.png)
 
 
-
+--------------------
 
 
 
@@ -266,9 +270,6 @@ A Public/Private key pair is generated in the mobile Hardware enclave. The priva
 This mobile Private key and a set of Garbled Circuits are securely tied with the wallet private keys associated with user's assets and managed in the blockchain hardware enclave TEE nodes. To prevent potential attacks on Hardware Enclaves on nodes, we will also use down the road Multi Party Computation and especially Threshold Signature Scheme.
 
 Transaction screen is managed with Garbled circuits that are pre-computed on TEE nodes and provisioned on the mobile by the nodes from time to time. The one-time code secret and keypad topology cannot be accessed during garbled circuit execution to display the Visual Cryptographic secret frames that appears only in users' eyes (thanks to persistence of vision)
-
-Touch screen positions matching the one-time code are sent to the node in a message signed with mobile private key, triggered with biometrics for validation.
-Once the message is received by the node, if valid, the crypto transaction is signed with related wallet private key and submit to the related blockchain network.
 
 Behavioral Biometric: each user has a unique typing pattern for a sequence of digits on a keypad. So, if a bad actor tries to replicate this pattern. It will be detected with a 98% success rate. This feature will be managed by TEE nodes with Machine Learnings classification models based on secret touch screen position inputs received by the nodes and their related authenticated timestamps. 
 
@@ -289,10 +290,14 @@ Ongoing research (roadmap): Garbled circuits to generate proof of history of leg
 ![Transaction Validation Module drawio](https://user-images.githubusercontent.com/4605611/141464149-3741ae99-d3bf-47fc-a1f2-a30e23592316.png)
 
 Each time a transaction validation is required, a request is sent to the nodes. This request includes an operation message including transaction parameter: amount, destination address wallet.
+
 Upon reception of this message the node associates a precomputed garbled circuit program on the wallet owner mobile app and compute a cryptographic mask including transaction parameters to oversee displaying of each pixel on the user's device's screen. Then this mask is sent to the mobile app with the asymmetric key to decrypt the chosen garbled circuit own by the wallet owner.
+
 When the client's device receives masks and symmetric key, the device evaluates the circuit to display the keypad and the authentication message with one-time code for validation.
 Once the transaction screen appears on device, the user will type the one-time code displayed on the random keypad.
-The response, randomized position is then signed and sent to the nodes for validation. Wallet owner fingerprint is used to authenticate user presence and enable the signature of the message with the user device private key stored in the hardware enclave. The node uses its associated public key to verify that the randomized position taped by the wallet owner come from his devices and that the user was present at that time. Thanks for the associated fingerprint user authentication managed with mobile hardware enclave.
+
+The response, randomized position is then signed and sent to the nodes for validation. Wallet owner fingerprint is used to authenticate user presence and enable the signature of the message with the user device private key stored in the hardware enclave. 
+The node uses its associated public key to verify that the randomized position taped by the wallet owner come from his devices and that the user was present at that time. Thanks for the associated fingerprint user authentication managed with mobile hardware enclave.
 This process ensures that even if a legit garbled circuit is stolen, it cannot be used by another device through a man in the middle attack to validate the transaction.
 
 
