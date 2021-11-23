@@ -75,11 +75,16 @@ The mobile client that control keys and triggers transactions is designed to res
 - **Features to securely send coins with social network messages (even to people with no-wallet)** Link to "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players" to add
 - **Cross chain Swap feature** based on a Continious Liquitity Pool (CLP like ThorChain but with higher security and performance TEE/MPC/TTS + Trusted Transaction Validation protocol with mutisig option*  mobiles + yubikey for Validators and power users)
 
+
+#### Substrate Technology Overview
+
 **The solution relies on a substrate blockchain and on substaTEE/IntegriTEE Workers** to secure private keys, signature programs and the friendly authentication and transaction validation service.
 
 The last service use a novel **Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
-***Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)** 
+***Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)**
+
+#### Interstellar project Phase 1:
 
 The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF and an implementation of the transaction validation protocol in a substrate pallet. It demonstrate the usage of GCF whithin a substrate framework and with a mobile client.
 
