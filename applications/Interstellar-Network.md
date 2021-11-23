@@ -242,7 +242,7 @@ We use a pre-computed One-time Garbled Circuit to generate and outputs Visual 
 Those visual cryptographic shares do not superpose on the device screen but only in the user's eye. Thanks to the human Persistence of Vision properties. This ensures that an attacker won' be able to obtain the secret information (transaction message, one time code and random keypad topology) with a simple screenshot, or quickly enough to build and execute a fake User Interface.
 This scheme makes a fake UI attack, complexe and ressource intensive enough to enable us to detect it during the transaction validation session. Thanks to our proof of history of legitimate computation scheme, (roadmap/research in progress), based on a specific reusable Garbled Circuit evaluation.
 
-----------------------------
+
 
 
 Although, we started by implementing a working solution that output visual cryptographic shares we realized that it was a bit disturbing for the user and that pure viusal cryptographic scheme is not crucial for our overall security model. We then decided to provide a more friendly solution for the user that is also more efficient especially regarding Garbled Circuit size.
@@ -311,23 +311,28 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 - Where and how does your project fit into the ecosystem?
 
+This project is the first phase of a wallet project. Although, we think that it could bring a novel approach to address UX/UI security issues regardless of its frictionless wallet features.
+We designed our Transaction Validation protocol to benfit to other wallet or Dapp. We think it could also be complemetary down the road to mobile light client like substrate connect (check future plan section).
 
-
-![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143034798-6d495e7c-8b6f-4792-92d5-bd57172bd874.png)
-
-
-
-
-
-
-
-
+![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png)
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+We want to target in priority Dapp providers in the DeFi ecosystem... (link growth tool)
+
+
+
 - What need(s) does your project meet?
+The need for wallet to be simpler to set-up and use, as well as the need for higher security to address the growing malware/banking trojan threats. (link attacks list in light paper)
+
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+Math Wallet, Gluon 
+
+We think that we could bring a better user experience, security and performance (thanks to a highly scalable/higher txs layer2 based on TEE). 
+
+Math Wallet envision smartcard with screem. It can be cumbersome to use.
+ 
+Gluon QR code based transaction confirmation that require 2 screen can also be cumbersome and is already exposed to banking trojan with overlay capabilities. ( see attack on QR code in lightpaper). Although their TPM based approach could be complementary down the road to ours, to mitigate potential TEE future flaws on servers.
+
 
 ## Team :busts_in_silhouette:
 
