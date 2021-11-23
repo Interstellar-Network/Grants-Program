@@ -105,7 +105,7 @@ Following are other use cases of Garbled Circuit Factory:
 
 #### Garbled Circuit Factory GCF overview
 
-Before to go into the details of Garbled Circuit Factory architecture, let's digg into the design of a basic garbled circuit structure.
+##### Basic garbled circuit structure overview.
 
 A garbled circuit is a cryptographic obfuscation technique and a cryptographic algorithm that ensures computation privacy i.e. manages the protection of a Boolean circuit that can be executed without leaking information. Neither the semantics of Boolean operators (AND, OR, XOR, etc.) that makes up the circuit nor the semantics of inputs and outputs of the circuit will be revealed to the attackers through reverse-engineering or brute force attacks
 
@@ -118,7 +118,7 @@ A garbled circuit is a cryptographic obfuscation technique and a cryptographic a
 More detailed on the topic:
 [Foundation of Garbled Circuits,   Viet Tung Hoang, B.S. (National University of Singapore) 2007 ](https://www.cs.fsu.edu/~tvhoang/thesis.pdf)
 
-#### Garbled Circuit Factory **previous vork**
+##### Garbled Circuit Factory **previous vork**
 The team has already develloped a strong authentication solution with circuits based on JustGarble implememtation https://cseweb.ucsd.edu/groups/justgarble/ that we customized with Free XOR and Half Gates and other specific improvement for our needs ( pre-computation of our Visual cryptographic Circuits).
 We achieved a production ready platform with significant performance on the logic circuit production and the whole pipeline with memory mangement avoiding serilization/desirializtaion of the different circuit format: HDL, non-garbled and garbled.
 
@@ -149,13 +149,13 @@ We achieved a production ready platform with significant performance on the logi
 
 
 
-#### Garbled Circuits Factory high level architecture and GC production pipeline
+##### Garbled Circuits Factory high level architecture and GC production pipeline
 
 Following are the different componenets of the GCF:
 ![GCF pipeline drawio](https://user-images.githubusercontent.com/4605611/141283607-f95a7170-9729-4af4-9221-d776f52223f3.png)
 
 
-##### GCF components:
+###### GCF components:
 - Circuit Production Orchestrator/Scheduler
 
 Input: VHDL Generic File master circuit.
@@ -177,7 +177,7 @@ Output: Logical Circuit file ( custom scd format IntSCD)
 Input: IntSCD Logical Circuit File
 Output: Garbled Circuit File (ready to be evaluated on mobile)
 
-#### GCF integration in substrate
+##### GCF integration in substrate
 
 Given the constraint related to GC Factory code and library dependencies especially VHDL/Verilog i.e not compilable in WASM (rust -no-std) - It sounds simpler for now to use regular/basic substrate OCW Off-Chain Workers to integrate with GCF as an external service. And then to use this in Intel SGX TEE enclave.
 As Garbled Circuits are heavy, it is better to store them on IPFS. IPFS  store only their IPFS hash/cid encrypted on-chain when needed and store their cid in TEE workers  to use them with Authenticator pallet
@@ -204,7 +204,7 @@ Get IPFS cid in response
 
 
 
-#### GCF in Interstellar architecture
+##### GCF in Interstellar architecture
 
 First architecture approach, STF functions will be managed through Parity Substrate Frame pallets with substraTEE/IntegrTEE framework.
 Pallets on both substrate TEE nodes (not in SGX enclave) and substrate TEE workers (in SGX enclave).
