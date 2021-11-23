@@ -317,17 +317,18 @@ We designed our Transaction Validation protocol to benfit to other wallet or Dap
 ![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png)
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-We want to target in priority Dapp providers in the DeFi ecosystem... (link growth tool)
 
-
+We want to target in priority Dapp providers in the DeFi ecosystem with develloper tools to integrate our solution with their Dapps. We think that our value proposition should be attractive to them.  (link growth tool)
+At the same time we wnat to target newcomers to crypto with a Robinhood for DeFi wallet app.
 
 - What need(s) does your project meet?
 The need for wallet to be simpler to set-up and use, as well as the need for higher security to address the growing malware/banking trojan threats. (link attacks list in light paper)
 
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-Math Wallet, Gluon 
 
-We think that we could bring a better user experience, security and performance (thanks to a highly scalable/higher txs layer2 based on TEE). 
+Math Wallet and Gluon are close. 
+
+We think that we could bring a better user experience, security and performance (thanks to a highly scalable/higher txs layer 2 based on substraTEE). 
 
 Math Wallet envision smartcard with screem. It can be cumbersome to use.
  
