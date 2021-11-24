@@ -340,8 +340,7 @@ For each milestone,
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
-| 1. | OCW GCF port in TEE | We will port????? | 
-| 1. | GCF external service in TEE | We will migrate GCF service in TEE/Intel SGX | 
+| 1. | GCF external service in TEE | We will migrate GCF service in TEE/Intel SGX with Asylo framework | 
  
   
 
