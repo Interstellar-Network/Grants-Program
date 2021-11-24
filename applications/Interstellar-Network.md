@@ -295,8 +295,8 @@ For each milestone,
 ### Milestone 3 — Transaction Validation Protocol with  mobile use case (second part)
 
 - **Estimated Duration:** 1 month
-- **FTE:**  2,5
-- **Costs:** 12,000 USD
+- **FTE:**  2
+- **Costs:** 10,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
