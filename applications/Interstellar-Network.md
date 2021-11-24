@@ -76,15 +76,15 @@ Following are other use cases of Garbled Circuit Factory:
 
 
 ### Project Details
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
-https://docs.google.com/document/d/1RTPx4EeA0Ek33f-8_Dj7p-qjzBp6VqLrrXNhIrwvFWI/edit?usp=sharing
+
+
+#### Detail documentation on the project phase 1
+
+- **OCW Garbled Circuit Factory**
+- **Transaction Validation protocol pallets**
+- **Mobile client GC evaluator** 
+[Project doc](https://docs.google.com/document/d/1RTPx4EeA0Ek33f-8_Dj7p-qjzBp6VqLrrXNhIrwvFWI/edit?usp=sharing)
 
 
 #### Garbled Circuit Factory **previous vork**
