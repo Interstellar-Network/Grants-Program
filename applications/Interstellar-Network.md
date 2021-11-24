@@ -36,8 +36,9 @@ Banking trojans are now also targeting cryptocurrencies's owners. Dapp and walle
 
 
 #### Our solution to address the previous issues
-
-Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**.
+Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**. Based on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure:
+- **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
+- **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
 #### Features/Benefits
 
@@ -51,20 +52,12 @@ Anyway, banking trojan can already compromise the previous 2FA schemes*
 
 **That's all to securely confirm a transaction** ![Wallet-superposition-White-Shadow4medium smaller](https://user-images.githubusercontent.com/4605611/141301152-951143c3-d820-4bc1-8120-5a60a6878d52.png)
 > And the best part, this scheme is designed to resist malware attacks from state of the art banking trojans (and even targeted attacks at a later stage)
-
-
-- **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in Hardware Enclave/Trusted Execution Environment TEE*
-
 - **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service* (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
 - **Features to securely send coins with social network messages (even to people with no-wallet)** Link to "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players" to add
 - **Cross chain Swap feature** based on a Continious Liquitity Pool (CLP like ThorChain but with higher security and performance TEE/MPC/TTS + Trusted Transaction Validation protocol with mutisig option*  mobiles + yubikey for Validators and power users)
 
 
-#### Substrate Technology Overview
 
-The solution relies on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure:
-- Private keys and signature programs
-- **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
 ***Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)**
 
