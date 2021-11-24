@@ -22,20 +22,15 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 ![Copy of Interstellar-Black-Text](https://user-images.githubusercontent.com/4605611/141333053-3f607ffe-1714-4512-b628-33274d0d0464.png)
 
 
- **Interstellar Wallet Phase 1: Substrate OCW Garbled Circuit Factory GCF and Trusted Transaction Validation protocol pallet demo (as a GCF use case)** 
+ **Interstellar Wallet Phase 1**: Substrate OCW Garbled Circuit Factory GCF and a Trusted Transaction Validation protocol pallet demo (as a GCF use case)** 
  
 #### Why Interstellar wallet?
 
 **User experience** and **Security** are still the main **pain points** of non-custodial wallet. We think that they slow down blockchain and DeFi adoption.
 
-- **Wallets are not easy for newcomers and even for some experienced users:**
+- **Wallets are not easy for newcomers and even for some experienced users:** The Public Private key concept is complex for non-technical people and can be easily misused. The process of wallet creation can be a bit confusing and misleading, and the average user still do not understand clearly what information, passphrase, private key, etc. need to be protected and how to store it safely.
 
-The Public Private key concept is complex for non-technical people and can be easily misused. The process of wallet creation can be a bit confusing and misleading, and the average user still do not understand clearly what information, passphrase, private key, etc. need to be protected and how to store it safely.
-
-- **Only Hardware Wallets (like Ledger, Trezor, Ngrave, etc.) are secures:**
-
-Because blockchains themselves and centralized exchanges are getting more secures, bad actors now focus their attacks on Individual wallets and exchange accounts. 
-
+- **Only Hardware Wallets (like Ledger, Trezor, Ngrave, etc.) are secures:** Because blockchains themselves and centralized exchanges are getting more secures, bad actors now focus their attacks on Individual wallets and exchange accounts. 
 Banking trojans are now also targeting cryptocurrencies's owners. Dapp and wallets are more and more exposed on mobiles and in browsers as those trojans are getting more sophisticated and pervasive.
 **“Android banking malware, which rose by an incredible 158.7 per cent in Q1, saw a continued increase of 49 per cent”**- Source ESET quarterly threat report 2021. Zero day that enables bad actors, through “exploit chain”, to get the control on mobile operating system and browsers have never been higher.[2021 has broken the record for zero-day hacking attacks]( https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/2021/09/23/1036140/2021-record-zero-day-hacks-reasons/amp/). Given the growth dynamic of the malware/banking trojan threat, the blockchain ecosystem need now a protection against malware on mobiles wallet and Dapps.
 
@@ -67,20 +62,23 @@ Anyway, banking trojan can already compromise the previous 2FA schemes*
 
 #### Substrate Technology Overview
 
-**The solution relies on a substrate blockchain and on substaTEE/IntegriTEE Workers** to secure private keys, signature programs and the friendly authentication and transaction validation service. The last service use a novel **Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
+The solution relies on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure:
+- Private keys and signature programs
+- **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
 ***Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)**
 
 #### Interstellar project Phase 1:
 
-The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF (to manage an external Garbled Circuit Genrator service) and an implementation of the Transaction Validation protocol in substrate pallets. It demonstrate the usage of GCF whithin a substrate framework and with a mobile  Garbled Circuit evaluator client. We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution.
+The project phase 1 focus on two of the core components of the Interstaller solution: 
+- An OCW garbled circuit factory GCF to manage an external Garbled Circuit Generator service (We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution)
+- An implementation of the Transaction Validation protocol in substrate pallets to demo the usage of GCF whithin a substrate framework and with a mobile  Garbled Circuit evaluator client. 
 
 Following are other use cases of Garbled Circuit Factory:
 
 - Every schemes  based on Garbled Circuit generator and evaluator
 - Multi Party Computation MPC protocol (when oblivious transfer OT will be managed in pallets)
 - Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction session) - end of Technology and security lightpaper.(draft/work in progress)
-- Efficient alternative to Public Key encryption. (based on AES or symetric encryption  Garbled Circuit that embed securely the symetric secret key, highly increase performance on recipent nodes)
 - Post Quantum encryption and signature scheme implementation (NIST candiate examples)
 
 
