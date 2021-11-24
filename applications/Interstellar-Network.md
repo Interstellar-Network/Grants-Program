@@ -250,20 +250,6 @@ For each milestone,
 
 ### Overview
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
 - **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
 - **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
@@ -354,7 +340,7 @@ For each milestone,
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
-| 1. | OCW GCF port in TEE | We will create android and iOS mobile client with GC evaluator and IPFS light client to manage Transaction Confirmation | 
+| 1. | OCW GCF port in TEE | We will port????? | 
 | 1. | GCF external service in TEE | We will migrate GCF service in TEE/Intel SGX | 
  
   
