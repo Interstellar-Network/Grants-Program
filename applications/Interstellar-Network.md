@@ -22,7 +22,7 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 ![Copy of Interstellar-Black-Text](https://user-images.githubusercontent.com/4605611/141333053-3f607ffe-1714-4512-b628-33274d0d0464.png)
 
 
- **Interstellar Wallet Phase 1**: Substrate OCW Garbled Circuit Factory GCF and a Trusted Transaction Validation protocol pallet demo (as a GCF use case)** 
+ **Interstellar Wallet Phase 1**: Substrate OCW Garbled Circuit Factory GCF and a Trusted Transaction Validation protocol pallet demo (as a GCF use case) 
  
 #### Why Interstellar wallet?
 
