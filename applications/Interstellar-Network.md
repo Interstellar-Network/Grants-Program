@@ -19,9 +19,6 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 ### Overview
 
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
-
 ![Copy of Interstellar-Black-Text](https://user-images.githubusercontent.com/4605611/141333053-3f607ffe-1714-4512-b628-33274d0d0464.png)
 
 
@@ -40,17 +37,10 @@ The Public Private key concept is complex for non-technical people and can be ea
 Because blockchains themselves and centralized exchanges are getting more secures, bad actors now focus their attacks on Individual wallets and exchange accounts. 
 
 Banking trojans are now also targeting cryptocurrencies's owners. Dapp and wallets are more and more exposed on mobiles and in browsers as those trojans are getting more sophisticated and pervasive.
-**“Android banking malware, which rose by an incredible 158.7 per cent in Q1, saw a continued increase of 49 per cent”**- Source ESET quarterly threat report 2021. Zero day that enables bad actors, through “exploit chain”, to get the control on mobile operating system and browsers have never been higher.[2021 has broken the record for zero-day hacking attacks]( https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/2021/09/23/1036140/2021-record-zero-day-hacks-reasons/amp/)
+**“Android banking malware, which rose by an incredible 158.7 per cent in Q1, saw a continued increase of 49 per cent”**- Source ESET quarterly threat report 2021. Zero day that enables bad actors, through “exploit chain”, to get the control on mobile operating system and browsers have never been higher.[2021 has broken the record for zero-day hacking attacks]( https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/2021/09/23/1036140/2021-record-zero-day-hacks-reasons/amp/). Given the growth dynamic of the malware/banking trojan threat, the blockchain ecosystem need now a protection against malware on mobiles wallet and Dapps.
 
-Given the growth dynamic of the malware/banking trojan threat, the blockchain ecosystem need now a protection against malware on mobiles wallet and Dapps.
-We think that Hardware security, Trusted Execution Environnement TEE and especially Trusted User Interface TUI can provide a level of hardware security comparable to hardware wallet. Mobile UI security is crucial on this respect to address current and growing threats (including banking trojan with their overlay capabilities). They can easily build fake UI that mislead user to trigger tampered transaction. From a pure security standpoints mobile banking application (DSP2 compliant) are now more robust than mobile wallet. As a consequence, threat actors focus now on wallets.
-
-At the time of W3f, Parity, Polkadot is pushing its light client on the mobile and browsers to increase security. We think that the blockchain ecosystem and especially polkdaot/kusama will benefit from the adding of a TRUSTED UI LAYER (including hardware protected Tusted User Interface TUI and Trusted Execution Environement TEE) for mobiles light client like Substrate connect. Unfortunately, TUI and full TEE features are not yet available on all mobiles and the most advanced feature you find on servers will take time to be mainstream, as manufacturers are slow to integrate them. Moreover, ARM TrustZone still lack of a service like IAS for IntelSGX for the management of remote attestation.
 
 #### Our solution to address the previous issues
-
-There is a security gap to fill before TEE and TUI will be fully avalaible on a large majority of mobile.
-We use One Time and Reusable Garbled circuits to ensure private computation and visual cryptography to help on the UI security issues. Thi is an alternative that will be complementary down the road to mitigate potential future security flaws in TEE and TUI.
 
 Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**.
 
@@ -83,7 +73,7 @@ Anyway, banking trojan can already compromise the previous 2FA schemes*
 
 #### Interstellar project Phase 1:
 
-The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF (to manage an external Garbled Circuit Genrator service) and an implementation of the transaction validation protocol in substrate pallets. It demonstrate the usage of GCF whithin a substrate framework and with a mobile  Garbled Circuit evaluator client. We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution.
+The project phase 1 focus on two of the core components of the Interstaller solution: An OCW garbled circuit factory GCF (to manage an external Garbled Circuit Genrator service) and an implementation of the Transaction Validation protocol in substrate pallets. It demonstrate the usage of GCF whithin a substrate framework and with a mobile  Garbled Circuit evaluator client. We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution.
 
 Following are other use cases of Garbled Circuit Factory:
 
