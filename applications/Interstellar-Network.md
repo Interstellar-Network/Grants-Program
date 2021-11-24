@@ -37,7 +37,7 @@ Banking trojans are now also targeting cryptocurrencies's owners. Dapp and walle
 
 #### Our solution to address the previous issues
 Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**. Based on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure:
-- **Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
+- **A Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
 - **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
 #### Features/Benefits
