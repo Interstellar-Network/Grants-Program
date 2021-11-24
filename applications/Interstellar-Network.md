@@ -250,43 +250,10 @@ For each milestone,
 
 ### Overview
 
-month 1: Off-chain worker substrate Garbled circuit Factory
-0
-License
-Documentation
-Testing guide
-Docker test all the features
-Article
-1
-Circuit Design ->HDL
-Circuit randomizer-> HDL
-Boolean circuit generation-> scd format
-scd->fancy garble/swanky format
-replace Garbled circuit generator JustGarble by swanky.
-circuit evaluator test
-production schedulers communicate with pallets.
-storage IPFS
-Bench 
-
-month 2: fig transaction validation for use case demo
-API GCF ->pallet
-describe API
-check evaluation with circuits metadata i.e. OTP random keypad
 
 
 
 
-
-
-
-month 3: 
-TEE integration with pallet
-
-
-month 4: 
-Transaction Validation protocol demo with mobile- android (iOS/)
-pallet mobile
-month 5: TEE for OCW GCF
 
 
 
@@ -356,7 +323,41 @@ month 5: TEE for OCW GCF
 | 2. | Substrate module Mobile Registry | We will create a substrate Mobile Registry pallet to deal with mobile client (android/iOS) and Mobile Public Key and signature verification |  
 | 3. | Substrate module: Authenticator with mobile | We will add mobile features to Substrate Authenticator/Transaction Validation Mngt  pallet|  
 
+### Milestone 4 — Integration with substraTEE/IntegriTEE
 
+- **Estimated Duration:** 1 month
+- **FTE:**  2
+- **Costs:** 10,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can manage Garbled circuit cid in pallets. with a transaction validation use case example   |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
+| 1. | substrate modules Authenicator port in TEE | We will migrate Authenticator in substraTEE/InteriTEE workers |  
+| 2. | Substrate module Mobile Registry port in TEE | We will migrate part of the mobile registry pallet in substraTEE/InteriTEE workers |  
+  
+
+
+### Milestone 5 — GCF in TEE
+
+- **Estimated Duration:** 1 month
+- **FTE:**  2
+- **Costs:** 10,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can manage Garbled circuit cid in pallets. with a transaction validation use case example   |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
+| 1. | OCW GCF port in TEE | We will create android and iOS mobile client with GC evaluator and IPFS light client to manage Transaction Confirmation | 
+| 1. | GCF external service in TEE | We will migrate GCF service in TEE/Intel SGX | 
+ 
+  
 
 
 
