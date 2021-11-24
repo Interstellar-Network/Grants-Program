@@ -78,13 +78,14 @@ Following are other use cases of Garbled Circuit Factory:
 ### Project Details
 
 
-
-#### Detail documentation on the project phase 1
+#### Detail documentation on the project
 
 - **OCW Garbled Circuit Factory**
-- **Transaction Validation protocol pallets**
+- **Transaction Validation protocol pallets (including mobile registry)**
+- **Transaction Validation Screen Technology**
 - **Mobile client GC evaluator** 
-[Project doc](https://docs.google.com/document/d/1RTPx4EeA0Ek33f-8_Dj7p-qjzBp6VqLrrXNhIrwvFWI/edit?usp=sharing)
+
+[detailed doc](https://docs.google.com/document/d/1RTPx4EeA0Ek33f-8_Dj7p-qjzBp6VqLrrXNhIrwvFWI/edit?usp=sharing)
 
 
 #### Garbled Circuit Factory **previous vork**
