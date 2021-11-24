@@ -80,7 +80,7 @@ Following are other use cases of Garbled Circuit Factory:
 
 - **OCW Garbled Circuit Factory**
 - **Transaction Validation protocol pallets (including mobile registry)**
-- **Transaction Validation Screen Technology**
+- **Transaction Validation Screen Technology (Trusted/Secure UI)**
 - **Mobile client GC evaluator** 
 
 
