@@ -354,8 +354,13 @@ For each milestone,
 
 Please include here
 
-- how you intend to use, enhance, promote and support your project in the short term, and
+- how you intend to use, enhance, promote and support your project in the short term
+We aim at develloping a user comunity and get in talks with Dapp and especially DeFi players with a taylored value proposition for them. (see 
+
 - the team's long-term plans and intentions in relation to it.
+Bounty to crack our transaction validation protocol when both Android protected confirmation and detection of adverse code execution will be deployed.
+Investigate potential integration with substrate connect to increase the security of the solution.
+Reseach on other brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): Goal increase our capabilities to descriminate real human from bot with IA capabilities.
 
 
 ## Additional Information :heavy_plus_sign:
