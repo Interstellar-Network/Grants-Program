@@ -125,7 +125,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 > Where and how does your project fit into the ecosystem?
 
-This project is the first phase of a wallet project. Although, we think that it could bring a novel approach to address UX/UI security issues regardless of its frictionless wallet features.
+This project is the first phase of a wallet project. Although, we think that our Transaction Validation protocol could bring a novel approach to address UX/UI security issues regardless of other features of our frictionless wallet.
 We designed our Transaction Validation protocol to benfit to other wallet or Dapp. We think it could also be complemetary down the road to mobile light client like substrate connect (check future plan section).
 
 ![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png)
@@ -133,11 +133,11 @@ We designed our Transaction Validation protocol to benfit to other wallet or Dap
 >Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
 We want to target in priority Dapp providers in the DeFi ecosystem with develloper tools to integrate our solution with their Dapps. We think that our value proposition should be attractive to them.  (link growth tool)
-At the same time we wnat to target newcomers to crypto with a Robinhood for DeFi wallet app.
+At the same time we want to target newcomers with a Robinhood for DeFi wallet app that include average dollar cost feature.
 
 > What need(s) does your project meet?
 
-The need for wallet to be simpler to set-up and use, as well as the need for higher security to address the growing malware/banking trojan threats. (link attacks list in light paper)
+The need for a wallet to be simpler to set-up and use, as well as the need for higher security to address the growing malware/banking trojan threats. (link attacks list in light paper)
 
 > Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
 
@@ -145,9 +145,9 @@ Math Wallet and Gluon are close to our solution
 
 We think that we could bring a better user experience, security and performance (thanks to a highly scalable/higher txs layer 2 based on substraTEE): 
 
-- Math Wallet envision smartcard with screen, we think that despite a comparable level of security, It should more cumbersome and less flexible than our solution.
+- Math Wallet is based on MPC that require heavier computation ressources. They also envision smartcard with screen, we think that despite a comparable level of security, It should be more expensive, cumbersome to use and less flexible and more complex to deploy than our solution.
  
-- Gluon QR code based transaction confirmation that requires 2 screen can also be more cumbersome and is already exposed to banking trojan with overlay capabilities ( see potential attack on QR code in our lightpaper). Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
+- Gluon QR code based transaction confirmation that requires 2 screen should also be more cumbersome. Moreover, this scheme is already exposed to banking trojan with overlay capabilities ( see potential attack on QR code in our lightpaper). Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
 
 
 ## Team :busts_in_silhouette:
@@ -356,15 +356,19 @@ Please include here
 
 >how you intend to use, enhance, promote and support your project in the short term:
 
-- We aim at develloping a user comunity and get in talks with Dapp and especially DeFi players with a taylored value proposition for them. (see
+- We aim at develloping a user comunity and get in talks with Dapp and especially DeFi players with a taylored value proposition for them.
 - Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame (to display character and figures) to increase the complexity and ressources required for an attack.
 - potential research grant on our real-time Malware detection scheme
-
+- add OT oblivious transfer in our pallet to enable usage of MPC with our GCF.
+- add behavioral biometric feature
 
 >the team's long-term plans and intentions in relation to it.
 
 - Bounty to crack our transaction validation protocol when both Android protected confirmation and detection of adverse code execution will be deployed
-- Include a TEE layer 2 to manage Root of trust based on full HSM hardware ( based on YubiHSM)
+- Include a TEE layer 2 to manage Root of trust based on full HSM hardware ( based on YubiHSM) to provide a 3 tier distributed HSM capability.
+
+![3T Distributed HSM overview drawio (Custom)](https://user-images.githubusercontent.com/4605611/143676701-869ebba4-51ff-49f5-9e3b-97797984d844.png)
+
 - Investigate potential integration with substrate connect to increase the security of the solution with additional off-chain features.
 - Reseach on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real human from bot with IA capabilities.
 
