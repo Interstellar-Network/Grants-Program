@@ -141,13 +141,13 @@ The need for wallet to be simpler to set-up and use, as well as the need for hig
 
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
 
-Math Wallet and Gluon are close. 
+Math Wallet and Gluon are close to our solution
 
 We think that we could bring a better user experience, security and performance (thanks to a highly scalable/higher txs layer 2 based on substraTEE). 
 
-Math Wallet envision smartcard with screem. It can be cumbersome to use.
+Math Wallet envision smartcard with screen, we think that despite a comparable level of security, It should more cumbersome and less flexible than our solution.
  
-Gluon QR code based transaction confirmation that require 2 screen can also be cumbersome and is already exposed to banking trojan with overlay capabilities. ( see attack on QR code in lightpaper). Although their TPM based approach could be complementary down the road to ours, to mitigate potential TEE future flaws on servers.
+Gluon QR code based transaction confirmation that requires 2 screen can also be more cumbersome and is already exposed to banking trojan with overlay capabilities ( see potential attack on QR code in our lightpaper). Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
 
 
 ## Team :busts_in_silhouette:
