@@ -28,14 +28,8 @@ The **Interstellar - Wallet Phase 1** Grant Proposal includes a Substrate Off-Ch
 **User experience** and **Security** are still the main **pain points** of non-custodial wallet. We think that they slow down blockchain and DeFi adoption.
 
 Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, based on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure
-Anyway, banking trojan can already compromise the previous 2FA schemes*
-[Android banking Trojan to steal cryptocurrency and 2FA codes](https://www.revelock.com/en/blog/oscorp-android-banking-trojan-to-steal-cryptocurrencies-and-2fa-codes  )
 
-
- **You just need to input on the keypad the one-time code you see (here 256)**
-
-**That's all to securely confirm a transaction** 
-> And the best part, this scheme is designed to resist malware attacks from state of the art banking trojans (and even targeted attacks at a later stage)
+![HW2Interstellar drawio](https://user-images.githubusercontent.com/4605611/144294254-6a8df61e-e9b6-4d3c-9d0b-90d9e4116d1e.png)
 
 
 
