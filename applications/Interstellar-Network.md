@@ -39,14 +39,7 @@ Interstellar is a novel type of non-custodial **frictionless** decentralized wal
 - **Just download an app** - no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
 - **Multichain Wallet** - securely store and interact with native cryptocurrency coins and tokens from multiple blockchains
 - **Confirm a transaction with ONLY ONE SCREEN** No SMS to wait for, no additional 2FA app to use, no QR code to scan.
-Anyway, banking trojan can already compromise the previous 2FA schemes*
-[Android banking Trojan to steal cryptocurrency and 2FA codes](https://www.revelock.com/en/blog/oscorp-android-banking-trojan-to-steal-cryptocurrencies-and-2fa-codes  )
 
-
- **You just need to input on the keypad the one-time code you see (here 256)**
-
-**That's all to securely confirm a transaction** 
-> And the best part, this scheme is designed to resist malware attacks from state of the art banking trojans (and even targeted attacks at a later stage)
 - **Up to 1,000,000 tps** - thanks to IntegriTEE and hardware enclave technology
 - **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service* (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
 - **Features to securely send coins with social network messages (even to people with no-wallet)** Link to "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players" to add
