@@ -24,6 +24,9 @@
 
 Interstellar is a novel non-custodial peace of mind mobile wallet with a hardware security level. Based on a Substrate blockchain and SubstraTEE/IntegriTEE workers, the wallet is the blockchain.
 
+![HW2Interstellar drawio](https://user-images.githubusercontent.com/4605611/144306533-24e88a5e-ed01-44f9-974c-2f51e0c5ea62.png)
+
+
 #### Features:
 - **Hardware security Level** - TEE on nodes and mobiles with TUI, garbled circuits and visual cryptography secure interface.
 - **Just download an app** - no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
