@@ -19,18 +19,10 @@
 
 ![Copy of Interstellar-Black-Text](https://user-images.githubusercontent.com/4605611/141333053-3f607ffe-1714-4512-b628-33274d0d0464.png)
 
+“The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.” User experience and security are still the main pain points of non-custodial wallet solutions. We think that they slow down the DeFi adoption.
 
-The **Interstellar - Wallet Phase 1** Grant Proposal includes a Substrate Off-Chain Worker OCW for an external Garbled Circuit Factory GCF and a Trusted Transaction Validation Protocol pallets demo (as a GCF use case)
 
- 
-#### Why Interstellar wallet?
-
-**User experience** and **Security** are still the main **pain points** of non-custodial wallet. We think that they slow down blockchain and DeFi adoption.
-
-Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, based on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure
-
-![HW2Interstellar drawio](https://user-images.githubusercontent.com/4605611/144294254-6a8df61e-e9b6-4d3c-9d0b-90d9e4116d1e.png)
-
+Interstellar is a novel non-custodial peace of mind mobile wallet with a hardware security level. Based on a Substrate blockchain and SubstraTEE/IntegriTEE workers, the wallet is the blockchain.
 
 
 #### Our solution is designed to support Blockchain and DeFi mass market adoption with:
@@ -54,10 +46,8 @@ Interstellar is a novel type of non-custodial **frictionless** decentralized wal
 
 ***Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)**
 
-#### Interstellar project Phase 1:
-
-The project phase 1 focus on two of the core components of the Interstaller solution: 
-- An OCW garbled circuit factory GCF to manage an external Garbled Circuit Generator service (We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution)
+#### The **Interstellar - Wallet Phase 1** focus on two of the core components of the Interstaller solution: 
+- A substrate OCW garbled circuit factory GCF to manage an external Garbled Circuit Generator service (We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution)
 - An implementation of the Transaction Validation protocol in substrate pallets to demo the usage of GCF whithin a substrate framework and with a mobile  Garbled Circuit evaluator client. 
 
 Following are other use cases of Garbled Circuit Factory:
