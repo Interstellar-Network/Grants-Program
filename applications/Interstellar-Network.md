@@ -30,7 +30,7 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 - **A Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
 - **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
-#### Features/Benefits
+#### Features:
 - **Hardware security Level** - TEE on nodes and mobiles with garbled circuits and visual cryptography secure interface
 - **Just download an app** - no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
 - **Multichain Wallet** - securely store and interact with native cryptocurrency coins and tokens from multiple blockchains
@@ -46,7 +46,8 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 
 ***Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)**
 
-#### The **Interstellar - Wallet Phase 1** focus on two of the core components of the Interstaller solution: 
+The **Interstellar - Wallet Phase 1** W3F Grant Proposal focuses on two of the core components of the Interstaller solution: 
+
 - A substrate OCW garbled circuit factory GCF to manage an external Garbled Circuit Generator service (We designed this Garbled circuit Factory to be used by substrate devellopers regardless of Interstellar solution)
 - An implementation of the Transaction Validation protocol in substrate pallets to demo the usage of GCF whithin a substrate framework and with a mobile  Garbled Circuit evaluator client. 
 
