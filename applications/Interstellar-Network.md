@@ -26,9 +26,9 @@
 
 **User experience** and **Security** are still the main **pain points** of non-custodial wallet. We think that they slow down blockchain and DeFi adoption.
 
-Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**. Based on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure
+Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, based on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure
 
-#### Our solution is designed to support Blockchain and SeFi mass market adoption with:
+#### Our solution is designed to support Blockchain and DeFi mass market adoption with:
 
 - **A Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
 - **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
@@ -37,7 +37,7 @@ Interstellar is a novel type of non-custodial **frictionless** decentralized wal
 - **Hardware security Level** - TEE on nodes and mobiles with garbled circuits and visual cryptography secure interface
 - **Just download an app** - no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
 - **Multichain Wallet** - securely store and interact with native cryptocurrency coins and tokens from multiple blockchains
-- **Confirm a transaction with ONLY ONE SCREEN** No short text message (SMS) to wait for, no additional 2FA app (like Google Authenticator) to use, no QR code to scan.
+- **Confirm a transaction with ONLY ONE SCREEN** No SMS to wait for, no additional 2FA app to use, no QR code to scan.
 Anyway, banking trojan can already compromise the previous 2FA schemes*
 [Android banking Trojan to steal cryptocurrency and 2FA codes](https://www.revelock.com/en/blog/oscorp-android-banking-trojan-to-steal-cryptocurrencies-and-2fa-codes  )
 
