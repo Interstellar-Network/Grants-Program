@@ -20,7 +20,7 @@
 ![Copy of Interstellar-Black-Text](https://user-images.githubusercontent.com/4605611/141333053-3f607ffe-1714-4512-b628-33274d0d0464.png)
 
 
- **Interstellar | Wallet Phase 1**: Grant Proposal includes a Substrate Off-Chain Worker OCW for an external Garbled Circuit Factory GCF and a Trusted Transaction Validation Protocol pallets demo (as a GCF use case)
+ **Interstellar - Wallet Phase 1** Grant Proposal includes a Substrate Off-Chain Worker OCW for an external Garbled Circuit Factory GCF and a Trusted Transaction Validation Protocol pallets demo (as a GCF use case)
 
  
 #### Why Interstellar wallet?
