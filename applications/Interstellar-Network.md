@@ -24,12 +24,6 @@
 
 Interstellar is a novel non-custodial peace of mind mobile wallet with a hardware security level. Based on a Substrate blockchain and SubstraTEE/IntegriTEE workers, the wallet is the blockchain.
 
-
-#### Our solution is designed to support Blockchain and DeFi mass market adoption with:
-
-- **A Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
-- **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
-
 #### Features:
 - **Hardware security Level** - TEE on nodes and mobiles with garbled circuits and visual cryptography secure interface
 - **Just download an app** - no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
@@ -41,6 +35,10 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 - **Features to securely send coins with social network messages (even to people with no-wallet)** Link to "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players" to add
 - **Cross chain Swap feature** based on a Continious Liquitity Pool (CLP like ThorChain but with higher security and performance TEE/MPC/TTS + Trusted Transaction Validation protocol with mutisig option*  mobiles + yubikey for Validators and power users)
 
+#### Our solution is designed to support Blockchain and DeFi mass market adoption with:
+
+- **A Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
+- **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
 
 
