@@ -45,7 +45,7 @@ Anyway, banking trojan can already compromise the previous 2FA schemes*
 
  **You just need to input on the keypad the one-time code you see (here 256)**
 
-**That's all to securely confirm a transaction** ![Wallet-superposition-White-Shadow4medium smaller](https://user-images.githubusercontent.com/4605611/141301152-951143c3-d820-4bc1-8120-5a60a6878d52.png)
+**That's all to securely confirm a transaction** 
 > And the best part, this scheme is designed to resist malware attacks from state of the art banking trojans (and even targeted attacks at a later stage)
 - **Up to 1,000,000 tps** - thanks to IntegriTEE and hardware enclave technology
 - **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service* (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
