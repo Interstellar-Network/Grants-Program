@@ -366,17 +366,6 @@ Please include here
 
 - Investigate potential integration with substrate connect to increase the security of the solution with additional off-chain features.
 - Reseach on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real human from bot with IA capabilities. 
-## Additional Information :heavy_plus_sign:
-
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-
-- Work you have already done.
-- Wheter there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
-
 
 ## Additional Information :heavy_plus_sign:
 
