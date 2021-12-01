@@ -26,21 +26,17 @@
 
 **User experience** and **Security** are still the main **pain points** of non-custodial wallet. We think that they slow down blockchain and DeFi adoption.
 
-- **Wallets are not easy for newcomers and even for some experienced users:** The Public Private key concept is complex for non-technical people and can be easily misused. The process of wallet creation can be a bit confusing and misleading, and the average user still do not understand clearly what information, passphrase, private key, etc. need to be protected and how to store it safely.
+Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**. Based on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure
 
-- **Only Hardware Wallets (like Ledger, Trezor, Ngrave, etc.) are secures:** Because blockchains themselves and centralized exchanges are getting more secures, bad actors now focus their attacks on Individual wallets and exchange accounts. 
-Banking trojans are now also targeting cryptocurrencies's owners. Dapp and wallets are more and more exposed on mobiles and in browsers as those trojans are getting more sophisticated and pervasive.
-**“Android banking malware, which rose by an incredible 158.7 per cent in Q1, saw a continued increase of 49 per cent”**- Source ESET quarterly threat report 2021. Zero day that enables bad actors, through “exploit chain”, to get the control on mobile operating system and browsers have never been higher.[2021 has broken the record for zero-day hacking attacks]( https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/2021/09/23/1036140/2021-record-zero-day-hacks-reasons/amp/). Given the growth dynamic of the malware/banking trojan threat, the blockchain ecosystem need now a protection against malware on mobiles wallet and Dapps.
+#### Our solution is designed to support Blockchain and SeFi mass market adoption with:
 
-
-#### Our solution to address the previous issues
-Interstellar is a novel type of non-custodial **frictionless** decentralized wallet with **hardware security level**, designed to support blockchain and DeFi **mass market adoption**. Based on a **substrate blockchain** and on **substraTEE/IntegriTEE Workers** to secure:
 - **A Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
 - **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
 #### Features/Benefits
-
-- **Just download an app** with no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
+- **Hardware security Level** - TEE on nodes and mobiles with garbled circuits and visual cryptography secure interface
+- **Just download an app** - no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
+- **Multichain Wallet** - securely store and interact with native cryptocurrency coins and tokens from multiple blockchains
 - **Confirm a transaction with ONLY ONE SCREEN** No short text message (SMS) to wait for, no additional 2FA app (like Google Authenticator) to use, no QR code to scan.
 Anyway, banking trojan can already compromise the previous 2FA schemes*
 [Android banking Trojan to steal cryptocurrency and 2FA codes](https://www.revelock.com/en/blog/oscorp-android-banking-trojan-to-steal-cryptocurrencies-and-2fa-codes  )
@@ -50,6 +46,7 @@ Anyway, banking trojan can already compromise the previous 2FA schemes*
 
 **That's all to securely confirm a transaction** ![Wallet-superposition-White-Shadow4medium smaller](https://user-images.githubusercontent.com/4605611/141301152-951143c3-d820-4bc1-8120-5a60a6878d52.png)
 > And the best part, this scheme is designed to resist malware attacks from state of the art banking trojans (and even targeted attacks at a later stage)
+- **Up to 1,000,000 tps** - thanks to IntegriTEE and hardware enclave technology
 - **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service* (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
 - **Features to securely send coins with social network messages (even to people with no-wallet)** Link to "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players" to add
 - **Cross chain Swap feature** based on a Continious Liquitity Pool (CLP like ThorChain but with higher security and performance TEE/MPC/TTS + Trusted Transaction Validation protocol with mutisig option*  mobiles + yubikey for Validators and power users)
