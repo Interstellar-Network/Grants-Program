@@ -353,12 +353,12 @@ Please include here
 >the team's long-term plans and intentions in relation to it.
 
 - Bounty to crack our transaction validation protocol when both Android protected confirmation and detection of adverse code execution will be deployed
-- Include a TEE layer 2 to manage Root of trust based on full HSM hardware ( based on YubiHSM) to provide a 3 tier distributed HSM capability.
+- Include a TEE layer 2 to manage a Root of trust based on full HSM hardware ( with YubiHSM typeof solution) to provide a 3 tier distributed HSM capability.
 
 ![3T Distributed HSM overview drawio (Custom)](https://user-images.githubusercontent.com/4605611/143676701-869ebba4-51ff-49f5-9e3b-97797984d844.png)
 
-- Investigate potential integration with substrate connect to increase the security of the solution with additional off-chain features.
-- Reseach on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real human from bot with IA capabilities. 
+- Investigate potential integration with substrate connect to increase the security and flexibility of the solution with potential additional on-chain/off-chain data/features at mobile level.
+- Reseach on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real human from bot with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
 
 ## Additional Information :heavy_plus_sign:
 
