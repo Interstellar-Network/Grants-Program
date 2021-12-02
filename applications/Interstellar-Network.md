@@ -340,12 +340,12 @@ For each milestone,
 
 ## Future Plans
 
-Please include here
+
 
 >how you intend to use, enhance, promote and support your project in the short term:
 
 - We aim at develloping a user comunity and get in talks with Dapp and especially DeFi players with a taylored value proposition for them.
-- Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame (to display character and figures) to increase the complexity and ressources required for an attack.
+- Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame to display character, figures, images. It should increase the complexity, cost and ressources required for an attack.
 - Potential research grant on our real-time Malware detection scheme
 - Add OT oblivious transfer in our pallet to enable usage of MPC with our GCF.
 - Add behavioral biometric feature
