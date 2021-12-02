@@ -34,9 +34,9 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 - **Confirm a transaction with ONLY ONE SCREEN** No SMS to wait for, no additional 2FA app to use, no QR code to scan.
 
 - **Up to 1,000,000 tps** - thanks to IntegriTEE and hardware enclave technology
-- **Social Recovery Service** that leverages the existing substrate pallet, and a novel decentralized autonomous recovery service* (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
-- **Features to securely send coins with social network messages (even to people with no-wallet)** Ref "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players"
-- **Cross chain Swap feature** based on a Continious Liquitity Pool (CLP like ThorChain but with higher security and performance TEE/MPC/TTS + Trusted Transaction Validation protocol with mutisig option*  mobiles + yubikey for Validators and power users)
+- **Social Recovery Service** - leverages the existing substrate pallet, and a novel decentralized autonomous recovery service* (Comment: we hope that we will be able to provide a response to the related RFP in the following phases)
+- **Features to securely send coins with social network messages (even to people with no-wallet)** - "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players"
+- **Cross chain Swap feature** - based on a Continious Liquitity Pool (CLP like ThorChain but with higher security and performance) - leverage TEE/MPC/TTS + Trusted Transaction Validation protocol with mutisig option*  mobiles + yubikey for Validators and power users
 
 #### Our solution is designed to support Blockchain and DeFi mass market adoption with:
 
@@ -75,7 +75,7 @@ Following are other use cases of Garbled Circuit Factory:
 
 #### Garbled Circuit Factory **previous vork**
 The team has already develloped a strong authentication solution with circuits based on JustGarble implememtation https://cseweb.ucsd.edu/groups/justgarble/ that we customized with Free XOR and Half Gates and other specific improvement for our needs ( pre-computation of our Visual cryptographic Circuits).
-We achieved a production ready platform with significant performance on the logic circuit production and the whole pipeline with memory mangement avoiding serilization/desirializtaion of the different circuit format: HDL, non-garbled and garbled.
+We achieved a production ready platform with significant performance on the logic circuit production with AES-NI. The whole pipeline use optimized memory mangement and avoid serialization/deserialization of the different circuit formats: HDL-> non-garbled->garbled.
 
 ------------
 
