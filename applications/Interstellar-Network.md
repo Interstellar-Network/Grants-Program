@@ -346,18 +346,21 @@ Please include here
 
 - We aim at develloping a user comunity and get in talks with Dapp and especially DeFi players with a taylored value proposition for them.
 - Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame (to display character and figures) to increase the complexity and ressources required for an attack.
-- potential research grant on our real-time Malware detection scheme
-- add OT oblivious transfer in our pallet to enable usage of MPC with our GCF.
-- add behavioral biometric feature
+- Potential research grant on our real-time Malware detection scheme
+- Add OT oblivious transfer in our pallet to enable usage of MPC with our GCF.
+- Add behavioral biometric feature
 
 >the team's long-term plans and intentions in relation to it.
 
 - Bounty to crack our transaction validation protocol when both Android protected confirmation and detection of adverse code execution will be deployed
 - Include a TEE layer 2 to manage a Root of trust based on full HSM hardware ( with YubiHSM typeof solution) to provide a 3 tier distributed HSM capability.
 
+
+
+- Investigate potential integration with substrate connect to increase the security and flexibility of the solution with potential additional on-chain/off-chain data/features at mobile/browser level.
+
 ![3T Distributed HSM overview drawio (Custom)](https://user-images.githubusercontent.com/4605611/143676701-869ebba4-51ff-49f5-9e3b-97797984d844.png)
 
-- Investigate potential integration with substrate connect to increase the security and flexibility of the solution with potential additional on-chain/off-chain data/features at mobile level.
 - Reseach on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real human from bot with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
 
 ## Additional Information :heavy_plus_sign:
