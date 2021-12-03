@@ -295,8 +295,8 @@ If you've already started implementing your project or it is part of a larger re
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
-| 1. | substrate modules Authenicator port in TEE | We will migrate Authenticator in substraTEE/IntergriTEE workers |  
-| 2. | Substrate module Mobile Registry port in TEE | We will migrate part of the mobile registry pallet in substraTEE/IntergriTEE workers |  
+| 1. | substrate modules Authenicator port in TEE | We will migrate Authenticator in substraTEE/IntegriTEE workers |  
+| 2. | Substrate module Mobile Registry port in TEE | We will migrate part of the mobile registry pallet in substraTEE/IntegriTEE workers |  
   
 
 
