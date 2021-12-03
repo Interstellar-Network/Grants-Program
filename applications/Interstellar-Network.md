@@ -23,8 +23,8 @@
 
 The main pain points of non-custodial wallet solutions are still:
 
-- **User experience**  https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e  
-- **security** https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7 
+- **User experience**  [ Canbe an easy to set-up wallet an efficient customer aquisition tool for DeFi players](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e)  
+- **Security** [Are cryptocurrency wallets more at risk than ever](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7) 
 
 We think that they slow down the DeFi adoption.
 
