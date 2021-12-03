@@ -19,7 +19,9 @@
 
 ![Copy of Interstellar-Black-Text](https://user-images.githubusercontent.com/4605611/141333053-3f607ffe-1714-4512-b628-33274d0d0464.png)
 
-“The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.” User experience and security are still the main pain points of non-custodial wallet solutions. We think that they slow down the DeFi adoption.
+“The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.” 
+
+**User experience**  https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e  and **security** https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7  are still the main pain points of non-custodial wallet solutions. We think that they slow down the DeFi adoption.
 
 
 Interstellar is a novel non-custodial peace of mind mobile wallet with a hardware security level. Based on a Substrate blockchain and SubstraTEE/IntegriTEE workers, the wallet is the blockchain.
