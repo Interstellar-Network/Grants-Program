@@ -21,8 +21,8 @@
 
 “The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.” 
 The main pain points of non-custodial wallet solutions are still:
-- **User experience**  [ Can be an easy to set-up wallet an efficient customer aquisition tool for DeFi players](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e)  
-- **Security** [Are cryptocurrency wallets more at risk than ever](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7) 
+- **User experience**  [Can be an easy to set-up wallet an efficient customer aquisition tool for DeFi players?](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e)  
+- **Security** [Are cryptocurrency wallets more at risk than ever?](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7) 
 
 > We think that current wallet solutions slow down the DeFi adoption.
 
@@ -41,7 +41,7 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 - **Up to 1,000,000 tps** - thanks to IntegriTEE layer 2 based on hardware enclave technology
 - **Social Recovery Service** - leverages the existing substrate pallet, and a novel decentralized autonomous recovery service 
 > Comment: we hope that we will be able to provide a response to the related RFP in the following phases
-- **Features to securely send coins with social network messages (even to people with no-wallet)** - "Can be easy to set-up wallet an efficient customer acquisition tool for DeFi players"
+- **Features to securely send coins with social network messages (even to people with no-wallet)** - [Can be an easy to set-up wallet an efficient customer aquisition tool for DeFi players?](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e)
 - **Cross chain Swap feature** - based on a Continious Liquitity Pool (CLP like ThorChain but with higher security and performance) - leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a mutisig option (mobiles + yubikey) for Validators and large liquitity owners
 
 #### Our solution is designed to support Blockchain and DeFi mass market adoption with:
