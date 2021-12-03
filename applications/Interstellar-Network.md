@@ -134,7 +134,7 @@ The need for a wallet to be simpler to set-up and use, as well as the need for h
 
 Math Wallet and Gluon are close to our solution
 
-We think that we could bring a better user experience, security and performance (thanks to a highly scalable/higher txs layer 2 based on substraTEE): 
+We think that we could bring a better user experience, security and performance, thanks to a highly scalable layer 2 based on substraTEE: 
 
 - Math Wallet is based on MPC that require heavier computation ressources. They also envision smartcard with screen. Despite a comparable level of security, it is more expensive, cumbersome to use, less flexible and more complex to deploy than our solution.
  
