@@ -138,7 +138,7 @@ We think that we could bring a better user experience, security and performance,
 
 - Math Wallet is based on MPC that require heavier computation ressources. They also envision smartcard with screen. Despite a comparable level of security, it is more expensive, cumbersome to use, less flexible and more complex to deploy than our solution.
  
-- Gluon QR code based transaction confirmation requires 2 screens is more cumbersome for the user. Moreover, this scheme is already exposed to banking trojan with overlay capabilities*. Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
+- Gluon QR code based transaction confirmation that requires 2 screens is more cumbersome for the user. Moreover, this scheme is already exposed to banking trojan with overlay capabilities*. Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
 > *see: An attack high level description on solutions that use QR code for transaction confirmation [Are cryptocurrency wallets more at risk than ever](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7) 
  
 
