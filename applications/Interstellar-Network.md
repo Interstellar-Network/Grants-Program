@@ -116,7 +116,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 > Where and how does your project fit into the ecosystem?
 
 This project is the first phase of a wallet project. Although, we think that our Transaction Validation protocol could bring a novel approach to address UX/UI security issues regardless of other features of our frictionless wallet.
-We designed our Transaction Validation protocol to benfit to other wallets or Dapps. We think it could also be complemetary down the road to mobile light client like substrate connect (check future plan section).
+We designed our Transaction Validation protocol to benfit to other wallets or Dapps. We think it could also be complemetary down the road to mobile light client like substrate connect (check **Future Plans** section).
   - -
 
 ![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png)
@@ -138,7 +138,9 @@ We think that we could bring a better user experience, security and performance 
 
 - Math Wallet is based on MPC that require heavier computation ressources. They also envision smartcard with screen. Despite a comparable level of security, it is more expensive, cumbersome to use, less flexible and more complex to deploy than our solution.
  
-- Gluon QR code based transaction confirmation requires 2 screens is more cumbersome for the user. Moreover, this scheme is already exposed to banking trojan with overlay capabilities ( see potential attack on QR code in our lightpaper). Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
+- Gluon QR code based transaction confirmation requires 2 screens is more cumbersome for the user. Moreover, this scheme is already exposed to banking trojan with overlay capabilities*. Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
+> see: An attack high level description on solutions that use QR code for transaction confirmation [Are cryptocurrency wallets more at risk than ever](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7) 
+ 
 
 
 ## Team :busts_in_silhouette:
