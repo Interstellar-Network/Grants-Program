@@ -180,7 +180,7 @@ solution for blockchain.
 - 2016 Patent portfolio (10+ patents) financed by France Brevet
 
 We then stop the activity of our former company to address legacy financial institutions and let go our patent ownership to focus on blockchain project.
-We are now security and Fintech multiple entrepreneurs, security Researchers, patents fillers who turn open-source developers and blockchain enthusiasts.
+We are now security and fintech multiple entrepreneurs, security researchers, patents fillers who turn open-source developers and blockchain enthusiasts.
 
 ### Team Code Repos
 
