@@ -152,7 +152,7 @@ Jean-Luc Leleu
 - Names of team members:
 - Nathan Prat
 - Eliot Leleu
-- Jean-Louis Honenen
+- Jean-Louis Hoenen
 - Markus Jakobssson https://www.markus-jakobsson.com/
 - Aude Bourdouxhe
 
