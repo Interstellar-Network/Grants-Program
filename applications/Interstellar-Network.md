@@ -29,7 +29,7 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 
 #### Features:
 - **Hardware security Level** - TEE on nodes and mobiles with TUI, garbled circuits and visual cryptography secure interface.
-- **Just download an app** - no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember*
+- **Just download an app** - no set-up nor registration, no Private Keys nor passphrase to backup, no PIN, password, or any secret to remember
 - **Multichain Wallet** - securely store and interact with native cryptocurrency coins and tokens from multiple blockchains
 - **Confirm a transaction with ONLY ONE SCREEN** - no SMS to wait for, no additional 2FA app to use, no QR code to scan.
 
@@ -44,9 +44,6 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 - **A Decentralized Trusted Transaction Validation Protocol** that leverage **TEE features on mobile**, combined with **One Time Garbled Circuit and Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
 
-
-***Link to medium Interstellar Wallet – Technology and security lightpaper.(draft/work in progress)**
-
 The **Interstellar - Wallet Phase 1** W3F Grant Proposal focuses on two of the core components of the Interstaller solution: 
 
 - A substrate Off-Chain Workers OCW Garbled Circuit Factory GCF to manage an external garbled circuit generator service (designed to be used by substrate devellopers regardless of Interstellar solution)
@@ -56,7 +53,7 @@ Following are other use cases of Garbled Circuit Factory:
 
 - Every schemes  based on Garbled Circuit generator and evaluator
 - Multi Party Computation MPC protocol (when oblivious transfer OT will be managed in pallets)
-- Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction session) - end of Technology and security lightpaper.(draft/work in progress)
+- Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction session - work in progress)
 - Post Quantum encryption and signature scheme implementation (NIST candiate examples)
 
 
