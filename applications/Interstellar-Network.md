@@ -221,33 +221,17 @@ If you've already started implementing your project or it is part of a larger re
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
+- **Total Estimated Duration:** 5 months
+- **Full-Time Equivalent (FTE):**  11
+- **Total Costs:** 47,000 USD
 
 ### Milestone 1 — Implement GCF Substrate Modules
 
 - **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 10,000 USD
+- **FTE:**  2.2
+- **Costs:** 9,400 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -267,8 +251,8 @@ For each milestone,
 ### Milestone 2 — GC management in substrate modules and Transaction Validation Protocol use case (first part)
 
 - **Estimated Duration:** 1 month
-- **FTE:**  2
-- **Costs:** 10,000 USD
+- **FTE:**  2.2
+- **Costs:** 9,400 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -284,8 +268,8 @@ For each milestone,
 ### Milestone 3 — Transaction Validation Protocol with  mobile use case (second part)
 
 - **Estimated Duration:** 1 month
-- **FTE:**  2
-- **Costs:** 10,000 USD
+- **FTE:**  2.2
+- **Costs:** 9,400 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -301,8 +285,8 @@ For each milestone,
 ### Milestone 4 — Integration with substraTEE/IntegriTEE
 
 - **Estimated Duration:** 1 month
-- **FTE:**  2
-- **Costs:** 10,000 USD
+- **FTE:**  2.2
+- **Costs:** 9,400 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -319,8 +303,8 @@ For each milestone,
 ### Milestone 5 — GCF in TEE
 
 - **Estimated Duration:** 1 month
-- **FTE:**  2
-- **Costs:** 10,000 USD
+- **FTE:**  2.2
+- **Costs:** 9,400 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
