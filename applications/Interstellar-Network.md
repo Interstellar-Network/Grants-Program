@@ -362,7 +362,7 @@ For each milestone,
 
 ![3T Distributed HSM overview drawio (Custom)](https://user-images.githubusercontent.com/4605611/143676701-869ebba4-51ff-49f5-9e3b-97797984d844.png)
 
-- Reseach on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real human from bot with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
+- Reseach on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real humans from bots with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
 
 ## Additional Information :heavy_plus_sign:
 
