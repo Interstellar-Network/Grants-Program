@@ -169,7 +169,7 @@ Jean-Luc Leleu
 
 ### Team's experience
 
-We are a cybersecurity team, specialized in end-user devices & smartphone security,  now working on blockchain after some experiences with the banking industry. We have won cybersecurity innovation award from Société Générale and Wavestone (security consulting and audit firm in the financial industry). We have also been selected by 500 startup Accelerator, batch 20 in San Francisco and have our patent portfolio financed by France Brevet, a government agency.
+We are a cybersecurity team, specialized in end-user devices & smartphone security,  now working on blockchain after some experiences with the banking industry. We have won the cybersecurity innovation award from Société Générale SG bank and Wavestone (security consulting and audit firm in the financial industry). We have also been selected by 500 startup Accelerator, batch 20 in San Francisco and have our patent portfolio financed by France Brevet, a government agency.
 
 - 2018 Thales strategic partner(selected in Thales first batch 
 accelerator in Station F)
