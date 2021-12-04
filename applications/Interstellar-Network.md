@@ -153,8 +153,10 @@ Jean-Luc Leleu
 - Nathan Prat
 - Eliot Leleu
 - Jean-Louis Hoenen
-- Markus Jakobssson https://www.markus-jakobsson.com/
 - Aude Bourdouxhe
+- Markus Jakobssson https://www.markus-jakobsson.com/ (advisor)
+- Philippe Salats ( advisor)
+
 
 ### Contact
 
@@ -200,10 +202,12 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - https://www.linkedin.com/in/eliotjfl/ Eliot Leleu 
  
 - https://www.linkedin.com/in/jlhoenen/ Jean-Louis Hoenen>
- 
-- https://www.linkedin.com/in/markusjakobsson/ Markus Jakobssson>
- 
+
 - https://www.linkedin.com/in/aude-bourdouxhe-40656b28/ Aude Bourdouxhe
+ 
+- https://www.linkedin.com/in/markusjakobsson/ Markus Jakobssson (advisor)
+ 
+- https://www.linkedin.com/in/philippesalats/ Philippe Salats (advisor)
 
 - https://www.linkedin.com/in/jlleleu/ Jean-Luc Leleu
 
