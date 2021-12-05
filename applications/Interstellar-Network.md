@@ -17,7 +17,8 @@
 
 ### Overview
 
-![Copy of Interstellar-Black-Text](https://user-images.githubusercontent.com/4605611/141333053-3f607ffe-1714-4512-b628-33274d0d0464.png)
+![Interstellar-2042-Text](https://user-images.githubusercontent.com/4605611/144738865-d9a21ac3-5865-4025-bf3d-122eb4f5a0ad.png)
+
 
 “The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.” 
 The main pain points of non-custodial wallet solutions are still:
@@ -122,9 +123,6 @@ We designed our validation transaction protocol to benfit to other wallets or Da
 ![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png#gh-light-mode-only)
 
 ![TTV overview overview dark drawio](https://user-images.githubusercontent.com/4605611/144738811-d061b935-5dc3-4849-a3db-9cb117a06813.png#gh-dark-mode-only)
-
-
-![TTV overview overview dark drawio](https://user-images.githubusercontent.com/4605611/144738369-e49db5af-b736-44ab-abcc-fd2b9706babc.png#gh-dark-mode-only)
 
 
 >Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
