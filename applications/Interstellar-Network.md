@@ -357,6 +357,9 @@ If you've already started implementing your project or it is part of a larger re
 
 ![3T Distributed HSM overview drawio (Custom)](https://user-images.githubusercontent.com/4605611/143676701-869ebba4-51ff-49f5-9e3b-97797984d844.png)
 
+![3T DHSM overview dark drawio](https://user-images.githubusercontent.com/4605611/144740875-4402713e-21ae-4279-83fd-12e3141e3e65.png#gh-dark-mode-only)
+
+
 - Reseach on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real humans from bots with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
 
 ## Additional Information :heavy_plus_sign:
