@@ -340,6 +340,7 @@ If you've already started implementing your project or it is part of a larger re
 >how you intend to use, enhance, promote and support your project in the short term:
 
 - We aim at develloping a user comunity and get in talks with Dapp and especially DeFi players with a taylored value proposition for them.
+- Port Garbled Circuit Evaluator in WASM to enable its use on browser, nodes.
 - Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame to display character, figures, images. It should increase the complexity, cost and ressources required for an attack.
 - Potential research grant on our real-time Malware detection scheme
 - Add OT oblivious transfer in our pallet to enable usage of MPC with our GCF.
