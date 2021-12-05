@@ -122,7 +122,10 @@ We designed our validation transaction protocol to benfit to other wallets or Da
 
 ![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png#gh-light-mode-only)
 
-![TTV overview overview dark drawio](https://user-images.githubusercontent.com/4605611/144738811-d061b935-5dc3-4849-a3db-9cb117a06813.png#gh-dark-mode-only)
+
+
+![TTV overview overview dark drawio](https://user-images.githubusercontent.com/4605611/144738926-e6f0db47-f7ff-4382-ae5d-251420e23a61.png#gh-dark-mode-only)
+
 
 
 >Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
