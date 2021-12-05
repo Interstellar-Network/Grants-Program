@@ -120,10 +120,11 @@ This project is the first phase of a wallet project. Although, we think that our
 We designed our validation transaction protocol to benfit to other wallets or Dapps. We think it could also be complemetary down the road to mobile light client like substrate connect (check **Future Plans** section).
   
 
--
 
-![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png#gh-light-mode-only)
 
+![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png)
+
+![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/144742049-54d3a212-b471-4a69-9f44-adfb150814ca.png#gh-light-mode-only)
 
 
 ![TTV overview overview dark drawio](https://user-images.githubusercontent.com/4605611/144738926-e6f0db47-f7ff-4382-ae5d-251420e23a61.png#gh-dark-mode-only)
