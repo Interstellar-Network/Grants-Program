@@ -118,7 +118,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 This project is the first phase of a wallet project. Although, we think that our Trusted Transaction Validation protocol could bring a novel approach to address UX/UI security issues regardless of other features of our frictionless wallet.
 We designed our validation transaction protocol to benfit to other wallets or Dapps. We think it could also be complemetary down the road to mobile light client like substrate connect (check **Future Plans** section).
-  - -
+  -
 
 ![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png#gh-light-mode-only)
 
