@@ -355,7 +355,8 @@ If you've already started implementing your project or it is part of a larger re
 
 - Investigate potential integration with substrate connect to increase the security and flexibility of the solution with potential additional on-chain/off-chain data/features at mobile/browser level.
 
-![3T Distributed HSM overview drawio (Custom)](https://user-images.githubusercontent.com/4605611/143676701-869ebba4-51ff-49f5-9e3b-97797984d844.png)
+![3T Distributed HSM overview drawio](https://user-images.githubusercontent.com/4605611/144741459-3776d2a7-a64b-40f8-b8a9-98abd590e452.png#gh-light-mode-only)
+
 
 ![3T DHSM overview dark drawio](https://user-images.githubusercontent.com/4605611/144740875-4402713e-21ae-4279-83fd-12e3141e3e65.png#gh-dark-mode-only)
 
