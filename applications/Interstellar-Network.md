@@ -122,7 +122,7 @@ We designed our validation transaction protocol to benfit to other wallets or Da
 
 
 
-![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/143036398-f4111713-652e-4478-8c77-afc9926149c1.png)
+
 
 ![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/144742049-54d3a212-b471-4a69-9f44-adfb150814ca.png#gh-light-mode-only)
 
