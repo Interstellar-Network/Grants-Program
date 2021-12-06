@@ -179,18 +179,8 @@ Jean-Luc Leleu
 - **Registered Legal Entity:** N/A - we are still in the process of establishing a legal entity.
 
 ### Team's experience
+[Team deck](https://docs.google.com/presentation/d/1AuM5YO4ysFqoj3uquQ46NJIprDSaALZrqUqAef-ITns/edit?usp=sharing)
 
-We are a cybersecurity team, specialized in end-user devices & smartphone security,  now working on blockchain after some experiences with the banking industry. We have won the cybersecurity innovation award from Société Générale SG bank and Wavestone (security consulting and audit firm in the financial industry). We have also been selected by 500 startup Accelerator, batch 20 in San Francisco and have our patent portfolio financed by France Brevet, a government agency.
-
-- 2018 Thales strategic partner(selected in Thales first batch 
-accelerator in Station F)
-- Partnership with Gemalto to issue smartcard hardware wallet 
-solution for blockchain.
-- 2017 500 Startups batch 20 (San Francisco California)
-- Banking Cyber Security Innovation Awards winner
-- 2016 Patent portfolio (10+ patents) financed by France Brevet
-
-We then stop the activity of our former company to address legacy financial institutions and let go our patent ownership to focus on blockchain project.
 We are now security and fintech multiple entrepreneurs, security researchers, patents fillers who turn open-source developers and blockchain enthusiasts.
 
 ### Team Code Repos
