@@ -146,7 +146,7 @@ Math Wallet and Gluon are close to our solution
 
 We think that we could bring a better user experience, security and performance, thanks to a highly scalable layer 2 based on substraTEE: 
 
-- Math Wallet is based on MPC that requires heavier computation ressources. They also envision smartcard with screen. A comparable to our level of security, but more expensive, cumbersome to use, less flexible and more complex to deploy than our solution.
+- Math Wallet is based on MPC that requires heavier computation ressources. They also envision smartcard with screen. It's comparable to our level of security, but more expensive, cumbersome to use, less flexible and more complex to deploy than our solution.
  
 - Gluon QR code based transaction confirmation that requires 2 screens is more cumbersome for the user. Moreover, this scheme is already exposed to banking trojan with overlay capabilities*. Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
 > *see: An attack high level description on solutions that use QR code for transaction confirmation [Are cryptocurrency wallets more at risk than ever](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7) 
