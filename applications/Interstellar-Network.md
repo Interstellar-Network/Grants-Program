@@ -169,8 +169,8 @@ Jean-Luc Leleu
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** 
+- **Contact Name:** Jean-Luc Leleu
+- **Contact Email:** jeanluc.leleu@protonmail.com
 - **Website:** https://www.interstellar.gg/
 
 ### Legal Structure
