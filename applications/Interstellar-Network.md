@@ -133,12 +133,12 @@ We designed our validation transaction protocol to benfit to other wallets or Da
 
 >Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-We want to target in priority Dapp providers in the DeFi ecosystem with develloper tools to integrate our solution with their Dapps. We think that our value proposition should be attractive to them.  (link growth tool)
+We want to target in priority Dapp providers in the DeFi ecosystem with develloper tools to integrate our solution with their Dapps. We think that our value proposition should be attractive to them.
 At the same time we want to target newcomers with a Robinhood for DeFi wallet app that include average dollar cost feature.
 
 > What need(s) does your project meet?
 
-The need for a wallet to be simpler to set-up and use, as well as the need for higher security to address the growing malware/banking trojan threats. (link attacks list in light paper)
+The need for a wallet to be simpler to set-up and use, as well as the need for higher security to address the growing malware/banking trojan threats.
 
 > Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
 
