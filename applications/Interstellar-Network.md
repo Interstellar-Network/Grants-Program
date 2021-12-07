@@ -192,7 +192,7 @@ We are now security and fintech multiple entrepreneurs, security researchers, pa
 - https://github.com/Interstellar-Network/wallet-ph1
 
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+
 - https://github.com/nathanprat
 
 
