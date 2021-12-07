@@ -325,12 +325,12 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame to display character, figures, images. It should increase the complexity, cost and resources required for an attack.
 - Potential research grant on our real-time Malware detection scheme
 - Add OT oblivious transfer in our pallet to enable usage of MPC with our GCF.
-- Add behavioral biometric feature
+- Add behavioural biometric feature
 
 >the team's long-term plans and intentions in relation to it.
 
 - Bounty to crack our transaction validation protocol when both Android protected confirmation and detection of adverse code execution will be deployed
-- Include a TEE layer 2 to manage a Root of trust based on full HSM hardware ( with YubiHSM typeof solution) to provide a 3 tier distributed HSM capability.
+- Include a TEE layer 2 to manage a Root of trust based on full HSM hardware ( with YubiHSM type of solution) to provide a 3 tier distributed HSM capability.
 
 
 
@@ -343,7 +343,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 
 
-- Research on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real humans from bots with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
+- Research on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to discriminate real humans from bots with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
 
 ## Additional Information :heavy_plus_sign:
 
@@ -353,5 +353,5 @@ Here you can also add any additional information that you think is relevant to t
 
 
 - Work you have already done.
-- Wheter there are any other teams who have already contributed (financially) to the project.
+- Whether there are any other teams who have already contributed (financially) to the project.
 - Previous grants you may have applied for.
