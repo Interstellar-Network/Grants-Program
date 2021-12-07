@@ -53,12 +53,12 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 - **Social Recovery Service** - leverages the existing Substrate pallet and a novel decentralized autonomous recovery service 
 > We hope that we will be able to provide a response to the related RFP in the following phases
 - **Features to securely send coins with social network messages (even to persons with no-wallet)** - explained in [Can an easy to set-up wallet be an efficient customer acquisition tool]
-- **Cross chain Swap feature** - based on a Continious Liquidity Pool (CLP like ThorChain but with higher security and performance) - leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a muLtisig option (mobiles + yubikey) for Validators and large liquitity owners
+- **Cross chain swap feature** - based on a Continuous Liquidity Pool (CLP like THORChain but with higher security and performance) - leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
 
-#### Our solution is designed to support Blockchain and DeFi mass market adoption with:
+#### Our solution is designed to support blockchain and DeFi mass market adoption with:
 
-- **A Decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
-- **A Decentralized Trusted Transaction Validation Protocol** that leverages **TEE features on mobile incl. TUI**, combined with **One Time Garbled Circuit** and **Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
+- **A decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
+- **A decentralized Trusted Transaction Validation protocol** that leverages **TEE features on mobile incl. TUI**, combined with **One Time Garbled Circuit** and **Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
 
 
 The **Interstellar - Wallet Phase 1** W3F Grant Proposal focuses on two of the core components of the Interstellar solution: 
