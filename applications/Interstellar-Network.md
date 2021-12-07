@@ -85,7 +85,7 @@ We achieved a production ready platform with significant performance on the logi
 ------------
 
 ```shell
-1 pratn@DESKTOP-U6PJB3U:~/workspace/j2l/lib_server/build$ ./circuit_display_gen_bench -nb_circuits_to_generate=5000
+1 ./circuit_display_gen_bench -nb_circuits_to_generate=5000
 2 display_size : 360,154,50,590
 3 time in s : 28.1261 s
 4 circuits_per_hour : 639975
