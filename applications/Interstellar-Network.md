@@ -63,15 +63,15 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 
 The **Interstellar - Wallet Phase 1** W3F Grant Proposal focuses on two of the core components of the Interstellar solution: 
 
-- A Substrate Off-Chain Worker OCW Garbled Circuit Factory GCF to manage an external garbled circuit generator service (designed to be used by substrate developers regardless of Interstellar solution)
-- An implementation of the Transaction Validation protocol in Substrate pallets to demonstrate the usage of GCF whithin a Substrate framework and with a mobile  Garbled Circuit evaluator client. 
+- A Substrate Off-Chain Worker OCW Garbled Circuit Factory GCF to manage an external garbled circuit generator service (designed to be used by Substrate developers regardless of the Interstellar solution)
+- An implementation of the Trusted Transaction Validation protocol in Substrate pallets to demonstrate the usage of GCF within a Substrate framework and with a mobile  Garbled Circuit evaluator client
 
-Following are other use cases of Garbled Circuit Factory:
+Following are other use cases of the Garbled Circuit Factory:
 
-- Every schemes  based on Garbled Circuit generator and evaluator
-- Multi Party Computation MPC protocol (when oblivious transfer OT will be managed in pallets)
-- Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction session - work in progress)
-- Post Quantum encryption and signature scheme implementation (NIST candidate examples)
+- Every schemes  based on Garbled Circuit generators and evaluators
+- Multi Party Computation MPC protocol (when Oblivious Transfer OT will be managed in pallets)
+- Proof of history of legitimate computation with reusable Garbled Circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction sessions - work in progress)
+- Post Quantum encryption and signature scheme implementations (NIST candidate examples)
 
 
 ### Project Details
