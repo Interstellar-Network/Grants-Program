@@ -54,7 +54,7 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 
 The **Interstellar - Wallet Phase 1** W3F Grant Proposal focuses on two of the core components of the Interstaller solution: 
 
-- A substrate Off-Chain Worker OCW Garbled Circuit Factory GCF to manage an external garbled circuit generator service (designed to be used by substrate devellopers regardless of Interstellar solution)
+- A substrate Off-Chain Worker OCW Garbled Circuit Factory GCF to manage an external garbled circuit generator service (designed to be used by substrate developers regardless of Interstellar solution)
 - An implementation of the Transaction Validation protocol in Substrate pallets to demonstrate the usage of GCF whithin a Substrate framework and with a mobile  Garbled Circuit evaluator client. 
 
 Following are other use cases of Garbled Circuit Factory:
