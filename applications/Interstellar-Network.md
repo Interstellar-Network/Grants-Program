@@ -16,8 +16,7 @@
 
 
 ### Overview
-
-![Interstellar-2042-Text](https://user-images.githubusercontent.com/4605611/144738865-d9a21ac3-5865-4025-bf3d-122eb4f5a0ad.png)
+![Interstellar-Magenta-Text](https://user-images.githubusercontent.com/4605611/145103778-9cfc0d9f-6244-4d5a-b0bb-0001829092f4.png)
 
 
 “The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.”
@@ -32,7 +31,9 @@ The main pain points of non-custodial wallet solutions still are:
 Interstellar is a novel non-custodial peace of mind mobile wallet with a hardware security level. Based on a Substrate blockchain and SubstraTEE/IntegriTEE workers, the wallet is the blockchain.
 
 We can now provide the same Hardware security level as hardware wallet with only a mobile and a blockchain.
+![Grant-Scheme-White](https://user-images.githubusercontent.com/4605611/145103845-79d43328-6f9a-43fd-b034-65ff36677cdb.png)
 
+![Grant-Scheme-Black](https://user-images.githubusercontent.com/4605611/145103959-374fbc89-2656-49b0-8a93-2ad4bf2b3597.png)
 
 Thanks to TRusted User Interface TUI on mobile and Trusted Execution Environment on both mobile and blockchain nodes
 
