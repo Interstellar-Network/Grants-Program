@@ -227,13 +227,13 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | MIT  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create and set-up a VHDL Master File, lauch Garbled Circuit generation and get the resulted Garbled circuit cid on IPFS.   |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create and set-up a VHDL Master File, launch Garbled Circuit generation and get the resulted Garbled circuit cid on IPFS.   |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
 | 1. | GCF substrate Interface | GCF external service interface to interact with the following substrate modules and IPFS |  
 | 2. | Substrate module: GCF CFG | We will create a Substrate GCF configuration pallet that will store GCF encrypted configuration information on chain (including cid of Master Circuit file, master key and other security parameter to ensure security of circuit production  |  
-| 3. | Substrate GCF CFG CLI| a CLI to set-up  GCF configuration palllet | 
+| 3. | Substrate GCF CFG CLI| a CLI to set-up  GCF configuration pallet | 
 | 4. | Substrate module: OCW GCF | We will create an OCW pallet that will control and interact with GCF external service - Launch GC production and get resulted GC cid on IPFS |  
  
 
@@ -282,11 +282,11 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | MIT |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can manage Garbled circuit cid in pallets. with a transaction validation use case example in TEE environement with substraTEE  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can manage Garbled circuit cid in pallets. with a transaction validation use case example in TEE environment with substraTEE  |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
-| 1. | substrate modules Authenicator port in TEE | We will migrate Authenticator in substraTEE/IntegriTEE workers |  
+| 1. | substrate modules Authenticator port in TEE | We will migrate Authenticator in substraTEE/IntegriTEE workers |  
 | 2. | Substrate module Mobile Registry port in TEE | We will migrate part of the mobile registry pallet in substraTEE/IntegriTEE workers |  
   
 
@@ -320,7 +320,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 >how you intend to use, enhance, promote and support your project in the short term:
 
-- We aim at develloping a user comunity and get in talks with Dapp and especially DeFi players with a taylored value proposition for them.
+- We aim at developing a user community and get in talks with Dapp and especially DeFi players with a tailored value proposition for them.
 - Garbled Circuit Evaluator in WASM to enable its use on browser and nodes - Transaction Validation variants on browsers.
 - Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame to display character, figures, images. It should increase the complexity, cost and resources required for an attack.
 - Potential research grant on our real-time Malware detection scheme
