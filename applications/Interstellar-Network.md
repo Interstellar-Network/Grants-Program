@@ -20,8 +20,9 @@
 ![Interstellar-2042-Text](https://user-images.githubusercontent.com/4605611/144738865-d9a21ac3-5865-4025-bf3d-122eb4f5a0ad.png)
 
 
-“The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.” 
-The main pain points of non-custodial wallet solutions are still:
+“The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.”
+ 
+The main pain points of non-custodial wallet solutions still are:
 - **User experience**  [Can an easy to set-up wallet be an efficient customer acquisition tool for DeFi players?](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e)  
 - **Security** [Are cryptocurrency wallets more at risk than ever?](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7) 
 
