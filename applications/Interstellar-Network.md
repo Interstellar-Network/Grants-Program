@@ -62,7 +62,7 @@ Following are other use cases of Garbled Circuit Factory:
 - Every schemes  based on Garbled Circuit generator and evaluator
 - Multi Party Computation MPC protocol (when oblivious transfer OT will be managed in pallets)
 - Proof of history of legitimate computation with reusable garbled circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction session - work in progress)
-- Post Quantum encryption and signature scheme implementation (NIST candiate examples)
+- Post Quantum encryption and signature scheme implementation (NIST candidate examples)
 
 
 ### Project Details
