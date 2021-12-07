@@ -45,7 +45,7 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 
 #### Features:
 - **Hardware security Level** - TEE on nodes and mobiles (incl. TUI), garbled circuits and visual cryptography secure interface.
-- **Just download an app** - no registration, PIN, password, passphrase, private keys or any secret to store or remember.
+- **Just download an app** - no registration, PIN, password, passphrase, private key or any secret to store or remember.
 - **Multichain Wallet** - securely store and interact with native cryptocurrency coins and tokens from multiple blockchains
 - **Confirm a transaction with ONLY ONE SCREEN** - no SMS to wait for, no additional 2FA app to use, no QR code to scan.
 
