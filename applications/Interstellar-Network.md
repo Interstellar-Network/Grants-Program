@@ -49,7 +49,7 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 - **Multichain Wallet** - securely store and interact with native cryptocurrency coins and tokens from multiple blockchains
 - **Confirm a transaction with ONLY ONE SCREEN** - no SMS to wait for, no additional 2FA app to use, no QR code to scan
 
-- **Up to 1000,000 tps** - no tps limit due to slow consensus, the sky is the limit, thanks to IntegriTEE layer 2 based on hardware enclave technology 
+- **Up to 1,000,000 tps** - no tps limit due to slow consensus, thanks to IntegriTEE layer 2 based on hardware enclave technology 
 - **Social Recovery Service** - leverages the existing Substrate pallet and a novel decentralized autonomous recovery service 
 > We hope that we will be able to provide a response to the related RFP in the following phases
 - **Features to securely send coins with social network messages (even to persons with no-wallet)** - explained in [Can an easy to set-up wallet be an efficient customer acquisition tool]
