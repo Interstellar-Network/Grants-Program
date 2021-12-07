@@ -188,9 +188,9 @@ We are now security and fintech multiple entrepreneurs, security researchers, pa
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/Interstellar-Network
+- https://github.com/Interstellar-Network/wallet-ph1
+
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 - https://github.com/nathanprat
