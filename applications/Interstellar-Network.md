@@ -333,7 +333,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 
 
-- Investigate potential integration with substrate connect to increase the security and flexibility of the solution with potential additional on-chain/off-chain data/features at mobile/browser level.
+- Investigate potential integration with substrate connect to increase the security and flexibility of our solution with potential additional on-chain/off-chain data/features at mobile/browser level.
 
 ![3T Distributed HSM overview drawio](https://user-images.githubusercontent.com/4605611/144741459-3776d2a7-a64b-40f8-b8a9-98abd590e452.png#gh-light-mode-only)
 
@@ -342,7 +342,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 
 
-- Reseach on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real humans from bots with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
+- Research on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to descriminate real humans from bots with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
 
 ## Additional Information :heavy_plus_sign:
 
