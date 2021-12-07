@@ -161,6 +161,7 @@ We think that we could bring a better user experience, security and performance,
 ### Team members
 
 - Name of team leader:
+
 Jean-Luc Leleu
 - Names of team members:
 - Nathan Prat
@@ -193,9 +194,8 @@ We are now security and fintech multiple entrepreneurs, security researchers, pa
 - https://github.com/<your_organisation>/<project_2>
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+- https://github.com/nathanprat
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
 
 ### Team LinkedIn Profiles (if available)
 
