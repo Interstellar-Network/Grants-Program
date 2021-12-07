@@ -80,7 +80,7 @@ Following are other use cases of Garbled Circuit Factory:
 
 #### Garbled Circuit Factory **previous work**
 The team has already developed a strong authentication solution with circuits based on JustGarble implementation https://cseweb.ucsd.edu/groups/justgarble/ that we customized with Free XOR and Half Gates and other specific improvement for our needs ( pre-computation of our Visual cryptographic Circuits).
-We achieved a production ready platform with significant performance on the logic circuit and garbled circuit production with AES-NI. The whole pipeline use optimized memory mangement and avoid serialization/deserialization of the different circuit formats: HDL-> non-garbled->garbled.
+We achieved a production ready platform with significant performance on the logic circuit and garbled circuit production with AES-NI. The whole pipeline use optimized memory management and avoid serialization/deserialization of the different circuit formats: HDL-> non-garbled->garbled.
 
 ------------
 
@@ -118,7 +118,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 > Where and how does your project fit into the ecosystem?
 
 This project is the first phase of a wallet project. Although, we think that our Trusted Transaction Validation protocol could bring a novel approach to address UX/UI security issues regardless of other features of our frictionless wallet.
-We designed our validation transaction protocol to benfit to other wallets or Dapps. We think it could also be complemetary down the road to mobile light client like substrate connect (check **Future Plans** section).
+We designed our validation transaction protocol to benefit to other wallets or Dapps. We think it could also be complementary down the road to mobile light client like substrate connect (check **Future Plans** section).
   
 
 
@@ -322,7 +322,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - We aim at develloping a user comunity and get in talks with Dapp and especially DeFi players with a taylored value proposition for them.
 - Garbled Circuit Evaluator in WASM to enable its use on browser and nodes - Transaction Validation variants on browsers.
-- Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame to display character, figures, images. It should increase the complexity, cost and ressources required for an attack.
+- Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame to display character, figures, images. It should increase the complexity, cost and resources required for an attack.
 - Potential research grant on our real-time Malware detection scheme
 - Add OT oblivious transfer in our pallet to enable usage of MPC with our GCF.
 - Add behavioral biometric feature
