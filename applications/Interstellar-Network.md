@@ -29,6 +29,8 @@ The main pain points of non-custodial wallet solutions are still:
 
 
 Interstellar is a novel non-custodial peace of mind mobile wallet with a hardware security level. Based on a Substrate blockchain and SubstraTEE/IntegriTEE workers, the wallet is the blockchain.
+
+
 ![HW2Interstellar drawio](https://user-images.githubusercontent.com/4605611/145072052-0b145054-b8c8-45bc-96cd-ee39f0f7fe60.png)
 
 
