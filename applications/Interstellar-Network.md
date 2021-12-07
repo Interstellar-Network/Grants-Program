@@ -57,13 +57,13 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 
 #### Our solution is designed to support blockchain and DeFi mass market adoption with:
 
-- **A decentralized key & asset management service** where user’s privates key and signature program are stored and executed in TEE
-- **A decentralized Trusted Transaction Validation protocol** that leverages **TEE features on mobile incl. TUI**, combined with **One Time Garbled Circuit** and **Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices.
+- **A decentralized key & asset management service** where the user’s privates keys and signature programs are stored and executed in TEE nodes
+- **A decentralized Trusted Transaction Validation protocol** that leverages **TEE and TUI features on mobile **, combined with **One Time Garbled Circuits** and **Visual Cryptography** to provide a **Trusted Authentication and Trusted UI layer** on user devices
 
 
 The **Interstellar - Wallet Phase 1** W3F Grant Proposal focuses on two of the core components of the Interstellar solution: 
 
-- A substrate Off-Chain Worker OCW Garbled Circuit Factory GCF to manage an external garbled circuit generator service (designed to be used by substrate developers regardless of Interstellar solution)
+- A Substrate Off-Chain Worker OCW Garbled Circuit Factory GCF to manage an external garbled circuit generator service (designed to be used by substrate developers regardless of Interstellar solution)
 - An implementation of the Transaction Validation protocol in Substrate pallets to demonstrate the usage of GCF whithin a Substrate framework and with a mobile  Garbled Circuit evaluator client. 
 
 Following are other use cases of Garbled Circuit Factory:
