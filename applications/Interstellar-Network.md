@@ -113,8 +113,6 @@ We achieved a production ready platform with significant performance on the logi
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
-
 > Where and how does your project fit into the ecosystem?
 
 This project is the first phase of a wallet project. Although, we think that our Trusted Transaction Validation protocol could bring a novel approach to address UX/UI security issues regardless of other features of our frictionless wallet.
