@@ -161,8 +161,7 @@ We think that we could bring a better user experience, security and performance,
 ### Team members
 
 - Name of team leader:
-
-Jean-Luc Leleu
+- Jean-Luc Leleu
 - Names of team members:
 - Nathan Prat
 - Eliot Leleu
