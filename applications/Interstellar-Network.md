@@ -368,20 +368,18 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 >The team's long-term plans and intentions in relation to it.
 
 
-- Include a TEE layer 2 to manage a Root of trust based on full HSM hardware ( with YubiHSM type of solution) to provide a 3 tier distributed HSM capability.
+- Include a TEE layer 2 to manage a Root of trust based on full HSM hardware (with YubiHSM type of solution) to provide a 3 tier distributed HSM capability
 
 
 
-- Investigate potential integration with substrate connect to increase the security and flexibility of our solution with potential additional on-chain/off-chain data/features at mobile/browser level.
+- Investigate potential integration with Substrate Connect to increase the security and flexibility of our solution with potential additional on-chain/off-chain data/features at mobile/browser level
 
 ![3T Distributed HSM overview drawio](https://user-images.githubusercontent.com/4605611/144741459-3776d2a7-a64b-40f8-b8a9-98abd590e452.png#gh-light-mode-only)
 
 ![3T DHSM overview dark drawio](https://user-images.githubusercontent.com/4605611/144741651-ff9f0bb0-91cb-4b76-8f0e-097395303723.png#gh-dark-mode-only)
 
 
-
-
-- Research on other human brain decryption capabilities (like Visual Cryptography, audio cryptography, etc..): the long term Goal is to increase our capabilities to discriminate real humans from bots with IA capabilities. [ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
+- Research on other human brain decryption capabilities (like Visual Cryptography, Audio Cryptography, etc...): the long term goal is to increase our capabilities to discriminate bots with IA capabilities from real humans[ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408)
 
 ## Additional Information :heavy_plus_sign:
 
