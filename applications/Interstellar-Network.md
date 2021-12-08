@@ -42,6 +42,13 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 
 **Thanks to Trusted User Interface TUI on mobile and Trusted Execution Environment on both mobile and blockchain nodes**
 
+Because TUI is not yet avalaible on all mobiles devices provides GC/VC scheme provides an alternative that will be complementary down the road to mitigate potential flaws in TUI.
+
+![HW2InterstellarGC_TUIdark drawio](https://user-images.githubusercontent.com/4605611/145188070-c1915cc0-32cd-4d2f-92e7-0b9f195fcac2.png)
+
+
+
+
 
 #### Features:
 - **Hardware security Level** - TEE on nodes and mobiles (incl. TUI), garbled circuits and visual cryptography secure interface
@@ -60,10 +67,7 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 - **A decentralized key & asset management service** where the user’s privates keys and signature programs are stored and executed in TEE nodes
 - **A decentralized Trusted Transaction Validation protocol** that leverages TEE and TUI features on mobile, combined with One Time Garbled Circuits and Visual Cryptography to provide a **Trusted Authentication and Trusted UI layer** on user devices
 
-Because TUI is not yet avalaible on all mobiles devices provides GC/VC scheme provides an alternative that will be complementary down the road to mitigate potential flaws in TUI.
 
-
-![HW2InterstellarGC_TUI drawio](https://user-images.githubusercontent.com/4605611/145185505-5a69e18b-3f31-408f-8052-ac9891aa1528.png)
 
 
 
