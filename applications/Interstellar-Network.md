@@ -354,11 +354,11 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - Potential research grant on our real-time malware detection scheme
 - Add Oblivious Transfer OT in our pallet to enable the usage of MPC with our GCF
 - Add behavioural biometric feature
--
+
 > Medium-term plan
 - Launch of Continuous Liquidity Pool (like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
-  - launch seignorage mechanism
-  - launch quadratic voting 
+- Launch Seignorage mechanism
+- Launch Quadratic voting 
 
 >The team's long-term plans and intentions in relation to it.
 
