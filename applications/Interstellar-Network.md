@@ -48,6 +48,7 @@ Because TUI is not yet avalaible on all mobile devices we use a Garbled Circuit/
 ![Iphone-Android-TUI-Black](https://user-images.githubusercontent.com/4605611/145194438-001a923e-da76-4286-8ed4-0a0214e09e9c.png#gh-light-mode-only)
 
 
+![Iphone-Android-TUI-White (1)](https://user-images.githubusercontent.com/4605611/145201585-5d106219-e51e-44d3-8c1b-95fe99e71455.png)
 
 
 ![Iphone-Android-TUI-White](https://user-images.githubusercontent.com/4605611/145194446-ff9ae2b2-4652-4b52-9042-993a836864fd.png#gh-dark-mode-only)
@@ -199,7 +200,7 @@ We think that we could bring a better user experience, security and performance,
 ### Team's experience
 [Team deck](https://docs.google.com/presentation/d/1AuM5YO4ysFqoj3uquQ46NJIprDSaALZrqUqAef-ITns/edit?usp=sharing)
 
-We are now security and fintech multiple entrepreneurs, security researchers, patents fillers who turn open-source developers and blockchain enthusiasts.
+We are now multiple security and fintech  entrepreneurs, security researchers, patents fillers who turned open-source developers and blockchain enthusiasts.
 
 ### Team Code Repos
 
