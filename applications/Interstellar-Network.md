@@ -356,17 +356,17 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - Add behavioural biometric feature
 
 > Medium-term plan
-
+- Bounty to crack our transaction validation protocol when both Android protected confirmation and detection of adverse code execution will be deployed
 Launch of: 
  - Continuous Liquidity Pool (like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with multisig options (mobiles + yubikey) for validators and large liquidity owners
  
  - Seignorage mechanism by creating synthetic assets (like UST on the Terra blockchain)
  
- - Quadratic Voting/Funding features to incentivize the community with CLP and Seignorage functions and address potential future use cases
+ - Quadratic Voting/Funding features to incentivize the CLP and Seignorage functions and address potential future use cases
 
 >The team's long-term plans and intentions in relation to it.
 
-- Bounty to crack our transaction validation protocol when both Android protected confirmation and detection of adverse code execution will be deployed
+
 - Include a TEE layer 2 to manage a Root of trust based on full HSM hardware ( with YubiHSM type of solution) to provide a 3 tier distributed HSM capability.
 
 
