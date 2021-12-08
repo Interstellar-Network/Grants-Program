@@ -356,10 +356,12 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - Add behavioural biometric feature
 
 > Medium-term plan
-- Launch of: 
-  - Continuous Liquidity Pool (like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with multisig options (mobiles + yubikey) for validators and large liquidity owners
-  - Seignorage mechanism by creating synthetic assets like UST on the Terra blockchain
-  - Quadratic Voting/Funding features to incentivize the CLP and Seignorage functions and future use cases
+Launch of: 
+ - Continuous Liquidity Pool (like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with multisig options (mobiles + yubikey) for validators and large liquidity owners
+ 
+ - Seignorage mechanism by creating synthetic assets (like UST on the Terra blockchain)
+ 
+ - Quadratic Voting/Funding features to incentivize the CLP, Seignorage functions and future use cases
 
 >The team's long-term plans and intentions in relation to it.
 
