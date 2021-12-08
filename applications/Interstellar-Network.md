@@ -139,11 +139,8 @@ We achieved a production ready platform with significant performance on the logi
 > Where and how does your project fit into the ecosystem?
 
 This project is the first phase of a wallet project. Although, we think that our Trusted Transaction Validation protocol could bring a novel approach to address UX/UI security issues regardless of other features of our frictionless wallet.
-We designed our validation transaction protocol to benefit to other wallets or Dapps. We think it could also be complementary down the road to mobile light client like substrate connect (check **Future Plans** section).
+We designed our validation transaction protocol to benefit to other wallets or Dapps. We think it could also be complementary down the road to mobile light clients like Substrate Connect (check **Future Plans** section).
   
-
-
-
 
 
 ![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/144742049-54d3a212-b471-4a69-9f44-adfb150814ca.png#gh-light-mode-only)
@@ -155,9 +152,8 @@ We designed our validation transaction protocol to benefit to other wallets or D
 
 >Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-We want to target in priority Dapp providers in the DeFi ecosystem with developer tools to integrate our solution with their Dapps. We think that our value proposition should be attractive to them.
-At the same time we want to target newcomers with a Robinhood for DeFi wallet app that include average dollar cost feature.
-
+We want to target Dapp providers in the DeFi ecosystem with developer tools to integrate our solution with their Dapps. We think that our value proposition should be attractive to them.
+At the same time we want to target newcomers with a Robinhood wallet for Defi that includes an average dollar cost feature.
 > What need(s) does your project meet?
 
 The need for a wallet to be simpler to set-up and use, as well as the need for higher security to address the growing malware/banking trojan threats.
