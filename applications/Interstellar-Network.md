@@ -63,7 +63,7 @@ Because TUI is not yet avalaible on all mobile devices we use a Garbled Circuit/
 - **Up to 1,000,000 tps** - no tps limit due to slow consensus, thanks to IntegriTEE layer 2 based on hardware enclave technology 
 - **Social Recovery Service** - leverages the existing Substrate pallet and a novel decentralized autonomous recovery service 
 > We hope that we will be able to provide a response to the related RFP in the following phases
-- **Features to securely send coins with social network messages (even to persons with no-wallet)** - explained in [Can an easy to set-up wallet be an efficient customer acquisition tool]
+- **Features to securely send coins with social network messages (even to persons with no-wallet)** - explained in [Can an easy to set-up wallet be an efficient customer acquisition tool](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e) 
 - **Cross chain swap feature** - based on a Continuous Liquidity Pool (CLP like THORChain but with higher security and performance) - leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
 
 #### Our solution is designed to support blockchain and DeFi mass market adoption with:
@@ -162,12 +162,12 @@ The need for a wallet to be simpler to set-up and use, as well as the need for h
 
 Math Wallet and Gluon are close to our solution
 
-We think that we could bring a better user experience, security and performance, thanks to a highly scalable layer 2 based on substraTEE: 
+We think that we could bring a better user experience, security and performance, thanks to a highly scalable layer 2 based on SubstraTEE: 
 
-- Math Wallet is based on MPC that requires heavier computation resources. They also envision smartcards with screen for users. It's comparable to our level of security, but more expensive, cumbersome to use, less flexible and more complex to deploy than our solution.
+- Math Wallet is based on MPC that requires heavier computation resources. They also envision smartcards with a screen for their users. It's comparable to our level of security, but more expensive, cumbersome to use, less flexible and more complex to deploy than our solution.
  
-- Gluon QR code based transaction confirmation that requires 2 screens is more cumbersome for the user. Moreover, this scheme is already exposed to banking trojan with overlay capabilities*. Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
-> *see: An attack high level description on solutions that use QR code for transaction confirmation [Are cryptocurrency wallets more at risk than ever](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7) 
+- Gluon QR code based transaction confirmation that requires 2 screens is more cumbersome for the user. Moreover, this scheme is already exposed to banking trojans with overlay capabilities*. Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
+> *see: A high level attack  description on solutions that use QR code for transaction confirmations [Are cryptocurrency wallets more at risk than ever](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7) 
  
 
 
