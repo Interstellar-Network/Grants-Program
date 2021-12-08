@@ -247,10 +247,10 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | MIT  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create and set-up a VHDL Master File, launch Garbled Circuit generation and get the resulted Garbled circuit cid on IPFS and associated GC metadata i.e to check one-time code)  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create and set-up a VHDL Master File, launch Garbled Circuit generation and get the resulted garbled circuit cid on IPFS and associated GC metadata i.e to check one-time code  |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)  |  
+| 0e. | Article | We will publish an **article**/workshop that explains what was done/achieved as part of the grant. (Content, language and medium should reflect your target audience described above.)  |  
 | 1. | GCF substrate Interface | GCF external service interface to interact with the following substrate modules and IPFS |  
 | 2. | Substrate module: GCF CFG | We will create a Substrate GCF configuration pallet that will store GCF encrypted configuration information on chain (including cid of Master Circuit file, master key and other security parameter to ensure security of circuit production  |  
 | 3. | Substrate GCF CFG CLI| a CLI to set-up  GCF configuration pallet | 
