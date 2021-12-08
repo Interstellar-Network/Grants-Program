@@ -343,9 +343,8 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - We aim to create a user community and get in talks with Dapp and especially DeFi players with a tailored value proposition for them
 - Social Recovery features
 
-- Game Theory inspired Tokenomics
+- Game Theory inspired Tokenomics paper
   - Continuous Liquidity Pool (native cross-chain swaps)
-  - Cross chain swap feature based on a Continuous Liquidity Pool With CLP like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
   - Quadratic Voting
   - Seignorage
 
@@ -354,6 +353,8 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - Potential research grant on our real-time malware detection scheme
 - Add Oblivious Transfer OT in our pallet to enable the usage of MPC with our GCF
 - Add behavioural biometric feature
+> Medium-term plan
+- Launch of Continuous Liquidity Pool (like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
 
 >The team's long-term plans and intentions in relation to it.
 
