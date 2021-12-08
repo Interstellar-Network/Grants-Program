@@ -125,7 +125,7 @@ We achieved a production ready platform with significant performance on the logi
 
 
 --------------------------
-### Technology stack
+#### Technology stack
 - VHDL
 - C/C++
 - Java/Kotlin/Swift
