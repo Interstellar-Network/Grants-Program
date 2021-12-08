@@ -385,6 +385,6 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 
 > **How did you hear about the Grants Program?** 
 - We are following the polkadot ecosystem since its early stage
-> others
-- We have just started a conversation with a team working in stealth mode on a massive blockchain project that is interesting in our solution
+> Others
+- We have just started a conversation with a team working in stealth mode on a massive blockchain project that is interested in our solution
 
