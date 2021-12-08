@@ -66,7 +66,7 @@ Because TUI is not yet avalaible on all mobile devices we use a Garbled Circuit/
 - **Social Recovery Service** - leverages the existing Substrate pallet and a novel decentralized autonomous recovery service 
 > We hope that we will be able to provide a response to the related RFP in the following phases
 - **Features to securely send coins with social network messages (even to persons with no-wallet)** - explained in [Can an easy to set-up wallet be an efficient customer acquisition tool for DeFi players?](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e) 
-- **Cross chain swap feature** - based on a Continuous Liquidity Pool (CLP like THORChain but with higher security and performance) - leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
+
 
 #### Our solution is designed to support blockchain and DeFi mass market adoption with:
 
@@ -338,16 +338,20 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 
 
 
->how you intend to use, enhance, promote and support your project in the short term:
+>How we intend to use, enhance, promote and support your project in the short term:
 
-- We aim at developing a user community and get in talks with Dapp and especially DeFi players with a tailored value proposition for them.
-- Garbled Circuit Evaluator in WASM to enable its use on browser and nodes - Transaction Validation variants on browsers.
-- Improvement of our Visual Cryptography scheme by reintroducing pure visual cryptography frame to display character, figures, images. It should increase the complexity, cost and resources required for an attack.
-- Potential research grant on our real-time Malware detection scheme
-- Add OT oblivious transfer in our pallet to enable usage of MPC with our GCF.
+- We aim to create a user community and get in talks with Dapp and especially DeFi players with a tailored value proposition for them
+- Games Theory inspired Tokenomics
+- Social Recovery features
+- Cross chain swap feature - based on a Continuous Liquidity Pool (CLP like THORChain but with higher security and performance) - leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
+- CLP with seignorage and quadratic voting
+- Garbled Circuit Evaluator in WASM to enable its use on browser and nodes - Transaction Validation variants on browsers
+- Improvement of our Visual Cryptography scheme by reintroducing full Visual Cryptography frames to display characters, figures and images. This should increase the complexity, cost and resources required for an attack
+- Potential research grant on our real-time malware detection scheme
+- Add Oblivious Transfer OT in our pallet to enable the usage of MPC with our GCF
 - Add behavioural biometric feature
 
->the team's long-term plans and intentions in relation to it.
+>The team's long-term plans and intentions in relation to it.
 
 - Bounty to crack our transaction validation protocol when both Android protected confirmation and detection of adverse code execution will be deployed
 - Include a TEE layer 2 to manage a Root of trust based on full HSM hardware ( with YubiHSM type of solution) to provide a 3 tier distributed HSM capability.
