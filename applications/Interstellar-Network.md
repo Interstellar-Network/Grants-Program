@@ -259,7 +259,7 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 
 
 
-### Milestone 2 — GC management in substrate modules and Transaction Validation Protocol use case (first part)
+### Milestone 2 — GC Management in Substrate modules and Transaction Validation Protocol use case (first part)
 
 - **Estimated Duration:** 1 month
 - **FTE:**  2.2
@@ -268,7 +268,7 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | MIT  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can manage Garbled circuit cid in pallets. with a transaction validation use case example.   |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can manage Garbled circuit cid in pallets, with a transaction validation use case example.   |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains what was done/achieved as part of the grant. (Content, language and medium should reflect your target audience described above.)  |  
