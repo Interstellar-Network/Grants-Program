@@ -358,7 +358,7 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 > Medium-term plan
 - Launch of Continuous Liquidity Pool (like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
 - Launch of Seignorage mechanism by creating synthetic assets like UST on the Terra blockchain
-- Launch of Quadratic Voting features to incentivize the CLP and Seignorage functions
+- Launch of Quadratic Voting/Funding features to incentivize the CLP and Seignorage functions and future use cases
 
 >The team's long-term plans and intentions in relation to it.
 
