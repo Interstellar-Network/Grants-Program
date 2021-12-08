@@ -125,8 +125,13 @@ We achieved a production ready platform with significant performance on the logi
 
 
 --------------------------
-
-
+### Technology stack
+- VHDL
+- C/C++
+- Java/Kotlin/Swift
+- gRPC
+- Rust/Substrate
+- IPFS
 
 
 
@@ -160,7 +165,7 @@ The need for a wallet to be simpler to set-up and use, as well as the need for h
 
 > Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
 
-Math Wallet and Gluon are close to our solution
+Math Wallet and Gluon are close to our solution.
 
 We think that we could bring a better user experience, security and performance, thanks to a highly scalable layer 2 based on SubstraTEE: 
 
@@ -204,9 +209,6 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 ### Team Code Repos
 
 - https://github.com/Interstellar-Network
-- https://github.com/Interstellar-Network/wallet-ph1
-
-
 
 - https://github.com/nathanprat
 
