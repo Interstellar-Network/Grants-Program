@@ -343,18 +343,22 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - We aim to create a user community and get in talks with Dapp and especially DeFi players with a tailored value proposition for them
 - Game Theory inspired Tokenomics paper
   - Continuous Liquidity Pool (native cross-chain swaps)
-  - Quadratic Voting
   - Seignorage
+  - Quadratic Voting
+ 
 
-- Wallet MVP launch with basic features including Social Recovery and Key management services (potential following grant submission)
+- Wallet MVP launch with basic features including Social Recovery and Key management services (potential following grant applications submission)
 
 - Garbled Circuit Evaluator in WASM to enable its use on browser and nodes - Transaction Validation variants on browsers
 - Improvement of our Visual Cryptography scheme by reintroducing full Visual Cryptography frames to display characters, figures and images. This should increase the complexity, cost and resources required for an attack
 - Potential research grant on our real-time malware detection scheme
 - Add Oblivious Transfer OT in our pallet to enable the usage of MPC with our GCF
 - Add behavioural biometric feature
+-
 > Medium-term plan
 - Launch of Continuous Liquidity Pool (like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
+  - launch seignorage mechanism
+  - launch quadratic voting 
 
 >The team's long-term plans and intentions in relation to it.
 
