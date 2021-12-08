@@ -341,12 +341,12 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 >How we intend to use, enhance, promote and support your project in the short term:
 
 - We aim to create a user community and get in talks with Dapp and especially DeFi players with a tailored value proposition for them
-- Social Recovery features
-
 - Game Theory inspired Tokenomics paper
   - Continuous Liquidity Pool (native cross-chain swaps)
   - Quadratic Voting
   - Seignorage
+
+- Wallet MVP launch with basic features including Social Recovery and Key management services (potential following grant submission)
 
 - Garbled Circuit Evaluator in WASM to enable its use on browser and nodes - Transaction Validation variants on browsers
 - Improvement of our Visual Cryptography scheme by reintroducing full Visual Cryptography frames to display characters, figures and images. This should increase the complexity, cost and resources required for an attack
