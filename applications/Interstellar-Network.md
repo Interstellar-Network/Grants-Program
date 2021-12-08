@@ -102,8 +102,8 @@ Following are other use cases of the Garbled Circuit Factory:
 
 
 #### Garbled Circuit Factory **previous work**
-The team has already developed a strong authentication solution with circuits based on JustGarble implementation https://cseweb.ucsd.edu/groups/justgarble/ that we customized with Free XOR and Half Gates and other specific improvement for our needs ( pre-computation of our Visual cryptographic Circuits).
-We achieved a production ready platform with significant performance on the logic circuit and garbled circuit production with AES-NI. The whole pipeline use optimized memory management and avoid serialization/deserialization of the different circuit formats: HDL-> non-garbled->garbled.
+The team has already developed a strong authentication solution with circuits based on JustGarble implementation https://cseweb.ucsd.edu/groups/justgarble/ that we customized with Free XOR and Half Gates and other specific improvements for our needs (pre-computation of our Visual Cryptography Circuits).
+We achieved a production ready platform with significant performance on the logic circuit and garbled circuit production with AES-NI. The whole pipeline uses optimized memory management and avoids serialization/deserialization of the different circuit formats: HDL->non-garbled->garbled.
 
 ------------
 
