@@ -347,7 +347,7 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
   - Quadratic Voting
  
 
-- Wallet MVP launch with basic features including Social Recovery and Key management services (potential following grant applications submission)
+- Wallet MVP launch with basic features including Social Recovery and Key management service (potential following grant application submissions)
 
 - Garbled Circuit Evaluator in WASM to enable its use on browser and nodes - Transaction Validation variants on browsers
 - Improvement of our Visual Cryptography scheme by reintroducing full Visual Cryptography frames to display characters, figures and images. This should increase the complexity, cost and resources required for an attack
@@ -356,7 +356,7 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - Add behavioural biometric feature
 
 > Medium-term plan
-- Launch of Continuous Liquidity Pool (like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
+- Launch of Continuous Liquidity Pool (like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with multisig options (mobiles + yubikey) for validators and large liquidity owners
 - Launch of Seignorage mechanism by creating synthetic assets like UST on the Terra blockchain
 - Launch of Quadratic Voting/Funding features to incentivize the CLP and Seignorage functions and future use cases
 
