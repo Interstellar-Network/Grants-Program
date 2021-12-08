@@ -62,7 +62,8 @@ Interstellar is a novel non-custodial peace of mind mobile wallet with a hardwar
 
 Because TUI is not yet avalaible on all mobiles devices provides GC/VC scheme provides an alternative that will be complementary down the road to mitigate potential flaws in TUI.
 
-![HW2InterstellarGC_TUI drawio](https://user-images.githubusercontent.com/4605611/145183072-8bc63ca1-5995-410a-904c-d14ae4253b28.png)
+
+![HW2InterstellarGC_TUI drawio](https://user-images.githubusercontent.com/4605611/145185505-5a69e18b-3f31-408f-8052-ac9891aa1528.png)
 
 
 
