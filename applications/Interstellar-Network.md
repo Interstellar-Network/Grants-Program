@@ -377,7 +377,7 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 ![3T DHSM overview dark drawio](https://user-images.githubusercontent.com/4605611/144741651-ff9f0bb0-91cb-4b76-8f0e-097395303723.png#gh-dark-mode-only)
 
 
-- Research on other human brain decryption capabilities (like Visual Cryptography, Audio Cryptography, etc...): the long term goal is to increase our capabilities to differentiate bots with IA capabilities from real humans ([ Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408))
+- Research on other human brain decryption capabilities (like Visual Cryptography, Audio Cryptography, etc...): the long term goal is to increase our capabilities to differentiate bots with IA capabilities from real humans ([Review of the use of human senses and capabilities in cryptography](https://www.sciencedirect.com/science/article/pii/S1574013720304408))
 
 ## Additional Information :heavy_plus_sign:
 
