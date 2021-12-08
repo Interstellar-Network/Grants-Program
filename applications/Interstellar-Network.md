@@ -343,7 +343,8 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - We aim to create a user community and get in talks with Dapp and especially DeFi players with a tailored value proposition for them
 - Games Theory inspired Tokenomics
 - Social Recovery features
-- Cross chain swap feature - based on a Continuous Liquidity Pool (CLP like THORChain but with higher security and performance) - leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
+- Cross chain swap feature based on a Continuous Liquidity Pool 
+> With CLP like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
 - CLP with seignorage and quadratic voting
 - Garbled Circuit Evaluator in WASM to enable its use on browser and nodes - Transaction Validation variants on browsers
 - Improvement of our Visual Cryptography scheme by reintroducing full Visual Cryptography frames to display characters, figures and images. This should increase the complexity, cost and resources required for an attack
