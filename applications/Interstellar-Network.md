@@ -326,12 +326,6 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
  
   
 
-
-
-
-...
-
-
 ## Future Plans
 
 
