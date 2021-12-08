@@ -344,8 +344,8 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - Social Recovery features
 - Games Theory inspired Tokenomics
 - Game Theory inspired Tokenomics
- -Continuous Liquidity Pool (native cross-chain swaps)
- -Cross chain swap feature based on a Continuous Liquidity Pool With CLP like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
+ - Continuous Liquidity Pool (native cross-chain swaps)
+ - Cross chain swap feature based on a Continuous Liquidity Pool With CLP like THORChain but with higher security and performance that leverages TEE/MPC/TTS + Trusted Transaction Validation protocol with a multisig option (mobiles + yubikey) for validators and large liquidity owners
  - Quadratic Voting
  - Seignorage
 
