@@ -311,25 +311,29 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
   
 
 
-### Milestone 5 — GCF in TEE
+### Milestone 5 — GCF Garbling service part in TEE (amended)
 
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 6 weeks
 - **FTE:**  2.2
 - **Costs:** 9,400 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | MIT  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can manage GCF in IntelSGX/Asylo.  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can manage GCF garbling service part  in IntelSGX  |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains what was done/achieved as part of the grant. (Content, language and medium should reflect your target audience described above.)  |  
-| 1. | GCF external service in TEE | We will migrate GCF service in TEE/Intel SGX with Asylo framework. | 
- 
+| 0e. | Article | We will prepare (not publish as we are still in stealth mode an **article** that explains what was done/achieved as part of the grant. (Content, language and medium should reflect your target audience described above.)  |  
+| 1. | replacement of JustGarble (GPL) with Swanky/Fancy-Garbling (MIT)| In order to use a TEE framework we need a non-GPL garbling scheme code | 
+| 2. | part of GCF external service in TEE | We will migrate the circuit garbling service part in TEE/Intel SGX| 
   
 
-## Future Plans
+> **note regarding this change:**
 
+> Fancy-Garbling is classic garbling scheme using a different circuit file format and mainly design for multy-party-computation use cases. So, the change is significant and slightly impact circuit garbling performance. As a consequence we aim at proposing a slight refactoring of the code to ensure performance optimization in the follow-up grant to achieve performance at least comparable to JustGarble. Potentially adding a permutation based garbling scheme like the one used by JustGarble if required.
+
+
+## Future Plans
 
 
 >How we intend to use, enhance, promote and support your project in the short term:
