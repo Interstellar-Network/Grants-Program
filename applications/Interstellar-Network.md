@@ -328,9 +328,11 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 | 2. | part of GCF external service in TEE | We will migrate the circuit garbling service part in TEE/Intel SGX| 
   
 
-> **note regarding this change:**
+> **notes regarding this change:**
 
-> Fancy-Garbling is classic garbling scheme using a different circuit file format and mainly design for multy-party-computation use cases. So, the change is significant and slightly impact circuit garbling performance. As a consequence we aim at proposing a slight refactoring of the code to ensure performance optimization in the follow-up grant to achieve performance at least comparable to JustGarble. Potentially adding a permutation based garbling scheme like the one used by JustGarble if required.
+>1:  We have decided to let the  creation of the Master/Configuration logical circuit part managed by ocwCircuit in the public blockchain layer 1 because they is not security issue to do that way.
+>  
+>2: We replaced the GPL code of JustGarble by Fancy-Garbling because we can't use GPL licence with a TEE framework. Fancy-Garbling is a classic garbling scheme using a different circuit file format and mainly design for multy-party-computation use cases. So, the change is significant and slightly impact circuit garbling performance. As a consequence we aim at proposing a slight refactoring of the code to ensure performance optimization in the follow-up grant to achieve performance at least comparable to JustGarble. Potentially adding a permutation based garbling scheme like the one used by JustGarble if required.
 
 
 ## Future Plans
