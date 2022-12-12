@@ -330,7 +330,7 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 
 > **notes regarding this change:**
 
->1:  We have decided to let the  creation of the Master/Configuration logical circuit part managed by ocwCircuit in the public blockchain layer 1 because they is not security issue to do that way.
+>1:  We have decided to let the  creation of the Master/Configuration logical circuit part managed by ocwCircuit outside the blockchain because api_circuit is not critical from a security standpoint.So, we have no reason to manage it in a TEE framework.
 >  
 >2: We replaced the GPL code of JustGarble by Fancy-Garbling because we can't use GPL licence with a TEE framework. Fancy-Garbling is a classic garbling scheme using a different circuit file format and mainly design for multy-party-computation use cases. So, the change is significant and slightly impact circuit garbling performance. As a consequence we aim at proposing a slight refactoring of the code to ensure performance optimization in the follow-up grant to achieve performance at least comparable to JustGarble. Potentially adding a permutation based garbling scheme like the one used by JustGarble if required.
 
