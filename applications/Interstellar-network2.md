@@ -20,14 +20,18 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 We think that there is an opportunity to turn any mobile devices/smartphones into a cold wallet where private keys needed to sign transactions are hardware protected: 
 - within secure element and TEE on mobile
-for the private key associated to mobiles to sign transaction request and transaction confirmations i.e. (a private key that is a proxy to actual crypto privates keys managed by the nodes)
--within TEE on nodes
+
+For the private key associated to mobiles to sign transaction request and transaction confirmations i.e. (a private key that is a proxy to actual crypto privates keys managed by the nodes)
+- within TEE on nodes
+
 For the private keys associated to asset owned
 This hardware level security combined with a Trusted Transaction validation protocol based on TUI and/or garbled circuits and Visual Cryptography enables the overall solution to resist state of the art malware threats including banking trojan. (Attacks commonly used to compromise devices and bowsers to access CEX accounts, ex crypto,com,etc…)
+
 Social Recovery combined with a future new recovery based on the hardware devices owned by the wallet owner when they connect  NFC/BT/WiFi to your mobile’s devices.
 
-The achieved security level of this novel approach enables us to guarantee the security of one-click instant web3 onboarding for newcomers in crypto.
-And represents a secure but simpler alternative to hardware wallets for crypto veterans.
+The achieved security level of this novel approach enables us to guarantee the security of **one-click instant web3 onboarding for newcomers in crypto**.
+
+It also represents a secure but simpler alternative to hardware wallets for crypto veterans.
 We think that like with Google vs. Yahoo there is a technology arm race that can disrupt hardware wallet, smart contract wallet and even hot wallet market down the road!
 
 “The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.”
@@ -36,10 +40,6 @@ The main pain points of non-custodial wallet solutions still are:
 
 - **User experience**  [Can an easy to set-up wallet be an efficient customer acquisition tool for DeFi players?](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e)  
 - **Security** [Are cryptocurrency wallets more at risk than ever?](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7)
-
-> We think that current wallet solutions slow down the DeFi adoption.
-
-Interstellar is a novel non-custodial peace of mind mobile wallet with a hardware security level. Based on a Substrate blockchain and SubstraTEE/IntegriTEE workers.
 
 **We can now provide the same hardware security level as hardware wallets with only a mobile and a blockchain**
 
