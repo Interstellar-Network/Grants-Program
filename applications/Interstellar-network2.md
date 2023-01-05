@@ -1,7 +1,6 @@
 # Interstellar - Wallet Phase 2
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`). 
->
+
 > See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to submit a proposal.
 
 - **Team Name:** Interstellar
@@ -17,74 +16,24 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 ### Overview
 
-
 We think that there is an opportunity to turn any mobile devices/smartphones into a cold wallet where private keys needed to sign transactions are hardware protected: 
-- within secure element and TEE on mobile
+- within Secure Element and TEE on mobile
 
 For the private key associated to mobiles to sign transaction request and transaction confirmations i.e. (a private key that is a proxy to actual crypto privates keys managed by the nodes)
-- within TEE on nodes
+- within Trusted Transaction Environement TEE on nodes
 
 For the private keys associated to asset owned
 This hardware level security combined with a Trusted Transaction validation protocol based on TUI and/or garbled circuits and Visual Cryptography enables the overall solution to resist state of the art malware threats including banking trojan. (Attacks commonly used to compromise devices and bowsers to access CEX accounts, ex crypto,com,etc…)
 
 Social Recovery combined with a future new recovery based on the hardware devices owned by the wallet owner when they connect  NFC/BT/WiFi to your mobile’s devices.
 
-The achieved security level of this novel approach enables us to guarantee the security of **one-click instant web3 onboarding for newcomers in crypto**.
+The achieved security level of this novel approach enables the solution to guarantee the security of **one-click instant web3 onboarding (add a link)** for newcomers in crypto.
 
-It also represents a secure but simpler alternative to hardware wallets for crypto veterans.
-We think that like with Google vs. Yahoo there is a technology arm race that can disrupt hardware wallet, smart contract wallet and even hot wallet market down the road!
+It also represents **an easy to use alternative to hardware wallets** for crypto veterans.
 
-“The blockchain ecosystem needs an easy to use interface with hardware wallet security to reach the mass market.”
 
-The main pain points of non-custodial wallet solutions still are:
+> We think that like with Google vs. Yahoo there is a technology arm race that can disrupt hardware wallet, smart contract wallet and even hot wallet market down the road!
 
-- **User experience**  [Can an easy to set-up wallet be an efficient customer acquisition tool for DeFi players?](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e)  
-- **Security** [Are cryptocurrency wallets more at risk than ever?](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7)
-
-**We can now provide the same hardware security level as hardware wallets with only a mobile and a blockchain**
-
-![Grant-Scheme-White (1)](https://user-images.githubusercontent.com/4605611/145108720-becb76be-6c16-46c8-af69-7e953e5a166d.png#gh-dark-mode-only)
-
-![Grant-Scheme-Black (3)](https://user-images.githubusercontent.com/4605611/145108818-6f8b6158-6c27-4f0d-a104-9d2469c73636.png#gh-light-mode-only)
-
-**Thanks to Trusted User Interface TUI on mobile and Trusted Execution Environment on both mobile and blockchain nodes**
-
-Because TUI is not yet avalaible on all mobile devices we use a Garbled Circuit/Visual Cryptography scheme which provides an alternative that will be complementary down the road to mitigate potential flaws in TUI.
-
-![Iphone-Android-TUI-White (1)](https://user-images.githubusercontent.com/4605611/145201585-5d106219-e51e-44d3-8c1b-95fe99e71455.png#gh-dark-mode-only)
-
-![Iphone-Android-TUI-Black (1)](https://user-images.githubusercontent.com/4605611/145201886-30bafb07-fc1c-4dc0-acf9-f0e9f163fa66.png#gh-light-mode-only)
-
-#### Features
-
-- **Hardware security Level** - TEE on nodes and mobiles (incl. TUI), garbled circuits and visual cryptography secure interface
-- **Just download an app** - no registration, PIN, password, passphrase, private key or any secret to store or remember
-- **Multichain Wallet** - securely store and interact with native cryptocurrency coins and tokens from multiple blockchains
-- **Confirm a transaction with ONLY ONE SCREEN** - no SMS to wait for, no additional 2FA app to use, no QR code to scan
-
-- **Up to 1,000,000 tps** - no tps limit due to slow consensus, thanks to IntegriTEE layer 2 based on hardware enclave technology
-- **Social Recovery Service** - leverages the existing Substrate pallet and a novel decentralized autonomous recovery service
-
-> We hope that we will be able to provide a response to the related RFP in the following phases
-
-- **Features to securely send coins with social network messages (even to persons with no-wallet)** - explained in [Can an easy to set-up wallet be an efficient customer acquisition tool for DeFi players?](https://medium.com/@jlleleu/can-be-an-easy-to-set-up-wallet-an-efficient-customer-acquisition-tool-for-defi-players-8600812fe01e)
-
-#### Our solution is designed to support blockchain and DeFi mass market adoption with
-
-- **A decentralized key & asset management service** where the user’s privates keys and signature programs are stored and executed in TEE nodes
-- **A decentralized Trusted Transaction Validation protocol** that leverages TEE and TUI features on mobile, combined with One Time Garbled Circuits and Visual Cryptography to provide a **Trusted Authentication and Trusted UI layer** on user devices
-
-The **Interstellar - Wallet Phase 1** W3F Grant Proposal focuses on two of the core components of the Interstellar solution:
-
-- A Substrate Off-Chain Worker OCW Garbled Circuit Factory GCF to manage an external garbled circuit generator service (designed to be used by Substrate developers regardless of the Interstellar solution)
-- An implementation of the Trusted Transaction Validation protocol in Substrate pallets to demonstrate the usage of GCF within a Substrate framework and with a mobile  Garbled Circuit evaluator client
-
-Following are other use cases of the Garbled Circuit Factory:
-
-- Every schemes  based on Garbled Circuit generators and evaluators
-- Multi Party Computation MPC protocol (when Oblivious Transfer OT will be managed in pallets)
-- Proof of history of legitimate computation with reusable Garbled Circuit (Interstellar ongoing research: Detection of adverse code execution during short transaction sessions - work in progress)
-- Post Quantum encryption and signature scheme implementations (NIST candidate examples)
 
 ### Project Details
 
@@ -160,11 +109,6 @@ We think that we could bring a better user experience, security and performance,
 ## Team :busts_in_silhouette:
 
 
-
-
-
-
-
 ### Team members
 - Name of team leader:
 - Jean-Luc Leleu
@@ -217,8 +161,6 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ### Overview
 
-
-
 ## Development Status :open_book:
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
@@ -231,48 +173,121 @@ If you've already started implementing your project or it is part of a larger re
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
+- **Total Estimated Duration:** 9 months
+- **Full-Time Equivalent (FTE):**  2.5
+- **Total Costs:** 130,000 USD
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1  — iOS client TTVP demo
 
 - **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **FTE:**  2.2
+- **Costs:** 15,000 USD
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0a.** | License |  MIT  |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
+| 1. | iOS client: TTVP demo | We will create a basic iOS app to demonstrate the TTVP protocol including the registration of an iPhone on the mobile registry pallet. ( for this milestone we won't yet demomstrate a cryptocurrency transaction neither the whole wallet UI/UX) |
+| 2. | Substrate module: Mobile Registry update | we will update the mobile registry pallet to handle iPhone registration i.e mobile public key required  to validate TTVP - Transaction Confirmation result on the TTVP pallet |
+| 3. | TTVP benchmark | We will develop a tool to benchmark TTVP execution on both mobile and pallets for future optimization of the Circuits/Garbled Circuits used by the TTVP protocol |
+|
+
+### Milestone 2 — Circuits and Garbled Circuits optimization/Benchmarks
+
+- **Estimated Duration:** 1.5/2 months
+- **FTE:**  2.2
+- **Costs:** 25,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License |  MIT  |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
+| 1. | Circuit Design optimization | We will modify the current design of the circuits used in the TTVP protocol to make it more user friendly for the user|
+| 2. | Garbled Circuits optimization | we will modify both the Garbled Circuits evaluator on the mobile iOS and android and the GC generator on the GCF |
+| 3.a | TTVP benchmark on iOS|benchmark results |
+| 3.b | TTVP benchmark on Android | benchmark results |
+| 3.c | TTVP benchmark on substrate pallets | benchmark results|
+
+### Milestone 3 - Polkadot and Ethereum pallet signers
+
+- **Estimated Duration:** 1.5 months
+- **FTE:**  2.2
+- **Costs:** 20,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License |  MIT  |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
+| 1. | Subtrate Module - Signer Manager | We will create a pallet to manage OCW signers|
+| 2. | Substrate Module - Poladot signer | we will create an OCW pallet to sign Polkadot transaction |
+| 3. | Substrate Module - Ethereum signer | we will create a pallet to sign Ethereum transaction |
+| 4. | Substrate Module - submit transaction | we will create an OCW pallet to send transactions to the appropriate network |
+
+
+### Milestone 4 - Android pre-MVP wallet Polkadot/Ethereum
+
+- **Estimated Duration:** 1.5 months
+- **FTE:**  2.2
+- **Costs:** 20,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License |  MIT  |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
+| 1. | Android Wallet App | We will update the current android app to handle Polkadot and Ethereum transaction|
+| 3. | Substrate chain | Modules TTVP, Mobile Registry and signers, will handle complete polkadot and ethereum transactions  |
+
+
+### Milestone 5 - iOS pre-MVP wallet Polkadot/Ethereum
+
+- **Estimated Duration:** 1.5 months
+- **FTE:**  2.2
+- **Costs:** 20,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License |  MIT  |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
+| 1. | iOS Wallet App | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction |
+
+
+
+
+### Milestone 6 - MVP iOS/Android with NFC recovery
+- **Estimated duration:** 2 months
+- **FTE:**  2.2
+- **Costs:** 30,000 USD
+
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License |  MIT  |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| **0e.** | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
+| 1. | Substrate Module - NFC recovery | We will create a pallet to handle NFC recovery i.e a dedicated hardware or a payment card owned by the user to trigger its account recovery with a new mobile|
+| 2.a | Android Wallet | we will update android app to handle NFC recovery|
+| 2.b | iOS Wallet | we will update iOS app to handle NFC recovery|
+| 3. | Substrate chain | with the support of Substrate builder program we aim at launching an MVP chain with TEE hardware to demomstrate instant onborading and easy airdrop  |
+||||
 
 
-### Milestone 2 Example — Additional features
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
-
-...
 
 ## Future Plans
 
@@ -280,6 +295,9 @@ Please include here
 
 -how you intend to use, enhance, promote and support your project in the short term, and
 -the team's long-term plans and intentions in relation to it.
+
+
+
 
 ## Referral Program (optional) :moneybag: 
 
