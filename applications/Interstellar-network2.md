@@ -157,9 +157,7 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 - <https://www.linkedin.com/in/philippesalats/> Philippe Salats (advisor)
 
-## Development Roadmap :nut_and_bolt:
 
-### Overview
 
 ## Development Status :open_book:
 
@@ -211,7 +209,7 @@ If you've already started implementing your project or it is part of a larger re
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
 | 1. | Circuit Design optimization | We will modify the current design of the circuits used in the TTVP protocol to make it more user friendly for the user|
-| 2. | Garbled Circuits optimization | we will modify both the Garbled Circuits evaluator on the mobile iOS and android and the GC generator on the GCF |
+| 2. | Garbled Circuits optimization | We will modify both the Garbled Circuits evaluator on the mobile iOS and android and the GC generator on the GCF |
 | 3.a | TTVP benchmark on iOS|benchmark results |
 | 3.b | TTVP benchmark on Android | benchmark results |
 | 3.c | TTVP benchmark on substrate pallets | benchmark results|
@@ -229,9 +227,9 @@ If you've already started implementing your project or it is part of a larger re
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
 | 1. | Subtrate Module - Signer Manager | We will create a pallet to manage OCW signers|
-| 2. | Substrate Module - Poladot signer | we will create an OCW pallet to sign Polkadot transaction |
-| 3. | Substrate Module - Ethereum signer | we will create a pallet to sign Ethereum transaction |
-| 4. | Substrate Module - submit transaction | we will create an OCW pallet to send transactions to the appropriate network |
+| 2. | Substrate Module - Poladot signer | We will create an OCW pallet to sign Polkadot transaction |
+| 3. | Substrate Module - Ethereum signer | We will create a pallet to sign Ethereum transaction |
+| 4. | Substrate Module - submit transaction | We will create an OCW pallet to send transactions to the appropriate network |
 
 
 ### Milestone 4 - Android pre-MVP wallet Polkadot/Ethereum
@@ -281,9 +279,9 @@ If you've already started implementing your project or it is part of a larger re
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | **0e.** | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
 | 1. | Substrate Module - NFC recovery | We will create a pallet to handle NFC recovery i.e a dedicated hardware or a payment card owned by the user to trigger its account recovery with a new mobile|
-| 2.a | Android Wallet | we will update android app to handle NFC recovery|
-| 2.b | iOS Wallet | we will update iOS app to handle NFC recovery|
-| 3. | Substrate chain | with the support of Substrate builder program we aim at launching an MVP chain with TEE hardware to demomstrate instant onborading and easy airdrop  |
+| 2.a | Android Wallet | We will update android app to handle NFC recovery|
+| 2.b | iOS Wallet | We will update iOS app to handle NFC recovery|
+| 3. | Substrate chain | With the support of Substrate builder program we aim at launching an MVP chain with some intel SGX hardwares nodes to demomstrate instant onbording and easy airdrop  |
 ||||
 
 
