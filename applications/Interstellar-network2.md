@@ -75,7 +75,6 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 
 
 
-
 ### Ecosystem Fit
 > Where and how does your project fit into the ecosystem?
 
