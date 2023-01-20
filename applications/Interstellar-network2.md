@@ -196,7 +196,7 @@ If you've already started implementing your project or it is part of a larger re
 
 
 
-### Milestone 2 - Polkadot and Ethereum pallet signers
+### Milestone 1 - Polkadot and Ethereum pallet signers
 
 - **Estimated Duration:** 6 weeks
 - **FTE:**  2.5
@@ -214,11 +214,27 @@ If you've already started implementing your project or it is part of a larger re
 | 4. | Substrate Module - submit transaction | We will create an OCW??? pallet to send transactions to the appropriate network |
 
 
-### Milestone 3 - Android/iOS pre-MVP wallet Polkadot/Ethereum
+### Milestone 2 - Android/iOS pre-MVP wallet Polkadot/Ethereum
 
-- **Estimated Duration:** 8 weeks
+- **Estimated Duration:** 4 weeks
 - **FTE:**  2.5
-- **Costs:** 30,000 USD
+- **Costs:** 15,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License |  MIT  |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
+| 1. | Android Wallet App | We will update the current android app to handle Polkadot and Ethereum transaction|
+| 2. | iOS Wallet App | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction |
+| 3. | Substrate chain | Modules TTVP, Mobile Registry and signers, will handle complete polkadot and ethereum transactions  |
+
+### Milestone 3 - iOS pre-MVP wallet Polkadot/Ethereum
+
+- **Estimated Duration:** 4 weeks
+- **FTE:**  2.5
+- **Costs:** 15,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -236,7 +252,7 @@ If you've already started implementing your project or it is part of a larger re
 
 ### Milestone 4 - MVP iOS/Android with social recovery
 - **Estimated duration:** 8 weeks
-- **FTE:**  2.2
+- **FTE:**  2.5
 - **Costs:** 30,000 USD
 
 
@@ -247,13 +263,26 @@ If you've already started implementing your project or it is part of a larger re
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | **0e.** | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate Module - NFC recovery | We will create a pallet to handle NFC recovery i.e a dedicated hardware or a payment card owned by the user to trigger its account recovery with a new mobile|
+| 1. | Substrate Module - social recovery | We will integrate social recovery pallet with our chain |
 | 2.a | Android Wallet | We will update android app to handle social recovery|
 | 2.b | iOS Wallet | We will update iOS app to handle social recovery|
-| 3. | Substrate chain | With the support of Substrate builder program we aim at launching an MVP chain with some intel SGX hardwares nodes to demomstrate instant onbording and easy airdrop  |
+| 3. | Substrate chain | With the support of Substrate builder program we aim at launching an MVP testnet chain with some intel SGX hardwares nodes to demomstrate instant onbording and easy airdrop  |
 ||||
 
+### Milestone 5  — Circuit Design Update/Optimization
 
+- **Estimated duration:** 4 weeks
+- **FTE:**  2.5
+- **Costs:** 15,000 USD
+
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License |  MIT  |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
+| 1. | Display Circuit update | We will modify the current display circuit to enable a smoother user experience more comfortable for the user when evaluated |
 
 
 ## Future Plans
