@@ -196,7 +196,7 @@ If you've already started implementing your project or it is part of a larger re
 | 1. | Subtrate Module - Signer Manager | We will create a pallet to manage OCW signers|
 | 2. | Substrate Module - Poladot signer | We will create an OCW pallet to sign Polkadot transaction |
 | 3. | Substrate Module - Ethereum signer | We will create a pallet to sign Ethereum transaction |
-| 4. | Substrate Module - subAPACHE 2 transaction | We will create an OCW??? pallet to send transactions to the appropriate network |
+| 4. | Substrate Module - submit transaction | We will create an OCW??? pallet to send transactions to the appropriate network |
 
 
 ### Milestone 2 - Android pre-MVP wallet Polkadot/Ethereum
