@@ -212,8 +212,7 @@ If you've already started implementing your project or it is part of a larger re
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
 | 1. | Android Wallet App | We will update the current android app to handle Polkadot and Ethereum transaction|
-| 2. | iOS Wallet App | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction |
-| 3. | Substrate chain | Modules TTVP, Mobile Registry and signers, will handle complete polkadot and ethereum transactions  |
+| 2. | Substrate chain | Modules TTVP, Mobile Registry and signers, will handle complete polkadot and ethereum transactions  |
 
 ### Milestone 3 - iOS pre-MVP wallet Polkadot/Ethereum
 
@@ -227,11 +226,7 @@ If you've already started implementing your project or it is part of a larger re
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | Android Wallet App | We will update the current android app to handle Polkadot and Ethereum transaction|
-| 2. | iOS Wallet App | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction |
-| 3. | Substrate chain | Modules TTVP, Mobile Registry and signers, will handle complete polkadot and ethereum transactions  |
-
-
+| 1. | iOS Wallet App | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction |
 
 
 
