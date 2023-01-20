@@ -199,7 +199,7 @@ If you've already started implementing your project or it is part of a larger re
 | 4. | Substrate Module - submit transaction | We will create an OCW??? pallet to send transactions to the appropriate network |
 
 
-### Milestone 2 - Android/iOS pre-MVP wallet Polkadot/Ethereum
+### Milestone 2 - Android pre-MVP wallet Polkadot/Ethereum
 
 - **Estimated Duration:** 4 weeks
 - **FTE:**  2.5
