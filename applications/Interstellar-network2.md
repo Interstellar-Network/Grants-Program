@@ -17,15 +17,17 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 ### Overview
 
 We think that there is an opportunity to turn any mobile devices/smartphones into a cold wallet where private keys needed to sign transactions are hardware protected: 
-- within Secure Element and TEE on mobile
 
 For the private key associated to mobiles to sign transaction request and transaction confirmations i.e. (a private key that is a proxy to actual crypto privates keys managed by the nodes)
-- within Trusted Transaction Environement TEE on nodes
+- within Secure Element and TEE on mobile
 
 For the private keys associated to asset owned
+- within Trusted Transaction Environement TEE on nodes
+
+
 This hardware level security combined with a Trusted Transaction validation protocol based on TUI and/or garbled circuits and Visual Cryptography enables the overall solution to resist state of the art malware threats including banking trojan. (Attacks commonly used to compromise devices and bowsers to access CEX accounts, ex crypto,com,etc…)
 
-Social Recovery combined with a future new recovery based on the hardware devices owned by the wallet owner when they connect  NFC/BT/WiFi to your mobile’s devices.
+Social Recovery combined with a future new recovery based on the hardware devices owned by the wallet owner when they connect  through NFC to your mobile’s devices.
 
 The achieved security level of this novel approach enables the solution to guarantee the security of **one-click instant web3 onboarding (add a link)** for newcomers in crypto.
 
@@ -173,14 +175,14 @@ If you've already started implementing your project or it is part of a larger re
 
 ### Overview
 
-- **Total Estimated Duration:** 9 months
+- **Total Estimated Duration:** 6.5 months
 - **Full-Time Equivalent (FTE):**  2.5
-- **Total Costs:** 130,000 USD
+- **Total Costs:**  95,000 USD
 
-### Milestone 1  — iOS client TTVP demo
+### Milestone 1  — Circuit Design Update/Optimization
 
-- **Estimated duration:** 1 month
-- **FTE:**  2.2
+- **Estimated duration:** 4 weeks
+- **FTE:**  2.5
 - **Costs:** 15,000 USD
 
 
@@ -190,33 +192,14 @@ If you've already started implementing your project or it is part of a larger re
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | iOS client: TTVP demo | We will create a basic iOS app to demonstrate the TTVP protocol including the registration of an iPhone on the mobile registry pallet. ( for this milestone we won't yet demomstrate a cryptocurrency transaction neither the whole wallet UI/UX) |
-| 2. | Substrate module: Mobile Registry update | we will update the mobile registry pallet to handle iPhone registration i.e mobile public key required  to validate TTVP - Transaction Confirmation result on the TTVP pallet |
-| 3. | TTVP benchmark | We will develop a tool to benchmark TTVP execution on both mobile and pallets for future optimization of the Circuits/Garbled Circuits used by the TTVP protocol |
-|
+| 1. | Display Circuit update | We will modify the current display circuit to enable a smoother user experience more comfortable for the user when evaluated |
 
-### Milestone 2 — Circuits and Garbled Circuits optimization/Benchmarks
 
-- **Estimated Duration:** 1.5/2 months
-- **FTE:**  2.2
-- **Costs:** 25,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License |  MIT  |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | Circuit Design optimization | We will modify the current design of the circuits used in the TTVP protocol to make it more user friendly for the user|
-| 2. | Garbled Circuits optimization | We will modify both the Garbled Circuits evaluator on the mobile iOS and android and the GC generator on the GCF |
-| 3.a | TTVP benchmark on iOS|benchmark results |
-| 3.b | TTVP benchmark on Android | benchmark results |
-| 3.c | TTVP benchmark on substrate pallets | benchmark results|
+### Milestone 2 - Polkadot and Ethereum pallet signers
 
-### Milestone 3 - Polkadot and Ethereum pallet signers
-
-- **Estimated Duration:** 1.5 months
-- **FTE:**  2.2
+- **Estimated Duration:** 6 weeks
+- **FTE:**  2.5
 - **Costs:** 20,000 USD
 
 | Number | Deliverable | Specification |
@@ -228,14 +211,14 @@ If you've already started implementing your project or it is part of a larger re
 | 1. | Subtrate Module - Signer Manager | We will create a pallet to manage OCW signers|
 | 2. | Substrate Module - Poladot signer | We will create an OCW pallet to sign Polkadot transaction |
 | 3. | Substrate Module - Ethereum signer | We will create a pallet to sign Ethereum transaction |
-| 4. | Substrate Module - submit transaction | We will create an OCW pallet to send transactions to the appropriate network |
+| 4. | Substrate Module - submit transaction | We will create an OCW??? pallet to send transactions to the appropriate network |
 
 
-### Milestone 4 - Android pre-MVP wallet Polkadot/Ethereum
+### Milestone 3 - Android/iOS pre-MVP wallet Polkadot/Ethereum
 
-- **Estimated Duration:** 1.5 months
-- **FTE:**  2.2
-- **Costs:** 20,000 USD
+- **Estimated Duration:** 8 weeks
+- **FTE:**  2.5
+- **Costs:** 30,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -244,28 +227,15 @@ If you've already started implementing your project or it is part of a larger re
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
 | 1. | Android Wallet App | We will update the current android app to handle Polkadot and Ethereum transaction|
+| 2. | iOS Wallet App | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction |
 | 3. | Substrate chain | Modules TTVP, Mobile Registry and signers, will handle complete polkadot and ethereum transactions  |
 
 
-### Milestone 5 - iOS pre-MVP wallet Polkadot/Ethereum
-
-- **Estimated Duration:** 1.5 months
-- **FTE:**  2.2
-- **Costs:** 20,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License |  MIT  |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | iOS Wallet App | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction |
 
 
 
-
-### Milestone 6 - MVP iOS/Android with NFC recovery
-- **Estimated duration:** 2 months
+### Milestone 4 - MVP iOS/Android with social recovery
+- **Estimated duration:** 8 weeks
 - **FTE:**  2.2
 - **Costs:** 30,000 USD
 
@@ -278,8 +248,8 @@ If you've already started implementing your project or it is part of a larger re
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | **0e.** | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
 | 1. | Substrate Module - NFC recovery | We will create a pallet to handle NFC recovery i.e a dedicated hardware or a payment card owned by the user to trigger its account recovery with a new mobile|
-| 2.a | Android Wallet | We will update android app to handle NFC recovery|
-| 2.b | iOS Wallet | We will update iOS app to handle NFC recovery|
+| 2.a | Android Wallet | We will update android app to handle social recovery|
+| 2.b | iOS Wallet | We will update iOS app to handle social recovery|
 | 3. | Substrate chain | With the support of Substrate builder program we aim at launching an MVP chain with some intel SGX hardwares nodes to demomstrate instant onbording and easy airdrop  |
 ||||
 
