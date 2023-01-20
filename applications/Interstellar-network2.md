@@ -1,7 +1,7 @@
 # Interstellar - Wallet Phase 2
 
 
-> See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to submit a proposal.
+> See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to subAPACHE 2 a proposal.
 
 - **Team Name:** Interstellar
 - **Payment Address:**  Ethereum - 0xc5C54DcD7b76b3B26ab4a02f191338F31aD732f6 (ETH)
@@ -189,14 +189,14 @@ If you've already started implementing your project or it is part of a larger re
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License |  MIT  |
+| **0a.** | License |  APACHE 2  |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
 | 1. | Subtrate Module - Signer Manager | We will create a pallet to manage OCW signers|
 | 2. | Substrate Module - Poladot signer | We will create an OCW pallet to sign Polkadot transaction |
 | 3. | Substrate Module - Ethereum signer | We will create a pallet to sign Ethereum transaction |
-| 4. | Substrate Module - submit transaction | We will create an OCW??? pallet to send transactions to the appropriate network |
+| 4. | Substrate Module - subAPACHE 2 transaction | We will create an OCW??? pallet to send transactions to the appropriate network |
 
 
 ### Milestone 2 - Android pre-MVP wallet Polkadot/Ethereum
@@ -207,7 +207,7 @@ If you've already started implementing your project or it is part of a larger re
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License |  MIT  |
+| **0a.** | License |  APACHE 2  |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
@@ -223,7 +223,7 @@ If you've already started implementing your project or it is part of a larger re
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License |  MIT  |
+| **0a.** | License |  APACHE 2  |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
@@ -243,7 +243,7 @@ If you've already started implementing your project or it is part of a larger re
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License |  MIT  |
+| **0a.** | License |  APACHE 2  |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
@@ -263,7 +263,7 @@ If you've already started implementing your project or it is part of a larger re
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License |  MIT  |
+| **0a.** | License |  APACHE 2  |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
