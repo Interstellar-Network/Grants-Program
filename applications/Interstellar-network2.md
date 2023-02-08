@@ -16,7 +16,10 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 ### Overview
 
-We think that there is an opportunity to turn any mobile devices/smartphones into a cold wallet where private keys needed to sign transactions are hardware protected: 
+FTX just showed that self custody is now crucial for the sake of the web3 ecosystem.
+There is now a crucial need for a convenient but higly secure wallet system that can resist cybersecurity threats.
+
+We think that there is now an opportunity to turn any mobile devices/smartphones into a cold wallet where private keys needed to sign transactions are hardware protected: 
 
 For the private key associated to mobiles to sign transaction request and transaction confirmations i.e. (a private key that is a proxy to actual crypto privates keys managed by the nodes)
 - within Secure Element and TEE on mobile
@@ -25,9 +28,13 @@ For the private keys associated to asset owned
 - within Trusted Transaction Environement TEE on nodes
 
 
-This hardware level security combined with a Trusted Transaction validation protocol based on TUI and/or garbled circuits and Visual Cryptography enables the overall solution to resist state of the art malware threats including banking trojan. (Attacks commonly used to compromise devices and bowsers to access CEX accounts, ex crypto,com,etc…)
+This hardware level security combined with a Trusted Transaction validation protocol based on TUI and/or garbled circuits and Visual Cryptography enables the overall solution to resist state of the art malware threats including banking trojan. (Attacks commonly used to compromise devices and bowsers to access CEX accounts, ex crypto,com,etc…). Our approach can also pave the way to address targetted attacks at a later stage. link future plan.
 
-Social Recovery combined with a future new recovery based on the hardware devices owned by the wallet owner when they connect  through NFC to your mobile’s devices.
+The management of transaction by the blockchain also enables  additional features that dramatically increase both security and convenience for the user like:
+- Trusted beneficiary/contact: destination public key that are associated to the beneficiary are only in the blockchain, so attacker can't replace them on the device. 
+- Conditional validation: user can set the triggering of transaction validation based upon the amount. 
+
+Social Recovery combined with a future new recovery based on the hardware devices owned by the wallet owner when they connect  through NFC to your mobile’s devices. The recovery is trigger by an NFC tap of a device the user own.
 
 The achieved security level of this novel approach enables the solution to guarantee the security of **one-click instant web3 onboarding (add a link)** for newcomers in crypto.
 
@@ -35,6 +42,34 @@ It also represents **an easy to use alternative to hardware wallets** for crypto
 
 
 > We think that like with Google vs. Yahoo there is a technology arm race that can disrupt hardware wallet, smart contract wallet and even hot wallet market down the road!
+
+FTX collapse highlights the importance of self-custody for the web3 ecosystem. A higly secure and convenient wallet system is necessary to combat cyber threats and ensures larger adoption.
+
+Our solution transforms mobile devices into cold wallets, with private keys protected at the hardware level:
+
+- Secure Element and TEE on mobile for proxy private keys associated with transaction requests and confirmations.
+- Trusted Transaction Environment TEE on nodes for private keys associated with assets.
+
+This hardware security, combined with a Trusted Transaction Validation Protocol, offers robust protection against state-of-the-art malware, including banking Trojans, and prepares for future targeted attacks.
+
+This is more than a wallet, we have designed a novel secure access layer for web3 managed with a blockchain that register mobile hardware/secure elements/TEEs to protect transaction with a strong multi-factor authentication (based on hardware and software computation privacy scheme i.e garbled circuit).
+
+Using a blockchain for the management of transactions offers extra security and auditability features and dramaticcaly increase convenience for the user:
+
+- Trusted beneficiaries/contacts, with destination public keys stored only on the blockchain nodes.
+- Conditional validation, allowing users to set transaction confirmation triggers based on amounts.
+- An extra layer of transaction auditability
+
+And in the medium/long term (see future plan for more details)
+- ML Malware detection model based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targetted attacks)
+- User inputs verification based on behavioral biometric model (proven with 99% accuracy) that can be correlated with ML detection model.
+
+Social recovery and **a novel hardware-based recovery (through NFC) further enhance security and convenience**. We will enable the usage of NFC devices the user already owns like an NFC payment card or an NFC earpod,etc... Just a tap on the mobile is needed to trigger the recovery process.
+
+This approach achieves a higly secure level for **newcomers to easily onboard to web3**, and serves as an **alternative to hardware wallets for crypto veterans**.
+
+Our technology has the potential to disrupt the hardware wallet, smart contract wallet, and even hot wallet markets.
+
 
 
 ### Project Details
@@ -50,14 +85,7 @@ Software development projects:
 - What your project is _not_ or will _not_ provide or implement
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
-Research projects:
-- The problem(s) that you want to investigate, and why these are important. 
-- Research questions/hypothesis.
-- The methodology that will be applied. 
-- The data collection and analysis procedures.
-- The expected results and how they would be double-checked by the grants team (reproducibility of the data analysis).
-- Relevant related work.
-- Intended venue for results publication and the timeline for publication. 
+
 - What your project is _not_ or will _not_ provide or implement
   - This is a place for you to manage expectations and clarify any limitations that might not be obvious
 
@@ -78,34 +106,19 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 
 
 ### Ecosystem Fit
-> Where and how does your project fit into the ecosystem?
 
-This project is the first phase of a wallet project. Although, we think that our Trusted Transaction Validation protocol could bring a novel approach to address UX/UI security issues regardless of other features of our frictionless wallet.
-We designed our validation transaction protocol to benefit to other wallets or Dapps. We think it could also be complementary down the road to mobile light clients like Substrate Connect (check **Future Plans** section).
+At ParisDot.comm, we had a fantastic opportunity to present our project to the leading teams in the Polkadot Parachain community. And the feedback we received was nothing short of extraordinary. Our solution, which aims to provide both hardware security and user-friendliness in a wallet solution, struck a chord with the teams.
+
+Their positive response is a testament to the importance of a solution that addresses this critical need in the Polkadot ecosystem and beyond. The teams were not only impressed with our solution, but they were also eager to put it to the test as soon as it becomes available.
+
+This is a major milestone for us, and we're thrilled to have the support of such influential players in the Polkadot community. We're dedicated to delivering a solution that meets their expectations and contributes to the continued growth and success of the Polkadot ecosystem.
+
+
   
 ![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/144742049-54d3a212-b471-4a69-9f44-adfb150814ca.png#gh-light-mode-only)
 
 ![TTV overview overview dark drawio](https://user-images.githubusercontent.com/4605611/144738926-e6f0db47-f7ff-4382-ae5d-251420e23a61.png#gh-dark-mode-only)
 
->Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-
-We want to target Dapp providers in the DeFi ecosystem with developer tools to integrate our solution with their Dapps. We think that our value proposition should be attractive to them.
-At the same time we want to target newcomers with a Robinhood wallet for Defi that includes an average dollar cost feature.
-> What need(s) does your project meet?
-
-The need for a wallet to be simpler to set-up and use, as well as the need for higher security to address the growing malware/banking trojan threats.
-
-> Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-
-Math Wallet and Gluon are close to our solution.
-
-We think that we could bring a better user experience, security and performance, thanks to a highly scalable layer 2 based on SubstraTEE:
-
-- Math Wallet is based on MPC that requires heavier computation resources. They also envision smartcards with a screen for their users. It's comparable to our level of security, but more expensive, cumbersome to use, less flexible and more complex to deploy than our solution.
-
-- Gluon QR code based transaction confirmation that requires 2 screens is more cumbersome for the user. Moreover, this scheme is already exposed to banking trojans with overlay capabilities*. Although their TPM based approach could be complementary down the road to TEE, to mitigate potential future flaws on Intel SGX.
-
-> *see: A high level attack  description on solutions that use QR code for transaction confirmations [Are cryptocurrency wallets more at risk than ever?](https://medium.com/@jlleleu/are-cryptocurrency-wallets-more-at-risk-than-ever-cf1ce9725de7)
 
 ## Team :busts_in_silhouette:
 
@@ -116,8 +129,8 @@ We think that we could bring a better user experience, security and performance,
 - Names of team members:
 - Nathan Prat
 - Eliot Leleu
-- Jean-Louis Hoenen
-- Aude Bourdouxhe
+- Jean-Louis Hoenen (advisor)
+- Aude Bourdouxhe (advisor)
 - Philippe Salats (advisor)
 - 
 ### Contact
@@ -129,14 +142,12 @@ We think that we could bring a better user experience, security and performance,
 
 ### Legal Structure
 
-- **Registered Address:** Paris, France
+- **Registered Address:** 61 rue de Lyon,Paris, France
 - **Registered Legal Entity:** Interstellar SAS
 
 ### Team's experience
 We are now multiple security and fintech  entrepreneurs, security researchers, patents fillers who turned open-source developers and blockchain enthusiasts.
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
 
 ### Team Code Repos
 
@@ -193,10 +204,10 @@ If you've already started implementing your project or it is part of a larger re
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | Subtrate Module - Signer Manager | We will create a pallet to manage OCW signers|
-| 2. | Substrate Module - Poladot signer | We will create an OCW pallet to sign Polkadot transaction |
+| 1. | Subtrate Module - Signer Manager | We will create a pallet to manage signers|
+| 2. | Substrate Module - Poladot signer | We will create a pallet to sign Polkadot transaction |
 | 3. | Substrate Module - Ethereum signer | We will create a pallet to sign Ethereum transaction |
-| 4. | Substrate Module - submit transaction | We will create an OCW??? pallet to send transactions to the appropriate network |
+| 4. | Substrate Module - submit transaction | We will create an OCW pallet to send transactions to the appropriate network |
 
 
 ### Milestone 2 - Android pre-MVP wallet Polkadot/Ethereum
@@ -267,19 +278,48 @@ If you've already started implementing your project or it is part of a larger re
 
 ## Future Plans
 
+
+
 Please include here
 
 -how you intend to use, enhance, promote and support your project in the short term, and
 -the team's long-term plans and intentions in relation to it.
 
+### Potential Research project:
+
+The issue that requires investigation is the increasing sophistication and effectiveness of targeted malware attacks, particularly those that utilize a 0-day vulnerability to establish a rootkit. This is a crucial matter to address as such attacks can cause significant harm to individuals and organizations.
+
+**Research question/hypothesis**: Can we enhance the efficiency and accuracy of a machine learning (ML) malware detection model for rootkits, based on processor resource consumption during transaction validation sessions on mobile devices?
+
+We aim to maximize processor resource consumption by designing a task based on evaluating garbled circuits to create an unalterable cryptographic dataset. This dataset can be used to train a machine learning model to detect malicious resource usage patterns. The task-based approach can be fine-tuned to detect subtle variations in resource consumption and is more likely to identify malicious behavior as the usage patterns for evaluating garbled circuits are unique compared to other tasks. Moreover, garbled circuits provide privacy and protection for computation and inputs, making it challenging for attackers to mimic normal behavior and evade detection.
+
+### Future security framework
+The proposed system incorporates multiple security layers to increase the cost of targeted attacks on mobile user interface (UI) software.
+
+The first layer focuses on the security of transaction confirmation, using features such as TUI and Android protected confirmation.
+
+The second layer adds an additional layer of security through behavioral biometrics, such as keypad pressure and input timestamps, making it difficult for attackers to replicate the user's input. [99% proven succes rate model]( https://book.interstellar.gg/TTVP.html#behavioral-biometric-roadmap)
+
+The third layer uses garbled circuits to execute a recursive AES hashing function that maximizes resource consumption on the mobile processors, CPU, GPU, and ML engine. The evaluation of these circuits generates an unalterable secret sequence number, which is then embedded as a watermark in the frames displayed to the user. These frames are sent to nodes and regularly verified, ensuring legitimate execution of the garbled circuits and limiting available resources for attackers.
+
+The system could also set-up an ML model to detect attack attempts, especially if the sequence numbers are correlated with behavioral biometric inputs. This system can be initiated during the launch of the mainnet to manage the ML learning phase and establish normal usage patterns during transaction validation sessions on various ARM-based mobiles, including their GPU and ML processors.
+
+This proposed multi-layer security system is believed to effectively deter malicious actors. If attackers aim to exploit a highly expensive 0-day vulnerability or are unable to access information about the assets in the wallet, they are likely to target less secure wallets with more predictable returns in order to maximize their return on investment.
+
+If the research hypothesis are confirmed, we think that a high success rate in detecting targeted attack attempts can be achieved with sufficient diverse datasets and model refinement through simulated attacks. [Bittensor](https://bittensor.com/) in the Polkadot ecosystem could be a promising candidate for implementing the ML models.
 
 
+>Brain intensity topic - possible usage as an ML model- new type of behavoiral biometric -> to enhance model and deter ML based potential attacks in the future.
 
-## Referral Program (optional) :moneybag: 
+### Potential Garantee fund backed by reinsurance service
 
-You can find more information about the program [here](../README.md#moneybag-referral-program).
-- **Referrer:** Name of the Polkadot Ambassador or GitHub account of the Web3 Foundation grantee
-- **Payment Address:** BTC, Ethereum (USDT/USDC/DAI) or Polkadot/Kusama (aUSD) payment address. Please also specify the currency. (e.g. 0x8920... (DAI))
+With such security level achived, it could make sense to establish a garantee fund for individual and corporate users.
+
+### Enhance distributed HSM based on TEE based with hardware HSM module
+
+
+### Key backup in filecoin with Shamir Secret Sharing
+
 
 ## Additional Information :heavy_plus_sign:
 
