@@ -16,33 +16,6 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 ### Overview
 
-FTX just showed that self custody is now crucial for the sake of the web3 ecosystem.
-There is now a crucial need for a convenient but higly secure wallet system that can resist cybersecurity threats.
-
-We think that there is now an opportunity to turn any mobile devices/smartphones into a cold wallet where private keys needed to sign transactions are hardware protected: 
-
-For the private key associated to mobiles to sign transaction request and transaction confirmations i.e. (a private key that is a proxy to actual crypto privates keys managed by the nodes)
-- within Secure Element and TEE on mobile
-
-For the private keys associated to asset owned
-- within Trusted Transaction Environement TEE on nodes
-
-
-This hardware level security combined with a Trusted Transaction validation protocol based on TUI and/or garbled circuits and Visual Cryptography enables the overall solution to resist state of the art malware threats including banking trojan. (Attacks commonly used to compromise devices and bowsers to access CEX accounts, ex crypto,com,etc…). Our approach can also pave the way to address targetted attacks at a later stage. link future plan.
-
-The management of transaction by the blockchain also enables  additional features that dramatically increase both security and convenience for the user like:
-- Trusted beneficiary/contact: destination public key that are associated to the beneficiary are only in the blockchain, so attacker can't replace them on the device. 
-- Conditional validation: user can set the triggering of transaction validation based upon the amount. 
-
-Social Recovery combined with a future new recovery based on the hardware devices owned by the wallet owner when they connect  through NFC to your mobile’s devices. The recovery is trigger by an NFC tap of a device the user own.
-
-The achieved security level of this novel approach enables the solution to guarantee the security of **one-click instant web3 onboarding (add a link)** for newcomers in crypto.
-
-It also represents **an easy to use alternative to hardware wallets** for crypto veterans.
-
-
-> We think that like with Google vs. Yahoo there is a technology arm race that can disrupt hardware wallet, smart contract wallet and even hot wallet market down the road!
-
 FTX collapse highlights the importance of self-custody for the web3 ecosystem. A higly secure and convenient wallet system is necessary to combat cyber threats and ensures larger adoption.
 
 Our solution transforms mobile devices into cold wallets, with private keys protected at the hardware level:
