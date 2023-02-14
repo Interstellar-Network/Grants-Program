@@ -219,11 +219,7 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 
 ## Future Plans
 
-Please include here
 
--how you intend to use, enhance, promote and support your project in the short term, and
-
--the team's long-term plans and intentions in relation to it.
 
 ### Potential Research project:
 
