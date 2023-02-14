@@ -1,8 +1,6 @@
 # Interstellar - Wallet Phase 2
 
 
-> See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to subAPACHE 2 a proposal.
-
 - **Team Name:** Interstellar
 - **Payment Address:**  Ethereum - 0xc5C54DcD7b76b3B26ab4a02f191338F31aD732f6 (ETH)
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 3
