@@ -122,7 +122,6 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - <https://www.linkedin.com/in/philippesalats/> Philippe Salats (advisor)
 
 
-
 ## Development Roadmap :nut_and_bolt:
 
 ### Overview
@@ -214,7 +213,8 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | Display Circuit update | We will modify the current display circuit to enable a smoother user experience more comfortable for the user when evaluated |
+| 1. | Garble Circuit pallet update | We will optimize the garbled circuit evaluation scheme to reach best performance |
+| 2. | Display Circuit update | We will modify the current display circuit to enable a smoother user experience more comfortable for the user when evaluated |
 
 
 ## Future Plans
