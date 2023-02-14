@@ -43,7 +43,7 @@ Our technology has the potential to disrupt the hardware wallet, smart contract 
 
 ### Project Details
 
-[![Watch the video explaining the solution]( )](https://clipchamp.com/watch/nwzybRger1x)
+- [A short video on the solution]((https://clipchamp.com/watch/nwzybRger1x)
 - Mockups/designs of any UI components
 https://book.interstellar.gg/Mobile_App.html
 
@@ -85,10 +85,9 @@ This is a major milestone for us, and we're thrilled to have the support of such
 - Names of team members:
 - Nathan Prat
 - Eliot Leleu
-- Jean-Louis Hoenen (advisor)
-- Aude Bourdouxhe (advisor)
+
 - Philippe Salats (advisor)
-- 
+
 ### Contact
 
 - **Contact Name:** Jean-Luc Leleu
@@ -119,23 +118,10 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 
 - <https://www.linkedin.com/in/eliotjfl/> Eliot Leleu
 
-- <https://www.linkedin.com/in/jlhoenen/> Jean-Louis Hoenen
-
-- <https://www.linkedin.com/in/aude-bourdouxhe-40656b28/> Aude Bourdouxhe
 
 - <https://www.linkedin.com/in/philippesalats/> Philippe Salats (advisor)
 
 
-
-## Development Status :open_book:
-
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- links to improvement proposals or [RFPs](https://github.com/w3f/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap :nut_and_bolt:
 
