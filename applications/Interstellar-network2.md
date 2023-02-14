@@ -43,7 +43,7 @@ Our technology has the potential to disrupt the hardware wallet, smart contract 
 
 ### Project Details
 
-- [A short video on the solution](https://clipchamp.com/watch/nwzybRger1x)
+[A short video on the solution](https://clipchamp.com/watch/nwzybRger1x)
 - Mockups/designs of any UI components
 https://book.interstellar.gg/Mobile_App.html
 
