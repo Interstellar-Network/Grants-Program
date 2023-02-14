@@ -10,9 +10,7 @@
 
 ## Project Overview :page_facing_up:
 
-**Follow-up of Interstellar- Wallet Phase 1**
-add pull request
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
+**Follow-up of Interstellar- Wallet Phase 1**: Link to the application pull request: [w3f/Grants-Program#1354](https://github.com/w3f/Grants-Program/pull/1354)
 
 ### Overview
 
@@ -34,7 +32,7 @@ Using a blockchain for the management of transactions offers extra security and 
 - An extra layer of transaction auditability
 
 And in the medium/long term (see future plan for more details)
-- ML Malware detection model based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targetted attacks)
+- ML real-time Malware detection model based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targetted attacks)
 - User inputs verification based on behavioral biometric model (proven with 99% accuracy) that can be correlated with ML detection model.
 
 Social recovery and **a novel hardware-based recovery (through NFC) further enhance security and convenience**. We will enable the usage of NFC devices the user already owns like an NFC payment card or an NFC earpod,etc... Just a tap on the mobile is needed to trigger the recovery process.
@@ -47,25 +45,12 @@ Our technology has the potential to disrupt the hardware wallet, smart contract 
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant) for each kind of project:
 
-Software development projects:
 - Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+https://book.interstellar.gg/Mobile_App.html
 
-
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and clarify any limitations that might not be obvious
-
-Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+- Documentation of core components
+https://book.interstellar.gg/
 
 #### Technology stack
 
@@ -156,13 +141,11 @@ If you've already started implementing your project or it is part of a larger re
 
 ## Development Roadmap :nut_and_bolt:
 
-
 ### Overview
 
 - **Total Estimated Duration:** 6.5 months
 - **Full-Time Equivalent (FTE):**  2.5
 - **Total Costs:**  95,000 USD
-
 
 
 ### Milestone 1 - Polkadot and Ethereum pallet signers
@@ -177,9 +160,9 @@ If you've already started implementing your project or it is part of a larger re
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | Subtrate Module - Signer Manager | We will create a pallet to manage signers|
-| 2. | Substrate Module - Poladot signer | We will create a pallet to sign Polkadot transaction |
-| 3. | Substrate Module - Ethereum signer | We will create a pallet to sign Ethereum transaction |
+| 1. | Subtrate TEE Module - Signer/Key Manager | We will create a pallet to manage signers associated with private key management |
+| 2. | Substrate TEE Module - Poladot signer | We will create a pallet to sign Polkadot transaction |
+| 3. | Substrate TEE Module - Ethereum signer | We will create a pallet to sign Ethereum transaction |
 | 4. | Substrate Module - submit transaction | We will create an OCW pallet to send transactions to the appropriate network |
 
 
@@ -197,6 +180,7 @@ If you've already started implementing your project or it is part of a larger re
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
 | 1. | Android Wallet App | We will update the current android app to handle Polkadot and Ethereum transaction|
 | 2. | Substrate chain | Modules TTVP, Mobile Registry and signers, will handle complete polkadot and ethereum transactions  |
+| 3. | light secure screen | we will provide a less secure but very comfortable to read secure screen version - this version will be used later with our dynamic security model  |
 
 ### Milestone 3 - iOS pre-MVP wallet Polkadot/Ethereum
 
@@ -251,20 +235,24 @@ If you've already started implementing your project or it is part of a larger re
 
 ## Future Plans
 
-
-
 Please include here
 
 -how you intend to use, enhance, promote and support your project in the short term, and
+
 -the team's long-term plans and intentions in relation to it.
 
 ### Potential Research project:
 
 The issue that requires investigation is the increasing sophistication and effectiveness of targeted malware attacks, particularly those that utilize a 0-day vulnerability to establish a rootkit. This is a crucial matter to address as such attacks can cause significant harm to individuals and organizations.
 
-**Research question/hypothesis**: Can we enhance the efficiency and accuracy of a machine learning (ML) malware detection model for rootkits, based on processor resource consumption during transaction validation sessions on mobile devices?
+Targeted attacks with rootkit capabilities are highly elusive, as an attacker with malware and root privileges can quickly disable any type of system or network monitoring. This is made even more challenging by the fact that the attacker has access to the entire system's resources and can alter the memory and code of any application. Furthermore, it is even more difficult to detect such attacks when the targeted application lacks root privileges, as the attacker has an advantage in terms of access and control.
 
-We aim to maximize processor resource consumption by designing a task based on evaluating garbled circuits to create an unalterable cryptographic dataset. This dataset can be used to train a machine learning model to detect malicious resource usage patterns. The task-based approach can be fine-tuned to detect subtle variations in resource consumption and is more likely to identify malicious behavior as the usage patterns for evaluating garbled circuits are unique compared to other tasks. Moreover, garbled circuits provide privacy and protection for computation and inputs, making it challenging for attackers to mimic normal behavior and evade detection.
+Despite the challenges presented by rootkit-enabled targeted attacks, we think that our security and authentication framework can be used to design a real-time targeted attack detection that focuses on our transaction validation/sensitive operation session. This is made possible by our use of hardware protecetd signature on mobile and the computation privacy and protection of inputs of garbled circuit evaluation. By leveraging these advanced security measures, we can enhance our ability to detect and prevent targeted attacks, even those with rootkit capabilities.
+
+
+**Research question/hypothesis**: Can we design an efficient and accurate machine learning (ML) malware detection model for rootkits, based on processor resource consumption during transaction validation sessions on mobile devices?
+
+During the transaction validation session. We aim to maximize processor resource consumption by designing a task based on evaluating garbled circuits to create an unalterable cryptographic dataset. This dataset can be used to train a machine learning model to detect malicious resource usage patterns. The task-based approach can be fine-tuned to detect subtle variations in resource consumption and is more likely to identify malicious behavior as the usage patterns for evaluating garbled circuits are unique compared to other tasks. Moreover, garbled circuits provide privacy and protection for computation and inputs, making it challenging for attackers to mimic normal behavior and evade detection.
 
 ### Future security framework
 The proposed system incorporates multiple security layers to increase the cost of targeted attacks on mobile user interface (UI) software.
@@ -273,25 +261,27 @@ The first layer focuses on the security of transaction confirmation, using featu
 
 The second layer adds an additional layer of security through behavioral biometrics, such as keypad pressure and input timestamps, making it difficult for attackers to replicate the user's input. [99% proven succes rate model]( https://book.interstellar.gg/TTVP.html#behavioral-biometric-roadmap)
 
-The third layer uses garbled circuits to execute a recursive AES hashing function that maximizes resource consumption on the mobile processors, CPU, GPU, and ML engine. The evaluation of these circuits generates an unalterable secret sequence number, which is then embedded as a watermark in the frames displayed to the user. These frames are sent to nodes and regularly verified, ensuring legitimate execution of the garbled circuits and limiting available resources for attackers.
+The third layer uses garbled circuits to execute a recursive AES hashing function that maximizes resource consumption on the mobile processors: CPU, GPU, and ML engine. The evaluation of these circuits generates an unalterable secret sequence number, which is then embedded as a watermark in the frames displayed to the user. These frames are sent to nodes and regularly verified, ensuring legitimate execution of the garbled circuits and limiting available resources for attackers.
 
-The system could also set-up an ML model to detect attack attempts, especially if the sequence numbers are correlated with behavioral biometric inputs. This system can be initiated during the launch of the mainnet to manage the ML learning phase and establish normal usage patterns during transaction validation sessions on various ARM-based mobiles, including their GPU and ML processors.
+The system could then set-up an ML model to detect attack attempts, especially if the sequence numbers are correlated with behavioral biometric inputs. This system can be initiated during the launch of the mainnet to manage the ML learning phase and establish normal usage patterns during transaction validation sessions on various ARM-based mobiles, including their GPU and ML processors.
 
 This proposed multi-layer security system is believed to effectively deter malicious actors. If attackers aim to exploit a highly expensive 0-day vulnerability or are unable to access information about the assets in the wallet, they are likely to target less secure wallets with more predictable returns in order to maximize their return on investment.
 
 If the research hypothesis are confirmed, we think that a high success rate in detecting targeted attack attempts can be achieved with sufficient diverse datasets and model refinement through simulated attacks. [Bittensor](https://bittensor.com/) in the Polkadot ecosystem could be a promising candidate for implementing the ML models.
 
 
->Brain intensity topic - possible usage as an ML model- new type of behavoiral biometric -> to enhance model and deter ML based potential attacks in the future.
+> depending on configuration/tunning of display circuit - the user will use more or less brain power to read the display.
+This lead to a possible new type of behavioral biometric => could enhance ML model and deter ML based potential attacks in the future.
+
+### Potential Private Keys backup/retievial in filecoin with Shamir Secret Sharing
+
+### Potential Enhancement of distributed HSM based on TEE with hardware HSM module on some nodes
 
 ### Potential Garantee fund backed by reinsurance service
 
-With such security level achived, it could make sense to establish a garantee fund for individual and corporate users.
+Establishing a guarantee fund for individual and corporate users could be a sensible option given the level of security achieved by the system.
 
-### Enhance distributed HSM based on TEE based with hardware HSM module
-
-
-### Key backup in filecoin with Shamir Secret Sharing
+### Potential Enhancement of distributed HSM based on TEE with hardware HSM module on some nodes
 
 
 ## Additional Information :heavy_plus_sign:
