@@ -269,9 +269,9 @@ This proposed multi-layer security system is believed to effectively deter malic
 
 If the research hypothesis are confirmed, we think that a high success rate in detecting targeted attack attempts can be achieved with sufficient diverse datasets and model refinement through simulated attacks. [Bittensor](https://bittensor.com/) in the Polkadot ecosystem could be a promising candidate for implementing the ML models.
 
+> The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display, potentially creating a new type of behavioral biometric that could improve ML models and prevent ML-based attacks in the future.
 
-> depending on configuration/tunning of display circuit - the user will use more or less brain power to read the display.
-This lead to a possible new type of behavioral biometric => could enhance ML model and deter ML based potential attacks in the future.
+
 
 ### Potential Private Keys backup/retievial in filecoin with Shamir Secret Sharing
 
