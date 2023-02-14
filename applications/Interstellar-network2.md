@@ -281,7 +281,7 @@ If the research hypothesis are confirmed, we think that a high success rate in d
 
 Establishing a guarantee fund for individual and corporate users could be a sensible option given the level of security achieved by the system.
 
-### Potential Enhancement of distributed HSM based on TEE with hardware HSM module on some nodes
+
 
 
 ## Additional Information :heavy_plus_sign:
