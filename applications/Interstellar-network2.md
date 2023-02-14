@@ -272,8 +272,7 @@ If the research hypothesis are confirmed, we think that a high success rate in d
 > The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display, potentially creating a new type of behavioral biometric that could improve ML models and prevent ML-based attacks in the future.
 
 
-
-### Potential Private Keys backup/retievial in filecoin with Shamir Secret Sharing
+### Filecoin may allow for the backup and retrieval of private keys using Shamir Secret Sharing.
 
 ### Potential Enhancement of distributed HSM based on TEE with hardware HSM module on some nodes
 
