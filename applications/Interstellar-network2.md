@@ -89,7 +89,7 @@ https://book.interstellar.gg/
 
 ### Ecosystem Fit
 
-At ParisDot.comm, we had a fantastic opportunity to present our project to the leading teams in the Polkadot Parachain community. And the feedback we received was nothing short of extraordinary. Our solution, which aims to provide both hardware security and user-friendliness in a wallet solution, struck a chord with the teams.
+At parisDOT<sup>.comm</sup> we had a fantastic opportunity to present our project to the leading teams in the Polkadot Parachain community. And the feedback we received was nothing short of extraordinary. Our solution, which aims to provide both hardware security and user-friendliness in a wallet solution, struck a chord with the teams.
 
 Their positive response is a testament to the importance of a solution that addresses this critical need in the Polkadot ecosystem and beyond. The teams were not only impressed with our solution, but they were also eager to put it to the test as soon as it becomes available.
 
