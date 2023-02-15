@@ -43,7 +43,7 @@ Our solution transforms mobile devices into cold wallets, with private keys prot
 
 This hardware security, combined with a Trusted Transaction Validation Protocol, offers robust protection against state-of-the-art malware, including banking Trojans, and prepares for future targeted attacks.
 
-This is more than a wallet, we have designed **a novel secure access layer for web3** managed with a blockchain that register mobile hardware/secure elements/TEEs to protect transaction with a strong multi-factor authentication (based on hardware and software computation privacy scheme i.e garbled circuit).
+Interstellar is more than a wallet, we have designed **a novel secure access layer for web3** managed with a blockchain that register mobile hardware/secure elements/TEEs to protect transaction with a strong multi-factor authentication (based on hardware and software computation privacy scheme i.e garbled circuit).
 
 Using a blockchain for the management of transactions offers extra security and auditability features and dramaticcaly increase convenience for the user:
 
