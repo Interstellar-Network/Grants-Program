@@ -156,14 +156,14 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 
 - **Total Estimated Duration:** 6.5 months
 - **Full-Time Equivalent (FTE):**  2.5
-- **Total Costs:**  95,000 USD
+- **Total Costs:**  97,000 USD
 
 
 ### Milestone 1 - Polkadot and Ethereum pallet signers
 
 - **Estimated Duration:** 6 weeks
 - **FTE:**  2.5
-- **Costs:** 20,000 USD
+- **Costs:** 22,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
