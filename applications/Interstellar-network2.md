@@ -12,6 +12,12 @@
 
 ### Overview
 
+Currently, there are only two categories of self-custodial wallets available: Hot Wallets and Cold Wallets. Both options come with significant trade-offs and are not well-suited for providing blockchain access to the general public. 
+
+To address the most crucial issues faced by current wallet options - User Experience and Security - a new type of wallet is required.
+
+Typically, when we think about accessing the blockchain through a secure or cold wallet, we expect a complicated user experience. However, Interstellar seeks to change  this perception by offering a simpler, much more user-friendly alternative
+
 We strongly believe that securely linking and registering access device security components with a blockchain-based autonomous system to create a wallet system is an extremely powerful concept that can provide a future-proof solution for addressing the current security, usability, and privacy issues associated with current centralized wallet systems.
 
 In terms of security, this approach  utilize the current and future mobile device security capabilities by implementing a secure distributed service/protocol that addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
@@ -23,7 +29,6 @@ Privacy can also be addressed using methods such as stealth addresses and other 
 Additionally, implementing this approach  increase the overall system's auditability, potentially enabling the management of a guarantee fund to aid users in case of issues. For example, users can easily provide their mobile device forensic data to the blockchain to verify potential claims.
 
 Furthermore, this approach can enable new types of recovery schemes that would be impossible without a secure decentralized autonomous system backend.
-
 
 
 **FTX collapse highlights the importance of self-custody for the web3 ecosystem**. A higly secure and convenient wallet system is necessary to combat cyber threats and ensures larger adoption.
