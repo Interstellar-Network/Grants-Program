@@ -50,13 +50,12 @@ Using a blockchain for the management of transactions offers extra security and 
 - **Instant Access to Web3 services**, whithout any wallet set-up.
 - **Trusted beneficiaries/contacts**, with destination public keys stored only on the blockchain nodes.
 - **Adaptive Security**, allowing users to personalize the security level based on theirs need i.e transaction amount to trigger validation, chose number of recovery options, etc.
-- **Transaction auditability**, extra auditability security layer.> 
+- **Transaction auditability**, extra auditability security layer.
+- **Social Recovery** iddealy based on polkadot pallet 
 > in the medium/long term (see future plan for more details)
 - **ML real-time Malware detection model** based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targetted attacks)
 - **User inputs verification** based on behavioral biometric model (proven with 99% accuracy) that can be correlated with ML detection model.
-
-
-Social recovery and **a novel hardware-based recovery (through NFC) further enhance security and convenience**. We will enable the usage of NFC devices the user already owns like an NFC payment card or an NFC earpod,etc... Just a tap on the mobile is needed to trigger the recovery process.
+- **a novel hardware-based recovery (through NFC) further enhance security and convenience**. We will enable the usage of NFC devices the user already owns like an NFC payment card or an NFC earpod,etc... Just a tap on the mobile is needed to trigger the recovery process.
 
 This approach achieves a higly secure level for **newcomers to easily onboard to web3**, and serves as an **alternative to hardware wallets for crypto veterans**.
 
