@@ -12,6 +12,20 @@
 
 ### Overview
 
+We strongly believe that securely linking and registering access device security components with a blockchain-based autonomous system to create a wallet system is an extremely powerful concept that can provide a future-proof solution for addressing the current security, usability, and privacy issues associated with centralized wallet systems.
+
+In terms of security, this approach  utilize the current and future mobile device security capabilities by implementing a secure distributed service/protocol that addresses the current lack of third-party protection and management while also adding the necessary backend services to enhance security against evolving cyber threats.
+
+Regarding usability, the approach simplify the user experience by adding specific and transparent services, and even can potentially include an AI assistant/co-pilot to manage complex transactions using ad-hoc generated cross-chain smart contracts based on user prompts.
+
+Privacy can also be addressed using methods such as stealth addresses and other private schemes.
+
+Additionally, implementing this approach  increase the overall system's auditability, potentially enabling the management of a guarantee fund to aid users in case of issues. For example, users can easily provide their mobile device forensic data to the blockchain to verify potential claims.
+
+Furthermore, this approach can enable new types of recovery schemes that would be impossible without a secure autonomous system backend.
+
+
+
 FTX collapse highlights the importance of self-custody for the web3 ecosystem. A higly secure and convenient wallet system is necessary to combat cyber threats and ensures larger adoption.
 
 Our solution transforms mobile devices into cold wallets, with private keys protected at the hardware level:
@@ -38,7 +52,6 @@ Social recovery and **a novel hardware-based recovery (through NFC) further enha
 This approach achieves a higly secure level for **newcomers to easily onboard to web3**, and serves as an **alternative to hardware wallets for crypto veterans**.
 
 Our technology has the potential to disrupt the hardware wallet, smart contract wallet, and even hot wallet markets.
-
 
 
 ### Project Details
@@ -254,11 +267,17 @@ If the research hypothesis are confirmed, we think that a high success rate in d
 
 ### Filecoin may allow for the backup and retrieval of private keys using Shamir Secret Sharing.
 
+### Potential private scheme like stealth address can be added to the system
+
+### Potential new recovery services like NFC recovery and others.
+
 ### Potential Enhancement of distributed HSM based on TEE with hardware HSM module on some nodes
 
-### Potential Garantee fund backed by reinsurance service
+### Potential Guarantee fund backed by reinsurance service
 
 Establishing a guarantee fund for individual and corporate users could be a sensible option given the level of security achieved by the system.
+
+ With the multi-layer security system described earlier, it is easy to enable users to provide their mobile device forensic data in a simple manner to verify potential claims.
 
 
 
