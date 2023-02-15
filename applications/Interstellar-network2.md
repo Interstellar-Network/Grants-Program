@@ -18,7 +18,7 @@ Currently, there are only two categories of self-custodial wallets available: Ho
 
 To address the most crucial issues faced by current wallet options - User Experience and Security - a new type of wallet is required.
 
-Typically, when we think about accessing the blockchain through a secure or cold wallet, we expect a complicated user experience. However, Interstellar seeks to change  this perception by offering a simpler, much more user-friendly alternative
+Typically, when we think about accessing the blockchain through a cold wallet, we expect a complicated user experience. However, Interstellar seeks to change  this perception by offering a simpler, much more user-friendly alternative
 
 We strongly believe that securely linking and registering access device security components with a blockchain-based autonomous system to create a wallet system is an extremely powerful concept that can provide a future-proof solution for addressing the current security, usability, and privacy issues associated with current centralized wallet systems.
 
