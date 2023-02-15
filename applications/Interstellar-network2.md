@@ -55,7 +55,7 @@ Using a blockchain for the management of transactions offers extra security and 
 
  in the medium/long term (see future plan for more details):
 
-- **A novel hardware-based recovery (through NFC/BLE) to further enhance security and convenience**, We will enable the usage of NFC devices. Just a tap on the mobile is needed to trigger the recovery process.
+- **A novel hardware-based recovery (through NFC/BLE) to further enhance security and convenience**,  i.e Just a tap on your mobile with NFC device  to trigger the recovery process.
 
 - **ML real-time Malware detection model** based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targetted attacks)
 - **User inputs verification** based on behavioral biometric model (proven with 99% accuracy) that can be correlated with ML detection model.
