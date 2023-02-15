@@ -101,7 +101,7 @@ Their positive response is a testament to the importance of a solution that addr
 
 This a major market fit milestone for us and we're thrilled to have the support of such influential players in the Polkadot community. We're dedicated to delivering a solution that meets their expectations and contributes to the continued growth and success of the Polkadot ecosystem.
 
-
+We are now in active conversation with some of the teams we met there, and continiously have new discussions with new teams beyond the polkadot ecosysytem....
 
 
 ## Team :busts_in_silhouette:
