@@ -284,7 +284,7 @@ If the research hypothesis is confirmed, we think that a high success rate in de
 
 Establishing a guarantee fund for individual and corporate users could be a sensible option given the level of security achieved by the system.
 
-With the multi-layer security system described earlier, it is easy to enable users to provide their mobile device forensic data in a simple manner to verify potential claims.
+With the multi-layer security system described earlier, it is easy to enable users to securely provide their mobile device forensic data in a simple manner to verify potential claims.
 
 ### Also some potential other improvements:
 
