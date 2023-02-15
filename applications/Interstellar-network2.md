@@ -76,6 +76,12 @@ https://book.interstellar.gg/Mobile_App.html
 - Documentation of core components
 https://book.interstellar.gg/
 
+![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/144742049-54d3a212-b471-4a69-9f44-adfb150814ca.png#gh-light-mode-only)
+
+![TTV overview overview dark drawio](https://user-images.githubusercontent.com/4605611/144738926-e6f0db47-f7ff-4382-ae5d-251420e23a61.png#gh-dark-mode-only)
+
+
+
 #### Technology stack
 
 - VHDL
@@ -93,7 +99,7 @@ At parisDOT<sup>.comm</sup> we had a fantastic opportunity to present our projec
 
 Their positive response is a testament to the importance of a solution that addresses this critical need in the Polkadot ecosystem and beyond. The teams were not only impressed with our solution, but they were also eager to put it to the test as soon as it becomes available.
 
-This is a major milestone for us, and we're thrilled to have the support of such influential players in the Polkadot community. We're dedicated to delivering a solution that meets their expectations and contributes to the continued growth and success of the Polkadot ecosystem.
+This a major market fit milestone for us and we're thrilled to have the support of such influential players in the Polkadot community. We're dedicated to delivering a solution that meets their expectations and contributes to the continued growth and success of the Polkadot ecosystem.
 
 
   
