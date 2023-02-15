@@ -286,7 +286,7 @@ Establishing a guarantee fund for individual and corporate users could be a sens
 
 With the multi-layer security system described earlier, it is easy to enable users to provide their mobile device forensic data in a simple manner to verify potential claims.
 
-Also some potential other improvements:
+### Also some potential other improvements:
 
 - Filecoin may allow for the backup and retrieval of private keys using Shamir Secret Sharing.
 
