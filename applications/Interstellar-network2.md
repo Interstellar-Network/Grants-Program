@@ -270,13 +270,13 @@ The first layer focuses on the security of transaction confirmation, using featu
 
 The second layer adds an additional layer of security through behavioral biometrics, such as keypad pressure and input timestamps, making it difficult for attackers to replicate the user's input. [99% proven succes rate model]( https://book.interstellar.gg/TTVP.html#behavioral-biometric-roadmap)
 
-The third layer uses garbled circuits to execute a recursive AES hashing function that maximizes resource consumption on the mobile processors: CPU, GPU, and ML engine. The evaluation of these circuits generates an unalterable secret sequence number, which is then embedded as a watermark in the frames displayed to the user. These frames are sent to nodes and regularly verified, ensuring legitimate execution of the garbled circuits and limiting available resources for attackers.
+The third layer uses garbled circuits to execute a recursive AES hashing function that maximizes resource consumption on the mobile processors: CPU, GPU, and ML engine. The evaluation of these circuits generates an unalterable secret sequence number, which is then embedded as a watermark in the frames displayed to the user. These frames are sent to nodes and regularly verified during the session, ensuring legitimate execution of the garbled circuits and limiting available resources for attackers.
 
 The system could then set-up an ML model to detect attack attempts, especially if the sequence numbers are correlated with behavioral biometric inputs. This system can be initiated during the launch of the mainnet to manage the ML learning phase and establish normal usage patterns during transaction validation sessions on various ARM-based mobiles, including their GPU and ML processors.
 
 This proposed multi-layer security system is believed to effectively deter malicious actors. If attackers aim to exploit a highly expensive 0-day vulnerability or are unable to access information about the assets in the wallet, they are likely to target less secure wallets with more predictable returns in order to maximize their return on investment.
 
-If the research hypothesis are confirmed, we think that a high success rate in detecting targeted attack attempts can be achieved with sufficient diverse datasets and model refinement through simulated attacks. [Bittensor](https://bittensor.com/) in the Polkadot ecosystem could be a promising candidate for implementing the ML models.
+If the research hypothesis is confirmed, we think that a high success rate in detecting targeted attack attempts can be achieved with sufficient diverse datasets and model refinement through simulated attacks. [Bittensor](https://bittensor.com/) in the Polkadot ecosystem could be a promising candidate for implementing the ML models.
 
 > The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display, potentially creating a new type of behavioral biometric that could improve ML models and prevent ML-based attacks in the future.
 
