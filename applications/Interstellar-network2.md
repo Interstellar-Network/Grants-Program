@@ -280,19 +280,23 @@ If the research hypothesis is confirmed, we think that a high success rate in de
 
 > The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could descriminate a real human from an ML model used by the attackers.
 
-### Filecoin may allow for the backup and retrieval of private keys using Shamir Secret Sharing.
-
-### Potential private scheme like stealth address can be added to the system
-
-### Potential new recovery services like NFC recovery and others.
-
-### Potential Enhancement of distributed HSM based on TEE with hardware HSM module on some nodes
-
 ### Potential Guarantee fund backed by reinsurance service
 
 Establishing a guarantee fund for individual and corporate users could be a sensible option given the level of security achieved by the system.
 
- With the multi-layer security system described earlier, it is easy to enable users to provide their mobile device forensic data in a simple manner to verify potential claims.
+With the multi-layer security system described earlier, it is easy to enable users to provide their mobile device forensic data in a simple manner to verify potential claims.
+
+Also some potential other improvements:
+
+- Filecoin may allow for the backup and retrieval of private keys using Shamir Secret Sharing.
+
+- Private scheme like stealth address can be added to the system
+
+- New recovery services like NFC recovery and others.
+
+- Enhancement of distributed HSM based on TEE with hardware HSM module on some nodes
+
+
 
 
 
