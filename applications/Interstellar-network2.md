@@ -47,9 +47,10 @@ Interstellar is more than a wallet, we have designed **a novel secure access lay
 
 Using a blockchain for the management of transactions offers extra security and auditability features and dramaticcaly increase convenience for the user:
 
+- **Instant Access to Web3 services**, whithout any wallet set-up.
 - **Trusted beneficiaries/contacts**, with destination public keys stored only on the blockchain nodes.
 - **Adaptive Security**, allowing users to personalize the security level based on theirs need i.e transaction amount to trigger validation, chose number of recovery options, etc.
-- An extra layer of transaction auditability
+- **Transaction auditability**, extra auditability security layer.
 
 And in the medium/long term (see future plan for more details)
 - **ML real-time Malware detection model** based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targetted attacks)
