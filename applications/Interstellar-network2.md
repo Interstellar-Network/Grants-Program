@@ -12,7 +12,7 @@
 
 ### Overview
 
-**FTX collapse highlights the importance of self-custody for the web3 ecosystem**. 
+**The FTX collapse highlights the importance of self-custody for the Web3 ecosystem**. 
 
 Currently, there are only two categories of self-custodial wallets available: Hot Wallets and Cold Wallets. Both options come with significant trade-offs and are not well-suited for providing blockchain access to the general public. 
 
