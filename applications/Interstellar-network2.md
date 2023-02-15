@@ -24,7 +24,7 @@ In terms of security, this approach  utilize the current and future mobile devic
 
 Regarding usability, the approach simplify the user experience by adding specific and transparent services.
 
->We can even potentially include in the future an AI assistant/co-pilot to help the user e.g manage complex transactions using ad-hoc generated cross-chain smart contracts based on user prompts.
+> We can even potentially include in the future an AI assistant/co-pilot to help the user e.g manage complex transactions using ad-hoc generated cross-chain smart contracts based on user prompts.
 
 Privacy can also be addressed using methods such as stealth addresses and other private schemes.
 
