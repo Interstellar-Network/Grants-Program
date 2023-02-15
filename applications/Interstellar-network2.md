@@ -22,7 +22,9 @@ We strongly believe that securely linking and registering access device security
 
 In terms of security, this approach  utilize the current and future mobile device security capabilities by implementing a secure distributed service/protocol that addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
 
-Regarding usability, the approach simplify the user experience by adding specific and transparent services, and even can potentially include an AI assistant/co-pilot to manage as an example complex transactions using ad-hoc generated cross-chain smart contracts based on user prompts.
+Regarding usability, the approach simplify the user experience by adding specific and transparent services.
+
+>We can even potentially include in the future an AI assistant/co-pilot to help the user e.g manage complex transactions using ad-hoc generated cross-chain smart contracts based on user prompts.
 
 Privacy can also be addressed using methods such as stealth addresses and other private schemes.
 
