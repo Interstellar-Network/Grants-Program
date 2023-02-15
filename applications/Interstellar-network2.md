@@ -12,6 +12,8 @@
 
 ### Overview
 
+**FTX collapse highlights the importance of self-custody for the web3 ecosystem**. 
+
 Currently, there are only two categories of self-custodial wallets available: Hot Wallets and Cold Wallets. Both options come with significant trade-offs and are not well-suited for providing blockchain access to the general public. 
 
 To address the most crucial issues faced by current wallet options - User Experience and Security - a new type of wallet is required.
@@ -33,7 +35,7 @@ Additionally, implementing this approach  increase the overall system's auditabi
 Furthermore, this approach can enable new types of recovery schemes that would be impossible without a secure decentralized autonomous system backend.
 
 
-**FTX collapse highlights the importance of self-custody for the web3 ecosystem**. A higly secure and convenient wallet system is necessary to combat cyber threats and ensures larger adoption.
+A **higly secure and convenient wallet system** is necessary to combat cyber threats and ensures larger adoption.
 
 Our solution transforms mobile devices into cold wallets, with private keys protected at the hardware level:
 
