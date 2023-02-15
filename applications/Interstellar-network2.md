@@ -16,7 +16,7 @@ We strongly believe that securely linking and registering access device security
 
 In terms of security, this approach  utilize the current and future mobile device security capabilities by implementing a secure distributed service/protocol that addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
 
-Regarding usability, the approach simplify the user experience by adding specific and transparent services, and even can potentially include an AI assistant/co-pilot to manage complex transactions using ad-hoc generated cross-chain smart contracts based on user prompts.
+Regarding usability, the approach simplify the user experience by adding specific and transparent services, and even can potentially include an AI assistant/co-pilot to manage as an example complex transactions using ad-hoc generated cross-chain smart contracts based on user prompts.
 
 Privacy can also be addressed using methods such as stealth addresses and other private schemes.
 
@@ -26,7 +26,7 @@ Furthermore, this approach can enable new types of recovery schemes that would b
 
 
 
-FTX collapse highlights the importance of self-custody for the web3 ecosystem. A higly secure and convenient wallet system is necessary to combat cyber threats and ensures larger adoption.
+**FTX collapse highlights the importance of self-custody for the web3 ecosystem**. A higly secure and convenient wallet system is necessary to combat cyber threats and ensures larger adoption.
 
 Our solution transforms mobile devices into cold wallets, with private keys protected at the hardware level:
 
@@ -35,17 +35,17 @@ Our solution transforms mobile devices into cold wallets, with private keys prot
 
 This hardware security, combined with a Trusted Transaction Validation Protocol, offers robust protection against state-of-the-art malware, including banking Trojans, and prepares for future targeted attacks.
 
-This is more than a wallet, we have designed a novel secure access layer for web3 managed with a blockchain that register mobile hardware/secure elements/TEEs to protect transaction with a strong multi-factor authentication (based on hardware and software computation privacy scheme i.e garbled circuit).
+This is more than a wallet, we have designed **a novel secure access layer for web3** managed with a blockchain that register mobile hardware/secure elements/TEEs to protect transaction with a strong multi-factor authentication (based on hardware and software computation privacy scheme i.e garbled circuit).
 
 Using a blockchain for the management of transactions offers extra security and auditability features and dramaticcaly increase convenience for the user:
 
-- Trusted beneficiaries/contacts, with destination public keys stored only on the blockchain nodes.
-- Conditional validation, allowing users to set transaction confirmation triggers based on amounts.
+- **Trusted beneficiaries/contacts**, with destination public keys stored only on the blockchain nodes.
+- **Conditional validation**, allowing users to set transaction confirmation triggers based on amounts.
 - An extra layer of transaction auditability
 
 And in the medium/long term (see future plan for more details)
-- ML real-time Malware detection model based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targetted attacks)
-- User inputs verification based on behavioral biometric model (proven with 99% accuracy) that can be correlated with ML detection model.
+- **ML real-time Malware detection model** based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targetted attacks)
+- **User inputs verification** based on behavioral biometric model (proven with 99% accuracy) that can be correlated with ML detection model.
 
 Social recovery and **a novel hardware-based recovery (through NFC) further enhance security and convenience**. We will enable the usage of NFC devices the user already owns like an NFC payment card or an NFC earpod,etc... Just a tap on the mobile is needed to trigger the recovery process.
 
