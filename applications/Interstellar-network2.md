@@ -57,7 +57,7 @@ Our technology has the potential to disrupt the hardware wallet, smart contract 
 ### Project Details
 
 [A short video on the solution](https://clipchamp.com/watch/nwzybRger1x)
-- Mockups/designs of any UI components
+- Designs of UI components
 https://book.interstellar.gg/Mobile_App.html
 
 - Documentation of core components
@@ -67,7 +67,7 @@ https://book.interstellar.gg/
 
 - VHDL
 - C/C++
-- Java/Kotlin/Swift
+- Java/Kotlin/Jetpack Compose/Swift/Swift UI
 - gRPC
 - Rust/Substrate
 - IPFS
