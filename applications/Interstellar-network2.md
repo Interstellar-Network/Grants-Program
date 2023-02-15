@@ -61,7 +61,7 @@ Using a blockchain for the management of transactions offers extra security and 
 - **User inputs verification** based on behavioral biometric model (proven with 99% accuracy) that can be correlated with ML detection model.
 
 
-This approach achieves a **higly secure level for newcomers to easily onboard to web3**, and serves as an **alternative to hardware wallets for crypto veterans**.
+This approach achieves a **higly secure level for newcomers to easily onboard web3**, and serves as an **alternative to hardware wallets for crypto veterans**.
 
 Our technology has the potential to disrupt the hardware wallet, smart contract wallet, and even hot wallet markets.
 
