@@ -23,7 +23,7 @@ Interstellar aims to change  this perception through a new approach and technolo
 
 We strongly believe that securely linking and registering access device security components with a blockchain-based autonomous system is an extremely powerful concept. It can provide a future-proof solution for addressing the current security, usability, and privacy issues associated with current *centralized* non-custodial wallet software.
 
-In terms of security, this approach  utilize the current and future mobile device security capabilities by implementing a secure distributed service/protocol that addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
+In terms of security, this approach  utilize the current and future mobile device security capabilities by implementing a secure distributed protocol. It addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
 
 Regarding usability, the approach simplify the user experience by adding specific and transparent services.
 
