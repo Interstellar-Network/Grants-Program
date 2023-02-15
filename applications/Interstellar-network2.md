@@ -25,11 +25,11 @@ We strongly believe that securely linking and registering access device security
 
 In terms of security, this approach  utilizes the current and future mobile device security capabilities by implementing a secure distributed protocol. It addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
 
-Regarding usability, the approach simplify the user experience by adding specific and transparent services.
+Regarding usability, the approach simplify the user experience by adding specific and transparent services like Instant Onbording.
 
 Privacy can also be addressed using methods such as stealth addresses and other private schemes.
 
-Additionally, implementing this approach  increase the overall system's auditability, potentially enabling the management of a guarantee fund to aid users in case of issues. For example, users can easily provide their mobile device forensic data to the blockchain to verify potential claims.
+Additionally, implementing this approach  increases the overall system's auditability, potentially enabling the management of a guarantee fund to aid users in case of issues.
 
 Furthermore, this approach can enable new types of recovery schemes that would be impossible without a secure decentralized autonomous system backend.
 
