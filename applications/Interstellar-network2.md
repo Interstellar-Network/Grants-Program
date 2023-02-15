@@ -12,9 +12,9 @@
 
 ### Overview
 
-We strongly believe that securely linking and registering access device security components with a blockchain-based autonomous system to create a wallet system is an extremely powerful concept that can provide a future-proof solution for addressing the current security, usability, and privacy issues associated with centralized wallet systems.
+We strongly believe that securely linking and registering access device security components with a blockchain-based autonomous system to create a wallet system is an extremely powerful concept that can provide a future-proof solution for addressing the current security, usability, and privacy issues associated with current centralized wallet systems.
 
-In terms of security, this approach  utilize the current and future mobile device security capabilities by implementing a secure distributed service/protocol that addresses the current lack of third-party protection and management while also adding the necessary backend services to enhance security against evolving cyber threats.
+In terms of security, this approach  utilize the current and future mobile device security capabilities by implementing a secure distributed service/protocol that addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
 
 Regarding usability, the approach simplify the user experience by adding specific and transparent services, and even can potentially include an AI assistant/co-pilot to manage complex transactions using ad-hoc generated cross-chain smart contracts based on user prompts.
 
@@ -22,7 +22,7 @@ Privacy can also be addressed using methods such as stealth addresses and other 
 
 Additionally, implementing this approach  increase the overall system's auditability, potentially enabling the management of a guarantee fund to aid users in case of issues. For example, users can easily provide their mobile device forensic data to the blockchain to verify potential claims.
 
-Furthermore, this approach can enable new types of recovery schemes that would be impossible without a secure autonomous system backend.
+Furthermore, this approach can enable new types of recovery schemes that would be impossible without a secure decentralized autonomous system backend.
 
 
 
@@ -240,7 +240,7 @@ The issue that requires investigation is the increasing sophistication and effec
 
 Targeted attacks with rootkit capabilities are highly elusive, as an attacker with malware and root privileges can quickly disable any type of system or network monitoring. This is made even more challenging by the fact that the attacker has access to the entire system's resources and can alter the memory and code of any application. Furthermore, it is even more difficult to detect such attacks when the targeted application lacks root privileges, as the attacker has an advantage in terms of access and control.
 
-Despite the challenges presented by rootkit-enabled targeted attacks, we think that our security and authentication framework can be used to design a real-time targeted attack detection that focuses on our transaction validation/sensitive operation session. This is made possible by our use of hardware protecetd signature on mobile and the computation privacy and protection of inputs of garbled circuit evaluation. By leveraging these advanced security measures, we can enhance our ability to detect and prevent targeted attacks, even those with rootkit capabilities.
+Despite the challenges presented by rootkit-enabled targeted attacks, we think that our security and authentication distributed framework can be used to design a real-time targeted attack detection that focuses on our transaction validation/sensitive operation session. This is made possible by our use of hardware protecetd signature on mobile and the computation privacy and protection of inputs of garbled circuit evaluation. By leveraging these advanced security measures, we can enhance our ability to detect and prevent targeted attacks, even those with rootkit capabilities.
 
 
 **Research question/hypothesis**: Can we design an efficient and accurate machine learning (ML) malware detection model for rootkits, based on processor resource consumption during transaction validation sessions on mobile devices?
