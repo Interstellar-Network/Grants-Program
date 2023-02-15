@@ -38,8 +38,8 @@ A **higly secure and convenient wallet system** is necessary to combat cyber thr
 
 Our solution transforms mobile devices into cold wallets, with private keys protected at the hardware level:
 
-- Secure Element and TEE on mobile for proxy private keys associated with transaction requests and confirmations.
-- Trusted Transaction Environment TEE on nodes for private keys associated with assets.
+- Secure Element on mobile for proxy private keys associated with transaction requests and confirmations.
+- Trusted Execution Environement (TEE) on nodes for private keys associated with assets.
 
 This hardware security, combined with a Trusted Transaction Validation Protocol, offers robust protection against state-of-the-art malware, including banking Trojans, and prepares for future targeted attacks.
 
