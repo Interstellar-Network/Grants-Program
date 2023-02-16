@@ -67,6 +67,7 @@ Our technology has the potential to disrupt the hardware wallet, smart contract 
 
 
 ### Project Details
+![Screenshot 2023-02-14 175826](https://user-images.githubusercontent.com/4605611/219356093-49eff880-f8e1-466a-bf5f-680c7ae295df.png)
 
 
 [<img src="" width="50%">](https://clipchamp.com/watch/nwzybRger1x)
