@@ -51,7 +51,7 @@ Using a blockchain for the management of transactions offers extra security and 
 - **Trusted beneficiaries/contacts**, with destination public keys stored only on the blockchain nodes.
 - **Adaptive Security**, allowing users to personalize the security level based on theirs need i.e transaction amount to trigger validation, chose number of recovery options, etc.
 - **Transaction auditability**, extra auditability security layer.
-- **Social Recovery** iddealy based on polkadot pallet.
+- **Social Recovery** ideally based on polkadot pallet.
 
  in the medium/long term (see future plan for more details):
 
