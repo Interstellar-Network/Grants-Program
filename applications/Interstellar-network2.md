@@ -71,9 +71,8 @@ Our technology has the potential to disrupt the hardware wallet, smart contract 
 
 
 Aa short video on the Interstellar solution (clik on the following image)
-![Play_Button_Image](https://user-images.githubusercontent.com/4605611/219364193-1f1d22fc-476c-40ad-87f9-7b363e69fc00.png)
 
-[<img src="https://user-images.githubusercontent.com/4605611/219356093-49eff880-f8e1-466a-bf5f-680c7ae295df.png" width="50%">](https://clipchamp.com/watch/nwzybRger1x "Interstellar Video: 55")
+[<img src=" https://user-images.githubusercontent.com/4605611/219364193-1f1d22fc-476c-40ad-87f9-7b363e69fc00.png "width="50%">](https://clipchamp.com/watch/nwzybRger1x "Interstellar Video: 55")
 - Designs of UI components
 https://book.interstellar.gg/Mobile_App.html
 
