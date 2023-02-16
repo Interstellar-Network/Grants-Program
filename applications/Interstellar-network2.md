@@ -12,9 +12,9 @@
 
 ### Overview
 
-**The FTX collapse highlights the importance of self-custody for the Web3 ecosystem**. 
+**The FTX collapse highlights the importance of self-custody for the Web3 ecosystem**.
 
-Currently, there are only two categories of self-custodial wallets available: Hot Wallets and Cold Wallets. Both options come with significant trade-offs and are not well-suited for providing blockchain access to the general public. 
+Currently, there are only two categories of self-custodial wallets available: Hot Wallets and Cold Wallets. Both options come with significant trade-offs and are not well-suited for providing blockchain access to the general public.
 
 To address the most crucial issues faced by current wallet options - User Experience and Security - a new type of wallet is required.
 
@@ -25,7 +25,7 @@ We strongly believe that securely linking and registering access device security
 
 In terms of security, this approach  utilizes the current and future mobile device security capabilities by implementing a secure distributed protocol. It addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
 
-Regarding usability, the approach simplify the user experience by adding specific and transparent services like Instant Onbording.
+Regarding usability, the approach simplify the user experience by adding specific and transparent services like Instant Onboarding.
 
 Privacy can also be addressed using methods such as stealth addresses and other private schemes.
 
@@ -34,20 +34,20 @@ Additionally, implementing this approach  increases the overall system's auditab
 Furthermore, this approach can enable new types of recovery schemes that would be impossible without a secure decentralized autonomous system backend.
 
 
-A **higly secure and convenient wallet system** is necessary to combat cyber threats and ensures larger adoption.
+A **highly secure and convenient wallet system** is necessary to combat cyber threats and ensures larger adoption.
 
 Our solution transforms mobile devices into cold wallets, with private keys protected at the hardware level:
 
 - Secure Element on mobile for proxy private keys associated with transaction requests and confirmations.
-- Trusted Execution Environement (TEE) on nodes for private keys associated with assets.
+- Trusted Execution Environment (TEE) on nodes for private keys associated with assets.
 
 This hardware security, combined with a Trusted Transaction Validation Protocol, offers robust protection against state-of-the-art malware, including banking Trojans, and prepares for future targeted attacks.
 
 Interstellar is more than a wallet, we have designed **a novel secure access layer for web3** managed with a blockchain that register mobile hardware/secure elements/TEEs to protect transaction with a strong multi-factor authentication (based on hardware and software computation privacy scheme i.e garbled circuit).
 
-Using a blockchain for the management of transactions offers extra security and auditability features and dramaticcaly increase convenience for the user:
+Using a blockchain for the management of transactions offers extra security and auditability features and dramatically increase convenience for the user:
 
-- **Instant Access to Web3 services**, whithout any wallet set-up.
+- **Instant Access to Web3 services**, without any wallet set-up.
 - **Trusted beneficiaries/contacts**, with destination public keys stored only on the blockchain nodes.
 - **Adaptive Security**, allowing users to personalize the security level based on theirs need i.e transaction amount to trigger validation, chose number of recovery options, etc.
 - **Transaction auditability**, extra auditability security layer.
@@ -57,11 +57,11 @@ Using a blockchain for the management of transactions offers extra security and 
 
 - **A novel hardware-based recovery (through NFC/BLE) to further enhance security and convenience**,  i.e. just a tap on your mobile with your NFC device  to trigger the recovery process.
 
-- **ML real-time Malware detection model** based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targetted attacks)
+- **ML real-time Malware detection model** based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targeted attacks)
 - **User inputs verification** based on behavioral biometric model (proven with 99% accuracy) that can be correlated with ML detection model.
 
 
-This approach achieves a **higly secure level for newcomers to easily onboard web3**, and serves as an **alternative to hardware wallets for crypto veterans**.
+This approach achieves a **highly secure level for newcomers to easily onboard web3**, and serves as an **alternative to hardware wallets for crypto veterans**.
 
 Our technology has the potential to disrupt the hardware wallet, smart contract wallet, and even hot wallet markets.
 
@@ -104,7 +104,7 @@ Their positive response is a testament to the importance of a solution that addr
 
 This a major market fit milestone for us and we're thrilled to have the support of such influential players in the Polkadot community. We're dedicated to delivering a solution that meets their expectations and contributes to the continued growth and success of the Polkadot ecosystem.
 
-We are now in active conversation with some of the teams we met there, and continiously have new discussions with new teams also beyond the polkadot ecosysytem.
+We are now in active conversation with some of the teams we met there, and continuously have new discussions with new teams also beyond the polkadot ecosystem.
 
 
 ## Team :busts_in_silhouette:
@@ -168,16 +168,16 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - **FTE:**  2.5
 - **Costs:** 22,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License |  APACHE 2  |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | Subtrate TEE Module - Signer/Key Manager | We will create a pallet to manage signers associated with private key management |
-| 2. | Substrate TEE Module - Poladot signer | We will create a pallet to sign Polkadot transaction |
-| 3. | Substrate TEE Module - Ethereum signer | We will create a pallet to sign Ethereum transaction |
-| 4. | Substrate Module - submit transaction | We will create an OCW pallet to send transactions to the appropriate network |
+|  Number | Deliverable                               | Specification                                                                                                                                                                                                                                 |
+| ------: | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                                   | APACHE 2                                                                                                                                                                                                                                      |
+| **0b.** | Documentation                             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide                 | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
+| **0d.** | Docker                                    | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |  |  |  |
+|      1. | Substrate TEE Module - Signer/Key Manager | We will create a pallet to manage signers associated with private key management                                                                                                                                                              |
+|      2. | Substrate TEE Module - Polkadot signer    | We will create a pallet to sign Polkadot transaction                                                                                                                                                                                          |
+|      3. | Substrate TEE Module - Ethereum signer    | We will create a pallet to sign Ethereum transaction                                                                                                                                                                                          |
+|      4. | Substrate Module - submit transaction     | We will create an OCW pallet to send transactions to the appropriate network                                                                                                                                                                  |
 
 
 ### Milestone 2 - Android pre-MVP wallet Polkadot/Ethereum
@@ -186,15 +186,15 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - **FTE:**  2.5
 - **Costs:** 15,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License |  APACHE 2  |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | Android Wallet App | We will update the current android app to handle Polkadot and Ethereum transaction|
-| 2. | Substrate chain | Modules TTVP, Mobile Registry and signers, will handle complete polkadot and ethereum transactions  |
-| 3. | light secure screen | we will provide a less secure but very comfortable to read secure screen version - this version will be used later with our dynamic security model  |
+|  Number | Deliverable               | Specification                                                                                                                                                                                                                                 |
+| ------: | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                   | APACHE 2                                                                                                                                                                                                                                      |
+| **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
+| **0d.** | Docker                    | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |  |  |  |
+|      1. | Android Wallet App        | We will update the current android app to handle Polkadot and Ethereum transaction                                                                                                                                                            |
+|      2. | Substrate chain           | Modules TTVP, Mobile Registry and signers, will handle complete Polkadot and Ethereum transactions                                                                                                                                            |
+|      3. | light secure screen       | we will provide a less secure but very comfortable to read secure screen version - this version will be used later with our dynamic security model                                                                                            |
 
 ### Milestone 3 - iOS pre-MVP wallet Polkadot/Ethereum
 
@@ -202,13 +202,13 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - **FTE:**  2.5
 - **Costs:** 15,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License |  APACHE 2  |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | iOS Wallet App | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction |
+|  Number | Deliverable               | Specification                                                                                                                                                                                                                                 |
+| ------: | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                   | APACHE 2                                                                                                                                                                                                                                      |
+| **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
+| **0d.** | Docker                    | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |  |  |  |
+|      1. | iOS Wallet App            | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction                                                                                                                                     |
 
 
 
@@ -218,18 +218,18 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - **Costs:** 30,000 USD
 
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License |  APACHE 2  |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| **0e.** | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate Module - social recovery | We will integrate social recovery pallet with our chain |
-| 2.a | Android Wallet | We will update android app to handle social recovery|
-| 2.b | iOS Wallet | We will update iOS app to handle social recovery|
-| 3. | Substrate chain | With the support of Substrate builder program we aim at launching an MVP testnet chain with some intel SGX hardwares nodes to demomstrate instant onbording and easy airdrop  |
-||||
+|  Number | Deliverable                        | Specification                                                                                                                                                                                                                                 |
+| ------: | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                            | APACHE 2                                                                                                                                                                                                                                      |
+| **0b.** | Documentation                      | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide          | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
+| **0d.** | Docker                             | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |
+| **0e.** | Article                            | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)                                                |
+|      1. | Substrate Module - social recovery | We will integrate social recovery pallet with our chain                                                                                                                                                                                       |
+|     2.a | Android Wallet                     | We will update android app to handle social recovery                                                                                                                                                                                          |
+|     2.b | iOS Wallet                         | We will update iOS app to handle social recovery                                                                                                                                                                                              |
+|      3. | Substrate chain                    | With the support of Substrate builder program we aim at launching an MVP testnet chain with some intel SGX hardware nodes to demonstrate instant onboarding and easy airdrop                                                                  |
+|         |                                    |                                                                                                                                                                                                                                               |
 
 ### Milestone 5  — Circuit Design Update/Optimization
 
@@ -238,14 +238,14 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 - **Costs:** 15,000 USD
 
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License |  APACHE 2  |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. ||||
-| 1. | Garble Circuit pallet update | We will optimize the garbled circuit evaluation scheme to reach best performance |
-| 2. | Display Circuit update | We will modify the current display circuit to enable a smoother user experience more comfortable for the user when evaluated |
+|  Number | Deliverable                  | Specification                                                                                                                                                                                                                                 |
+| ------: | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                      | APACHE 2                                                                                                                                                                                                                                      |
+| **0b.** | Documentation                | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
+| **0d.** | Docker                       | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |  |  |  |
+|      1. | Garble Circuit pallet update | We will optimize the garbled circuit evaluation scheme to reach best performance                                                                                                                                                              |
+|      2. | Display Circuit update       | We will modify the current display circuit to enable a smoother user experience more comfortable for the user when evaluated                                                                                                                  |
 
 
 ## Future Plans
@@ -258,7 +258,7 @@ The issue that requires investigation is the increasing sophistication and effec
 
 Targeted attacks with rootkit capabilities are highly elusive, as an attacker with malware and root privileges can quickly disable any type of system or network monitoring. This is made even more challenging by the fact that the attacker has access to the entire system's resources and can alter the memory and code of any application. Furthermore, it is even more difficult to detect such attacks when the targeted application lacks root privileges, as the attacker has an advantage in terms of access and control.
 
-Despite the challenges presented by rootkit-enabled targeted attacks, we think that our security and authentication framework (decentralized & distributed) can be used to design a real-time targeted attack detection that focuses on our transaction validation/sensitive operation session. This is made possible by our use of hardware protecetd signature on mobile and the computation privacy and protection of inputs of garbled circuit evaluation. By leveraging these advanced security measures, we can enhance our ability to detect and prevent targeted attacks, even those with rootkit capabilities.
+Despite the challenges presented by rootkit-enabled targeted attacks, we think that our security and authentication framework (decentralized & distributed) can be used to design a real-time targeted attack detection that focuses on our transaction validation/sensitive operation session. This is made possible by our use of hardware protected signature on mobile and the computation privacy and protection of inputs of garbled circuit evaluation. By leveraging these advanced security measures, we can enhance our ability to detect and prevent targeted attacks, even those with rootkit capabilities.
 
 
 **Research question/hypothesis**: Can we design an efficient and accurate machine learning (ML) malware detection model for rootkits, based on processor resource consumption during transaction validation sessions on mobile devices?
@@ -270,7 +270,7 @@ The proposed system incorporates multiple security layers to increase the cost o
 
 The first layer focuses on the security of transaction confirmation, using features such as TUI and Android protected confirmation.
 
-The second layer adds an additional layer of security through behavioral biometrics, such as keypad pressure and input timestamps, making it difficult for attackers to replicate the user's input. [99% proven succes rate model]( https://book.interstellar.gg/TTVP.html#behavioral-biometric-roadmap)
+The second layer adds an additional layer of security through behavioral biometrics, such as keypad pressure and input timestamps, making it difficult for attackers to replicate the user's input. [99% proven success rate model]( https://book.interstellar.gg/TTVP.html#behavioral-biometric-roadmap)
 
 The third layer uses garbled circuits to execute a recursive AES hashing function that maximizes resource consumption on the mobile processors: CPU, GPU, and ML engine. The evaluation of these circuits generates an unalterable secret sequence number, which is then embedded as a watermark in the frames displayed to the user. These frames are sent to nodes and regularly verified during the session, ensuring legitimate execution of the garbled circuits and limiting available resources for attackers.
 
@@ -281,13 +281,13 @@ This proposed multi-layer security system is believed to effectively deter malic
 If the research hypothesis is confirmed, we think that a high success rate in detecting targeted attack attempts can be achieved with sufficient diverse datasets and model refinement through simulated attacks. [Bittensor](https://bittensor.com/) in the Polkadot ecosystem could be a promising candidate for implementing the ML models.
 
 > Our objective is also to establish a bug bounty program that encourages security researchers to conduct targeted attacks on our system. By doing so, we think that we will enhance the accuracy and effectiveness of the model while also assisting developers in enhancing the framework's security.
-> The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could descriminate a real human from an ML model used by the attackers.
+> The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could discriminate a real human from an ML model used by the attackers.
 
 ### Potential Guarantee fund backed by reinsurance service
 
 Establishing a guarantee fund for individual and corporate users could be a sensible option given the level of security achieved by the system.
 
-With the multi-layer security system described earlier, it is easy to enable users to securely provide their mobile device forensic data in a simple manner to verify potential claims. 
+With the multi-layer security system described earlier, it is easy to enable users to securely provide their mobile device forensic data in a simple manner to verify potential claims.
 
 ### Also some potential other improvements:
 
