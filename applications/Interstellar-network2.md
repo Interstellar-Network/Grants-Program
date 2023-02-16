@@ -280,7 +280,7 @@ If the research hypothesis is confirmed, we think that a high success rate in de
 
 **Bug bounty program**: To encourage security researchers in conducting targeted attacks on our system. This will also train the model and improve its accuracy while also assisting developers in enhancing the system security framework.
 
-**Potential research lead in the future**: The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could discriminate a real human from an ML model used by the attackers.
+**Potential research lead in the future**: The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process visual information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could discriminate a real human from an ML model used by the attackers.
 
 ### Potential Guarantee fund backed by reinsurance service
 
