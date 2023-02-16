@@ -25,7 +25,7 @@ We strongly believe that securely linking and registering access device security
 
 In terms of security, this approach  utilizes the current and future mobile device security capabilities by implementing a secure distributed protocol. It addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
 
-Regarding usability, the approach simplify the user experience by adding specific and transparent services like Instant Onboarding.
+Regarding usability, this approach simplifies the user experience by adding transparent services like Instant Onboarding.
 
 Privacy can also be addressed using methods such as stealth addresses and other private schemes.
 
@@ -45,7 +45,7 @@ This hardware security, combined with a Trusted Transaction Validation Protocol,
 
 Interstellar is more than a wallet, we have designed **a novel secure access layer for web3** managed with a blockchain that register mobile hardware/secure elements/TEEs to protect transaction with a strong multi-factor authentication (based on hardware and software computation privacy scheme i.e garbled circuit).
 
-Using a blockchain for the management of transactions offers extra security and auditability features and dramatically increase convenience for the user:
+Using a blockchain for the management of multi-chain transactions offers extra security and auditability features and dramatically increase convenience for the user:
 
 - **Instant Access to Web3 services**, without any wallet set-up.
 - **Trusted beneficiaries/contacts**, with destination public keys stored only on the blockchain nodes.
