@@ -280,6 +280,7 @@ This proposed multi-layer security system is believed to effectively deter malic
 
 If the research hypothesis is confirmed, we think that a high success rate in detecting targeted attack attempts can be achieved with sufficient diverse datasets and model refinement through simulated attacks. [Bittensor](https://bittensor.com/) in the Polkadot ecosystem could be a promising candidate for implementing the ML models.
 
+> Our objective is also to establish a bug bounty program that encourages security researchers to conduct targeted attacks on our system. By doing so, we think that we will enhance the accuracy and effectiveness of the model while also assisting developers in enhancing the framework's security.
 > The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could descriminate a real human from an ML model used by the attackers.
 
 ### Potential Guarantee fund backed by reinsurance service
