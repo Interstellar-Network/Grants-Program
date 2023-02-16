@@ -2,7 +2,7 @@
 
 
 - **Team Name:** Interstellar
-- **Payment Address:**  TBD
+- **Payment Address:** TBD
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 3
 
 
@@ -19,17 +19,17 @@ Currently, there are only two categories of self-custodial wallets available: Ho
 To address the most crucial issues faced by current wallet options - User Experience and Security - a new type of wallet is required.
 
 Typically, when we think about accessing the blockchain through a cold wallet, we expect a complicated user experience.
-Interstellar aims to change  this perception through a new approach and technology.
+Interstellar aims to change this perception through a new approach and technology.
 
 We strongly believe that securely linking and registering access device security components with a blockchain-based autonomous system is an extremely powerful concept. It can provide a future-proof solution for addressing the current security, usability, and privacy issues associated with current **centralized** non-custodial wallet software.
 
-In terms of security, this approach  utilizes the current and future mobile device security capabilities by implementing a secure distributed protocol. It addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
+In terms of security, this approach utilizes the current and future mobile device security capabilities by implementing a secure distributed protocol. It addresses the current lack of third-party protection and management while also adding the necessary decentralized backend services to enhance security against evolving cyber threats.
 
 Regarding usability, this approach simplifies the user experience by adding transparent services like Instant Onboarding.
 
 Privacy can also be addressed using methods such as stealth addresses and other private schemes.
 
-Additionally, implementing this approach  increases the overall system's auditability, potentially enabling the management of a guarantee fund to aid users in case of issues.
+Additionally, implementing this approach increases the overall system's auditability, potentially enabling the management of a guarantee fund to aid users in case of issues.
 
 Furthermore, this approach can enable new types of recovery schemes that would be impossible without a secure decentralized autonomous system backend.
 
@@ -43,19 +43,19 @@ Our solution transforms mobile devices into cold wallets, with private keys prot
 
 This hardware security, combined with a Trusted Transaction Validation Protocol, offers robust protection against state-of-the-art malware, including banking Trojans, and prepares for future targeted attacks.
 
-Interstellar is more than a wallet, we have designed **a novel secure access layer for web3** managed with a blockchain that register mobile hardware/secure elements/TEEs to protect transaction with a strong multi-factor authentication (based on hardware and software computation privacy scheme i.e garbled circuit).
+Interstellar is more than a wallet, we have designed **a novel secure access layer for web3** managed with a blockchain that register mobile hardware/secure elements/TEEs to protect transaction with a strong multifactor authentication (based on hardware and software computation privacy scheme i.e. garbled circuit).
 
 Using a blockchain for the management of multi-chain transactions offers extra security and auditability features and dramatically increase convenience for the user:
 
 - **Instant Access to Web3 services**, without any wallet set-up.
 - **Trusted beneficiaries/contacts**, with destination public keys stored only on the blockchain nodes.
-- **Adaptive Security**, allowing users to personalize the security level based on theirs need i.e transaction amount to trigger validation, chose number of recovery options, etc.
+- **Adaptive Security**, allowing users to personalize the security level based on theirs need i.e. transaction amount to trigger validation, chose number of recovery options, etc.
 - **Transaction auditability**, extra auditability security layer.
-- **Social Recovery** ideally based on polkadot pallet.
+- **Social Recovery** ideally based on Polkadot pallet.
 
- in the medium/long term (see future plan for more details):
+In the medium/long term (see future plan for more details):
 
-- **A novel hardware-based recovery (through NFC/BLE) to further enhance security and convenience**,  i.e. just a tap on your mobile with your NFC device  to trigger the recovery process.
+- **A novel hardware-based recovery (through NFC/BLE) to further enhance security and convenience**, i.e. just a tap on your mobile with your NFC device to trigger the recovery process.
 
 - **ML real-time Malware detection model** based on proof of legitimate software execution protection that increases the model accuracy (potential research project to address targeted attacks)
 - **User inputs verification** based on behavioral biometric model (proven with 99% accuracy) that can be correlated with ML detection model.
@@ -78,9 +78,9 @@ https://book.interstellar.gg/Mobile_App.html
 - Documentation of core components
 https://book.interstellar.gg/
 
-![TTV overview overview drawio](https://user-images.githubusercontent.com/4605611/144742049-54d3a212-b471-4a69-9f44-adfb150814ca.png#gh-light-mode-only)
+![TTV overview drawio](https://user-images.githubusercontent.com/4605611/144742049-54d3a212-b471-4a69-9f44-adfb150814ca.png#gh-light-mode-only)
 
-![TTV overview overview dark drawio](https://user-images.githubusercontent.com/4605611/144738926-e6f0db47-f7ff-4382-ae5d-251420e23a61.png#gh-dark-mode-only)
+![TTV overview dark drawio](https://user-images.githubusercontent.com/4605611/144738926-e6f0db47-f7ff-4382-ae5d-251420e23a61.png#gh-dark-mode-only)
 
 
 
@@ -100,9 +100,9 @@ At parisDOT<sup>.comm</sup> we had a fantastic opportunity to present our projec
 
 Their positive response is a testament to the importance of a solution that addresses this critical need in the Polkadot ecosystem and beyond. The teams were not only impressed with our solution, but they were also eager to put it to the test as soon as it becomes available.
 
-This a major market fit milestone for us and we're thrilled to have the support of such influential players in the Polkadot community. We're dedicated to delivering a solution that meets their expectations and contributes to the continued growth and success of the Polkadot ecosystem.
+This is a major market fit milestone for us, and we're thrilled to have the support of such influential players in the Polkadot community. We're dedicated to delivering a solution that meets their expectations and contributes to the continued growth and success of the Polkadot ecosystem.
 
-We are in active conversations with some of the teams we met there, and continuously have new discussions with new teams also beyond the polkadot ecosystem. So far, everyone is impressed and enthusiastic about the solution.
+We are in active conversations with some of the teams we met there, and continuously have new discussions with new teams also beyond the Polkadot ecosystem. So far, everyone is impressed and enthusiastic about the solution.
 
 
 ## Team :busts_in_silhouette:
@@ -126,11 +126,11 @@ We are in active conversations with some of the teams we met there, and continuo
 
 ### Legal Structure
 
-- **Registered Address:** 61 rue de Lyon,Paris, France
+- **Registered Address:** 61 rue de Lyon, Paris, France
 - **Registered Legal Entity:** Interstellar SAS
 
 ### Team's experience
-We are now multiple security and fintech  entrepreneurs, security researchers, patents fillers who turned open-source developers and blockchain enthusiasts.
+We are now multiple security and fintech entrepreneurs, security researchers, patents fillers who turned open-source developers and blockchain enthusiasts.
 
 
 ### Team Code Repos
@@ -156,94 +156,94 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 ### Overview
 
 - **Total Estimated Duration:** 6.5 months
-- **Full-Time Equivalent (FTE):**  2.5
-- **Total Costs:**  97,000 USD
+- **Full-Time Equivalent (FTE):** 2.5
+- **Total Costs:** 97,000 USD
 
 
 ### Milestone 1 - Polkadot and Ethereum pallet signers
 
 - **Estimated Duration:** 6 weeks
-- **FTE:**  2.5
+- **FTE:** 2.5
 - **Costs:** 22,000 USD
 
-|  Number | Deliverable                               | Specification                                                                                                                                                                                                                                 |
-| ------: | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **0a.** | License                                   | APACHE 2                                                                                                                                                                                                                                      |
-| **0b.** | Documentation                             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide                 | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
-| **0d.** | Docker                                    | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |  |  |  |
-|      1. | Integritee pallet - Signer/Key Manager | We will create a pallet to manage signers associated with private key management                                                                                                                                                              |
-|      2. | Integritee pallet- Polkadot signer    | We will create a pallet to sign Polkadot transaction                                                                                                                                                                                          |
-|      3. | Integritee pallet - Ethereum signer    | We will create a pallet to sign Ethereum transaction                                                                                                                                                                                          |
-|      4. | Integritee pallet - submit transaction | We will create a pallet to send transactions to the appropriate network                                                                                                                                                                  |
+|  Number | Deliverable                            | Specification                                                                                                                                                                                                                |
+| ------: | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                                | APACHE 2                                                                                                                                                                                                                     |
+| **0b.** | Documentation                          | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide              | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                              |
+| **0d.** | Docker                                 | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                |  |  |  |
+|      1. | Integritee pallet - Signer/Key Manager | We will create a pallet to manage signers associated with private key management                                                                                                                                             |
+|      2. | Integritee pallet- Polkadot signer     | We will create a pallet to sign Polkadot transaction                                                                                                                                                                         |
+|      3. | Integritee pallet - Ethereum signer    | We will create a pallet to sign Ethereum transaction                                                                                                                                                                         |
+|      4. | Integritee pallet - submit transaction | We will create a pallet to send transactions to the appropriate network                                                                                                                                                      |
 
 
 ### Milestone 2 - Android pre-MVP wallet Polkadot/Ethereum
 
 - **Estimated Duration:** 4 weeks
-- **FTE:**  2.5
+- **FTE:** 2.5
 - **Costs:** 15,000 USD
 
-|  Number | Deliverable               | Specification                                                                                                                                                                                                                                 |
-| ------: | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **0a.** | License                   | APACHE 2                                                                                                                                                                                                                                      |
+|  Number | Deliverable               | Specification                                                                                                                                                                                                                |
+| ------: | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                   | APACHE 2                                                                                                                                                                                                                     |
 | **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
-| **0d.** | Docker                    | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |  |  |  |
-|      1. | Android Wallet App        | We will update the current android app to handle Polkadot and Ethereum transaction                                                                                                                                                            |
-|      2. | upgrade pallets        |  Mobile Registry and signers, will handle complete Polkadot and Ethereum transactions                                                                                                                                            |
-|      3. | light security screen       | We will provide a less secure but very comfortable to read secure screen version - this version will be used later with our adaptive security framework                                                                                         |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                              |
+| **0d.** | Docker                    | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                |  |  |  |
+|      1. | Android Wallet App        | We will update the current android app to handle Polkadot and Ethereum transaction                                                                                                                                           |
+|      2. | upgrade pallets           | Mobile Registry and signers, will handle complete Polkadot and Ethereum transactions                                                                                                                                         |
+|      3. | light security screen     | We will provide a less secure but very comfortable to read secure screen version - this version will be used later with our adaptive security framework                                                                      |
 
 ### Milestone 3 - iOS pre-MVP wallet Polkadot/Ethereum
 
 - **Estimated Duration:** 4 weeks
-- **FTE:**  2.5
+- **FTE:** 2.5
 - **Costs:** 15,000 USD
 
-|  Number | Deliverable               | Specification                                                                                                                                                                                                                                 |
-| ------: | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **0a.** | License                   | APACHE 2                                                                                                                                                                                                                                      |
-| **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
-| **0d.** | Docker                    | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |  |  |  |
-|      1. | iOS Wallet App   (TestFlight)         | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction                                                                                                                                     |
+|  Number | Deliverable                 | Specification                                                                                                                                                                                                                |
+| ------: | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                     | APACHE 2                                                                                                                                                                                                                     |
+| **0b.** | Documentation               | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide   | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                              |
+| **0d.** | Docker                      | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                |  |  |  |
+|      1. | iOS Wallet App (TestFlight) | We will update the iOS app (port Jetpack compose to Swift UI) to handle Polkadot and Ethereum transaction                                                                                                                    |
 
 
 
 ### Milestone 4 - MVP iOS/Android with social recovery
 - **Estimated duration:** 8 weeks
-- **FTE:**  2.5
+- **FTE:** 2.5
 - **Costs:** 30,000 USD
 
 
-|  Number | Deliverable                        | Specification                                                                                                                                                                                                                                 |
-| ------: | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **0a.** | License                            | APACHE 2                                                                                                                                                                                                                                      |
+|  Number | Deliverable                        | Specification                                                                                                                                                                                                                |
+| ------: | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                            | APACHE 2                                                                                                                                                                                                                     |
 | **0b.** | Documentation                      | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide          | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
-| **0d.** | Docker                             | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |
-| **0e.** | Article                            | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)                                                |
-|      1. | Substrate Module - social recovery | We will integrate social recovery pallet with our chain                                                                                                                                                                                       |
-|     2.a | Android Wallet                     | We will update android app to handle social recovery                                                                                                                                                                                          |
-|     2.b | iOS Wallet                         | We will update iOS app to handle social recovery                                                                                                                                                                                              |
-|      3. | Substrate Integritee chain         |  POC  to demonstrate instant onboarding and easy airdrop                                                                  |
-|         |                                    |                                                                                                                                                                                                                                               |
+| **0c.** | Testing and Testing Guide          | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                              |
+| **0d.** | Docker                             | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                |
+| **0e.** | Article                            | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)                               |
+|      1. | Substrate Module - social recovery | We will integrate social recovery pallet with our chain                                                                                                                                                                      |
+|     2.a | Android Wallet                     | We will update android app to handle social recovery                                                                                                                                                                         |
+|     2.b | iOS Wallet                         | We will update iOS app to handle social recovery                                                                                                                                                                             |
+|      3. | Substrate Integritee chain         | POC to demonstrate instant onboarding and easy airdrop                                                                                                                                                                       |
+|         |                                    |                                                                                                                                                                                                                              |
 
-### Milestone 5  — Circuit Design Update/Optimization
+### Milestone 5 — Circuit Design Update/Optimization
 
 - **Estimated duration:** 4 weeks
-- **FTE:**  2.5
+- **FTE:** 2.5
 - **Costs:** 15,000 USD
 
 
-|  Number | Deliverable                  | Specification                                                                                                                                                                                                                                 |
-| ------: | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **0a.** | License                      | APACHE 2                                                                                                                                                                                                                                      |
+|  Number | Deliverable                  | Specification                                                                                                                                                                                                                |
+| ------: | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                      | APACHE 2                                                                                                                                                                                                                     |
 | **0b.** | Documentation                | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
-| **0d.** | Docker                       | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |  |  |  |
-|      1. | Garble Circuit pallet update | We will optimize the garbled circuit evaluation scheme to reach best performance                                                                                                                                                              |
-|      2. | Display Circuit update       | We will modify the current display circuit to enable a smoother user experience more comfortable for the user when circuit is evaluated                                                                                                                  |
+| **0c.** | Testing and Testing Guide    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                              |
+| **0d.** | Docker                       | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                |  |  |  |
+|      1. | Garble Circuit pallet update | We will optimize the garbled circuit evaluation scheme to get better performance                                                                                                                                             |
+|      2. | Display Circuit update       | We will modify the current display circuit to enable a smoother user experience more comfortable for the user when circuit is evaluated                                                                                      |
 
 
 ## Future Plans
@@ -272,7 +272,7 @@ The second layer adds an additional layer of security through behavioral biometr
 
 The third layer uses garbled circuits to execute a recursive AES hashing function that maximizes resource consumption on the mobile processors: CPU, GPU, and ML engine. The evaluation of these circuits generates an unalterable secret sequence number, which is then embedded as a watermark in the frames displayed to the user. These frames are sent to nodes and regularly verified during the session, ensuring legitimate execution of the garbled circuits and limiting available resources for attackers.
 
-The system could then set-up an ML model to detect attack attempts, especially if the sequence numbers are correlated with behavioral biometric inputs. This system can be initiated during the launch of the mainnet to manage the ML learning phase and establish normal usage patterns during transaction validation sessions on various ARM-based mobiles, including their GPU and ML processors.
+The system could then set up an ML model to detect attack attempts, especially if the sequence numbers are correlated with behavioral biometric inputs. This system can be initiated during the launch of the mainnet to manage the ML learning phase and establish normal usage patterns during transaction validation sessions on various ARM-based mobiles, including their GPU and ML processors.
 
 This proposed multi-layer security system is believed to effectively deter malicious actors. If attackers aim to exploit a highly expensive 0-day vulnerability or are unable to access information about the assets in the wallet, they are likely to target less secure wallets with more predictable returns in order to maximize their return on investment.
 
@@ -288,7 +288,7 @@ Establishing a guarantee fund for individual and corporate users could be a sens
 
 With the multi-layer security system described earlier, it is easy to enable users to securely provide their mobile device forensic data in a simple manner to verify potential claims.
 
-### Also some potential other improvements:
+### Some potential other improvements:
 
 - Filecoin may allow for the backup and retrieval of private keys using Shamir Secret Sharing.
 
