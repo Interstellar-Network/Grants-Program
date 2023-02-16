@@ -71,7 +71,7 @@ Our technology has the potential to disrupt the hardware wallet, smart contract 
 
 
 
-Aa short video on the Interstellar solution (clik on the following image)
+A short video on the Interstellar solution (click on the following image)
 
 [<img src="https://user-images.githubusercontent.com/4605611/219366911-21d3868c-a11c-4af4-b5d9-19fea22f368c.png" width="50%">](https://clipchamp.com/watch/nwzybRger1x "Interstellar Video: 55")
 - Designs of UI components
@@ -283,7 +283,7 @@ If the research hypothesis is confirmed, we think that a high success rate in de
 
 > **Bug bounty program:A bug bounty program that encourages security researchers to conduct targeted attacks on our system will also learn the model and improve its accuracy while also assisting developers in enhancing the framework's security.
 
-> ** Potential research lead in the future**: The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could descriminate a real human from an ML model used by the attackers.
+> ** Potential research lead in the future**: The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could discriminate a real human from an ML model used by the attackers.
 
 ### Potential Guarantee fund backed by reinsurance service
 
