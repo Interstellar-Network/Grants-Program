@@ -69,7 +69,6 @@ Our technology has the potential to disrupt the hardware wallet, smart contract 
 ### Project Details
 
 
-
 A short video on the Interstellar solution (click on the following image)
 
 [<img src="https://user-images.githubusercontent.com/4605611/219366911-21d3868c-a11c-4af4-b5d9-19fea22f368c.png" width="50%">](https://clipchamp.com/watch/nwzybRger1x "Interstellar Video: 55")
@@ -103,7 +102,7 @@ Their positive response is a testament to the importance of a solution that addr
 
 This a major market fit milestone for us and we're thrilled to have the support of such influential players in the Polkadot community. We're dedicated to delivering a solution that meets their expectations and contributes to the continued growth and success of the Polkadot ecosystem.
 
-We are in active conversations with some of the teams we met there, and continuously have new discussions with new teams also beyond the polkadot ecosystem. So far everyone is enthusiastic about the solution.
+We are in active conversations with some of the teams we met there, and continuously have new discussions with new teams also beyond the polkadot ecosystem. So far, everyone is impressed and enthusiastic about the solution.
 
 
 ## Team :busts_in_silhouette:
