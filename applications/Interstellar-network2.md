@@ -70,7 +70,7 @@ Our technology has the potential to disrupt the hardware wallet, smart contract 
 
 
 
-A short video on Interstellar Solution (click on the following image)
+Aa short video on the Interstellar solution (clik on the following image)
 
 [<img src="https://user-images.githubusercontent.com/4605611/219356093-49eff880-f8e1-466a-bf5f-680c7ae295df.png" width="50%">](https://clipchamp.com/watch/nwzybRger1x "Interstellar Video: 55")
 - Designs of UI components
@@ -280,8 +280,14 @@ This proposed multi-layer security system is believed to effectively deter malic
 
 If the research hypothesis is confirmed, we think that a high success rate in detecting targeted attack attempts can be achieved with sufficient diverse datasets and model refinement through simulated attacks. [Bittensor](https://bittensor.com/) in the Polkadot ecosystem could be a promising candidate for implementing the ML models.
 
+<<<<<<< HEAD
+> **Bug bounty program:A bug bounty program that encourages security researchers to conduct targeted attacks on our system will also learn the model and improve its accuracy while also assisting developers in enhancing the framework's security.
+=======
 > Our objective is also to establish a bug bounty program that encourages security researchers to conduct targeted attacks on our system. By doing so, we think that we will enhance the accuracy and effectiveness of the model while also assisting developers in enhancing the framework's security.
 > The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could discriminate a real human from an ML model used by the attackers.
+>>>>>>> 518e6665ee0a760c0ba333e2d2be969b66577c52
+
+> ** Potential research lead in the future**: The way the display circuit is configured/tuned can affect the user's cognitive load when reading the display (i.e. time for the brain to process information) changing its behavior to improve our ML model. It is also potentially a new type of behavioral biometric that could descriminate a real human from an ML model used by the attackers.
 
 ### Potential Guarantee fund backed by reinsurance service
 
