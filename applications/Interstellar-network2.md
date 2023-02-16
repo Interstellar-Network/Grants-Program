@@ -120,7 +120,7 @@ We are in active conversations with some of the teams we met there, and continuo
 ### Contact
 
 - **Contact Name:** Jean-Luc Leleu
-- **Contact Email:** jeanluc.leleu@protonmail.com
+- **Contact Email:** jll@interstellar.gg
 - **Website:** <https://www.interstellar.gg/>
 
 
