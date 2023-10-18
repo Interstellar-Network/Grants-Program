@@ -37,8 +37,8 @@ The app recovery interface enables the user to manage both recovery setup and re
 1.	Create a display garbled circuit Visual Cryptography Display - Interstellar Book with an embedded one-time recovery code, encrypted with an AES key.
 2.	The program token recovery file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
 3.	Create an ad-hoc account matching the unique program token file.
-4.	Call create_recovery on the recovery pallet to set up a recovery account specifying the ad hoc account. 
-Note: Multiple program token recovery files can be created to be stored on different cloud services, each associated with an ad hoc account.
+4.	Call create_recovery on the recovery pallet to set up a recovery account specifying the related to the program token account. 
+Note: Multiple program token recovery files can be created to be stored on different cloud services, each associated with an account.
 
 
 ##### Initiate Recovery
@@ -54,8 +54,8 @@ Recovery Setup
 2.	The NFC serial number hashed is signed with the mobile private key and sent to the NFC pallet.
 3.	The signature is verified, and the serial number hashed is stored.
 > Later encrypted with an associated AES key on L1.
-4.	Create an ad hoc account matching the serial number.
-5.	Call create_recovery on the recovery pallet to set up a recovery account specifying the ad hoc account releases.parity.io.
+4.	Create an account matching the serial number/tag.
+5.	Call create_recovery on the recovery pallet to set up a recovery account specifying the account related to NFC tag.
 
 > Note; A hash is used to ensure pseudonymity of the data to comply with data protection regulation and other legal requirements.
 
