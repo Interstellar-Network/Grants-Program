@@ -36,9 +36,10 @@ The app recovery interface enables the user to manage both recovery setup and re
 ##### Recovery Setup
 1.	Create a display garbled circuit Visual Cryptography Display - Interstellar Book with an embedded one-time recovery code, encrypted with an AES key.
 2.	The program token recovery file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
-3.	Create an ad-hoc account matching the unique program token file.
-4.	Call create_recovery on the recovery pallet to set up a recovery account specifying the related to the program token account. 
-Note: Multiple program token recovery files can be created to be stored on different cloud services, each associated with an account.
+3.	Create an account matching the unique program token file.
+4.	Call create_recovery on the recovery pallet to set up a recovery account specifying the account  related to the program token. 
+
+>  Multiple program token recovery files can be created to be stored on different cloud services, each associated with an account.
 
 
 ##### Initiate Recovery
@@ -70,7 +71,10 @@ Recovery Setup
 5.	The old account associated with the app receives a notification to approve or reject the recovery a defined number of times.
 7.	If approved or after a defined number of times without responses, from the account associated with the program token, call vouch_recovery on the frame recovery pallet.
 
-Planned future improvement: a dedicated NFC smartcard signature can be used instead of the NFC tag in the future to increase security for power user or corporate/enterprises. Such smartcards shipped to the user can also be used to enable multi-signature transactions.
+**Planned future improvement:** a signature generated with a dedicated  NFC smartcard can be used instead of the NFC tag in the future to increase security for power user or corporate/enterprises.
+
+>Such smartcards shipped to the user can also be used to enable multi-signature transactions.
+
 When using payment cards as a NFC devices. Users can complete instead a small transaction protected with ZKP to ensure the pseudonymity of the user during the recovery set-up and initiation.
 
 #### Social Recovery
@@ -205,6 +209,7 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 **Additional information:**
 
 For simplicity purpose and to provide a solution that is independent of Interstellar network specificity, we don't create and manage specific accounts related to our specific AA model i.e. related to mobile devices hardware secure element/TEE and its ad hoc key managments.
+Instead we will assign exiting accounts to program token and NFC devices.
 
 
 
