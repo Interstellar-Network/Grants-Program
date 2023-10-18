@@ -1,4 +1,4 @@
-# Interstellar - Wallet Phase 2 (amended)
+# Interstellar - New Recovery process
 
 
 - **Team Name:** Interstellar
