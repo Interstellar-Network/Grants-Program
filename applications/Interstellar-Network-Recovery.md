@@ -40,11 +40,12 @@ The app recovery interface enables the user to manage both recovery setup and re
 
 
 ##### Initiate Recovery
-1.	The AES key associated with the program token is received, used to decrypt the recovery token, and displays a one-time recovery code to the user through a validation screen.
-2.	The one-time recovery code is received by the Tx Validation pallet, which verifies the code.
-3.	From the new account, call initiate_recovery on the extended_recovery pallet.
-4.	The old account associated with the app receives a notification to approve or reject the recovery a defined number of times.
-5.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the recovery pallet.
+1.  Import the circuit file within the app
+2.	The AES key associated with the program token is received, used to decrypt the recovery token, and displays a one-time recovery code to the user through a validation screen.
+3.	The one-time recovery code is received by the Tx Validation pallet, which verifies the code.
+4.	From the new account, call initiate_recovery on the extended_recovery pallet.
+5.	The old account associated with the app receives a notification to approve or reject the recovery a defined number of times.
+6.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the recovery pallet.
 
 #### NFC Recovery with extended recovery pallet
 ##### Recovery Setup
