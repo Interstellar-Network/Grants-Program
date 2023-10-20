@@ -10,7 +10,7 @@
 
 **Follow-up of Interstellar- Wallet Phase 1**: Link to the application pull request: [w3f/Grants-Program#734](https://github.com/w3f/Grants-Program/pull/734). Amendment: [w3f/Grants-Program#1354](https://github.com/w3f/Grants-Program/pull/1354)
 
-> FOLLOW_UP or NOT?
+
 
 ### Overview
 
@@ -24,9 +24,7 @@ To streamline the process and avoid modifying the Substrate recovery  pallet, vi
 
 Those account ids matching NFC tags, program recovery files or others items can be managed with a dedicated extended_recovery pallet  withiin TEE/Integritee validators to ensure recovery security and privacy.
 
-
 The app recovery interface enables the user to manage both recovery setup and recovery initiation, letting the extended_recovery pallet manage create_recovery or initiate_recovery calls based on recovery options chosen by the user. 
-
 
 #### Circuit File Recovery with extended recovery Pallet.
 
@@ -44,7 +42,7 @@ The app recovery interface enables the user to manage both recovery setup and re
 2.	The AES key associated with the program token is received, used to decrypt the recovery token, and displays a one-time recovery code to the user through a validation screen.
 3.	The one-time recovery code is received by the Tx Validation pallet, which verifies the code.
 4.	From the new account, call initiate_recovery on the extended_recovery pallet.
-5.	The old account associated with the app receives a notification to approve or reject the recovery a defined number of times.
+5.	The old account associated with the app receives a notification.
 6.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the recovery pallet.
 
 #### NFC Recovery with extended recovery pallet
@@ -69,11 +67,6 @@ The app recovery interface enables the user to manage both recovery setup and re
 5.	The old account associated with the app receives a notification to approve or reject the recovery a defined number of times.
 7.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the frame recovery pallet.
 
-**Planned future improvement:** a signature generated with a dedicated  NFC smartcard can be used instead of the NFC tag in the future to increase security for power user or corporate/enterprises.
-
->Such smartcards shipped to the user can also be used to enable multi-signature transactions.
-
-When using payment cards as a NFC devices. Users can complete instead a small transaction with ZKP to ensure the pseudonymity of the user during the recovery set-up and initiation.
 
 #### Social Recovery
 We don't include social recovery in the scope of this milestone as it is pretty straitfoward to do it with the current recovery pallet.
@@ -97,14 +90,11 @@ Bob is the account that create recovery configuration.
 ![create-2023-10-20-1110](https://github.com/Interstellar-Network/Grants-Program/assets/4605611/669e0b66-fffe-41cb-8c96-0d548c2f112b)
 
 
-
-
 ##### Recover Stage
 
 Alice is the new account created on the new mobile device.
 
 ![initiate-2023-10-20-1110](https://github.com/Interstellar-Network/Grants-Program/assets/4605611/cfcb76f0-70f3-4d23-bb53-ec5eb8588d57)
-
 
 
 #### Technology stack
@@ -114,6 +104,16 @@ Alice is the new account created on the new mobile device.
 - Java/Kotlin/Jetpack Compose/Swift/Swift UI
 - Rust/Substrate
 - IPFS
+
+#### Planned future improvement:
+
+A signature generated with a dedicated  NFC smartcard can be used instead of the NFC tag in the future to increase security for power user or corporate/enterprises.
+
+>Such smartcards shipped to the user can also be used to enable multi-signature transactions.
+
+When using payment cards as a NFC devices. Users can complete instead a small transaction with ZKP to ensure the pseudonymity of the user during the recovery set-up and initiation.
+
+> upon reception of a notification regarding an initiated recovery the user will be able to approve or reject the recovery a defined number of times.
 
 
 ### Ecosystem Fit
@@ -174,24 +174,7 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 - **Full-Time Equivalent (FTE):** 2.5
 - **Total Costs:** 30,000 USD
 
-### Milestone 1 — File Recovery
-
-- **Estimated duration:** 4 weeks
-- **FTE:** 2.5
-- **Costs:** 15,000 USD
-
-
-|  Number | Deliverable                  | Specification                                                                                                                                                                                                                |
-| ------: | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **0a.** | License                      | APACHE 2                                                                                                                                                                                                                     |
-| **0b.** | Documentation                | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.|  |  |  |
-| **0d.** | Docker    |  We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.    |  |  |  |
-|      **1.** | Circuit File Recovery | we will develop a pallet to handle circuit file recovery with a recovery token file based on garbled display circuits |||
-
-
-
-### Milestone 2 — NFC Recovery
+### Milestone 1 — NFC Recovery
 
 - **Estimated duration:** 4 weeks
 - **FTE:** 2.5
@@ -205,6 +188,27 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 | **0c.** | Testing and Testing Guide    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                              |
    |  |  |  |
  |      **1.** | NFC Recovery | we will develop a pallet to handle NFC recovery with a day to day NFC device |||  
+
+
+
+
+
+### Milestone 2 — Circuit file Recovery
+
+- **Estimated duration:** 4 weeks
+- **FTE:** 2.5
+- **Costs:** 15,000 USD
+
+
+|  Number | Deliverable                  | Specification                                                                                                                                                                                                                |
+| ------: | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | License                      | APACHE 2                                                                                                                                                                                                                     |
+| **0b.** | Documentation                | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.|  |  |  |
+| **0d.** | Docker    |  We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.    |  |  |  |
+|      **1.** | Circuit File Recovery | we will develop a pallet to handle  recovery with a recovery file based on garbled display circuits |||
+
+
 
 
 **Additional information:**
