@@ -14,13 +14,13 @@
 
 ### Overview
 
-We aim at leveraging the current substrate Recovery pallet to introduce both Cloud Recovery and an original NFC recovery based on day to day NFC devices, like payment card, earpods, smartwatch, etc...
+We aim at leveraging the current substrate Recovery pallet to introduce both Cloud Recovery i.e. recovery with a file and an original NFC recovery based on day to day NFC devices, like payment card, earpods, smartwatch, etc... and later dedicated smartcard or NFC devices.
 
 ### Project Details
 
 We will use the Substrate Recovery Frame Pallet to manage three recovery processes: Cloud Recovery, NFC Recovery, and Social Recovery.
 
-To streamline the process and avoid modifying the Substrate recovery  pallet, virtual friends i.e account id related to both cloud recovery and NFC recovery can be created, they are associated to an NFC device or a cloud recovery file/program token. 
+To streamline the process and avoid modifying the Substrate recovery  pallet, virtual friends i.e item account id related to both recovery file and NFC recovery can be created, they are associated to an NFC device or a cloud recovery file/program token. 
 
 Those account ids matching NFC tags, program recovery files or others items can be managed with a dedicated extended_recovery pallet  withiin TEE/Integritee validators to ensure recovery security and privacy.
 
@@ -28,11 +28,11 @@ Those account ids matching NFC tags, program recovery files or others items can 
 The app recovery interface enables the user to manage both recovery setup and recovery initiation, letting the extended_recovery pallet manage create_recovery or initiate_recovery calls based on recovery options chosen by the user. 
 
 
-#### Cloud Recovery with Cloud Pallet.
+#### Circuit File Recovery with extended recovery Pallet.
 
 ##### Recovery Setup
-1.	Create a display garbled circuit Visual Cryptography Display - Interstellar Book with an embedded one-time recovery code, encrypted with an AES key.
-2.	The program token recovery file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
+1.	Create a [display garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with an AES key.
+2.	The program token circuit file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
 3.	Create an account id associated to the unique program token file.
 4.	Call create_recovery on the recovery pallet to set up a recovery account specifying the account id related to the program token. 
 
@@ -46,13 +46,13 @@ The app recovery interface enables the user to manage both recovery setup and re
 4.	The old account associated with the app receives a notification to approve or reject the recovery a defined number of times.
 5.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the recovery pallet.
 
-#### NFC Recovery with NFC pallet
+#### NFC Recovery with extended recovery pallet
 ##### Recovery Setup
 1.	The user taps their NFC device on their phone.
 2.	The NFC serial number hashed is transmitted through extrinsic to the extended_recovery pallet.
-3.	The signature is verified, and the serial number hashed is stored.
+3.	The serial number hashed is stored.
 > Later encrypted with an associated AES key on L1.
-4.	Create an account id associated to the serial number/tag.
+4.	Create an item account id associated to the serial number/tag.
 5.	Call create_recovery on the recovery pallet to set up a recovery account specifying the account id related to NFC tag.
 
 > Note; A hash is used to ensure pseudonymity of the data to comply with data protection regulation and other legal requirements.
@@ -173,7 +173,7 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 - **Full-Time Equivalent (FTE):** 2.5
 - **Total Costs:** 30,000 USD
 
-### Milestone 1 — Cloud Recovery
+### Milestone 1 — File Recovery
 
 - **Estimated duration:** 4 weeks
 - **FTE:** 2.5
@@ -186,7 +186,7 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 | **0b.** | Documentation                | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.|  |  |  |
 | **0d.** | Docker    |  We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.    |  |  |  |
-|      **1.** | Cloud Recovery | we will develop a pallet to handle cloud recovery with a recovery token file based on garbled display circuits |||
+|      **1.** | Circuit File Recovery | we will develop a pallet to handle circuit file recovery with a recovery token file based on garbled display circuits |||
 
 
 
