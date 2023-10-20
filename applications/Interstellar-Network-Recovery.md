@@ -92,15 +92,18 @@ We don't include social recovery in the scope of this milestone as it is pretty 
 
 
 Alice is the account that create recovery configuration.
- 
-![image](https://github.com/Interstellar-Network/Grants-Program/assets/4605611/fda0a693-ee89-4581-a340-08cb96b484cc)
+
+![create-2023-10-20-1110](https://github.com/Interstellar-Network/Grants-Program/assets/4605611/669e0b66-fffe-41cb-8c96-0d548c2f112b)
+
+
 
 
 ##### Recover Stage
 
 Bob is the new account created on the new mobile device.
 
- ![image](https://github.com/Interstellar-Network/Grants-Program/assets/4605611/e922726b-150c-4bf9-8cb6-9c99b5702c31)
+![initiate-2023-10-20-1110](https://github.com/Interstellar-Network/Grants-Program/assets/4605611/cfcb76f0-70f3-4d23-bb53-ec5eb8588d57)
+
 
 
 #### Technology stack
