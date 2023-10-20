@@ -213,8 +213,8 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 
 **Additional information:**
 
-For simplicity purpose and to provide a solution that is independent of Interstellar network specificity, we don't create and manage specific accounts related to our specific AA model i.e. related to mobile devices hardware secure element/TEE and its ad hoc key managments.
-Instead we will assign exiting accounts to program token and NFC devices.
+For simplicity purpose and to provide a solution that is independent of Interstellar network specificity, we don't create and manage specific accounts related to our specific AA model i.e. related to mobile devices hardware secure element/TEE and its key managments.
+The android device that will be used for evaluation will require NFC capabilities.
 
 
 
