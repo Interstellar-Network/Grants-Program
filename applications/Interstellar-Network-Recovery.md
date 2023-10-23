@@ -24,7 +24,7 @@ To streamline the process and avoid modifying the Substrate recovery  pallet at 
 The recovery interface enables the user to manage both the recovery setup and recovery initiation within a mobile app, letting the `extended_recovery` pallet manage `create_recovery` or `initiate_recovery` calls based on recovery options chosen by the user.
 >
 
-#### NFC recovery with extended recovery pallet
+#### NFC Recovery with extended recovery pallet
 ##### Recovery setup
 1.	The user taps their NFC device(s) on their mobile
 2.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
@@ -45,7 +45,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 > The notification will be used to approve or reject the recovery within a specified period later
 7.	Calls `vouch_recovery` from the standard recovery pallet
 
-#### Circuit file recovery token with extended recovery pallet
+#### Recovery Token with extended recovery pallet
 
 ##### Recovery setup
 1.	Create a token file i.e. [visual cryptographic garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with AES
@@ -53,7 +53,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 > Unlike a seed phrase, this token can't be used to access any private keys
 3.	Create an item account id associated to the unique circuit
 4.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the token's account id(s)
->  >Multiple program tokens can be used, each associated with their respective item account ids for recovery
+>  Multiple program tokens can be used, each associated with their respective item account ids for recovery
 
 ##### Initiate recovery from the new account
 1.  Import the token file within the app
@@ -66,7 +66,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 
 #### Social Recovery
-The social recovery interface will simply allow the users to select friends to be included in the recovery creation
+The social recovery interface will simply allow the users to select friends to be included in the recovery creation.
 
 
 #### Finalize the recovery process with pallet recovery
@@ -79,7 +79,7 @@ The social recovery interface will simply allow the users to select friends to b
 
 
 ####  Architecture Overview
-##### Recovery Set-up
+##### Recovery Setup
 
 
 Bob is the account that create recovery configuration.
