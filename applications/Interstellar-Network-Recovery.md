@@ -96,11 +96,12 @@ Alice is the new account created on the new mobile device
 
 #### Technology stack
 
-- VHDL
+- Verilog
 - C/C++
-- Java/Kotlin/Jetpack Compose/Swift/Swift UI
 - Rust/Substrate
 - IPFS
+- Java/Kotlin/Jetpack Compose/Swift/Swift UI
+
 
 #### Planned future improvement:
 
