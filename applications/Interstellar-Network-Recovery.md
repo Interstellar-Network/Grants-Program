@@ -107,7 +107,7 @@ Alice is the new account created on the new mobile device
 
 We will integrate cloud interfaces to store recovery files on clouds.
 
-The recovery pallet can be forked and extended to manage  change of recovery option by the users, example, add a friend or recovery item without whithout requiring the delletion and recreation of a recovery.
+The recovery pallet can be forked and extended to manage recovery option changes by the user e.g. add/remove a friend or recovery item without whithout a complete recovery reset.
 
 A signature generated with a dedicated  NFC smartcard can be used instead of the NFC tag in the future to increase security for power user or corporate/enterprises.
 
