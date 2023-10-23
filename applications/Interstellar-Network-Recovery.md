@@ -23,9 +23,9 @@ To streamline the process and avoid modifying the Substrate recovery  pallet at 
 
 The recovery interface enables the user to manage both the recovery setup and recovery initiation within a mobile app, letting the `extended_recovery` pallet manage `create_recovery` or `initiate_recovery` calls based on recovery options chosen by the user.
 >
-### Circuit file recovery token with extended recovery pallet.
+#### Circuit file recovery token with extended recovery pallet.
 
-#### Recovery Setup
+##### Recovery Setup
 1.	Create a [display garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with an AES key.
 2.	The token circuit file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
 3.	Create an account id associated to the unique program token file.
