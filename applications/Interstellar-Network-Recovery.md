@@ -115,7 +115,7 @@ A dedicated  NFC smartcard could be used for power users or corporates/enterpris
 
 NFC payment cards could additionaly be leveraged through ZKP
 
-The initiated recovery notification will enable to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
+The initiated recovery notification will enable the user to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
 
 
 ### Ecosystem Fit
