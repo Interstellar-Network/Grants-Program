@@ -36,7 +36,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 >Multiple NFC tags can be used, each associated with their respective item account ids for recovery
 
-##### Initiate Recovery from the new account
+##### Initiate recovery from the new account
 1.	The user taps their NFC device(s) on their mobile
 2.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
 3.	The hashed serial number(s) is retrieved and verified
@@ -47,7 +47,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 #### Circuit file recovery token with extended recovery pallet.
 
-##### Recovery Setup
+##### Recovery setup
 1.	Create a token file i.e. [visual cryptographic garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with AES
 2.	The token is sent to the app and could be stored on a cloud service (like Google Drive) or as a local file on your mobile
 > Unlike a seed phrase, this token can't be used to access any private keys
@@ -55,7 +55,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 4.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the token's account id(s)
 >  >Multiple program tokens can be used, each associated with their respective item account ids for recovery
 
-##### Initiate Recovery from the new account
+##### Initiate recovery from the new account
 1.  Import the token file within the app
 2.	The AES key associated with the token is received, used to decrypt the visual cryptographic garbled circuit which  displays the one-time recovery code to the user through a validation screen
 3.	The user's input is received by the `tx-alidation` pallet, which verifies the code
