@@ -30,7 +30,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 ##### Recovery Setup
 1.	Create a [display garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with an AES key.
-2.	The program token circuit file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
+2.	The token circuit file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
 3.	Create an account id associated to the unique program token file.
 4.	Call create_recovery on the recovery pallet to set up a recovery specifying the account id related to the program token. 
 
