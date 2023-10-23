@@ -14,7 +14,7 @@
 
 ### Overview
 
-We aim at leveraging the current substrate Recovery pallet to introduce both Cloud Recovery i.e. recovery with a file and an original NFC recovery based on day to day NFC devices, like payment card, earpods, smartwatch, etc... and later dedicated NFC smartcard or NFC devices. Multiple recovery items can be used but also can be combined with classic social recovery.
+We aim at leveraging the current substrate Recovery pallet to introduce both Cloud Recovery i.e. recovery with a file and an original NFC recovery based on day to day NFC devices, like payment card, earpods, smartwatch, etc... Multiple recovery items can be used but also can be combined with classic social recovery. Later, we aim at managing dedicated NFC smartcard or NFC devices for power users and corporates.
 
 
 
