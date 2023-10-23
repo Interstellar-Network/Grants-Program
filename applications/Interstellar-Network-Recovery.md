@@ -65,8 +65,8 @@ The recovery interface enables the user to manage both the recovery setup and re
 7.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the frame recovery pallet.
 
 
-#### Social Recovery
-We don't include social recovery in the scope of this milestone as it is pretty straitfoward to do it with the current recovery pallet.
+### Social Recovery
+The social recovery interface will simply allow the users to select friends to be included in the recovery creation.
 
 
 #### Finalize the recovery process with pallet recovery.
