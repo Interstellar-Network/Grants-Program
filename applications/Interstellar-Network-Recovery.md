@@ -82,14 +82,14 @@ The recovery interface will allow the user to select contacts/friends for the re
 ##### Recovery Setup
 
 
-Bob is the account that create recovery configuration.
+Bob is the account that create the recovery configuration
 
 ![create-2023-10-20-1110](https://github.com/Interstellar-Network/Grants-Program/assets/4605611/669e0b66-fffe-41cb-8c96-0d548c2f112b)
 
 
-##### Recover Stage
+##### Recovery Stage
 
-Alice is the new account created on the new mobile device.
+Alice is the new account created on the new mobile device
 
 ![initiate-2023-10-20-1110](https://github.com/Interstellar-Network/Grants-Program/assets/4605611/cfcb76f0-70f3-4d23-bb53-ec5eb8588d57)
 
