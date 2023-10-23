@@ -21,7 +21,7 @@ We aim at leveraging the current Substrate Frame Recovery Pallet to introduce bo
 
 To streamline the process and avoid modifying the Substrate recovery  pallet at this stage, virtual friends i.e item account ids are created and associated to an NFC device or a recovery file/program token. 
 
-Those item account ids are managed within a dedicated extended_recovery pallet in TEE/Integritee validators to ensure recovery security and privacy.
+Those item account ids are managed by a dedicated extended_recovery pallet within TEE/Integritee validators to ensure recovery security and privacy.
 
 The app recovery interface enables the user to manage both recovery setup and recovery initiation, letting the extended_recovery pallet manage create_recovery or initiate_recovery calls based on recovery options chosen by the user. 
 > we don't yet introduce cloud interface to store recovery file tokens on cloud.
