@@ -109,13 +109,12 @@ We will integrate cloud interfaces to store recovery files on clouds.
 
 The recovery pallet can be forked and extended to manage recovery option changes by the user e.g. add/remove a friend or recovery item without whithout a complete recovery reset.
 
-A signature generated with a dedicated  NFC smartcard could later be used in the future for power user or corporate/enterprises.
+A dedicated  NFC smartcard could be used for power users or corporates/enterprises.
 
->Such smartcards shipped to the user can also be used to enable multi-signature transactions.
+>Such smartcards can also be used for multi-signature transactions.
 
-When using payment cards as a NFC devices. Users can complete instead a small transaction with ZKP to ensure the pseudonymity of the user during the recovery set-up and initiation.
 
-> upon reception of a notification regarding an initiated recovery the user will be able to approve or reject the recovery during a defined period before the vouch_recovery is sent.
+> Upon reception of a notification regarding an initiated recovery the user will be able to approve or reject the recovery during a defined period before the vouch_recovery is sent.
 
 
 ### Ecosystem Fit
