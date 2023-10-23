@@ -14,15 +14,18 @@
 
 ### Overview
 
-We aim at leveraging the current substrate Recovery pallet to introduce both Cloud Recovery i.e. recovery with a file and an original NFC recovery based on day to day NFC devices, like payment card, earpods, smartwatch, etc... and later dedicated smartcard or NFC devices.
+We aim at leveraging the current substrate Recovery pallet to introduce both Cloud Recovery i.e. recovery with a file and an original NFC recovery based on day to day NFC devices, like payment card, earpods, smartwatch, etc... and later dedicated NFC smartcard or NFC devices. Multiple recovery items can be used but also can be combined with classic social recovery.
+
+
+
 
 ### Project Details
 
-We will use the Substrate Recovery Frame Pallet to manage three recovery processes: Cloud Recovery, NFC Recovery, and Social Recovery.
+We will use the Substrate Recovery Frame Pallet to manage three recovery processes: Cloud/File Recovery, NFC Recovery, and Social Recovery.
 
-To streamline the process and avoid modifying the Substrate recovery  pallet, virtual friends i.e item account id related to both recovery file and NFC recovery can be created, they are associated to an NFC device or a cloud recovery file/program token. 
+To streamline the process and avoid modifying the Substrate recovery  pallet at this stage, virtual friends i.e item account id related to both recovery file and NFC recovery can be created, they are associated to an NFC device or a recovery file/program token. 
 
-Those account ids matching NFC tags, program recovery files or others items can be managed with a dedicated extended_recovery pallet  withiin TEE/Integritee validators to ensure recovery security and privacy.
+Those account ids matching NFC tags, program recovery files token or others items can be managed with a dedicated extended_recovery pallet  withiin TEE/Integritee validators to ensure recovery security and privacy.
 
 The app recovery interface enables the user to manage both recovery setup and recovery initiation, letting the extended_recovery pallet manage create_recovery or initiate_recovery calls based on recovery options chosen by the user. 
 
@@ -32,7 +35,7 @@ The app recovery interface enables the user to manage both recovery setup and re
 1.	Create a [display garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with an AES key.
 2.	The program token circuit file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
 3.	Create an account id associated to the unique program token file.
-4.	Call create_recovery on the recovery pallet to set up a recovery account specifying the account id related to the program token. 
+4.	Call create_recovery on the recovery pallet to set up a recovery specifying the account id related to the program token. 
 
 >  Multiple program token recovery files can be created to be stored on different cloud services, each associated with an account id.
 
@@ -43,7 +46,7 @@ The app recovery interface enables the user to manage both recovery setup and re
 3.	The one-time recovery code is received by the Tx Validation pallet, which verifies the code.
 4.	From the new account, call initiate_recovery on the extended_recovery pallet.
 5.	The old account associated with the app receives a notification.
-6.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the recovery pallet.
+6.	After a defined  times, the account id associated with the program token, call vouch_recovery on the recovery pallet.
 
 #### NFC Recovery with extended recovery pallet
 ##### Recovery Setup
@@ -113,7 +116,7 @@ A signature generated with a dedicated  NFC smartcard can be used instead of the
 
 When using payment cards as a NFC devices. Users can complete instead a small transaction with ZKP to ensure the pseudonymity of the user during the recovery set-up and initiation.
 
-> upon reception of a notification regarding an initiated recovery the user will be able to approve or reject the recovery a defined number of times.
+> upon reception of a notification regarding an initiated recovery the user will be able to approve or reject the recovery during a defined period before the vouch_recovery is sent.
 
 
 ### Ecosystem Fit
