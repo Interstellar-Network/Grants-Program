@@ -28,7 +28,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 ##### Recovery Setup
 1.	The user taps their NFC device(s) on their phone
 2.	The NFC's serial number hash(es) is transmitted to the extended_recovery pallet
-3.	The hash(s) serial number is/are stored
+3.	The serial number hash(es) is/are stored in the pallet.
 > Later encrypted with an associated AES key on L1
 4.	Create an item account id associated to the serial number/tag
 5.	Call create_recovery on the recovery pallet to set up a recovery account specifying the account id related to NFC tag
