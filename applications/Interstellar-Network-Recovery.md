@@ -109,7 +109,7 @@ We will integrate cloud interfaces to store recovery files on clouds.
 
 The recovery pallet can be forked and extended to manage recovery option changes by the user e.g. add/remove a friend or recovery item without whithout a complete recovery reset.
 
-A signature generated with a dedicated  NFC smartcard can be used instead of the NFC tag in the future to increase security for power user or corporate/enterprises.
+A signature generated with a dedicated  NFC smartcard could later be used in the future for power user or corporate/enterprises.
 
 >Such smartcards shipped to the user can also be used to enable multi-signature transactions.
 
