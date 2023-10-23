@@ -29,8 +29,8 @@ The recovery interface enables the user to manage both the recovery setup and re
 1.	The user taps their NFC device(s) on their phone
 2.	The app reads the NFC's serial number(s), applies a hash function and sends it to the extended_recovery pallet
 3.	The pallet stores the hashed serial number(s)
-4.	Create an item account id associated to the hashed serial number(s)
-5.	Call `create_recovery` on the recovery pallet to set up a recovery specifying the account id(s) related to NFC tag(s)
+4.	Create an item account id(s) associated to the hashed serial number(s)
+5.	The pallet call `create_recovery` on the recovery pallet to set up a recovery specifying the account id(s) related to NFC tag(s)
 
 > A hash is used to ensure pseudonymity of the data to comply with data protection regulation and other legal requirements
 
