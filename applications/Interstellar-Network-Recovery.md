@@ -113,13 +113,14 @@ A dedicated  NFC smartcard could be used for power users or corporates/enterpris
 
 >Such smartcards can also be used for multi-signature transactions.
 
+NFC payment cards could additionaly be leveraged through ZKP
 
-> Upon reception of a notification regarding an initiated recovery the user will be able to approve or reject the recovery during a defined period before the vouch_recovery is sent.
+The initiated recovery notification will enable to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
 
 
 ### Ecosystem Fit
 
-> Should we say something
+
 
 ## Team :busts_in_silhouette:
 
