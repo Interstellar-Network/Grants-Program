@@ -34,7 +34,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 > A hash is used to ensure pseudonymity of the data to comply with data protection regulations and other legal requirements
 
->Multiple NFC tags can be used, each associated with their respective item account ids for recovery
+> Multiple NFC tags can be used, each associated with their respective item account ids for recovery
 
 ##### Initiate recovery from the new account
 1.	The user taps their NFC device(s) on their mobile
@@ -45,7 +45,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 > The notification will be used to approve or reject the recovery within a specified period later
 7.	Calls `vouch_recovery` from the standard recovery pallet
 
-#### Circuit file recovery token with extended recovery pallet.
+#### Circuit file recovery token with extended recovery pallet
 
 ##### Recovery setup
 1.	Create a token file i.e. [visual cryptographic garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with AES
