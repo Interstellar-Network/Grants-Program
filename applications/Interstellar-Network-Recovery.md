@@ -26,7 +26,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 #### NFC Recovery with extended recovery pallet
 ##### Recovery Setup
-1.	The user taps their NFC device on their phone.
+1.	The user taps their NFC device(s) on their phone.
 2.	The NFC serial number hashed is transmitted through extrinsic to the extended_recovery pallet.
 3.	The serial number hashed is stored.
 > Later encrypted with an associated AES key on L1.
