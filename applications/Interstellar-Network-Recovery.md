@@ -105,7 +105,9 @@ Alice is the new account created on the new mobile device
 
 #### Planned future improvement:
 
-We will integrate cloud interfaces to store recovery files on clouds.
+The initiated recovery notifications will enable the users to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
+
+We will integrate a cloud interface to easily store recovery files with cloud services.
 
 The recovery pallet can be forked and extended to manage recovery option changes by the user e.g. add/remove a friend or recovery item without whithout a complete recovery reset.
 
@@ -113,9 +115,9 @@ A dedicated  NFC smartcard could be used for power users or corporates/enterpris
 
 >Such smartcards can also be used for multi-signature transactions.
 
-NFC payment cards could additionaly be leveraged through ZKP
+NFC payment cards could additionaly be leveraged through ZKP.
 
-The initiated recovery notifications will enable the users to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
+
 
 
 ### Ecosystem Fit
