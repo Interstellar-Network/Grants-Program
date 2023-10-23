@@ -23,7 +23,7 @@ To streamline the process and avoid modifying the Substrate recovery  pallet at 
 
 Those item account ids are managed by a dedicated extended_recovery pallet within TEE/Integritee validators to ensure recovery security and privacy.
 
-The recovery interface enables the user to manage both the recovery setup and recovery initiation within a mobile app, letting the extended_recovery pallet manage `create_recovery` or `initiate_recovery` calls based on recovery options chosen by the user.
+The recovery interface enables the user to manage both the recovery setup and recovery initiation within a mobile app, letting the `extended_recovery` pallet manage `create_recovery` or `initiate_recovery` calls based on recovery options chosen by the user.
 
 > we won't yet introduce cloud interface at this stage to store recovery file tokens on cloud.
 
