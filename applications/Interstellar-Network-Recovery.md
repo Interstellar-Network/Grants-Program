@@ -22,11 +22,10 @@ We aim at leveraging the current Substrate Frame Recovery Pallet to introduce bo
 To streamline the process and avoid modifying the Substrate recovery  pallet at this stage, virtual friends i.e item account ids are created and associated to an NFC device or a recovery file/program token. Those item account ids are managed by a dedicated extended_recovery pallet within TEE/Integritee validators to ensure recovery security and privacy.
 
 The recovery interface enables the user to manage both the recovery setup and recovery initiation within a mobile app, letting the `extended_recovery` pallet manage `create_recovery` or `initiate_recovery` calls based on recovery options chosen by the user.
-
 >
-#### Circuit file recovery token with extended recovery pallet.
+### Circuit file recovery token with extended recovery pallet.
 
-##### Recovery Setup
+#### Recovery Setup
 1.	Create a [display garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with an AES key.
 2.	The token circuit file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
 3.	Create an account id associated to the unique program token file.
@@ -35,7 +34,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 >  Multiple program token recovery files can be created to be stored on different cloud services, each associated with an account id.
 
 
-##### Initiate Recovery
+#### Initiate Recovery
 1.  Import the circuit file within the app
 2.	The AES key associated with the program token is received, used to decrypt the recovery token, and displays a one-time recovery code to the user through a validation screen.
 3.	The one-time recovery code is received by the Tx Validation pallet, which verifies the code.
@@ -43,8 +42,8 @@ The recovery interface enables the user to manage both the recovery setup and re
 5.	The old account associated with the app receives a notification.
 6.	After a defined  times, the account id associated with the program token, call vouch_recovery on the recovery pallet.
 
-#### NFC Recovery with extended recovery pallet
-##### Recovery Setup
+### NFC Recovery with extended recovery pallet
+#### Recovery Setup
 1.	The user taps their NFC device on their phone.
 2.	The NFC serial number hashed is transmitted through extrinsic to the extended_recovery pallet.
 3.	The serial number hashed is stored.
@@ -56,7 +55,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 >Multiple NFC devices can be used, each associated with its respective account id for recovery.
 
-##### Initiate Recovery
+#### Initiate Recovery
 1.	The user taps their NFC device on their mobile device.
 2.	A serial key tag  is sent throuh extrinsic to NFC pallet.
 3.	The NFC hashed serial number/tag is retrieved and verified.
