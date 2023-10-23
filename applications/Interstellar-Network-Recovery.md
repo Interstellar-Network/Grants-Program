@@ -26,43 +26,44 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 #### NFC Recovery with extended recovery pallet
 ##### Recovery Setup
-1.	The user taps their NFC device(s) on their phone
+1.	The user taps their NFC device(s) on their mobile
 2.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
 3.	The pallet stores the hashed serial number(s)
 4.	Create item account id(s) associated to the hashed serial number(s)
-5.	The pallet call `create_recovery` on the recovery pallet to set up a recovery specifying the account id(s) related to NFC tag(s)
+5.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the NFC's account id(s)
 
-> A hash is used to ensure pseudonymity of the data to comply with data protection regulation and other legal requirements
+> A hash is used to ensure pseudonymity of the data to comply with data protection regulations and other legal requirements
 
->Multiple NFC devices can be used, each associated with its respective account id for recovery
+>Multiple NFC tags can be used, each associated with their respective item account ids for recovery
 
-#### Initiate Recovery
-1.	The user taps their NFC device on their mobile device
-2.	A serial key tag  is sent throuh extrinsic to NFC pallet
-3.	The NFC hashed serial number/tag is retrieved and verified
-> Later retrived encrypted on L1 and decrypted
-4.	From the new account, call initiate_recovery on the extended_recovery pallet
-5.	The old account associated with the app receives a notification to approve or reject the recovery a defined number of times
-7.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the frame recovery pallet
+#### Initiate Recovery from the new account
+1.	The user taps their NFC device(s) on their mobile
+2.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
+3.	The hashed serial number(s) is retrieved and verified
+4.	The `extended_recovery` pallet calls `initiate_recovery` from the standard recovery pallet
+5.	The old account associated with the app receives a notification
+> The notification will be used to approve or reject the recovery within a specified period later
+7.	Calls `vouch_recovery` from the standard recovery pallet
 
 #### Circuit file recovery token with extended recovery pallet.
 
 ##### Recovery Setup
-1.	Create a [display garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with an AES key
-2.	The token circuit file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file
-3.	Create an account id associated to the unique program token file
-4.	Call create_recovery on the recovery pallet to set up a recovery specifying the account id related to the program token
+1.	Create a token file i.e. [visual cryptographic garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with AES
+2.	The token is sent to the app and could be stored on a cloud service (like Google Drive) or as a local file on your mobile
+> Unlike a seed phrase, this token can't be used to access any private keys
+3.	Create an item account id associated to the unique circuit
+4.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the token's account id(s)
+>  >Multiple program tokens can be used, each associated with their respective item account ids for recovery
 
->  Multiple program token recovery files can be created to be stored on different cloud services, each associated with an account id
-
-
-##### Initiate Recovery
-1.  Import the circuit file within the app
-2.	The AES key associated with the program token is received, used to decrypt the recovery token, and displays a one-time recovery code to the user through a validation screen
-3.	The one-time recovery code is received by the Tx Validation pallet, which verifies the code
-4.	From the new account, call initiate_recovery on the extended_recovery pallet
+##### Initiate Recovery from the new account
+1.  Import the token file within the app
+2.	The AES key associated with the token is received, used to decrypt the visual cryptographic garbled circuit which  displays the one-time recovery code to the user through a validation screen
+3.	The user's input is received by the `tx-alidation` pallet, which verifies the code
+4.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet
 5.	The old account associated with the app receives a notification
-6.	After a defined  times, the account id associated with the program token, call vouch_recovery on the recovery pallet
+> The notification will be used to approve or reject the recovery within a specified period later
+6.	Calls `vouch_recovery` from the standard recovery pallet
+
 
 #### Social Recovery
 The social recovery interface will simply allow the users to select friends to be included in the recovery creation
