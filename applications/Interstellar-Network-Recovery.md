@@ -24,8 +24,8 @@ To streamline the process and avoid modifying the Substrate recovery  pallet at 
 The recovery interface enables the user to manage both the recovery setup and recovery initiation within a mobile app, letting the `extended_recovery` pallet manage `create_recovery` or `initiate_recovery` calls based on recovery options chosen by the user.
 >
 
-#### NFC Recovery with extended recovery pallet
-##### Recovery Setup
+#### NFC recovery with extended recovery pallet
+##### Recovery setup
 1.	The user taps their NFC device(s) on their mobile
 2.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
 3.	The pallet stores the hashed serial number(s)
@@ -36,7 +36,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 >Multiple NFC tags can be used, each associated with their respective item account ids for recovery
 
-#### Initiate Recovery from the new account
+##### Initiate Recovery from the new account
 1.	The user taps their NFC device(s) on their mobile
 2.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
 3.	The hashed serial number(s) is retrieved and verified
