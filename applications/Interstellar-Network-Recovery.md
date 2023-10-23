@@ -42,7 +42,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 3.	The hashed serial number(s) is retrieved and verified
 4.	The `extended_recovery` pallet calls `initiate_recovery` from the standard recovery pallet
 5.	The old account associated with the app receives a notification
-> The notification will be used to approve or reject the recovery within a specified period later
+> The notification will be used to approve or reject the recovery within a specified period later - [Future improvements](https://github.com/Interstellar-Network/Grants-Program/blob/recovery/applications/Interstellar-Network-Recovery.md#planned-future-improvement)
 7.	Calls `vouch_recovery` from the standard recovery pallet
 
 #### Recovery Token with extended recovery pallet
@@ -61,21 +61,21 @@ The recovery interface enables the user to manage both the recovery setup and re
 3.	The user's input is received by the `tx-alidation` pallet, which verifies the code
 4.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet
 5.	The old account associated with the app receives a notification
-> The notification will be used to approve or reject the recovery within a specified period later
+> The notification will be used to approve or reject the recovery within a specified period later - [Future improvements](https://github.com/Interstellar-Network/Grants-Program/blob/recovery/applications/Interstellar-Network-Recovery.md#planned-future-improvement)
 6.	Calls `vouch_recovery` from the standard recovery pallet
 
 
 #### Social Recovery
-The social recovery interface will simply allow the users to select friends to be included in the recovery creation.
+The recovery interface will allow the user to select contacts/friends for the recovery setup.
 
 
-#### Finalize the recovery process with pallet recovery
-1.	Once a threshold number of friends/pseudo friends accounts (NFC/Cloud) have vouched for the recovery attempt, the account owner needs to wait until the delay period has passed, starting when they initiated the recovery process.
-2.	Now the account owner is able to call claim_recovery, which subsequently allows them to call as_recovered and directly make calls on behalf of the lost account.
-3.	Using the now recovered account, the account owner can call close_recovery on the recovery process they opened, reclaiming the recovery deposit they placed.
-4.	Then the account owner should then call remove_recovery to remove the recovery configuration on the recovered account and reclaim the recovery configuration deposit they placed.
-5.	Using as_recovered, the account owner is able to call any other pallets to clean up their state and reclaim any reserved or locked funds. They can then transfer all funds from the recovered account to the new account.
-6.	When the recovered account becomes reaped (i.e. its free and reserved balance drops to zero), the final recovery link is removed.
+#### Finalize the recovery process with the standard recovery pallet
+1.	Once a threshold number of friend and item accounts have vouched for the recovery attempt, the account owner needs to wait until the delay period has passed, starting when they initiated the recovery process
+2.	Now the account owner is able to call `claim_recovery`, which subsequently allows them to call `as_recovered` and directly make calls on behalf of the lost account
+3.	Using the now recovered account, the account owner can call `close_recovery` on the recovery process they opened, reclaiming the recovery deposit they placed
+4.	The account owner should then call `remove_recovery` to remove the recovery configuration on the recovered account and reclaim the recovery configuration deposit they placed
+5.	Using `as_recovered`, the account owner is able to call any other pallets to clean up their state and reclaim any reserved or locked funds. They can then transfer all funds from the recovered account to the new account
+6.	When the recovered account becomes reaped (i.e. its free and reserved balance drops to zero), the final recovery link is removed
 
 
 ####  Architecture Overview
