@@ -14,19 +14,17 @@
 
 ### Overview
 
-We aim at leveraging the current Substrate Frame Recovery Pallet to introduce both an original NFC Recovery based on day-to-day NFC devices (payment/access/transportation cards, smartwatches, car keys, headphones, speakers,or any other NFC tags) and a specific recovery File based on a one-time visual cryptographic code. A new recovery setup will allow for only a single or a combination of multiple recovery options (devices/files/social recovery).
+We aim at leveraging the current Substrate Frame Recovery Pallet to introduce both an original NFC Recovery based on day-to-day NFC devices (payment/access/transportation cards, smartwatches, car keys, headphones, speakers, or any other NFC tags) and a specific recovery File based on a one-time visual cryptographic code. A new recovery setup will allow for only a single or a combination of multiple recovery options (devices/files/social recovery).
 
 
 ### Project Details
 
-We will use the Substrate Recovery Frame Pallet to manage three recovery processes: Cloud/File Recovery, NFC Recovery, and Social Recovery.
-
-To streamline the process and avoid modifying the Substrate recovery  pallet at this stage, virtual friends i.e item account id related to both recovery file and NFC recovery can be created, they are associated to an NFC device or a recovery file/program token. 
+To streamline the process and avoid modifying the Substrate recovery  pallet at this stage, virtual friends i.e item account IDs are created and associated to an NFC device or a recovery file/program token. 
 
 Those account ids matching NFC tags, program recovery files token or others items can be managed with a dedicated extended_recovery pallet  withiin TEE/Integritee validators to ensure recovery security and privacy.
 
 The app recovery interface enables the user to manage both recovery setup and recovery initiation, letting the extended_recovery pallet manage create_recovery or initiate_recovery calls based on recovery options chosen by the user. 
-> we don't yet introduce cloud interface to store recovery file token on cloud.
+> we don't yet introduce cloud interface to store recovery file tokens on cloud.
 
 #### Circuit File Recovery with extended recovery Pallet.
 
