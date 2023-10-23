@@ -23,24 +23,6 @@ To streamline the process and avoid modifying the Substrate recovery  pallet at 
 
 The recovery interface enables the user to manage both the recovery setup and recovery initiation within a mobile app, letting the `extended_recovery` pallet manage `create_recovery` or `initiate_recovery` calls based on recovery options chosen by the user.
 >
-#### Circuit file recovery token with extended recovery pallet.
-
-##### Recovery Setup
-1.	Create a [display garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with an AES key.
-2.	The token circuit file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
-3.	Create an account id associated to the unique program token file.
-4.	Call create_recovery on the recovery pallet to set up a recovery specifying the account id related to the program token. 
-
->  Multiple program token recovery files can be created to be stored on different cloud services, each associated with an account id.
-
-
-##### Initiate Recovery
-1.  Import the circuit file within the app
-2.	The AES key associated with the program token is received, used to decrypt the recovery token, and displays a one-time recovery code to the user through a validation screen.
-3.	The one-time recovery code is received by the Tx Validation pallet, which verifies the code.
-4.	From the new account, call initiate_recovery on the extended_recovery pallet.
-5.	The old account associated with the app receives a notification.
-6.	After a defined  times, the account id associated with the program token, call vouch_recovery on the recovery pallet.
 
 #### NFC Recovery with extended recovery pallet
 ##### Recovery Setup
@@ -64,6 +46,24 @@ The recovery interface enables the user to manage both the recovery setup and re
 5.	The old account associated with the app receives a notification to approve or reject the recovery a defined number of times.
 7.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the frame recovery pallet.
 
+#### Circuit file recovery token with extended recovery pallet.
+
+##### Recovery Setup
+1.	Create a [display garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with an AES key.
+2.	The token circuit file is sent to the app to be stored on a cloud service (like Google Drive) or on a local file.
+3.	Create an account id associated to the unique program token file.
+4.	Call create_recovery on the recovery pallet to set up a recovery specifying the account id related to the program token. 
+
+>  Multiple program token recovery files can be created to be stored on different cloud services, each associated with an account id.
+
+
+##### Initiate Recovery
+1.  Import the circuit file within the app
+2.	The AES key associated with the program token is received, used to decrypt the recovery token, and displays a one-time recovery code to the user through a validation screen.
+3.	The one-time recovery code is received by the Tx Validation pallet, which verifies the code.
+4.	From the new account, call initiate_recovery on the extended_recovery pallet.
+5.	The old account associated with the app receives a notification.
+6.	After a defined  times, the account id associated with the program token, call vouch_recovery on the recovery pallet.
 
 #### Social Recovery
 The social recovery interface will simply allow the users to select friends to be included in the recovery creation.
