@@ -28,6 +28,7 @@ To streamline the process and avoid modifying the Substrate recovery  pallet at 
 Those account ids matching NFC tags, program recovery files token or others items can be managed with a dedicated extended_recovery pallet  withiin TEE/Integritee validators to ensure recovery security and privacy.
 
 The app recovery interface enables the user to manage both recovery setup and recovery initiation, letting the extended_recovery pallet manage create_recovery or initiate_recovery calls based on recovery options chosen by the user. 
+> we don't yet introduce cloud interface to store recovery file token on cloud.
 
 #### Circuit File Recovery with extended recovery Pallet.
 
