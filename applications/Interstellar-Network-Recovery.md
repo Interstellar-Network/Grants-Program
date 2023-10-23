@@ -32,7 +32,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 4.	Create an item account id associated to the hashed serial number(s)
 5.	Call create_recovery on the recovery pallet to set up a recovery account specifying the account id(s) related to NFC tag(s)
 
-> Note; A hash is used to ensure pseudonymity of the data to comply with data protection regulation and other legal requirements
+> A hash is used to ensure pseudonymity of the data to comply with data protection regulation and other legal requirements
 
 >Multiple NFC devices can be used, each associated with its respective account id for recovery
 
