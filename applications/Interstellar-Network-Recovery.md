@@ -14,7 +14,7 @@
 
 ### Overview
 
-We aim at leveraging the current Substrate Frame Recovery Pallet to introduce both an original NFC Recovery based on day-to-day NFC devices (payment/access/transportation cards, earpods, smartwatches, NFC tags, etc..) and a recovery File based on a one-time visual cryptographic code. Multiple recovery options (devices/files/social recovery) can be combined during the recovery setup.
+We aim at leveraging the current Substrate Frame Recovery Pallet to introduce both an original NFC Recovery based on day-to-day NFC devices (payment/access/transportation cards, smartwatches, car keys, headphones, speakers,or any other NFC tags) and a specific recovery File based on a one-time visual cryptographic code. The recovery setup allows for only a single or a combination of multiple recovery options (devices/files/social recovery).
 
 
 ### Project Details
