@@ -25,9 +25,8 @@ Those item account ids are managed by a dedicated extended_recovery pallet withi
 
 The recovery interface enables the user to manage both the recovery setup and recovery initiation within a mobile app, letting the `extended_recovery` pallet manage `create_recovery` or `initiate_recovery` calls based on recovery options chosen by the user.
 
-> we won't yet introduce cloud interface at this stage to store recovery file tokens on cloud.
 
-#### Circuit File Recovery with extended recovery Pallet.
+#### Circuit file recovery token with extended recovery pallet.
 
 ##### Recovery Setup
 1.	Create a [display garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with an AES key.
@@ -107,6 +106,10 @@ Alice is the new account created on the new mobile device.
 - IPFS
 
 #### Planned future improvement:
+
+We will integrate cloud interfaces to store recovery files on clouds.
+
+The recovery pallet can be forked and extended to manage  change of recovery option by the users, example, add a friend or recovery item without whithout requiring the delletion and recreation of a recovery.
 
 A signature generated with a dedicated  NFC smartcard can be used instead of the NFC tag in the future to increase security for power user or corporate/enterprises.
 
