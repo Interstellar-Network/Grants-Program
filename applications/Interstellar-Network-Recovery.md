@@ -34,7 +34,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 >  Multiple program token recovery files can be created to be stored on different cloud services, each associated with an account id.
 
 
-#### Initiate Recovery
+##### Initiate Recovery
 1.  Import the circuit file within the app
 2.	The AES key associated with the program token is received, used to decrypt the recovery token, and displays a one-time recovery code to the user through a validation screen.
 3.	The one-time recovery code is received by the Tx Validation pallet, which verifies the code.
@@ -65,7 +65,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 7.	If approved or after a defined number of times without responses, with the account id associated with the program token, call vouch_recovery on the frame recovery pallet.
 
 
-### Social Recovery
+#### Social Recovery
 The social recovery interface will simply allow the users to select friends to be included in the recovery creation.
 
 
