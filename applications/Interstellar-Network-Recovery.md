@@ -103,13 +103,13 @@ Alice is the new account created on the new mobile device
 - Java/Kotlin/Jetpack Compose/Swift/Swift UI
 
 
-#### Planned future improvement:
+#### Planned future improvements:
 
 The initiated recovery notifications will enable the users to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
 
 We will integrate a cloud interface to easily store recovery files with cloud services.
 
-The recovery pallet can be forked and extended to manage recovery option changes by the user e.g. add/remove a friend or recovery item without whithout a complete recovery reset.
+The recovery pallet can be forked and extended to manage recovery option changes by the user e.g. add/remove a friend or recovery item without a complete recovery reset.
 
 A dedicated  NFC smartcard could be used for power users or corporates/enterprises.
 
@@ -118,11 +118,15 @@ A dedicated  NFC smartcard could be used for power users or corporates/enterpris
 NFC payment cards could additionaly be leveraged through ZKP.
 
 
-
-
 ### Ecosystem Fit
 
+Initially, the goal was to develop our own branded novel enshrined account abstraction wallet. - “Interstellar Wallet”
 
+We talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedless onboarding and cold wallet security with a day-to-day mobile. However, the teams also agreed that the Polkadot ecosystem already has great wallet UIs right now.
+
+To reach the maximum net benefit for all of the Polkadot ecosystem (including wallets), we decided to shift from being our own branded “Interstellar Wallet” to becoming a decentralized Substrate based authentication layer and white label for other wallet brands.
+
+After reaching out to existing Polkadot Wallets, we received really positive feedback from their side as well. In the future, they could integrate our substrate based account abstraction layer.
 
 ## Team :busts_in_silhouette:
 
