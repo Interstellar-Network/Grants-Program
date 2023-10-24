@@ -8,11 +8,11 @@
 
 ## Project Overview :page_facing_up:
 
-**Follow-up of Interstellar- Wallet Phase 1 & 2**: Link to the application pull request: [w3f/Grants-Program#734](https://github.com/w3f/Grants-Program/pull/734)
+**Follow-up of Interstellar- Wallet Phase 1 & 2**
 
-Amendment: [w3f/Grants-Program#1354](https://github.com/w3f/Grants-Program/pull/1354)
+Amendment P1: [w3f/Grants-Program#1354](https://github.com/w3f/Grants-Program/pull/1354)
 
-Amendment:[ w3f/Grants-Program#2028]( https://github.com/w3f/Grants-Program/pull/2028)
+Amendment P2: [w3f/Grants-Program#2028]( https://github.com/w3f/Grants-Program/pull/2028)
 
 
 
@@ -131,10 +131,10 @@ Alice is the new account created on the new mobile device
 
 We already talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedless onboarding with novel recovery options through a day-to day mobile. The NFC and Token recovery were seen as a significant improvement to streamline the recovery process. Parachains could choose to integrate this new recovery pallet directly into their system or wait until we integrate it into the future substrate-based Interstellar Network to leverage additional features including cold wallet security.
 
-### Future plan
+### Future Plan
 After some conversations with existing Polkadot wallet providers and to reach the maximum net benefit for all of the Polkadot ecosystem, we chose to shift from being a stand-alone wallet solution to become a universal account abstraction layer for existing and upcoming Polkadot wallets. Working together instead of competing against eachother will not only bring down the overall user acquisition costs for the ecosystem, but enable an upgraded UX and Security for everyone while leveraging already established Wallet <> Parachain integrations.
 
-Since Interstellar’s substrate-architecture can also supports native Bitcoin/Ethereum transactions, we have been in contact with upcoming native cross-chain swap protocols to i.e. unlock Bitcoin liquidity for the Polkadot ecosystem.
+Since Interstellar’s substrate-architecture can also supports native Bitcoin/Ethereum/... transactions, we have been in contact with upcoming native cross-chain swap protocols to unlock BTC/ETH/... liquidity to freely flow into the Polkadot ecosystem.
 
 
 ## Team :busts_in_silhouette:
@@ -204,7 +204,7 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 | **0b.** | Documentation                | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                         
 | **0d.** | Docker    |  We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. 
-|      **1.** | NFC Recovery | we will develop a pallet to handle NFC recovery with a day to day NFC device like contacless payment or transportation card
+|      **1.** | NFC Recovery | We will develop a pallet to handle NFC recovery with a day-to-day NFC device like contacless payment or transportation cards
 
 
 
@@ -223,16 +223,16 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 | **0b.** | Documentation                | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works.
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
 | **0d.** | Docker    |  We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.
-|      **1.** | Circuit File Recovery | we will develop a pallet to handle  recovery with a recovery file based on garbled display circuits |
+|      **1.** | Recovery File Token | We will develop a pallet to handle  recovery with a recovery file token based on garbled circuits |
 
 
 
 **Additional information:**
 
-For simplicity purpose and to provide a recovery solution that is independent of Interstellar network specificity, we don't create and manage specific accounts related to our specific AA model i.e. related to mobile devices hardware secure element/TEE and its key managments.
+For simplicity purposes and to provide a recovery solution that is independent of the Interstellar Network specificities, this grant does not focus on Interstellar's specific AA model (mobile devices hardware secure element/TEE and its key managements). Instead we will use Alice, Bob, etc. accounts with hardcoded keys.
 
 The android device used for evaluation requires NFC capabilities.
-> such capabilities are getting more nad more ubiquitous on smartphones
+> Such capabilities are getting more and more ubiquitous on smartphones
 
 All deliverables are to be run / compiled on Linux x86_64 to comply with our current CI.
 
