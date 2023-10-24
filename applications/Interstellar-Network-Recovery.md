@@ -118,7 +118,10 @@ A dedicated NFC smartcard could be used by power users/web3 teams/corporates/ent
 
 ### Ecosystem Fit
 
-We already talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedlees onborading and cold-wallet security with a day-to day mobile. However, the teams also agreed that the Polkadot ecosystem already has great wallet UIs right now.
+We already talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedlees onborading and cold-wallet security with a day-to day mobile. 
+On this respect our flexible recovery with cloud and NFC recoveries options are seen as a significant improvement to streamline the recovery while still allowing social recovery.
+
+However, the teams also agreed that the Polkadot ecosystem already has great wallet UIs right now.
 
 To reach the maximum net benefit for all of the Polkadot ecosystem (including wallets), we decided to shift from being our own branded “Interstellar Wallet” to becoming a decentralized Substrate based authentication layer and white label for other wallet brands.
 
