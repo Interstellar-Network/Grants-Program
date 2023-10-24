@@ -138,6 +138,7 @@ To reach the maximum net benefit for all of the Polkadot ecosystem (including wa
 After reaching out to existing Polkadot Wallets, we received really positive feedback from their side as well. In the future, they could integrate our substrate based account abstraction layer, enhancing  their solution to achieve greater web 2.0 penetration
 
 
+>-----------------------
 
 
 We already talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedlees onboarding with novel recovery options through a day-to day mobile. The NFC and Token recovery were seen as a significant improvement to streamline the recovery process. Parachains could choose to integrate this new recovery pallet directly into their system or wait until we integrate it into the future substrate-based Interstellar Network to leverage additional features including cold wallet security.
