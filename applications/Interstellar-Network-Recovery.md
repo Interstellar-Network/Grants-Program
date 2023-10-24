@@ -133,12 +133,6 @@ After some conversations with existing Polkadot wallet providers and to reach th
 Since Interstellar’s substrate-architecture can also supports native Bitcoin/Ethereum transactions, we have been in contact with upcoming native cross-chain swap protocols to i.e. unlock Bitcoin liquidity for the Polkadot ecosystem.
 
 
-
-
-
-
-
-
 ## Team :busts_in_silhouette:
 
 
