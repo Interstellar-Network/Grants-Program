@@ -27,7 +27,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 #### NFC Recovery with extended recovery pallet
 ##### Recovery Setup
 1.	The user taps their NFC device(s) on their mobile
-2.  The user is prompted for threhold (if applicable) and delay
+2.  The user is prompted for threshold (if applicable) and delay
 3.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
 4.	The pallet stores the hashed serial number(s) rehashed with a salt
 5.	Create item account id(s) associated to the hashed serial number(s)
