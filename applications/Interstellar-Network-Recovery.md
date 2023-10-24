@@ -41,10 +41,10 @@ The recovery interface enables the user to manage both the recovery setup and re
 1.	The user taps their NFC device(s) on their mobile
 2.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
 3.	The hashed serial number(s) is retrieved and verified
-4.	The `extended_recovery` pallet calls `initiate_recovery` from the standard recovery pallet
-5.	The old account associated with the app receives a notification
+4.	The `extended_recovery` pallet calls `initiate_recovery` and `vouch_recovery` from the standard recovery pallet
+5.	The old app associated with the old account receives a notification (assuming the app still exits)
 > The notification will be used to approve or reject the recovery within a specified period later - [Future improvements](https://github.com/Interstellar-Network/Grants-Program/blob/recovery/applications/Interstellar-Network-Recovery.md#planned-future-improvement)
-7.	Calls `vouch_recovery` from the standard recovery pallet
+
 
 #### Recovery Token with extended recovery pallet
 
@@ -61,10 +61,10 @@ The recovery interface enables the user to manage both the recovery setup and re
 1.  Import the token file within the app
 2.	The AES key associated with the token is received, used to decrypt the recovery circuit i.e. visual cryptographic garbled circuit which  displays the one-time recovery code to the user through a validation screen
 3.	The user's input is received by the `tx-validation` (or similar)pallet, which verifies the code
-4.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet
-5.	The old account associated with the app receives a notification
+4.	The `extended_recovery` pallet calls `create_recovery` and `vouch_recovery` from the standard recovery pallet
+5.	The old app associated with the old account receives a notification (assuming the app still exits)
 > The notification will be used to approve or reject the recovery within a specified period later - [Future improvements](https://github.com/Interstellar-Network/Grants-Program/blob/recovery/applications/Interstellar-Network-Recovery.md#planned-future-improvement)
-6.	Calls `vouch_recovery` from the standard recovery pallet
+
 
 
 #### Social Recovery
