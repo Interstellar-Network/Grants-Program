@@ -118,14 +118,19 @@ A dedicated NFC smartcard could be used by power users/web3 teams/corporates/ent
 
 ### Ecosystem Fit
 
+We still believe the growth of the Polkadot ecosystem hinges on seamlessly integrating Web 2.0 users and corporations.
+
 We already talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedlees onborading and cold-wallet security with a day-to day mobile. 
-On this respect our flexible recovery with cloud and NFC recoveries options are seen as a significant improvement to streamline the recovery while still allowing social recovery.
+
+On this respect our flexible recovery with cloud and NFC options are seen as a significant improvement to streamline the recovery whithout give up on security while still allowing social recovery.
 
 However, the teams also agreed that the Polkadot ecosystem already has great wallet UIs right now.
 
 To reach the maximum net benefit for all of the Polkadot ecosystem (including wallets), we decided to shift from being our own branded “Interstellar Wallet” to becoming a decentralized Substrate based authentication layer and white label for other wallet brands.
 
-After reaching out to existing Polkadot Wallets, we received really positive feedback from their side as well. In the future, they could integrate our substrate based account abstraction layer.
+After reaching out to existing Polkadot Wallets, we received really positive feedback from their side as well. In the future, they could integrate our substrate based account abstraction layer, enhancing  their solution to achieve greater web 2.0 penetration
+
+
 ?
 As our protocol also supports native Bitcoin transactions, we plan on integrating with upcoming native BTC <> DOT bridges to unlock BTC liquitity for Polkadot.
 
