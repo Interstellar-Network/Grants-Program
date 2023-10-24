@@ -224,6 +224,7 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 For simplicity purpose and to provide a solution that is independent of Interstellar network specificity, we don't create and manage specific accounts related to our specific AA model i.e. related to mobile devices hardware secure element/TEE and its key managments.
 The android device  used for evaluation requires NFC capabilities.
 > such capabilities are getting more nad more ubiquitous on smartphones
+All deliverables are to be run / compiled on Linux x86_64 to comply with our current CI.
 
 
 
