@@ -104,29 +104,27 @@ Alice is the new account created on the new mobile device
 
 
 #### Planned future improvements:
-
-The initiated recovery notifications will enable the users to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
-
-We will integrate a cloud interface to easily store recovery files with cloud services.
-
 The recovery pallet can be forked and extended to manage recovery option changes by the user e.g. add/remove a friend or recovery item without a complete recovery reset.
 
-A dedicated  NFC smartcard could be used for power users or corporates/enterprises.
+The initiated recovery notifications will enable the users to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
+>This mechanism can prevent accidental or malicious account recovery attempts in case the NFC tag or token file is lost or stolen
 
->Such smartcards can also be used for multi-signature transactions.
+Integrating a cloud backup interface for the token recovery files will enable a one-clik onboarding experience whithout compromising recovery safety in case a cloud service is breached.
 
-NFC payment cards could additionaly be leveraged through ZKP.
+A dedicated NFC smartcard could be used by power users/web3 teams/corporates/enterprises for recovery as well as multi-signature transactions.
+
+>NFC payment cards could additionaly be leveraged through ZKP
 
 
 ### Ecosystem Fit
 
-Initially, the goal was to develop our own branded novel enshrined account abstraction wallet. - “Interstellar Wallet”
-
-We talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedless onboarding and cold wallet security with a day-to-day mobile. However, the teams also agreed that the Polkadot ecosystem already has great wallet UIs right now.
+We already talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedlees onborading and cold-wallet security with a day-to day mobile. However, the teams also agreed that the Polkadot ecosystem already has great wallet UIs right now.
 
 To reach the maximum net benefit for all of the Polkadot ecosystem (including wallets), we decided to shift from being our own branded “Interstellar Wallet” to becoming a decentralized Substrate based authentication layer and white label for other wallet brands.
 
 After reaching out to existing Polkadot Wallets, we received really positive feedback from their side as well. In the future, they could integrate our substrate based account abstraction layer.
+
+As our protocol also supports native Bitcoin transactions, we plan on integrating with upcoming native BTC <> DOT bridges to unlock BTC liquitity for Polkadot.
 
 ## Team :busts_in_silhouette:
 
