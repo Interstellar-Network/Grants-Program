@@ -36,7 +36,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 3.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
 4.	The pallet stores the hashed serial number(s) rehashed with a salt
 5.	Create item account id(s) associated to the hashed serial number(s)
-6.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the NFC's account id(s) i.e. virtual friend(s) with threshold and delay
+6.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the NFC's account id(s) i.e. virtual friend(s) with `threshold` and `delay_period`
 
 > A hash is used to ensure pseudonymity of the data to comply with data protection regulations and other legal requirements
 
@@ -59,7 +59,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 3. The token is sent to the app and could be stored on a cloud service (like Google Drive) or as a local file on your mobile
 > Unlike a seed phrase, this token can't be used to access any private keys
 4. Create an item account id associated to the unique circuit
-5. The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the token's account id(s) i.e. virtual friend(s) with threshold and delay
+5. The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the token's account id(s) i.e. virtual friend(s) with `threshold` and `delay_period`
 >  Multiple program tokens can be used, each associated with their respective item account ids for recovery
 
 ##### Initiate Recovery from the new account
@@ -111,14 +111,14 @@ Alice is the new account created on the new mobile device
 
 
 #### Planned future improvements:
-The recovery pallet can be forked and extended to manage recovery option changes by the user e.g. add/remove a friend or recovery item without a complete recovery reset.
+* The recovery pallet can be forked and extended to manage recovery option changes by the user e.g. add/remove a friend or recovery item without a complete recovery reset.
 
-The initiated recovery notifications will enable the users to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
+* The initiated recovery notifications will enable the users to approve or reject the recovery within a specified period before the `vouch_recovery` is sent.
 >This mechanism can prevent accidental or malicious account recovery attempts in case the NFC tag or token file is lost or stolen
 
-Integrating a cloud backup interface for the token recovery files will enable a one-clik onboarding experience whithout compromising recovery safety in case a cloud service is breached.
+* Integrating a cloud backup interface for the token recovery files will enable a one-clik onboarding experience whithout compromising recovery safety in case a cloud service is breached.
 
-A dedicated NFC smartcard could be used by power users/web3 teams/corporates/enterprises for recovery as well as multi-signature transactions.
+* A dedicated NFC smartcard could be used by power users/web3 teams/corporates/enterprises for recovery as well as multi-signature transactions.
 
 >NFC payment cards could additionaly be leveraged through ZKP
 
