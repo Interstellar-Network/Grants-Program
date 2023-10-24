@@ -125,22 +125,6 @@ Alice is the new account created on the new mobile device
 
 ### Ecosystem Fit
 
-We still believe the growth of the Polkadot ecosystem hinges on seamlessly integrating Web 2.0 users and corporations.
-
-We already talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedlees onborading and cold-wallet security with a day-to day mobile. 
-
-On this respect our flexible recovery with cloud and NFC options are seen as a significant improvement to streamline the recovery whithout give up on security while still allowing social recovery.
-
-However, the teams also agreed that the Polkadot ecosystem already has great wallet UIs right now.
-
-To reach the maximum net benefit for all of the Polkadot ecosystem (including wallets), we decided to shift from being our own branded “Interstellar Wallet” to becoming a decentralized Substrate based authentication layer and white label for other wallet brands.
-
-After reaching out to existing Polkadot Wallets, we received really positive feedback from their side as well. In the future, they could integrate our substrate based account abstraction layer, enhancing  their solution to achieve greater web 2.0 penetration
-
-
->-----------------------
-
-
 We already talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedlees onboarding with novel recovery options through a day-to day mobile. The NFC and Token recovery were seen as a significant improvement to streamline the recovery process. Parachains could choose to integrate this new recovery pallet directly into their system or wait until we integrate it into the future substrate-based Interstellar Network to leverage additional features including cold wallet security.
 
 ### Future plan
