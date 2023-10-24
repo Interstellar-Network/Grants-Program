@@ -50,7 +50,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 ##### Recovery Setup
 1.	Create a token file i.e. [visual cryptographic garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with AES
-2. If applicable, user is prompted for threhold and delay
+2. If applicable, the user is prompted for threhold and delay
 3. The token is sent to the app and could be stored on a cloud service (like Google Drive) or as a local file on your mobile
 > Unlike a seed phrase, this token can't be used to access any private keys
 4.	Create an item account id associated to the unique circuit
