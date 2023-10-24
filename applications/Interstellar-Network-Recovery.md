@@ -2,13 +2,13 @@
 
 
 - **Team Name:** Interstellar
-- **Payment Address:** Fiat
+- **Payment Address:**  Fiat 04.04.2023, 22:42
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 
 ## Project Overview :page_facing_up:
 
-**Follow-up of Interstellar- Wallet Phase 1 & 2**
+**Follow-up of Interstellar - Wallet Phase 1 & 2**
 
 Amendment P1: [w3f/Grants-Program#1354](https://github.com/w3f/Grants-Program/pull/1354)
 
