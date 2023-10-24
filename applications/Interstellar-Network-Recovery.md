@@ -27,10 +27,11 @@ The recovery interface enables the user to manage both the recovery setup and re
 #### NFC Recovery with extended recovery pallet
 ##### Recovery Setup
 1.	The user taps their NFC device(s) on their mobile
-2.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
-3.	The pallet stores the hashed serial number(s) rehashed with a salt
-4.	Create item account id(s) associated to the hashed serial number(s)
-5.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the NFC's account id(s) i.e. virtual friend(s) with threshold and delay
+2.  If applicable, he is prompted for threhold and delay
+3.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
+4.	The pallet stores the hashed serial number(s) rehashed with a salt
+5.	Create item account id(s) associated to the hashed serial number(s)
+6.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the NFC's account id(s) i.e. virtual friend(s) with threshold and delay
 
 > A hash is used to ensure pseudonymity of the data to comply with data protection regulations and other legal requirements
 
@@ -49,10 +50,11 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 ##### Recovery Setup
 1.	Create a token file i.e. [visual cryptographic garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with AES
-2.	The token is sent to the app and could be stored on a cloud service (like Google Drive) or as a local file on your mobile
+2. If applicable, user is prompted for threhold and delay
+3. The token is sent to the app and could be stored on a cloud service (like Google Drive) or as a local file on your mobile
 > Unlike a seed phrase, this token can't be used to access any private keys
-3.	Create an item account id associated to the unique circuit
-4.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the token's account id(s) i.e. virtual friend(s) with threshold and delay
+4.	Create an item account id associated to the unique circuit
+5.	The `extended_recovery` pallet calls `create_recovery` from the standard recovery pallet specifying the token's account id(s) i.e. virtual friend(s) with threshold and delay
 >  Multiple program tokens can be used, each associated with their respective item account ids for recovery
 
 ##### Initiate Recovery from the new account
