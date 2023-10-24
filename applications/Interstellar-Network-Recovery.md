@@ -193,7 +193,7 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 | **0b.** | Documentation                | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up our stack and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                         
 | **0d.** | Docker    |  We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. 
-|      **1.** | NFC Recovery | we will develop a pallet to handle NFC recovery with a day to day NFC device  
+|      **1.** | NFC Recovery | we will develop a pallet to handle NFC recovery with a day to day NFC device like contacless payment or transportation card
 
 
 
@@ -220,6 +220,7 @@ We are now multiple security and fintech entrepreneurs, security researchers, pa
 
 For simplicity purpose and to provide a solution that is independent of Interstellar network specificity, we don't create and manage specific accounts related to our specific AA model i.e. related to mobile devices hardware secure element/TEE and its key managments.
 The android device  used for evaluation requires NFC capabilities.
+> such capabilities are getting more nad more ubiquitous on smartphones
 
 
 
