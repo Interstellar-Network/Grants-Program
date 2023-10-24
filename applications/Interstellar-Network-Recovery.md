@@ -142,6 +142,7 @@ After reaching out to existing Polkadot Wallets, we received really positive fee
 
 We already talked to a lot of Parachain Teams which are really excited to support our project, as it would help them to provide a seedlees onboarding with novel recovery options through a day-to day mobile. The NFC and Token recovery were seen as a significant improvement to streamline the recovery process. Parachains could choose to integrate this new recovery pallet directly into their system or wait until we integrate it into the future substrate-based Interstellar Network to leverage additional features including cold wallet security.
 
+### Future plan
 After some conversations with existing Polkadot wallet providers and to reach the maximum net benefit for all of the Polkadot ecosystem, we chose to shift from being a stand-alone wallet solution to become a universal account abstraction layer for existing and upcoming Polkadot wallets. Working together instead of competing against eachother will not only bring down the overall user acquisition costs for the ecosystem, but enable an upgraded UX and Security for everyone while leveraging already established Wallet <> Parachain integrations.
 
 Since Interstellar’s substrate-architecture can also supports native Bitcoin/Ethereum transactions, we have been in contact with upcoming native cross-chain swap protocols to i.e. unlock Bitcoin liquidity for the Polkadot ecosystem.
