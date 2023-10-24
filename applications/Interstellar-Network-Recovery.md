@@ -126,7 +126,7 @@ However, the teams also agreed that the Polkadot ecosystem already has great wal
 To reach the maximum net benefit for all of the Polkadot ecosystem (including wallets), we decided to shift from being our own branded “Interstellar Wallet” to becoming a decentralized Substrate based authentication layer and white label for other wallet brands.
 
 After reaching out to existing Polkadot Wallets, we received really positive feedback from their side as well. In the future, they could integrate our substrate based account abstraction layer.
-
+?
 As our protocol also supports native Bitcoin transactions, we plan on integrating with upcoming native BTC <> DOT bridges to unlock BTC liquitity for Polkadot.
 
 ## Team :busts_in_silhouette:
