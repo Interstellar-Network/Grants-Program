@@ -14,7 +14,7 @@
 
 ### Overview
 
-We aim at leveraging the current Substrate Frame Recovery Pallet to introduce both an original NFC Recovery based on day-to-day NFC devices (payment/access/transportation cards, smartwatches, car keys, headphones, speakers, or any other NFC tags) and a specific recovery File based on a one-time visual cryptographic code. A new recovery setup will allow for only a single or a combination of multiple recovery options (devices/files/social recovery).
+We aim at leveraging the current Substrate Frame Recovery Pallet to introduce both an original NFC Recovery based on day-to-day NFC devices (payment/access/transportation cards, smartwatches, car keys, headphones, speakers, or any other NFC tags) and a specific Recovery File Token based on a one-time visual cryptographic code. A new recovery setup will allow for only a single or a combination of multiple recovery options (devices/files/social recovery).
 
 
 ### Project Details
@@ -51,7 +51,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 > The notification will be used to approve or reject the recovery within a specified period later - [Future improvements](https://github.com/Interstellar-Network/Grants-Program/blob/recovery/applications/Interstellar-Network-Recovery.md#planned-future-improvement)
 
 
-#### Recovery Token with extended recovery pallet
+#### Recovery File Token with extended recovery pallet
 
 ##### Recovery Setup
 1. Create a token file i.e. [visual cryptographic garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with AES
