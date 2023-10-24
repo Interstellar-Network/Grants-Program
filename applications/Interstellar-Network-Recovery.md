@@ -22,12 +22,14 @@ We aim at leveraging the current Substrate Frame Recovery Pallet to introduce bo
 To streamline the process and avoid modifying the Substrate recovery  pallet at this stage, virtual friends i.e item account ids are created and associated to an NFC device or a recovery file/program token. Those item account ids are managed by a dedicated extended_recovery pallet within TEE/Integritee validators to ensure recovery security and privacy.
 
 The recovery interface enables the user to manage both the recovery setup and recovery initiation within a mobile app, letting the `extended_recovery` pallet manage `create_recovery` or `initiate_recovery` calls based on recovery options chosen by the user.
->
+
+`delay_period`: The number of blocks after a recovery attempt is initialized that needs to pass before the account can be recovered.
+`threshold`: The number of friends that must vouch for a recovery attempt before the account can be recoverd
 
 #### NFC Recovery with extended recovery pallet
 ##### Recovery Setup
 1.	The user taps their NFC device(s) on their mobile
-2.  The user is prompted for threshold (if applicable) and delay
+2.  The user is prompted for `threshold` (if applicable) and `delay_period`
 3.	The app reads the NFC's serial number(s), applies a hash function and sends it to the `extended_recovery` pallet
 4.	The pallet stores the hashed serial number(s) rehashed with a salt
 5.	Create item account id(s) associated to the hashed serial number(s)
@@ -50,7 +52,7 @@ The recovery interface enables the user to manage both the recovery setup and re
 
 ##### Recovery Setup
 1. Create a token file i.e. [visual cryptographic garbled circuit](https://book.interstellar.gg/VC-GC.html) with an embedded one-time recovery code, encrypted with AES
-2. The user is prompted for threhold (if applicable) and delay
+2. The user is prompted for `threshold` (if applicable) and `delay_period`
 3. The token is sent to the app and could be stored on a cloud service (like Google Drive) or as a local file on your mobile
 > Unlike a seed phrase, this token can't be used to access any private keys
 4. Create an item account id associated to the unique circuit
